@@ -1,0 +1,1231 @@
+{
+    "utc": "2026-09-11T10:17:14.9223259Z",
+    "unityVersion": "6000.6.0f1",
+    "operation": "Register",
+    "groupName": "ORBIS World Shared Environment",
+    "groupGuid": "80ede648791840b44867fb91dfc28697",
+    "localBuildPath": "Library/com.unity.addressables/aa/Windows/StandaloneWindows64",
+    "localLoadPath": "{UnityEngine.AddressableAssets.Addressables.RuntimePath}/StandaloneWindows64",
+    "validatedOcclusionData": "Assets/Orbis/Game/Scenes/Orbis_Island/OcclusionCullingData.asset",
+    "occlusionPayloadBytes": 10583248,
+    "policy": "Existing Nature/Ground/Architecture data or shared World shaders referenced by at least two environment scenes; one local PackTogether group. Existing foreign addresses are never moved.",
+    "limitation": "This removes copies between environment bundles only after rebuilding content. Direct built-in core references and Resources can still create separate player copies; no saved bytes or VRAM amount is inferred here.",
+    "candidateCount": 64,
+    "addedCount": 64,
+    "alreadyOwnedCount": 0,
+    "skippedForeignCount": 0,
+    "foreignEntriesPreserved": true,
+    "sourceBytesPreserved": true,
+    "assets": [
+        {
+            "guid": "34a24634692cbd147b73708b6f65f0c5",
+            "path": "Assets/Orbis/Game/Scenes/Orbis_Island/OcclusionCullingData.asset",
+            "sha256": "aa2e8499e4a38d1502fb924dec5115557b173c93ae0bb8e2198e6ae0e61fc5ad",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.34a24634692cbd147b73708b6f65f0c5",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": true
+        },
+        {
+            "guid": "6e7c381633e8fe540a0f4044c42d04e1",
+            "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Brass.mat",
+            "sha256": "e18bcd0be7036509c796b6339a0466c9e2988c4f7dea4524a6d6be247edacb98",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.6e7c381633e8fe540a0f4044c42d04e1",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "ee1d8467a55e6e34ba5b07f651d4ec7d",
+            "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Glass.mat",
+            "sha256": "66e0b28f8294eb4c05d2897ce2c0d17712e73a05e29687b6f86de43f8688934e",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.ee1d8467a55e6e34ba5b07f651d4ec7d",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "8ce3d539a84e86d45beca9e257a07f8e",
+            "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Ivory.mat",
+            "sha256": "6181ba14cacdc06e3f774321b3eef2960e7a5fad6d818d330885aef520c7b022",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.8ce3d539a84e86d45beca9e257a07f8e",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "56136cbd521fc9d4fb6cce380f2d5188",
+            "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Slate.mat",
+            "sha256": "687c7bf6567839ec34aeacda75c8e3c43a243bb2645b54110ac852db05fdaaef",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.56136cbd521fc9d4fb6cce380f2d5188",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "2dfd377126fa88a4fb625b3982b60c86",
+            "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Stone.mat",
+            "sha256": "fc121f3a6012f5226252169de1735bade79e93382d680bfb8a95fcb4b8102ff0",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.2dfd377126fa88a4fb625b3982b60c86",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "0205395fcca22da4c9186e493cac36e3",
+            "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Timber.mat",
+            "sha256": "f3cb922f15b026c110854e162b1a0384d96ae1d79f3f0bccb45f0571afcfd271",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.0205395fcca22da4c9186e493cac36e3",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "f609b4891fe7787419417fc233da53b0",
+            "path": "Assets/Orbis/Game/World/Architecture/Models/House_Merchant_LOD0.fbx",
+            "sha256": "c8a459519800909c8e2b83369ed2b23f3194d696121a7529b86558e236bbe6b0",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.f609b4891fe7787419417fc233da53b0",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 2,
+            "referencedByResidentCore": true
+        },
+        {
+            "guid": "527acc22d1c87b145bc4cd9d0c7c05b5",
+            "path": "Assets/Orbis/Game/World/Architecture/Models/House_Merchant_LOD1.fbx",
+            "sha256": "c46ffc162e961d0ff67d6004a9de016702e719e92df7c179f95435905ec7bb79",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.527acc22d1c87b145bc4cd9d0c7c05b5",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 2,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "cd5ec20c9b421fb4eaa484022f81acaa",
+            "path": "Assets/Orbis/Game/World/Architecture/Models/House_Workshop_LOD0.fbx",
+            "sha256": "c35b8acac1714e287a9ec032837d7b5ffe63d76ec00608e343ae5a727cf8856a",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.cd5ec20c9b421fb4eaa484022f81acaa",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 3,
+            "referencedByResidentCore": true
+        },
+        {
+            "guid": "b9c91d25b58f8814b9462395a42edc98",
+            "path": "Assets/Orbis/Game/World/Architecture/Models/House_Workshop_LOD1.fbx",
+            "sha256": "46bc2e4a06a78cd54988ac344db357228cbd4d3a39cdb9ff8d82d2b391736823",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.b9c91d25b58f8814b9462395a42edc98",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 3,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "4294abbacc715ab469b1a1585c056b5e",
+            "path": "Assets/Orbis/Game/World/Ground/Materials/MossRock.mat",
+            "sha256": "b1def6edb17cea83fbcdb7dd8721c8005b881c5173c91250de7391ba5c07908f",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.4294abbacc715ab469b1a1585c056b5e",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "68fc0b735a77a9549a1aed9d2b1984ed",
+            "path": "Assets/Orbis/Game/World/Ground/Shaders/MossRock.shader",
+            "sha256": "ace2162fe1efc6c1e0bb5fe484f9537d39ad47f0ba2425f8e3c058406e7f5d95",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.68fc0b735a77a9549a1aed9d2b1984ed",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "80f732e96f7c7554eae971b8549698a3",
+            "path": "Assets/Orbis/Game/World/Ground/Textures/Moss.png",
+            "sha256": "20b9d860aecedd86b2a20825826bebb5fc1b046a3434789311f4fb63d7009f46",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.80f732e96f7c7554eae971b8549698a3",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": true
+        },
+        {
+            "guid": "e6a6763726627c34dac33b8a59a6f54d",
+            "path": "Assets/Orbis/Game/World/Ground/Textures/Stone.png",
+            "sha256": "c8263546dc96cfdad541a1973ced66cff00e910a16c021c684b1d2e7c93638c9",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.e6a6763726627c34dac33b8a59a6f54d",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": true
+        },
+        {
+            "guid": "6ec4c19e9dbcb3a4b9102495781b6b52",
+            "path": "Assets/Orbis/Game/World/Nature/Materials/BirchTree_1_Billboard.mat",
+            "sha256": "435c07dcf04e1034dea5db0f57cffebb47c0c3e4cae96fff9da7d1bbf99c25ad",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.6ec4c19e9dbcb3a4b9102495781b6b52",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "7525088b06425e7468b7534c6108949e",
+            "path": "Assets/Orbis/Game/World/Nature/Materials/Canopy.mat",
+            "sha256": "da5805ee14bd8ca4eed4a9a3ec0efa86151ecb46401a3872d909d1ebf4dea976",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.7525088b06425e7468b7534c6108949e",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "d8a7e80c843795a459416059c9e3fa3f",
+            "path": "Assets/Orbis/Game/World/Nature/Materials/CommonTree_3_Billboard.mat",
+            "sha256": "29badeeae110a3cceeb6564d4bf5ab23da5a910603718b482daf9f76d42d58e6",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.d8a7e80c843795a459416059c9e3fa3f",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "c4434ef5e7c4da24fb5fc0dab66b191c",
+            "path": "Assets/Orbis/Game/World/Nature/Materials/DeadTree_5_Billboard.mat",
+            "sha256": "8cf5006fed6b455a7011e3f8a9009cb9947c38beba69d80cac0e6de64abe3a75",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.c4434ef5e7c4da24fb5fc0dab66b191c",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "58b13c6c886a8f94bad45b8756efd303",
+            "path": "Assets/Orbis/Game/World/Nature/Materials/MapleTree_1_Billboard.mat",
+            "sha256": "d9a069e5a51f95ec11f041ce63406c5a3175854bf09b8184752f8ba7084bdae3",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.58b13c6c886a8f94bad45b8756efd303",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "91b8446a92e9dad4eac900de9a87d28f",
+            "path": "Assets/Orbis/Game/World/Nature/Materials/MeadowGrass.mat",
+            "sha256": "48e4b5803a78670a640c685e6b8d6526ae86b85e8729c4927044a88590ea2c82",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.91b8446a92e9dad4eac900de9a87d28f",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "e340268c15fed9e4f8cc3b2e4ab946d6",
+            "path": "Assets/Orbis/Game/World/Nature/Materials/PalmTree_1_Billboard.mat",
+            "sha256": "25865336dbeeb8a7ba4f570de850a8b8d15aab4ca81be9e205ca4f84baac1c2b",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.e340268c15fed9e4f8cc3b2e4ab946d6",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 4,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "02d315c86a14a1a4988e205f816c8592",
+            "path": "Assets/Orbis/Game/World/Nature/Materials/Pine_5_Billboard.mat",
+            "sha256": "19b4b310b9976d01a9bd3bd07b66fc766f604831f42df98b4822a716b81f8b13",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.02d315c86a14a1a4988e205f816c8592",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "c8c84feb91ff9b74c90ec079e2f36759",
+            "path": "Assets/Orbis/Game/World/Nature/Materials/TwistedTree_2_Billboard.mat",
+            "sha256": "0255b18e09806133d839983f2cf7c987966028a4d36beed6d0404daeb5005b90",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.c8c84feb91ff9b74c90ec079e2f36759",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 4,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "db1fc3b831a76eb489a3042635020a4b",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/BirchTree_1_Billboard.asset",
+            "sha256": "5715009f0b119d9f5b905ca975a0fb34662514b08d33117d644a10ef3640ace6",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.db1fc3b831a76eb489a3042635020a4b",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "8e4e912094e03d2439d611f76df1c25d",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/BirchTree_1_LOD0.asset",
+            "sha256": "1d8fe02e7c150616c7b2ca864a588618155c3da1426a3501747291be3b1a7978",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.8e4e912094e03d2439d611f76df1c25d",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "f1acf6c03c9e42d4a89ee4d44dce792b",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/BirchTree_1_LOD1.asset",
+            "sha256": "7edbe50c912f9f3aae50bc445bb64b8c21c0a0bb67656c2e9cfc53557e660757",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.f1acf6c03c9e42d4a89ee4d44dce792b",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "35275daeffcbc2c4fb632aa0db9ad59b",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/CommonTree_3_Billboard.asset",
+            "sha256": "c7aee37253ea2efe1215c23c74656bd781e8f685d3f5b3930afafb51bc5fb2d7",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.35275daeffcbc2c4fb632aa0db9ad59b",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "647118a97b4ccb849b8cb9db63cd2d1e",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/CommonTree_3_LOD0.asset",
+            "sha256": "1dc230a8de4ef6fc590fcb1305c60dd2af5fa87c034dd271b4a42566964f1537",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.647118a97b4ccb849b8cb9db63cd2d1e",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "cc600eb07398ce0499077aae4fc546aa",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/CommonTree_3_LOD1.asset",
+            "sha256": "7ac0beebb3d09b8f553ea96e84f6e4ae99c7c366d3bf72f73c771517b623bf37",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.cc600eb07398ce0499077aae4fc546aa",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "5b4e66d821babfa47ae758b65ab2ecff",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/DeadTree_5_Billboard.asset",
+            "sha256": "adaeaa0c3a7a06bd198f109f8d9ceeb76db33b0948f08fe65c90c1a20e2c2986",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.5b4e66d821babfa47ae758b65ab2ecff",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "4c1261e9643b75f409078b8ffd49c206",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/DeadTree_5_LOD0.asset",
+            "sha256": "d9443c5e9c0983c1627904d0571b02a071916aa67ecdb23210d0545a1d6d0035",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.4c1261e9643b75f409078b8ffd49c206",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "603f6b8784c76f94a90dd5726dcd48b7",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/DeadTree_5_LOD1.asset",
+            "sha256": "aa94ee0e9f1600070b6004265c55fcc7a30eae2169df4b763b2c9b53b5e38d33",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.603f6b8784c76f94a90dd5726dcd48b7",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "43543dee263e3bc49b9fe1b76ebd654a",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Fern_1_LOD0.asset",
+            "sha256": "fc4d1ae218106633176150dd3220f508078c264e04397851e4f362085fc010e1",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.43543dee263e3bc49b9fe1b76ebd654a",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "7f702b65beb6b454b9a1302b62c6eefd",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Fern_1_LOD1.asset",
+            "sha256": "6102a8b6f41fad6c188f580442078ca1a10e3d15910c93096413cd84a7d90be5",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.7f702b65beb6b454b9a1302b62c6eefd",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "31b714b456bf0db4a99646cf44f3d72f",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Grass_Common_Short_LOD0.asset",
+            "sha256": "34ee8c6a8f5eb3b1074c147a2e26cf7624900b2f629235e60541180fe0026956",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.31b714b456bf0db4a99646cf44f3d72f",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "c01fc8b5f27b5e648ba85abf8bff3a3e",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/MapleTree_1_Billboard.asset",
+            "sha256": "ed50593d9a5f4e9aa924baa4b6802cebf81b0186c3b52319976540f83c20911f",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.c01fc8b5f27b5e648ba85abf8bff3a3e",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "1373fcbb100f1d740a39d1d70ba1e7c8",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/MapleTree_1_LOD0.asset",
+            "sha256": "c34274d4ba09b4393bc52a82c93ed0b87328d997f5f159fbafc4b8d99c343ae1",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.1373fcbb100f1d740a39d1d70ba1e7c8",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "272e303597924aa458e1a1bf18156e50",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/MapleTree_1_LOD1.asset",
+            "sha256": "9e2ffd7f2a5c60b81a125f5535845ea8334cb4c8f6b02026fbec1d4f891012b8",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.272e303597924aa458e1a1bf18156e50",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "9e2f40fd6011cd6479132b085981df61",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/PalmTree_1_Billboard.asset",
+            "sha256": "c0ca6f137722eda0037635f780aed88728b2bcbe716e23f97e054cbd91a7e037",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.9e2f40fd6011cd6479132b085981df61",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 4,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "184e1a2b2778665459f7224d00f8e5be",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/PalmTree_1_LOD0.asset",
+            "sha256": "017abe0d29dc34e96c91b181e64a2ae5f79c489abb9af00a9f18bb817b4b22e1",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.184e1a2b2778665459f7224d00f8e5be",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 4,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "f55bcc4844046db4c96b158179613195",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/PalmTree_1_LOD1.asset",
+            "sha256": "f7b0bb4844986daa449373d5142c5316bfde0f2d19314817b41ba0808df03d99",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.f55bcc4844046db4c96b158179613195",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 4,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "6ce058a142cecd54a9022d0774b3c3f5",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Pine_5_Billboard.asset",
+            "sha256": "5e10d3d3b7149f30fa7a856b0e9b08155f9657c0f0b455806fd87760f8e00c48",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.6ce058a142cecd54a9022d0774b3c3f5",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "3b5c6b6ab843b11429ea9ea130884a86",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Pine_5_LOD0.asset",
+            "sha256": "7ad9bc24b74c03fd4dd5770caa7fbc6694cf9066739deac75550d5f228632edf",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.3b5c6b6ab843b11429ea9ea130884a86",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "bb89f93687888af41aee22743894c9da",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Pine_5_LOD1.asset",
+            "sha256": "66ed7087e6acd10144057256be8e257576b2e5e30022210d3ccd2e412bb9d8b2",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.bb89f93687888af41aee22743894c9da",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "3d3ece7610a99c24ab6ae340d5d64e5d",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_1_LOD0.asset",
+            "sha256": "67756689c6c7b2600afa809f4ea6aa6fbd106d483371be1e99dcad432c6c86f1",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.3d3ece7610a99c24ab6ae340d5d64e5d",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": true
+        },
+        {
+            "guid": "ff22b61f4c01f7f4e931d6a20f82acbf",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_1_LOD1.asset",
+            "sha256": "330e5b880d7af8b0ecdd65aa8dcec8798e06075d44fa43d91c35017447a1637c",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.ff22b61f4c01f7f4e931d6a20f82acbf",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "46ffa80acde665643b9ed9becff7e249",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_2_LOD0.asset",
+            "sha256": "4606d585da3876d7ef5b57c0bb5e1a850e174d30cb6655b32308c0f6631a2463",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.46ffa80acde665643b9ed9becff7e249",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": true
+        },
+        {
+            "guid": "054b4626ad5339e4e847588dd2349d6e",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_2_LOD1.asset",
+            "sha256": "eb0cc867a7170a1a7e3fc62f7f47c9bbd0c61a720111afd4df3bc0ae6022b944",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.054b4626ad5339e4e847588dd2349d6e",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "39aca2b06c646fe42a57a8577f2c259a",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_3_LOD0.asset",
+            "sha256": "18ef04db7eaa1f16d42fa6d992b23b69821e3ffd5d209cf114346535c540abec",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.39aca2b06c646fe42a57a8577f2c259a",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": true
+        },
+        {
+            "guid": "cc614285ca0743e44a441e479554d357",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_3_LOD1.asset",
+            "sha256": "af404a7874c2d164eb394460c24f7f504596418f9c994e2fb4659b7a22ea4661",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.cc614285ca0743e44a441e479554d357",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "24428d02914c31a4f8a53cac1aefd41f",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/TwistedTree_2_Billboard.asset",
+            "sha256": "b6144cb2ffbda28a6b88a32ee21944b05ba92b2f2f0fbc5c2c77994136c970d2",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.24428d02914c31a4f8a53cac1aefd41f",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 4,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "1200804b9230b6441b506fdf75bae16a",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/TwistedTree_2_LOD0.asset",
+            "sha256": "5229debd4747c7e56749a53bbff9b69d50cad1c953a5260685db22fe31a76183",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.1200804b9230b6441b506fdf75bae16a",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 4,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "e1c1e4a7dd2907c42aa3a0a0a51e81eb",
+            "path": "Assets/Orbis/Game/World/Nature/Meshes/TwistedTree_2_LOD1.asset",
+            "sha256": "7837e2fef15bfb72b7082611c6a1a86c0527b31c2038fd0cb9bc1da0ecfad2e3",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.e1c1e4a7dd2907c42aa3a0a0a51e81eb",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 4,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "89a24b1bf1ffc6842aa70a8fe2b3df33",
+            "path": "Assets/Orbis/Game/World/Nature/Textures/BirchTree_1_Billboard.png",
+            "sha256": "c9429b0e01ba57a898204e03d8227d6296b82495c116b4106f7a47d2e2a767c5",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.89a24b1bf1ffc6842aa70a8fe2b3df33",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "41a1b3cc2996c044390b859a4b2f7589",
+            "path": "Assets/Orbis/Game/World/Nature/Textures/CommonTree_3_Billboard.png",
+            "sha256": "94dd104a0188eeb36fe1318867d3bcaf56e82b37a4fb1b8eb08a177864542daa",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.41a1b3cc2996c044390b859a4b2f7589",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "175c7ab4c42d758458a9805ae23a87de",
+            "path": "Assets/Orbis/Game/World/Nature/Textures/DeadTree_5_Billboard.png",
+            "sha256": "3bd61f7bd6c265fd72aa85e3eaa5b6713c9afc1e2d27758f3ddf2adca53cf7e7",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.175c7ab4c42d758458a9805ae23a87de",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "2ceda783650342141a19d16fdfffb571",
+            "path": "Assets/Orbis/Game/World/Nature/Textures/MapleTree_1_Billboard.png",
+            "sha256": "f00ba55b35c72c0d021117d13d84bb2de6157fab322f5f3550dfc7408ef0b5df",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.2ceda783650342141a19d16fdfffb571",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "12286de11be830240b53bd71ff0ba853",
+            "path": "Assets/Orbis/Game/World/Nature/Textures/NatureAlbedoArray.asset",
+            "sha256": "ed95fbc68e58d2c740e1ba26b1457c9361e3766350f90c804c84e4c5cffa1d82",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.12286de11be830240b53bd71ff0ba853",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "8e808adecb1aadd41938f11e2aa542f8",
+            "path": "Assets/Orbis/Game/World/Nature/Textures/PalmTree_1_Billboard.png",
+            "sha256": "c588b04b070b628fee117f2c4c6c1fd37917387143519ec2cefc268ff6c7c6ae",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.8e808adecb1aadd41938f11e2aa542f8",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 4,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "a848f78a78059894d834944eddfff2e0",
+            "path": "Assets/Orbis/Game/World/Nature/Textures/Pine_5_Billboard.png",
+            "sha256": "1334b02bcf4331735cbb17b215b07489a4c3c53b80ea444bf300bd0f8dfb5039",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.a848f78a78059894d834944eddfff2e0",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "00bbb163138c99943bc8a145314e60f4",
+            "path": "Assets/Orbis/Game/World/Nature/Textures/TwistedTree_2_Billboard.png",
+            "sha256": "12624875ce0d5767d96cbf52b0bb41f354ec787104530cec1e23a5855788c9e8",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.00bbb163138c99943bc8a145314e60f4",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 4,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "c5e88ccee28553e5a464b79d37ce991f",
+            "path": "Assets/Orbis/Game/World/Shaders/FoliageToon.shadergraph",
+            "sha256": "2c52a23de14a43ac88bcdc7c5fc7e28082e3ed8db3202a518e1acf93f403dc71",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.c5e88ccee28553e5a464b79d37ce991f",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        },
+        {
+            "guid": "596e67e3434b58f99fd8b4ad637420bb",
+            "path": "Assets/Orbis/Game/World/Shaders/WorldArchitecture.shader",
+            "sha256": "271461c6ca4c73da78f3ea5daef15e1e036d408ea7d2a7c83ef46a7ead65c8c4",
+            "action": "Added",
+            "existingGroup": "",
+            "address": "orbis.world.shared.596e67e3434b58f99fd8b4ad637420bb",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5,
+            "referencedByResidentCore": false
+        }
+    ],
+    "resourcesAlsoUsedByEnvironment": [
+        {
+            "guid": "bf1a871bfd6e110468a9f5def4dfa511",
+            "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/MiniDungeon/colormap_5bccee65_-6538903991835684241.mat",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 1
+        },
+        {
+            "guid": "b601f6095f48cbd469998b7508421ec8",
+            "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/MiniDungeon/colormap_8106d38c_-6538903991835684241.mat",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 1
+        },
+        {
+            "guid": "78eca01e5c40fa744b9bd1eb5c05aaa4",
+            "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/_defaultMat_1a1f9b4d_-3963241562183589234.mat",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5
+        },
+        {
+            "guid": "ead05aeb8eeb1a541a3e3ac01e947273",
+            "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/stoneDark_46ba1aba_-4231637370832951941.mat",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5
+        },
+        {
+            "guid": "860a0a6317b7cc1448e044e99ee229d7",
+            "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/stone_46ba1aba_7555185752953191562.mat",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5
+        },
+        {
+            "guid": "ba548df6312583f48824ed3efa69ad28",
+            "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/woodDark_1a1f9b4d_-5173966397720942367.mat",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5
+        },
+        {
+            "guid": "16a37f4ea10fedf41ac43326272612dc",
+            "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/wood_1a1f9b4d_-8067726398312463513.mat",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5
+        },
+        {
+            "guid": "8df0aa2a85720564aae0c35be71742f4",
+            "path": "Assets/Orbis/Art/Resources/Art/Environment/barrel.prefab",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 1
+        },
+        {
+            "guid": "eb6f1bb44999f8e419e9a3cf8ed24724",
+            "path": "Assets/Orbis/Art/Resources/Art/Environment/board.prefab",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5
+        },
+        {
+            "guid": "f4804f9068a889844954fb916af18d0b",
+            "path": "Assets/Orbis/Art/Resources/Art/Environment/crate.prefab",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 1
+        },
+        {
+            "guid": "cd2118b7854df4d4db1ac5de32393b70",
+            "path": "Assets/Orbis/Art/Resources/Art/Environment/obelisk.prefab",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5
+        },
+        {
+            "guid": "c3fbd68aa1ceace428dfd4b2868190bd",
+            "path": "Assets/Orbis/Art/Resources/Art/Shaders/UnifiedToon.shader",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5
+        },
+        {
+            "guid": "664fe9ca3439aed47a42041abcea7488",
+            "path": "Assets/Orbis/Game/LookDev/Resources/LookDev/CelRamp.asset",
+            "environmentScenes": [
+                "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+                "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity"
+            ],
+            "environmentSceneCount": 5
+        }
+    ]
+}

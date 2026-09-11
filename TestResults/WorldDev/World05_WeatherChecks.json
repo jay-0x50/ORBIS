@@ -1,0 +1,32 @@
+{
+    "note": "Actual world scene, deterministic weather progression, biome samples and real 5→0→5 Addressables loading. Presentation only; not a performance benchmark.",
+    "clear": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "halfway": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.3499999940395355
+    },
+    "thunderstorm": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.699999988079071
+    },
+    "maximumOneMetreChange": 0.0016196370124816895,
+    "clearWind": 0.6499999761581421,
+    "strongWind": 2.1999998092651367,
+    "partyIds": [
+        "stella",
+        "Maris",
+        "Aura",
+        "Grom"
+    ],
+    "environmentLoads": [
+        5,
+        0,
+        5
+    ]
+}

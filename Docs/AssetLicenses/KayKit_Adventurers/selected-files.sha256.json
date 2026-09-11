@@ -1,0 +1,80 @@
+[
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Characters\\fbx\\Barbarian.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Characters\\Barbarian.fbx",
+    "bytes": 481932,
+    "sha256": "2eef4e7b6ec5b5f70638bd7a8355023f6e764c95e218ee0749385c7bff17d8e8"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Characters\\fbx\\Knight.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Characters\\Knight.fbx",
+    "bytes": 486428,
+    "sha256": "e293bb352e62ddaa9ef79734026a9a86ddee71c2bca93f99b2c449afccdf62ab"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Characters\\fbx\\Mage.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Characters\\Mage.fbx",
+    "bytes": 490108,
+    "sha256": "f766ccbcdc332209abf5a7be56af4ffc65dda8abdb29db5496cc619fed44ac87"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Characters\\fbx\\Ranger.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Characters\\Ranger.fbx",
+    "bytes": 563548,
+    "sha256": "0058f761d01d6465717badb13565f1ad1cfbc3afa7841b993cc6902e3a9bea08"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Characters\\fbx\\Rogue.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Characters\\Rogue.fbx",
+    "bytes": 498940,
+    "sha256": "cac991031020e199290c1352739886947f618821cf9f0fdeb6dc6a9f46ee7d80"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Characters\\fbx\\barbarian_texture.png",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Characters\\barbarian_texture.png",
+    "bytes": 14424,
+    "sha256": "f11434d3e5e4df929dacd2c69d15734effb82babf8176a80bb040d2007f5f882"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Characters\\fbx\\knight_texture.png",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Characters\\knight_texture.png",
+    "bytes": 12914,
+    "sha256": "028db4d1cd8b3471e6ba21686515abd4e36ae582f8b314b71ad2ab1fb5453b12"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Characters\\fbx\\mage_texture.png",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Characters\\mage_texture.png",
+    "bytes": 14740,
+    "sha256": "9ef9672e93b231fc4e0e19238edfae3be22513aaf634df1898f45842ce6e4b5f"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Characters\\fbx\\ranger_texture.png",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Characters\\ranger_texture.png",
+    "bytes": 13248,
+    "sha256": "639cd0ba5106fbdf65370b52b9290091d3bd92fe267693abc8dc474471bb800f"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Characters\\fbx\\rogue_texture.png",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Characters\\rogue_texture.png",
+    "bytes": 15026,
+    "sha256": "2e2fc741e20e7e2c85b176c8143b49b769bca0d2ed1a1cfc1807a758a0e4d3e1"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Assets\\fbx(unity)\\sword_1handed.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Weapons\\sword_1handed.fbx",
+    "bytes": 28236,
+    "sha256": "bc018b8251fae18c7c2cb247ad9492344855ee53df974447534967c8d7c59ba1"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\Assets\\fbx(unity)\\knight_texture.png",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\Weapons\\knight_texture.png",
+    "bytes": 12914,
+    "sha256": "028db4d1cd8b3471e6ba21686515abd4e36ae582f8b314b71ad2ab1fb5453b12"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-adventurers\\KayKit_Adventurers_2.0_FREE\\License.txt",
+    "destination": "Assets\\ImportedAssets\\KayKit\\Adventurers\\License.txt",
+    "bytes": 1554,
+    "sha256": "d4adc31660d1db22eb60eba648e01db41577548f6fa1a3576cb4a6283dae0a58"
+  }
+]

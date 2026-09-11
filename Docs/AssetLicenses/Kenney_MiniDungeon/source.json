@@ -1,0 +1,13 @@
+{
+  "Pack": "MiniDungeon",
+  "Version": "2.0",
+  "SourceUrl": "https://kenney.nl/assets/mini-dungeon",
+  "DownloadUrl": "https://kenney.nl/media/pages/assets/mini-dungeon/6cd72dc849-1785314274/kenney_mini-dungeon.zip",
+  "Archive": "Downloads/AssetSwap/Kenney/kenney_mini-dungeon.zip",
+  "ArchiveBytes": 1796820,
+  "ArchiveSHA256": "19c4648680cb1d2e8836cade96cbf9781c0c1f45fbc6d2ce41cee8239a3ec4d8",
+  "License": "CC0 1.0",
+  "LicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "OriginalLicenseFile": "Assets/ImportedAssets/Kenney/MiniDungeon/License.txt",
+  "RetrievedUtc": "2026-09-10T06:54:59.4369041Z"
+}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a407b85d7adc3043b5e9a3f5a8a4d2a, type: 3}
+  m_Name: aura
+  m_EditorClassIdentifier: Orbis.M15.Core::Orbis.M15.CharacterDefinition
+  Id: aura
+  DisplayName: "\uC544\uC6B0\uB77C"
+  Element: 3
+  Rarity: 5
+  Role: "\uC790\uD53C\uB974 \uCD08\uC6D0\uC758 \uC218\uD638\uC790"
+  Weapon: 2
+  IsStarter: 0

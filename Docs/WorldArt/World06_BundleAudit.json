@@ -1,0 +1,1302 @@
+{
+  "schemaVersion": 1,
+  "utc": "2026-09-11T10:31:44.234198+00:00",
+  "scope": "Read-only Addressables build artifact audit. No Unity launch or Assets edits.",
+  "method": "For each reported duplicate AssetGuid + LocalIdentifierInFile, extra bytes = sum(SerializedSize + StreamedSize across copies) minus maximum single-copy size. This is uncompressed object accounting, not compressed file savings, native heap or VRAM.",
+  "baseline": {
+    "path": "Library/com.unity.addressables/BuildReports/buildlayout_2026.09.11.18.59.48.json",
+    "sha256": "d52a3893375c7766c54d5a848bcf4e5c65b5059f551548fec568c48c53840508",
+    "buildStart": "2026-09-11 오후 6:59:48",
+    "buildError": "",
+    "unityVersion": "6000.6.0f1",
+    "packageVersion": "com.unity.addressables: 2.11.2",
+    "buildSeconds": 36.9328663,
+    "bundles": [
+      {
+        "group": "ORBIS M4 Regions",
+        "packingMode": "PackSeparately",
+        "name": "orbism4regions_scenes_orbis.region.granite_f0a708c3c6ee39e997b0cf43bf5334d4.bundle",
+        "bytes": 6001,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.region.granite"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS M4 Regions",
+        "packingMode": "PackSeparately",
+        "name": "orbism4regions_scenes_orbis.region.zephyr_4c7ea71ae1523c08094f3e49d1fcb055.bundle",
+        "bytes": 6000,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.region.zephyr"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS M4 Regions",
+        "packingMode": "PackSeparately",
+        "name": "orbism4regions_scenes_orbis.region.teluna_7070c3c0b249a3002a2924aff99502f3.bundle",
+        "bytes": 5999,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.region.teluna"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS M4 Regions",
+        "packingMode": "PackSeparately",
+        "name": "orbism4regions_scenes_orbis.region.voltheim_22f866256975a5e59adcd18b77afe40a.bundle",
+        "bytes": 6002,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.region.voltheim"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS M4 Regions",
+        "packingMode": "PackSeparately",
+        "name": "orbism4regions_scenes_orbis.region.agnia_94543a58b7543a49c2afdcb5d962b941.bundle",
+        "bytes": 5996,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.region.agnia"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS World Environment",
+        "packingMode": "PackSeparately",
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.zephyr_a1151de88e4f82f2437fe18ef964ed0b.bundle",
+        "bytes": 17912136,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.world.environment.zephyr"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS World Environment",
+        "packingMode": "PackSeparately",
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.granite_3164086f7e10d8516b54ed9f0cd18cc8.bundle",
+        "bytes": 14893773,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.world.environment.granite"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS World Environment",
+        "packingMode": "PackSeparately",
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.teluna_44233d4d7aa66603a054328d3d8d0d6f.bundle",
+        "bytes": 16025186,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.world.environment.teluna"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS World Environment",
+        "packingMode": "PackSeparately",
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.voltheim_c1548c8493d5ae24472410fdfa4d46cb.bundle",
+        "bytes": 17227225,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.world.environment.voltheim"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS World Environment",
+        "packingMode": "PackSeparately",
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.agnia_19bfdcfc0f6f207c3d2110757d7cc70a.bundle",
+        "bytes": 16371299,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.world.environment.agnia"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      }
+    ],
+    "duplicateAssetCount": 73,
+    "extraDuplicateObjectBytes": 121837036,
+    "duplicates": [
+      {
+        "guid": "12286de11be830240b53bd71ff0ba853",
+        "path": "Assets/Orbis/Game/World/Nature/Textures/NatureAlbedoArray.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 20973584,
+        "allCopyObjectBytes": 26216980
+      },
+      {
+        "guid": "2ceda783650342141a19d16fdfffb571",
+        "path": "Assets/Orbis/Game/World/Nature/Textures/MapleTree_1_Billboard.png",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 11185360,
+        "allCopyObjectBytes": 13981700
+      },
+      {
+        "guid": "89a24b1bf1ffc6842aa70a8fe2b3df33",
+        "path": "Assets/Orbis/Game/World/Nature/Textures/BirchTree_1_Billboard.png",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 11185360,
+        "allCopyObjectBytes": 13981700
+      },
+      {
+        "guid": "41a1b3cc2996c044390b859a4b2f7589",
+        "path": "Assets/Orbis/Game/World/Nature/Textures/CommonTree_3_Billboard.png",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 11185360,
+        "allCopyObjectBytes": 13981700
+      },
+      {
+        "guid": "175c7ab4c42d758458a9805ae23a87de",
+        "path": "Assets/Orbis/Game/World/Nature/Textures/DeadTree_5_Billboard.png",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 11185344,
+        "allCopyObjectBytes": 13981680
+      },
+      {
+        "guid": "a848f78a78059894d834944eddfff2e0",
+        "path": "Assets/Orbis/Game/World/Nature/Textures/Pine_5_Billboard.png",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 11185328,
+        "allCopyObjectBytes": 13981660
+      },
+      {
+        "guid": "00bbb163138c99943bc8a145314e60f4",
+        "path": "Assets/Orbis/Game/World/Nature/Textures/TwistedTree_2_Billboard.png",
+        "bundleCopies": 4,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 8389020,
+        "allCopyObjectBytes": 11185360
+      },
+      {
+        "guid": "8e808adecb1aadd41938f11e2aa542f8",
+        "path": "Assets/Orbis/Game/World/Nature/Textures/PalmTree_1_Billboard.png",
+        "bundleCopies": 4,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 8389008,
+        "allCopyObjectBytes": 11185344
+      },
+      {
+        "guid": "e6a6763726627c34dac33b8a59a6f54d",
+        "path": "Assets/Orbis/Game/World/Ground/Textures/Stone.png",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 5593392,
+        "allCopyObjectBytes": 6991740
+      },
+      {
+        "guid": "80f732e96f7c7554eae971b8549698a3",
+        "path": "Assets/Orbis/Game/World/Ground/Textures/Moss.png",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 5593376,
+        "allCopyObjectBytes": 6991720
+      },
+      {
+        "guid": "cd5ec20c9b421fb4eaa484022f81acaa",
+        "path": "Assets/Orbis/Game/World/Architecture/Models/House_Workshop_LOD0.fbx",
+        "bundleCopies": 3,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 4948328,
+        "allCopyObjectBytes": 7422492
+      },
+      {
+        "guid": "f609b4891fe7787419417fc233da53b0",
+        "path": "Assets/Orbis/Game/World/Architecture/Models/House_Merchant_LOD0.fbx",
+        "bundleCopies": 2,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 1985380,
+        "allCopyObjectBytes": 3970760
+      },
+      {
+        "guid": "1200804b9230b6441b506fdf75bae16a",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/TwistedTree_2_LOD0.asset",
+        "bundleCopies": 4,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 1367508,
+        "allCopyObjectBytes": 1823344
+      },
+      {
+        "guid": "8e4e912094e03d2439d611f76df1c25d",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/BirchTree_1_LOD0.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 1257504,
+        "allCopyObjectBytes": 1571880
+      },
+      {
+        "guid": "647118a97b4ccb849b8cb9db63cd2d1e",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/CommonTree_3_LOD0.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 1252144,
+        "allCopyObjectBytes": 1565180
+      },
+      {
+        "guid": "1373fcbb100f1d740a39d1d70ba1e7c8",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/MapleTree_1_LOD0.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 697056,
+        "allCopyObjectBytes": 871320
+      },
+      {
+        "guid": "e1c1e4a7dd2907c42aa3a0a0a51e81eb",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/TwistedTree_2_LOD1.asset",
+        "bundleCopies": 4,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 657552,
+        "allCopyObjectBytes": 876736
+      },
+      {
+        "guid": "f1acf6c03c9e42d4a89ee4d44dce792b",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/BirchTree_1_LOD1.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 608768,
+        "allCopyObjectBytes": 760960
+      },
+      {
+        "guid": "cc600eb07398ce0499077aae4fc546aa",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/CommonTree_3_LOD1.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 596848,
+        "allCopyObjectBytes": 746060
+      },
+      {
+        "guid": "3b5c6b6ab843b11429ea9ea130884a86",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Pine_5_LOD0.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 482896,
+        "allCopyObjectBytes": 603620
+      },
+      {
+        "guid": "4c1261e9643b75f409078b8ffd49c206",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/DeadTree_5_LOD0.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 406736,
+        "allCopyObjectBytes": 508420
+      },
+      {
+        "guid": "c5e88ccee28553e5a464b79d37ce991f",
+        "path": "Assets/Orbis/Game/World/Shaders/FoliageToon.shadergraph",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 343952,
+        "allCopyObjectBytes": 429940
+      },
+      {
+        "guid": "272e303597924aa458e1a1bf18156e50",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/MapleTree_1_LOD1.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 335520,
+        "allCopyObjectBytes": 419400
+      },
+      {
+        "guid": "bb89f93687888af41aee22743894c9da",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Pine_5_LOD1.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 254544,
+        "allCopyObjectBytes": 318180
+      },
+      {
+        "guid": "b9c91d25b58f8814b9462395a42edc98",
+        "path": "Assets/Orbis/Game/World/Architecture/Models/House_Workshop_LOD1.fbx",
+        "bundleCopies": 3,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 248648,
+        "allCopyObjectBytes": 372972
+      },
+      {
+        "guid": "603f6b8784c76f94a90dd5726dcd48b7",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/DeadTree_5_LOD1.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 199648,
+        "allCopyObjectBytes": 249560
+      },
+      {
+        "guid": "39aca2b06c646fe42a57a8577f2c259a",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_3_LOD0.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 158752,
+        "allCopyObjectBytes": 198440
+      },
+      {
+        "guid": "527acc22d1c87b145bc4cd9d0c7c05b5",
+        "path": "Assets/Orbis/Game/World/Architecture/Models/House_Merchant_LOD1.fbx",
+        "bundleCopies": 2,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 138340,
+        "allCopyObjectBytes": 276680
+      },
+      {
+        "guid": "68fc0b735a77a9549a1aed9d2b1984ed",
+        "path": "Assets/Orbis/Game/World/Ground/Shaders/MossRock.shader",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 126352,
+        "allCopyObjectBytes": 157940
+      },
+      {
+        "guid": "596e67e3434b58f99fd8b4ad637420bb",
+        "path": "Assets/Orbis/Game/World/Shaders/WorldArchitecture.shader",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 121424,
+        "allCopyObjectBytes": 151780
+      },
+      {
+        "guid": "3d3ece7610a99c24ab6ae340d5d64e5d",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_1_LOD0.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 105472,
+        "allCopyObjectBytes": 131840
+      },
+      {
+        "guid": "184e1a2b2778665459f7224d00f8e5be",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/PalmTree_1_LOD0.asset",
+        "bundleCopies": 4,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 85308,
+        "allCopyObjectBytes": 113744
+      },
+      {
+        "guid": "46ffa80acde665643b9ed9becff7e249",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_2_LOD0.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 75376,
+        "allCopyObjectBytes": 94220
+      },
+      {
+        "guid": "43543dee263e3bc49b9fe1b76ebd654a",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Fern_1_LOD0.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 74768,
+        "allCopyObjectBytes": 93460
+      },
+      {
+        "guid": "c3fbd68aa1ceace428dfd4b2868190bd",
+        "path": "Assets/Orbis/Art/Resources/Art/Shaders/UnifiedToon.shader",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 59920,
+        "allCopyObjectBytes": 74900
+      },
+      {
+        "guid": "cc614285ca0743e44a441e479554d357",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_3_LOD1.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 52176,
+        "allCopyObjectBytes": 65220
+      },
+      {
+        "guid": "f55bcc4844046db4c96b158179613195",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/PalmTree_1_LOD1.asset",
+        "bundleCopies": 4,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 47664,
+        "allCopyObjectBytes": 63552
+      },
+      {
+        "guid": "31b714b456bf0db4a99646cf44f3d72f",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Grass_Common_Short_LOD0.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 47152,
+        "allCopyObjectBytes": 58940
+      },
+      {
+        "guid": "7f702b65beb6b454b9a1302b62c6eefd",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Fern_1_LOD1.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 44848,
+        "allCopyObjectBytes": 56060
+      },
+      {
+        "guid": "ff22b61f4c01f7f4e931d6a20f82acbf",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_1_LOD1.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 36208,
+        "allCopyObjectBytes": 45260
+      },
+      {
+        "guid": "054b4626ad5339e4e847588dd2349d6e",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Rock_Medium_2_LOD1.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 26816,
+        "allCopyObjectBytes": 33520
+      },
+      {
+        "guid": "da07703fcc09f8d4799221050659bd55",
+        "path": "Packages/com.unity.shadergraph/Editor/Resources/Shaders/FallbackError.shader",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 16096,
+        "allCopyObjectBytes": 20120
+      },
+      {
+        "guid": "1a1f9b4d7f176bd4b9d884ca8a0c4150",
+        "path": "Assets/ImportedAssets/Kenney/NatureKit/Models/sign.fbx",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 12624,
+        "allCopyObjectBytes": 15780
+      },
+      {
+        "guid": "46ba1abaf5750c342b1341246b197b32",
+        "path": "Assets/ImportedAssets/Kenney/NatureKit/Models/statue_obelisk.fbx",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 11520,
+        "allCopyObjectBytes": 14400
+      },
+      {
+        "guid": "d8a7e80c843795a459416059c9e3fa3f",
+        "path": "Assets/Orbis/Game/World/Nature/Materials/CommonTree_3_Billboard.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 4640,
+        "allCopyObjectBytes": 5800
+      },
+      {
+        "guid": "58b13c6c886a8f94bad45b8756efd303",
+        "path": "Assets/Orbis/Game/World/Nature/Materials/MapleTree_1_Billboard.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 4640,
+        "allCopyObjectBytes": 5800
+      },
+      {
+        "guid": "6ec4c19e9dbcb3a4b9102495781b6b52",
+        "path": "Assets/Orbis/Game/World/Nature/Materials/BirchTree_1_Billboard.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 4640,
+        "allCopyObjectBytes": 5800
+      },
+      {
+        "guid": "c4434ef5e7c4da24fb5fc0dab66b191c",
+        "path": "Assets/Orbis/Game/World/Nature/Materials/DeadTree_5_Billboard.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 4624,
+        "allCopyObjectBytes": 5780
+      },
+      {
+        "guid": "02d315c86a14a1a4988e205f816c8592",
+        "path": "Assets/Orbis/Game/World/Nature/Materials/Pine_5_Billboard.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 4608,
+        "allCopyObjectBytes": 5760
+      },
+      {
+        "guid": "91b8446a92e9dad4eac900de9a87d28f",
+        "path": "Assets/Orbis/Game/World/Nature/Materials/MeadowGrass.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 4592,
+        "allCopyObjectBytes": 5740
+      },
+      {
+        "guid": "7525088b06425e7468b7534c6108949e",
+        "path": "Assets/Orbis/Game/World/Nature/Materials/Canopy.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 4576,
+        "allCopyObjectBytes": 5720
+      },
+      {
+        "guid": "c8c84feb91ff9b74c90ec079e2f36759",
+        "path": "Assets/Orbis/Game/World/Nature/Materials/TwistedTree_2_Billboard.mat",
+        "bundleCopies": 4,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 3480,
+        "allCopyObjectBytes": 4640
+      },
+      {
+        "guid": "e340268c15fed9e4f8cc3b2e4ab946d6",
+        "path": "Assets/Orbis/Game/World/Nature/Materials/PalmTree_1_Billboard.mat",
+        "bundleCopies": 4,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 3468,
+        "allCopyObjectBytes": 4624
+      },
+      {
+        "guid": "2dfd377126fa88a4fb625b3982b60c86",
+        "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Stone.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 3104,
+        "allCopyObjectBytes": 3880
+      },
+      {
+        "guid": "6e7c381633e8fe540a0f4044c42d04e1",
+        "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Brass.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 3104,
+        "allCopyObjectBytes": 3880
+      },
+      {
+        "guid": "ee1d8467a55e6e34ba5b07f651d4ec7d",
+        "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Glass.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 3104,
+        "allCopyObjectBytes": 3880
+      },
+      {
+        "guid": "8ce3d539a84e86d45beca9e257a07f8e",
+        "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Ivory.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 3104,
+        "allCopyObjectBytes": 3880
+      },
+      {
+        "guid": "56136cbd521fc9d4fb6cce380f2d5188",
+        "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Slate.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 3104,
+        "allCopyObjectBytes": 3880
+      },
+      {
+        "guid": "0205395fcca22da4c9186e493cac36e3",
+        "path": "Assets/Orbis/Game/World/Architecture/Materials/Architecture_Timber.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 3104,
+        "allCopyObjectBytes": 3880
+      },
+      {
+        "guid": "c01fc8b5f27b5e648ba85abf8bff3a3e",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/MapleTree_1_Billboard.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2624,
+        "allCopyObjectBytes": 3280
+      },
+      {
+        "guid": "db1fc3b831a76eb489a3042635020a4b",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/BirchTree_1_Billboard.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2624,
+        "allCopyObjectBytes": 3280
+      },
+      {
+        "guid": "35275daeffcbc2c4fb632aa0db9ad59b",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/CommonTree_3_Billboard.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2624,
+        "allCopyObjectBytes": 3280
+      },
+      {
+        "guid": "5b4e66d821babfa47ae758b65ab2ecff",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/DeadTree_5_Billboard.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2608,
+        "allCopyObjectBytes": 3260
+      },
+      {
+        "guid": "6ce058a142cecd54a9022d0774b3c3f5",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/Pine_5_Billboard.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2592,
+        "allCopyObjectBytes": 3240
+      },
+      {
+        "guid": "ead05aeb8eeb1a541a3e3ac01e947273",
+        "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/stoneDark_46ba1aba_-4231637370832951941.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2256,
+        "allCopyObjectBytes": 2820
+      },
+      {
+        "guid": "78eca01e5c40fa744b9bd1eb5c05aaa4",
+        "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/_defaultMat_1a1f9b4d_-3963241562183589234.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2256,
+        "allCopyObjectBytes": 2820
+      },
+      {
+        "guid": "860a0a6317b7cc1448e044e99ee229d7",
+        "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/stone_46ba1aba_7555185752953191562.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2240,
+        "allCopyObjectBytes": 2800
+      },
+      {
+        "guid": "ba548df6312583f48824ed3efa69ad28",
+        "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/woodDark_1a1f9b4d_-5173966397720942367.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2240,
+        "allCopyObjectBytes": 2800
+      },
+      {
+        "guid": "16a37f4ea10fedf41ac43326272612dc",
+        "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/wood_1a1f9b4d_-8067726398312463513.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2224,
+        "allCopyObjectBytes": 2780
+      },
+      {
+        "guid": "24428d02914c31a4f8a53cac1aefd41f",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/TwistedTree_2_Billboard.asset",
+        "bundleCopies": 4,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 1968,
+        "allCopyObjectBytes": 2624
+      },
+      {
+        "guid": "9e2f40fd6011cd6479132b085981df61",
+        "path": "Assets/Orbis/Game/World/Nature/Meshes/PalmTree_1_Billboard.asset",
+        "bundleCopies": 4,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 1956,
+        "allCopyObjectBytes": 2608
+      },
+      {
+        "guid": "4294abbacc715ab469b1a1585c056b5e",
+        "path": "Assets/Orbis/Game/World/Ground/Materials/MossRock.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 1424,
+        "allCopyObjectBytes": 1780
+      },
+      {
+        "guid": "664fe9ca3439aed47a42041abcea7488",
+        "path": "Assets/Orbis/Game/LookDev/Resources/LookDev/CelRamp.asset",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 528,
+        "allCopyObjectBytes": 660
+      }
+    ]
+  },
+  "current": {
+    "path": "Library/com.unity.addressables/BuildReports/buildlayout_2026.09.11.19.25.36.json",
+    "sha256": "e4d3c2ef331ece0336c99f702855b3557d4cc8b7feee9cb9a97eff49f319d693",
+    "buildStart": "2026-09-11 오후 7:25:36",
+    "buildError": "",
+    "unityVersion": "6000.6.0f1",
+    "packageVersion": "com.unity.addressables: 2.11.2",
+    "buildSeconds": 16.9684995,
+    "bundles": [
+      {
+        "group": "ORBIS World Shared Environment",
+        "packingMode": "PackTogether",
+        "name": "orbisworldsharedenvironment_assets_all_6c3fb401350adef838d1cbe31f57302b.bundle",
+        "bytes": 12462217,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 64,
+        "addresses": [
+          "orbis.world.shared.00bbb163138c99943bc8a145314e60f4",
+          "orbis.world.shared.0205395fcca22da4c9186e493cac36e3",
+          "orbis.world.shared.02d315c86a14a1a4988e205f816c8592",
+          "orbis.world.shared.054b4626ad5339e4e847588dd2349d6e",
+          "orbis.world.shared.1200804b9230b6441b506fdf75bae16a",
+          "orbis.world.shared.12286de11be830240b53bd71ff0ba853",
+          "orbis.world.shared.1373fcbb100f1d740a39d1d70ba1e7c8",
+          "orbis.world.shared.175c7ab4c42d758458a9805ae23a87de",
+          "orbis.world.shared.184e1a2b2778665459f7224d00f8e5be",
+          "orbis.world.shared.24428d02914c31a4f8a53cac1aefd41f",
+          "orbis.world.shared.272e303597924aa458e1a1bf18156e50",
+          "orbis.world.shared.2ceda783650342141a19d16fdfffb571",
+          "orbis.world.shared.2dfd377126fa88a4fb625b3982b60c86",
+          "orbis.world.shared.31b714b456bf0db4a99646cf44f3d72f",
+          "orbis.world.shared.34a24634692cbd147b73708b6f65f0c5",
+          "orbis.world.shared.35275daeffcbc2c4fb632aa0db9ad59b",
+          "orbis.world.shared.39aca2b06c646fe42a57a8577f2c259a",
+          "orbis.world.shared.3b5c6b6ab843b11429ea9ea130884a86",
+          "orbis.world.shared.3d3ece7610a99c24ab6ae340d5d64e5d",
+          "orbis.world.shared.41a1b3cc2996c044390b859a4b2f7589",
+          "orbis.world.shared.4294abbacc715ab469b1a1585c056b5e",
+          "orbis.world.shared.43543dee263e3bc49b9fe1b76ebd654a",
+          "orbis.world.shared.46ffa80acde665643b9ed9becff7e249",
+          "orbis.world.shared.4c1261e9643b75f409078b8ffd49c206",
+          "orbis.world.shared.527acc22d1c87b145bc4cd9d0c7c05b5",
+          "orbis.world.shared.56136cbd521fc9d4fb6cce380f2d5188",
+          "orbis.world.shared.58b13c6c886a8f94bad45b8756efd303",
+          "orbis.world.shared.596e67e3434b58f99fd8b4ad637420bb",
+          "orbis.world.shared.5b4e66d821babfa47ae758b65ab2ecff",
+          "orbis.world.shared.603f6b8784c76f94a90dd5726dcd48b7",
+          "orbis.world.shared.647118a97b4ccb849b8cb9db63cd2d1e",
+          "orbis.world.shared.68fc0b735a77a9549a1aed9d2b1984ed",
+          "orbis.world.shared.6ce058a142cecd54a9022d0774b3c3f5",
+          "orbis.world.shared.6e7c381633e8fe540a0f4044c42d04e1",
+          "orbis.world.shared.6ec4c19e9dbcb3a4b9102495781b6b52",
+          "orbis.world.shared.7525088b06425e7468b7534c6108949e",
+          "orbis.world.shared.7f702b65beb6b454b9a1302b62c6eefd",
+          "orbis.world.shared.80f732e96f7c7554eae971b8549698a3",
+          "orbis.world.shared.89a24b1bf1ffc6842aa70a8fe2b3df33",
+          "orbis.world.shared.8ce3d539a84e86d45beca9e257a07f8e",
+          "orbis.world.shared.8e4e912094e03d2439d611f76df1c25d",
+          "orbis.world.shared.8e808adecb1aadd41938f11e2aa542f8",
+          "orbis.world.shared.91b8446a92e9dad4eac900de9a87d28f",
+          "orbis.world.shared.9e2f40fd6011cd6479132b085981df61",
+          "orbis.world.shared.a848f78a78059894d834944eddfff2e0",
+          "orbis.world.shared.b9c91d25b58f8814b9462395a42edc98",
+          "orbis.world.shared.bb89f93687888af41aee22743894c9da",
+          "orbis.world.shared.c01fc8b5f27b5e648ba85abf8bff3a3e",
+          "orbis.world.shared.c4434ef5e7c4da24fb5fc0dab66b191c",
+          "orbis.world.shared.c5e88ccee28553e5a464b79d37ce991f",
+          "orbis.world.shared.c8c84feb91ff9b74c90ec079e2f36759",
+          "orbis.world.shared.cc600eb07398ce0499077aae4fc546aa",
+          "orbis.world.shared.cc614285ca0743e44a441e479554d357",
+          "orbis.world.shared.cd5ec20c9b421fb4eaa484022f81acaa",
+          "orbis.world.shared.d8a7e80c843795a459416059c9e3fa3f",
+          "orbis.world.shared.db1fc3b831a76eb489a3042635020a4b",
+          "orbis.world.shared.e1c1e4a7dd2907c42aa3a0a0a51e81eb",
+          "orbis.world.shared.e340268c15fed9e4f8cc3b2e4ab946d6",
+          "orbis.world.shared.e6a6763726627c34dac33b8a59a6f54d",
+          "orbis.world.shared.ee1d8467a55e6e34ba5b07f651d4ec7d",
+          "orbis.world.shared.f1acf6c03c9e42d4a89ee4d44dce792b",
+          "orbis.world.shared.f55bcc4844046db4c96b158179613195",
+          "orbis.world.shared.f609b4891fe7787419417fc233da53b0",
+          "orbis.world.shared.ff22b61f4c01f7f4e931d6a20f82acbf"
+        ],
+        "dependencies": []
+      },
+      {
+        "group": "ORBIS M4 Regions",
+        "packingMode": "PackSeparately",
+        "name": "orbism4regions_scenes_orbis.region.granite_f0a708c3c6ee39e997b0cf43bf5334d4.bundle",
+        "bytes": 6001,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.region.granite"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS M4 Regions",
+        "packingMode": "PackSeparately",
+        "name": "orbism4regions_scenes_orbis.region.zephyr_4c7ea71ae1523c08094f3e49d1fcb055.bundle",
+        "bytes": 6000,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.region.zephyr"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS M4 Regions",
+        "packingMode": "PackSeparately",
+        "name": "orbism4regions_scenes_orbis.region.teluna_7070c3c0b249a3002a2924aff99502f3.bundle",
+        "bytes": 5999,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.region.teluna"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS M4 Regions",
+        "packingMode": "PackSeparately",
+        "name": "orbism4regions_scenes_orbis.region.voltheim_22f866256975a5e59adcd18b77afe40a.bundle",
+        "bytes": 6002,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.region.voltheim"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS M4 Regions",
+        "packingMode": "PackSeparately",
+        "name": "orbism4regions_scenes_orbis.region.agnia_94543a58b7543a49c2afdcb5d962b941.bundle",
+        "bytes": 5996,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.region.agnia"
+        ],
+        "dependencies": [
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS World Environment",
+        "packingMode": "PackSeparately",
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.zephyr_90211f507250795c9af36f13fd2046df.bundle",
+        "bytes": 5501585,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.world.environment.zephyr"
+        ],
+        "dependencies": [
+          "orbisworldsharedenvironment_assets_all_6c3fb401350adef838d1cbe31f57302b.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS World Environment",
+        "packingMode": "PackSeparately",
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.granite_59d77daae80cc07ea8de7c2025adda5b.bundle",
+        "bytes": 4196408,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.world.environment.granite"
+        ],
+        "dependencies": [
+          "orbisworldsharedenvironment_assets_all_6c3fb401350adef838d1cbe31f57302b.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS World Environment",
+        "packingMode": "PackSeparately",
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.teluna_5e5fcab4cb455cade5cd8d4d5edf2c79.bundle",
+        "bytes": 4418990,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.world.environment.teluna"
+        ],
+        "dependencies": [
+          "orbisworldsharedenvironment_assets_all_6c3fb401350adef838d1cbe31f57302b.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS World Environment",
+        "packingMode": "PackSeparately",
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.voltheim_a2931718cf9ff89116dca607530bddcf.bundle",
+        "bytes": 6226658,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.world.environment.voltheim"
+        ],
+        "dependencies": [
+          "orbisworldsharedenvironment_assets_all_6c3fb401350adef838d1cbe31f57302b.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      },
+      {
+        "group": "ORBIS World Environment",
+        "packingMode": "PackSeparately",
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.agnia_65af31cfa455656ecfd370232cbc8030.bundle",
+        "bytes": 5166748,
+        "compression": "Lz4HC",
+        "explicitAssetCount": 1,
+        "addresses": [
+          "orbis.world.environment.agnia"
+        ],
+        "dependencies": [
+          "orbisworldsharedenvironment_assets_all_6c3fb401350adef838d1cbe31f57302b.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+          "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ]
+      }
+    ],
+    "duplicateAssetCount": 8,
+    "extraDuplicateObjectBytes": 95280,
+    "duplicates": [
+      {
+        "guid": "c3fbd68aa1ceace428dfd4b2868190bd",
+        "path": "Assets/Orbis/Art/Resources/Art/Shaders/UnifiedToon.shader",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 59920,
+        "allCopyObjectBytes": 74900
+      },
+      {
+        "guid": "1a1f9b4d7f176bd4b9d884ca8a0c4150",
+        "path": "Assets/ImportedAssets/Kenney/NatureKit/Models/sign.fbx",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 12624,
+        "allCopyObjectBytes": 15780
+      },
+      {
+        "guid": "46ba1abaf5750c342b1341246b197b32",
+        "path": "Assets/ImportedAssets/Kenney/NatureKit/Models/statue_obelisk.fbx",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 11520,
+        "allCopyObjectBytes": 14400
+      },
+      {
+        "guid": "ead05aeb8eeb1a541a3e3ac01e947273",
+        "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/stoneDark_46ba1aba_-4231637370832951941.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2256,
+        "allCopyObjectBytes": 2820
+      },
+      {
+        "guid": "78eca01e5c40fa744b9bd1eb5c05aaa4",
+        "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/_defaultMat_1a1f9b4d_-3963241562183589234.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2256,
+        "allCopyObjectBytes": 2820
+      },
+      {
+        "guid": "860a0a6317b7cc1448e044e99ee229d7",
+        "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/stone_46ba1aba_7555185752953191562.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2240,
+        "allCopyObjectBytes": 2800
+      },
+      {
+        "guid": "ba548df6312583f48824ed3efa69ad28",
+        "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/woodDark_1a1f9b4d_-5173966397720942367.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2240,
+        "allCopyObjectBytes": 2800
+      },
+      {
+        "guid": "16a37f4ea10fedf41ac43326272612dc",
+        "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/wood_1a1f9b4d_-8067726398312463513.mat",
+        "bundleCopies": 5,
+        "duplicateObjectCount": 1,
+        "extraObjectBytes": 2224,
+        "allCopyObjectBytes": 2780
+      }
+    ]
+  },
+  "comparison": {
+    "compressedScope": "Five environment bundles plus shared environment bundle; excludes M4 and Addressables builtin/script bundles.",
+    "baselineCompressedBytes": 82429619,
+    "currentCompressedBytes": 37972606,
+    "compressedReductionBytes": 44457013,
+    "compressedReductionPercent": 53.93329914578399,
+    "duplicateExtraBytesBefore": 121837036,
+    "duplicateExtraBytesAfter": 95280,
+    "duplicateExtraBytesReduction": 121741756,
+    "duplicateReductionPercent": 99.92179717832269,
+    "newPvsAddedAfterBaseline": true
+  },
+  "verification": {
+    "currentBundleFileSizes": [
+      {
+        "name": "1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle"
+        ],
+        "reportBytes": 150296,
+        "actualBytes": [
+          150296
+        ],
+        "passed": true
+      },
+      {
+        "name": "1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle"
+        ],
+        "reportBytes": 1828,
+        "actualBytes": [
+          1828
+        ],
+        "passed": true
+      },
+      {
+        "name": "orbisworldsharedenvironment_assets_all_6c3fb401350adef838d1cbe31f57302b.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/orbisworldsharedenvironment_assets_all_6c3fb401350adef838d1cbe31f57302b.bundle"
+        ],
+        "reportBytes": 12462217,
+        "actualBytes": [
+          12462217
+        ],
+        "passed": true
+      },
+      {
+        "name": "orbism4regions_scenes_orbis.region.granite_f0a708c3c6ee39e997b0cf43bf5334d4.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/orbism4regions_scenes_orbis.region.granite_f0a708c3c6ee39e997b0cf43bf5334d4.bundle"
+        ],
+        "reportBytes": 6001,
+        "actualBytes": [
+          6001
+        ],
+        "passed": true
+      },
+      {
+        "name": "orbism4regions_scenes_orbis.region.zephyr_4c7ea71ae1523c08094f3e49d1fcb055.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/orbism4regions_scenes_orbis.region.zephyr_4c7ea71ae1523c08094f3e49d1fcb055.bundle"
+        ],
+        "reportBytes": 6000,
+        "actualBytes": [
+          6000
+        ],
+        "passed": true
+      },
+      {
+        "name": "orbism4regions_scenes_orbis.region.teluna_7070c3c0b249a3002a2924aff99502f3.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/orbism4regions_scenes_orbis.region.teluna_7070c3c0b249a3002a2924aff99502f3.bundle"
+        ],
+        "reportBytes": 5999,
+        "actualBytes": [
+          5999
+        ],
+        "passed": true
+      },
+      {
+        "name": "orbism4regions_scenes_orbis.region.voltheim_22f866256975a5e59adcd18b77afe40a.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/orbism4regions_scenes_orbis.region.voltheim_22f866256975a5e59adcd18b77afe40a.bundle"
+        ],
+        "reportBytes": 6002,
+        "actualBytes": [
+          6002
+        ],
+        "passed": true
+      },
+      {
+        "name": "orbism4regions_scenes_orbis.region.agnia_94543a58b7543a49c2afdcb5d962b941.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/orbism4regions_scenes_orbis.region.agnia_94543a58b7543a49c2afdcb5d962b941.bundle"
+        ],
+        "reportBytes": 5996,
+        "actualBytes": [
+          5996
+        ],
+        "passed": true
+      },
+      {
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.zephyr_90211f507250795c9af36f13fd2046df.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/orbisworldenvironment_scenes_orbis.world.environment.zephyr_90211f507250795c9af36f13fd2046df.bundle"
+        ],
+        "reportBytes": 5501585,
+        "actualBytes": [
+          5501585
+        ],
+        "passed": true
+      },
+      {
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.granite_59d77daae80cc07ea8de7c2025adda5b.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/orbisworldenvironment_scenes_orbis.world.environment.granite_59d77daae80cc07ea8de7c2025adda5b.bundle"
+        ],
+        "reportBytes": 4196408,
+        "actualBytes": [
+          4196408
+        ],
+        "passed": true
+      },
+      {
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.teluna_5e5fcab4cb455cade5cd8d4d5edf2c79.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/orbisworldenvironment_scenes_orbis.world.environment.teluna_5e5fcab4cb455cade5cd8d4d5edf2c79.bundle"
+        ],
+        "reportBytes": 4418990,
+        "actualBytes": [
+          4418990
+        ],
+        "passed": true
+      },
+      {
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.voltheim_a2931718cf9ff89116dca607530bddcf.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/orbisworldenvironment_scenes_orbis.world.environment.voltheim_a2931718cf9ff89116dca607530bddcf.bundle"
+        ],
+        "reportBytes": 6226658,
+        "actualBytes": [
+          6226658
+        ],
+        "passed": true
+      },
+      {
+        "name": "orbisworldenvironment_scenes_orbis.world.environment.agnia_65af31cfa455656ecfd370232cbc8030.bundle",
+        "matchedFiles": [
+          "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/orbisworldenvironment_scenes_orbis.world.environment.agnia_65af31cfa455656ecfd370232cbc8030.bundle"
+        ],
+        "reportBytes": 5166748,
+        "actualBytes": [
+          5166748
+        ],
+        "passed": true
+      }
+    ],
+    "allFiveEnvironmentBundlesDependOnShared": true,
+    "m4BundleNamesAndSizesUnchanged": true,
+    "sharedRegistrationAddedCount": 64,
+    "foreignEntriesPreserved": true,
+    "registeredSourceBytesPreserved": true,
+    "missingListedAssetPaths": []
+  },
+  "pvs": {
+    "addressableCopies": 1,
+    "address": "orbis.world.shared.34a24634692cbd147b73708b6f65f0c5",
+    "assetPath": "Assets/Orbis/Game/Scenes/Orbis_Island/OcclusionCullingData.asset",
+    "referencingEnvironmentCount": 5,
+    "layoutAssetType": 0,
+    "layoutSerializedSize": 0,
+    "layoutStreamedSize": 0,
+    "validatedSourcePayloadBytes": 10583248,
+    "validatedSceneCount": 6,
+    "validatedRendererCount": 1554,
+    "interpretation": "BuildLayout records the native PVS type as AssetType=0 with zero size. Its listed identity and source bake payload are verified, but this does not measure runtime PVS residency or prove camera culling works."
+  },
+  "remainingResourcesDuplicates": [
+    {
+      "guid": "c3fbd68aa1ceace428dfd4b2868190bd",
+      "path": "Assets/Orbis/Art/Resources/Art/Shaders/UnifiedToon.shader",
+      "bundleCopies": 5,
+      "duplicateObjectCount": 1,
+      "extraObjectBytes": 59920,
+      "allCopyObjectBytes": 74900
+    },
+    {
+      "guid": "ead05aeb8eeb1a541a3e3ac01e947273",
+      "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/stoneDark_46ba1aba_-4231637370832951941.mat",
+      "bundleCopies": 5,
+      "duplicateObjectCount": 1,
+      "extraObjectBytes": 2256,
+      "allCopyObjectBytes": 2820
+    },
+    {
+      "guid": "78eca01e5c40fa744b9bd1eb5c05aaa4",
+      "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/_defaultMat_1a1f9b4d_-3963241562183589234.mat",
+      "bundleCopies": 5,
+      "duplicateObjectCount": 1,
+      "extraObjectBytes": 2256,
+      "allCopyObjectBytes": 2820
+    },
+    {
+      "guid": "860a0a6317b7cc1448e044e99ee229d7",
+      "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/stone_46ba1aba_7555185752953191562.mat",
+      "bundleCopies": 5,
+      "duplicateObjectCount": 1,
+      "extraObjectBytes": 2240,
+      "allCopyObjectBytes": 2800
+    },
+    {
+      "guid": "ba548df6312583f48824ed3efa69ad28",
+      "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/woodDark_1a1f9b4d_-5173966397720942367.mat",
+      "bundleCopies": 5,
+      "duplicateObjectCount": 1,
+      "extraObjectBytes": 2240,
+      "allCopyObjectBytes": 2800
+    },
+    {
+      "guid": "16a37f4ea10fedf41ac43326272612dc",
+      "path": "Assets/Orbis/Art/Resources/Art/Environment/Materials/NatureKit/wood_1a1f9b4d_-8067726398312463513.mat",
+      "bundleCopies": 5,
+      "duplicateObjectCount": 1,
+      "extraObjectBytes": 2224,
+      "allCopyObjectBytes": 2780
+    }
+  ],
+  "limits": [
+    "The latest build adds a jointly baked PVS absent from the baseline, so this is the observed net build-size change, not an isolated compression-only experiment.",
+    "Built-in player/core dependencies are not fully represented by an Addressables layout. Separate core copies, including native PVS and collision meshes, are not counted as eliminated.",
+    "The shared group stays loaded while any dependent environment remains loaded. Region addresses, scene splitting and handle ownership are retained.",
+    "No GPU/CPU frame-time or VRAM conclusion is made. Architecture/large opaque rocks are PVS occluders; trees and manually instanced grass are not claimed to benefit from this bake."
+  ],
+  "inputs": [
+    {
+      "path": "TestResults/WorldDev/World06_Build_Development.json",
+      "sha256": "bb10ed472cc666fa9ab4775e7ebfb0ee0b7c70667119278f0924a349938abe2c"
+    },
+    {
+      "path": "TestResults/WorldDev/World06_SharedAssets.json",
+      "sha256": "a0947126417d9be7bdd8e0021524038738edb41396d0410ccf0fbca6688c1520"
+    },
+    {
+      "path": "TestResults/WorldDev/World06_OcclusionBake.json",
+      "sha256": "22969ca1560f9ed68a70f8134b1727ba44c08e8b18f8e2bcaff9095941465a4e"
+    }
+  ]
+}

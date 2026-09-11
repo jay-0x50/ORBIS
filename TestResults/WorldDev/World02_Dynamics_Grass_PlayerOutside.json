@@ -1,0 +1,19 @@
+{
+    "stage": "World02_Dynamics",
+    "view": "Grass_PlayerOutside",
+    "camera": {
+        "x": 0.1470489501953125,
+        "y": 26.970422744750977,
+        "z": -215.05850219726563
+    },
+    "focus": {
+        "x": -2.5529510974884033,
+        "y": 25.450422286987305,
+        "z": -211.65850830078125
+    },
+    "fov": 45.0,
+    "monochrome": false,
+    "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+    "vram": 3930,
+    "note": "Actual Unity URP render; fixed world camera recipe. Not a performance benchmark."
+}

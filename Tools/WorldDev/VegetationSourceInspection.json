@@ -1,0 +1,919 @@
+{
+  "status": "read-only source inspection; no derived model or scene generated",
+  "ultimate": [
+    {
+      "source": "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\BirchTree_1.fbx",
+      "meshes": [
+        {
+          "name": "BirchTree_1",
+          "vertices": 5264,
+          "triangles": 4598,
+          "materials": [
+            "BirchTree_Bark",
+            "BirchTree_Leaves"
+          ],
+          "worldBounds": [
+            [
+              -1.341935396194458,
+              -1.0687986612319946,
+              -0.01774914562702179
+            ],
+            [
+              1.3658959865570068,
+              0.873732328414917,
+              5.43514347076416
+            ]
+          ],
+          "uvBounds": [
+            [
+              0.0,
+              -2.680149793624878
+            ],
+            [
+              4.5186591148376465,
+              3.680149793624878
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\BirchTree_2.fbx",
+      "meshes": [
+        {
+          "name": "BirchTree_2",
+          "vertices": 7359,
+          "triangles": 7660,
+          "materials": [
+            "BirchTree_Bark",
+            "BirchTree_Leaves"
+          ],
+          "worldBounds": [
+            [
+              -1.701135277748108,
+              -1.5346622467041016,
+              -0.030497610569000244
+            ],
+            [
+              1.6454285383224487,
+              1.2781850099563599,
+              7.539974212646484
+            ]
+          ],
+          "uvBounds": [
+            [
+              -1.3224530220031738,
+              -5.300000190734863
+            ],
+            [
+              7.780742645263672,
+              8.006975173950195
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\MapleTree_1.fbx",
+      "meshes": [
+        {
+          "name": "MapleTree_1",
+          "vertices": 3335,
+          "triangles": 3848,
+          "materials": [
+            "MapleTree_Bark",
+            "MapleTree_Leaves"
+          ],
+          "worldBounds": [
+            [
+              -2.075911045074463,
+              -2.454284906387329,
+              0.0006941246683709323
+            ],
+            [
+              4.153177738189697,
+              2.4494667053222656,
+              6.644845962524414
+            ]
+          ],
+          "uvBounds": [
+            [
+              -1.245194435119629,
+              -2.0
+            ],
+            [
+              4.6180500984191895,
+              4.323125839233398
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\MapleTree_2.fbx",
+      "meshes": [
+        {
+          "name": "MapleTree_2",
+          "vertices": 4474,
+          "triangles": 4800,
+          "materials": [
+            "MapleTree_Bark",
+            "MapleTree_Leaves"
+          ],
+          "worldBounds": [
+            [
+              -4.34197473526001,
+              -2.7486937046051025,
+              0.0006933771073818207
+            ],
+            [
+              2.3588104248046875,
+              3.495229721069336,
+              6.7145233154296875
+            ]
+          ],
+          "uvBounds": [
+            [
+              -1.9139964580535889,
+              -3.5999999046325684
+            ],
+            [
+              2.9107258319854736,
+              4.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\PalmTree_1.fbx",
+      "meshes": [
+        {
+          "name": "PalmTree_1",
+          "vertices": 349,
+          "triangles": 472,
+          "materials": [
+            "PalmTree_Trunk",
+            "PalmTree_Leaves"
+          ],
+          "worldBounds": [
+            [
+              -2.734689950942993,
+              -2.2219078540802,
+              0.01045551523566246
+            ],
+            [
+              2.357530355453491,
+              2.724691390991211,
+              5.113828659057617
+            ]
+          ],
+          "uvBounds": [
+            [
+              0.0037158727645874023,
+              -1.6690287590026855
+            ],
+            [
+              0.9926822185516357,
+              2.5426440238952637
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\PalmTree_2.fbx",
+      "meshes": [
+        {
+          "name": "PalmTree_2",
+          "vertices": 270,
+          "triangles": 368,
+          "materials": [
+            "PalmTree_Trunk",
+            "PalmTree_Leaves"
+          ],
+          "worldBounds": [
+            [
+              -1.3995224237442017,
+              -1.9548125267028809,
+              -0.04019523411989212
+            ],
+            [
+              4.18393611907959,
+              2.8144431114196777,
+              5.239776611328125
+            ]
+          ],
+          "uvBounds": [
+            [
+              0.0037158727645874023,
+              -1.282598614692688
+            ],
+            [
+              0.9926822185516357,
+              2.5138449668884277
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\PalmTree_3.fbx",
+      "meshes": [
+        {
+          "name": "PalmTree_3",
+          "vertices": 249,
+          "triangles": 344,
+          "materials": [
+            "PalmTree_Trunk",
+            "PalmTree_Leaves"
+          ],
+          "worldBounds": [
+            [
+              -2.482754707336426,
+              -2.253324270248413,
+              -0.037437744438648224
+            ],
+            [
+              1.9901334047317505,
+              1.9688341617584229,
+              4.628427505493164
+            ]
+          ],
+          "uvBounds": [
+            [
+              0.0037158727645874023,
+              -0.2931581735610962
+            ],
+            [
+              0.9926822185516357,
+              1.9968750476837158
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "megaKitSelected": [
+    {
+      "source": "glTF/TwistedTree_2.gltf",
+      "meshes": [
+        {
+          "name": "tree.039",
+          "primitives": [
+            {
+              "vertices": 8719,
+              "triangles": 6790,
+              "positionBounds": [
+                [
+                  -5.446475505828857,
+                  -0.20147468149662018,
+                  -4.334892272949219
+                ],
+                [
+                  3.0595297813415527,
+                  17.562589645385742,
+                  2.152212142944336
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Bark_TwistedTree"
+            },
+            {
+              "vertices": 4688,
+              "triangles": 2344,
+              "positionBounds": [
+                [
+                  -6.619970321655273,
+                  4.4927978515625,
+                  -5.540718078613281
+                ],
+                [
+                  3.942902088165283,
+                  18.74772834777832,
+                  3.661869764328003
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Leaves_TwistedTree"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "glTF/Bush_Common.gltf",
+      "meshes": [
+        {
+          "name": "tree.008",
+          "primitives": [
+            {
+              "vertices": 1800,
+              "triangles": 900,
+              "positionBounds": [
+                [
+                  -0.9234761595726013,
+                  -0.234694704413414,
+                  -0.9743891954421997
+                ],
+                [
+                  0.9913685917854309,
+                  1.3470909595489502,
+                  0.9907516837120056
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Leaves_TwistedTree"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "glTF/Grass_Common_Tall.gltf",
+      "meshes": [
+        {
+          "name": "Plane.013",
+          "primitives": [
+            {
+              "vertices": 303,
+              "triangles": 326,
+              "positionBounds": [
+                [
+                  -0.40356767177581787,
+                  -0.031362250447273254,
+                  -0.47903335094451904
+                ],
+                [
+                  0.49152159690856934,
+                  1.841333031654358,
+                  0.5140784978866577
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Grass"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "glTF/Pine_5.gltf",
+      "meshes": [
+        {
+          "name": "tree.032",
+          "primitives": [
+            {
+              "vertices": 542,
+              "triangles": 488,
+              "positionBounds": [
+                [
+                  -0.47391438484191895,
+                  -0.23508861660957336,
+                  -1.5000479221343994
+                ],
+                [
+                  0.6472557783126831,
+                  8.332257270812988,
+                  0.4739142060279846
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Bark_NormalTree"
+            },
+            {
+              "vertices": 1773,
+              "triangles": 1158,
+              "positionBounds": [
+                [
+                  -2.987706422805786,
+                  1.453586220741272,
+                  -3.7784042358398438
+                ],
+                [
+                  3.432434320449829,
+                  8.48871898651123,
+                  2.4435970783233643
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Leaves_Pine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "glTF/Fern_1.gltf",
+      "meshes": [
+        {
+          "name": "Plane.023",
+          "primitives": [
+            {
+              "vertices": 243,
+              "triangles": 288,
+              "positionBounds": [
+                [
+                  -4.419975280761719,
+                  -0.2474701851606369,
+                  -4.091315746307373
+                ],
+                [
+                  4.626213073730469,
+                  2.4413082599639893,
+                  4.396108150482178
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Leaves"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "glTF/Grass_Common_Short.gltf",
+      "meshes": [
+        {
+          "name": "Plane.014",
+          "primitives": [
+            {
+              "vertices": 153,
+              "triangles": 155,
+              "positionBounds": [
+                [
+                  -0.3556424081325531,
+                  -0.022385215386748314,
+                  -0.47937828302383423
+                ],
+                [
+                  0.2832280695438385,
+                  1.311718225479126,
+                  0.25788721442222595
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Grass"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "glTF/CommonTree_3.gltf",
+      "meshes": [
+        {
+          "name": "tree.025",
+          "primitives": [
+            {
+              "vertices": 2149,
+              "triangles": 1705,
+              "positionBounds": [
+                [
+                  -0.848488450050354,
+                  -0.24277201294898987,
+                  -0.8173294067382812
+                ],
+                [
+                  1.0429332256317139,
+                  7.97797966003418,
+                  1.102728247642517
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Bark_NormalTree"
+            },
+            {
+              "vertices": 3600,
+              "triangles": 1800,
+              "positionBounds": [
+                [
+                  -1.9864652156829834,
+                  2.5763165950775146,
+                  -2.0609655380249023
+                ],
+                [
+                  2.076380968093872,
+                  9.182417869567871,
+                  2.1801114082336426
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Leaves_NormalTree"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "glTF/CommonTree_5.gltf",
+      "meshes": [
+        {
+          "name": "tree.027",
+          "primitives": [
+            {
+              "vertices": 2273,
+              "triangles": 1882,
+              "positionBounds": [
+                [
+                  -0.8957228064537048,
+                  -0.24277201294898987,
+                  -0.920511782169342
+                ],
+                [
+                  0.9063012599945068,
+                  5.4537034034729,
+                  0.8049076795578003
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Bark_NormalTree"
+            },
+            {
+              "vertices": 2600,
+              "triangles": 1300,
+              "positionBounds": [
+                [
+                  -1.912354588508606,
+                  2.356473684310913,
+                  -2.162447929382324
+                ],
+                [
+                  1.7588107585906982,
+                  6.763467788696289,
+                  2.057202100753784
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Leaves_NormalTree"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "glTF/Pine_4.gltf",
+      "meshes": [
+        {
+          "name": "tree.031",
+          "primitives": [
+            {
+              "vertices": 2978,
+              "triangles": 2160,
+              "positionBounds": [
+                [
+                  -1.9725096225738525,
+                  -0.23508861660957336,
+                  -1.9964979887008667
+                ],
+                [
+                  1.9782183170318604,
+                  9.700387001037598,
+                  0.8374438285827637
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Bark_NormalTree"
+            },
+            {
+              "vertices": 1910,
+              "triangles": 1210,
+              "positionBounds": [
+                [
+                  -2.8718371391296387,
+                  2.4392924308776855,
+                  -2.9459073543548584
+                ],
+                [
+                  2.930187225341797,
+                  10.0013427734375,
+                  2.424938201904297
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Leaves_Pine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "glTF/DeadTree_5.gltf",
+      "meshes": [
+        {
+          "name": "tree.021",
+          "primitives": [
+            {
+              "vertices": 7499,
+              "triangles": 5648,
+              "positionBounds": [
+                [
+                  -3.9705328941345215,
+                  -0.3355545997619629,
+                  -4.7972307205200195
+                ],
+                [
+                  4.385861396789551,
+                  16.10182762145996,
+                  3.616036891937256
+                ]
+              ],
+              "uvBounds": [
+                null,
+                null
+              ],
+              "material": "Bark_DeadTree"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "pack": "Ultimate",
+      "name": "BirchTree_Bark.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 16,
+      "pngColorType": 6
+    },
+    {
+      "pack": "Ultimate",
+      "name": "BirchTree_Bark_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 16,
+      "pngColorType": 6
+    },
+    {
+      "pack": "Ultimate",
+      "name": "BirchTree_Leaves.png",
+      "width": 1024,
+      "height": 1024,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "Ultimate",
+      "name": "MapleTree_Bark.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 16,
+      "pngColorType": 6
+    },
+    {
+      "pack": "Ultimate",
+      "name": "MapleTree_Bark_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 16,
+      "pngColorType": 6
+    },
+    {
+      "pack": "Ultimate",
+      "name": "MapleTree_Leaves.png",
+      "width": 1024,
+      "height": 1024,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "Ultimate",
+      "name": "PalmTree_Leaves.png",
+      "width": 1024,
+      "height": 1024,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "Ultimate",
+      "name": "PalmTree_Trunk.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 16,
+      "pngColorType": 6
+    },
+    {
+      "pack": "Ultimate",
+      "name": "PalmTree_Trunk_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 16,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Bark_DeadTree.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Bark_DeadTree_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Bark_NormalTree.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Bark_NormalTree_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Bark_TwistedTree.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Bark_TwistedTree_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Flowers.png",
+      "width": 1008,
+      "height": 981,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Grass.png",
+      "width": 512,
+      "height": 512,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Leaf_Pine.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Leaf_Pine_C.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Leaves.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Leaves_GiantPine_C.png",
+      "width": 1024,
+      "height": 1024,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Leaves_NormalTree.png",
+      "width": 1024,
+      "height": 1024,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Leaves_NormalTree_C.png",
+      "width": 1024,
+      "height": 1024,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Leaves_TwistedTree.png",
+      "width": 1024,
+      "height": 1024,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Leaves_TwistedTree_C.png",
+      "width": 1024,
+      "height": 1024,
+      "pngBitDepth": 8,
+      "pngColorType": 6
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Mushrooms.png",
+      "width": 1024,
+      "height": 1024,
+      "pngBitDepth": 8,
+      "pngColorType": 2
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/PathRocks_Diffuse.png",
+      "width": 1024,
+      "height": 1024,
+      "pngBitDepth": 8,
+      "pngColorType": 2
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Rocks_Desert_Diffuse.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 8,
+      "pngColorType": 2
+    },
+    {
+      "pack": "MegaKit",
+      "name": "Textures/Rocks_Diffuse.png",
+      "width": 2048,
+      "height": 2048,
+      "pngBitDepth": 8,
+      "pngColorType": 2
+    }
+  ],
+  "sourceHashesUnchanged": true,
+  "sha256": {
+    "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\BirchTree_1.fbx": "d2d173e72b57b06663961bfabf7f2e1642219630d9aeb32bea891fdd16577c32",
+    "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\BirchTree_2.fbx": "c1d61256ad558f137039afe632067264c0bfd418e6ac4839a9a6b210af234028",
+    "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\MapleTree_1.fbx": "97847e5111e27e2c87016c9e94e58e19e4907ab344abb27281f7f8249f3aef5e",
+    "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\MapleTree_2.fbx": "21cb3f681b28879bcdd203dcebf9b6d8e34f1465eebf4477ba6cb2a717edc491",
+    "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\PalmTree_1.fbx": "a9acb20e27c32548dd7239d4103f99d366ae94623e171ca298267ef4e7bef3e0",
+    "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\PalmTree_2.fbx": "0aa0455e7af8a66b779d46d9748a97e7416fda849a5c14506d9437abf9769f9f",
+    "Tools\\WorldDev\\SourceDownloads\\Quaternius_UltimateStylizedNature_Selection\\PalmTree_3.fbx": "b32ed09e1de43400daa9eecdbfed027510d3d85d38cda86a1c658174efe9776c",
+    "Tools\\WorldDev\\SourceDownloads\\Quaternius_MegaKit_Standard\\Stylized Nature MegaKit[Standard].zip": "298f6732b872e4cf7b30e6e7abf9641c7f6dc6b326df37ac089533ed7e3d58c9"
+  }
+}

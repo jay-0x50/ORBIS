@@ -1,0 +1,8 @@
+{
+  "name": "Orbis.M4.IslandPlayModeTests",
+  "references": [
+    "Orbis.M0.Runtime", "Orbis.M1.Runtime", "Orbis.M2.Runtime", "Orbis.M3.Runtime",
+    "Orbis.M4.Runtime", "Orbis.M16.Core", "Orbis.M16.Runtime", "Unity.InputSystem", "Unity.Cinemachine"
+  ],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

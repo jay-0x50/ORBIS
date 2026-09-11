@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-11 09:03:14Z" end-time="2026-09-11 09:03:22Z" duration="7.9060747">
+  <test-suite type="TestSuite" id="1137" name="Orbis M0" fullname="Orbis M0" runstate="Runnable" testcasecount="68" result="Passed" start-time="2026-09-11 09:03:14Z" end-time="2026-09-11 09:03:22Z" duration="7.906075" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1033" name="Orbis.Game.PlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.Game.PlayModeTests.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 09:03:14Z" end-time="2026-09-11 09:03:22Z" duration="7.886481" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="37920" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1034" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 09:03:14Z" end-time="2026-09-11 09:03:22Z" duration="7.882852" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1035" name="Game" fullname="Orbis.Game" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 09:03:14Z" end-time="2026-09-11 09:03:22Z" duration="7.881935" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1036" name="Tests" fullname="Orbis.Game.Tests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 09:03:14Z" end-time="2026-09-11 09:03:22Z" duration="7.881317" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1027" name="WorldLandmarkTests" fullname="Orbis.Game.Tests.WorldLandmarkTests" classname="Orbis.Game.Tests.WorldLandmarkTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-11 09:03:14Z" end-time="2026-09-11 09:03:18Z" duration="4.025579" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1028" name="SavedLandmarksPreserveRelocatedContentGroundAndAnimatedRotors" fullname="Orbis.Game.Tests.WorldLandmarkTests.SavedLandmarksPreserveRelocatedContentGroundAndAnimatedRotors" methodname="SavedLandmarksPreserveRelocatedContentGroundAndAnimatedRotors" classname="Orbis.Game.Tests.WorldLandmarkTests" runstate="Runnable" seed="1420978337" result="Passed" start-time="2026-09-11 09:03:14Z" end-time="2026-09-11 09:03:18Z" duration="4.013358" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1031" name="WorldVisualTests" fullname="Orbis.Game.Tests.WorldVisualTests" classname="Orbis.Game.Tests.WorldVisualTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-11 09:03:18Z" end-time="2026-09-11 09:03:22Z" duration="3.853756" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1032" name="ContinuousWorldPreservesCoreAndCanBeInspectedAtFixedViews" fullname="Orbis.Game.Tests.WorldVisualTests.ContinuousWorldPreservesCoreAndCanBeInspectedAtFixedViews" methodname="ContinuousWorldPreservesCoreAndCanBeInspectedAtFixedViews" classname="Orbis.Game.Tests.WorldVisualTests" runstate="Runnable" seed="331770722" result="Passed" start-time="2026-09-11 09:03:18Z" end-time="2026-09-11 09:03:22Z" duration="3.852330" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Mirim/AppData/LocalLow/Orbis/Orbis M0\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

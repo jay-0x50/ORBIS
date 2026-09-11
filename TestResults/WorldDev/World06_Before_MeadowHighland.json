@@ -1,0 +1,22 @@
+{
+  "stage": "World05_After",
+  "view": "MeadowHighland",
+  "camera": {
+    "x": -265.0,
+    "y": 86.15572357177734,
+    "z": -350.0
+  },
+  "focus": {
+    "x": -415.0,
+    "y": 95.0,
+    "z": -500.0
+  },
+  "fov": 58.0,
+  "monochrome": false,
+  "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+  "vram": 3930,
+  "note": "Actual Unity URP render; fixed world camera recipe. Not a performance benchmark.",
+  "aliasNote": "STEP 6 Before is a byte-identical copy of the final STEP 5 clear-weather capture, not a new render.",
+  "sourceCapture": "World05_After_MeadowHighland.png",
+  "sha256": "43117c58075b0a15079e67d419a0c61a292af1d792edcbb74595a5cb10bf6158"
+}

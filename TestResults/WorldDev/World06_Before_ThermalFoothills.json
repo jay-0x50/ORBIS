@@ -1,0 +1,22 @@
+{
+  "stage": "World05_After",
+  "view": "ThermalFoothills",
+  "camera": {
+    "x": -230.0,
+    "y": 65.0,
+    "z": 115.0
+  },
+  "focus": {
+    "x": -470.0,
+    "y": 100.0,
+    "z": 350.0
+  },
+  "fov": 58.0,
+  "monochrome": false,
+  "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+  "vram": 3930,
+  "note": "Actual Unity URP render; fixed world camera recipe. Not a performance benchmark.",
+  "aliasNote": "STEP 6 Before is a byte-identical copy of the final STEP 5 clear-weather capture, not a new render.",
+  "sourceCapture": "World05_After_ThermalFoothills.png",
+  "sha256": "3e7ade999e7e58f13a8b92bfb2008f41327679e76edb5e6b0b9e56a89ada0aae"
+}

@@ -1,0 +1,172 @@
+# M3 변경·생성 파일 목록
+
+소스·자산·설정·문서 총 **138개**: 기존 수정 10개, 신규 128개. Unity 자산·폴더 메타데이터도 포함한다. 삭제 파일은 없다.
+
+## 기존 파일 수정
+
+- Assets/Orbis/M0/Runtime/Input/M0Input.cs
+- Assets/Orbis/M1/Runtime/Elements/ElementalActor.cs
+- Assets/Orbis/M1/Runtime/Elements/ElementalReactionManager.cs
+- Assets/Orbis/M1/Runtime/Elements/ElementTypes.cs
+- Assets/Orbis/M1/Runtime/Presentation/M1SceneBootstrap.cs
+- Packages/manifest.json
+- Packages/packages-lock.json
+- ProjectSettings/EditorBuildSettings.asset
+- ProjectSettings/VFXManager.asset
+- README.md
+
+## 신규 파일
+
+- Assets/Orbis/M3.meta
+- Assets/Orbis/M3/Editor.meta
+- Assets/Orbis/M3/Editor/M3ProjectSetup.cs
+- Assets/Orbis/M3/Editor/M3ProjectSetup.cs.meta
+- Assets/Orbis/M3/Editor/M3ShaderBuilder.cs
+- Assets/Orbis/M3/Editor/M3ShaderBuilder.cs.meta
+- Assets/Orbis/M3/Editor/M3TimelineBuilder.cs
+- Assets/Orbis/M3/Editor/M3TimelineBuilder.cs.meta
+- Assets/Orbis/M3/Editor/M3VfxBuilder.cs
+- Assets/Orbis/M3/Editor/M3VfxBuilder.cs.meta
+- Assets/Orbis/M3/Editor/Orbis.M3.Editor.asmdef
+- Assets/Orbis/M3/Editor/Orbis.M3.Editor.asmdef.meta
+- Assets/Orbis/M3/Editor/ShaderGenerateGraphs.py
+- Assets/Orbis/M3/Editor/ShaderGenerateGraphs.py.meta
+- Assets/Orbis/M3/Resources.meta
+- Assets/Orbis/M3/Resources/M3.meta
+- Assets/Orbis/M3/Resources/M3/Audio.meta
+- Assets/Orbis/M3/Resources/M3/Audio/ElementImpact.wav
+- Assets/Orbis/M3/Resources/M3/Audio/ElementImpact.wav.meta
+- Assets/Orbis/M3/Resources/M3/Effects.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Burst.vfx
+- Assets/Orbis/M3/Resources/M3/Effects/Burst.vfx.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Crystal.png
+- Assets/Orbis/M3/Resources/M3/Effects/Crystal.png.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Crystallize.vfx
+- Assets/Orbis/M3/Resources/M3/Effects/Crystallize.vfx.meta
+- Assets/Orbis/M3/Resources/M3/Effects/ElectroCharged.vfx
+- Assets/Orbis/M3/Resources/M3/Effects/ElectroCharged.vfx.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Impact.vfx
+- Assets/Orbis/M3/Resources/M3/Effects/Impact.vfx.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Overload.vfx
+- Assets/Orbis/M3/Resources/M3/Effects/Overload.vfx.meta
+- Assets/Orbis/M3/Resources/M3/Effects/PROVENANCE.md
+- Assets/Orbis/M3/Resources/M3/Effects/PROVENANCE.md.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Residue.vfx
+- Assets/Orbis/M3/Resources/M3/Effects/Residue.vfx.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Ring.png
+- Assets/Orbis/M3/Resources/M3/Effects/Ring.png.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Soft.png
+- Assets/Orbis/M3/Resources/M3/Effects/Soft.png.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Spark.png
+- Assets/Orbis/M3/Resources/M3/Effects/Spark.png.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Star.png
+- Assets/Orbis/M3/Resources/M3/Effects/Star.png.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Swirl.vfx
+- Assets/Orbis/M3/Resources/M3/Effects/Swirl.vfx.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Unity_VFX_LICENSE.txt
+- Assets/Orbis/M3/Resources/M3/Effects/Unity_VFX_LICENSE.txt.meta
+- Assets/Orbis/M3/Resources/M3/Effects/Vaporize.vfx
+- Assets/Orbis/M3/Resources/M3/Effects/Vaporize.vfx.meta
+- Assets/Orbis/M3/Resources/M3/Materials.meta
+- Assets/Orbis/M3/Resources/M3/Materials/CrystalShield.mat
+- Assets/Orbis/M3/Resources/M3/Materials/CrystalShield.mat.meta
+- Assets/Orbis/M3/Resources/M3/Materials/Dissolve.mat
+- Assets/Orbis/M3/Resources/M3/Materials/Dissolve.mat.meta
+- Assets/Orbis/M3/Resources/M3/Materials/Outline.mat
+- Assets/Orbis/M3/Resources/M3/Materials/Outline.mat.meta
+- Assets/Orbis/M3/Resources/M3/Materials/SwirlRing.mat
+- Assets/Orbis/M3/Resources/M3/Materials/SwirlRing.mat.meta
+- Assets/Orbis/M3/Resources/M3/Materials/WeaponTrail.mat
+- Assets/Orbis/M3/Resources/M3/Materials/WeaponTrail.mat.meta
+- Assets/Orbis/M3/Resources/M3/Shaders.meta
+- Assets/Orbis/M3/Resources/M3/Shaders/CrystalShield.shadergraph
+- Assets/Orbis/M3/Resources/M3/Shaders/CrystalShield.shadergraph.meta
+- Assets/Orbis/M3/Resources/M3/Shaders/Dissolve.shadergraph
+- Assets/Orbis/M3/Resources/M3/Shaders/Dissolve.shadergraph.meta
+- Assets/Orbis/M3/Resources/M3/Shaders/Outline.shadergraph
+- Assets/Orbis/M3/Resources/M3/Shaders/Outline.shadergraph.meta
+- Assets/Orbis/M3/Resources/M3/Shaders/SwirlRing.shadergraph
+- Assets/Orbis/M3/Resources/M3/Shaders/SwirlRing.shadergraph.meta
+- Assets/Orbis/M3/Resources/M3/Shaders/WeaponTrail.shadergraph
+- Assets/Orbis/M3/Resources/M3/Shaders/WeaponTrail.shadergraph.meta
+- Assets/Orbis/M3/Resources/M3/Timeline.meta
+- Assets/Orbis/M3/Resources/M3/Timeline/CloseUp.signal
+- Assets/Orbis/M3/Resources/M3/Timeline/CloseUp.signal.meta
+- Assets/Orbis/M3/Resources/M3/Timeline/ElementBurst.signal
+- Assets/Orbis/M3/Resources/M3/Timeline/ElementBurst.signal.meta
+- Assets/Orbis/M3/Resources/M3/Timeline/RestoreAndResidue.signal
+- Assets/Orbis/M3/Resources/M3/Timeline/RestoreAndResidue.signal.meta
+- Assets/Orbis/M3/Resources/M3/Timeline/SlowMotion.signal
+- Assets/Orbis/M3/Resources/M3/Timeline/SlowMotion.signal.meta
+- Assets/Orbis/M3/Resources/M3/Timeline/SoundImpact.signal
+- Assets/Orbis/M3/Resources/M3/Timeline/SoundImpact.signal.meta
+- Assets/Orbis/M3/Resources/M3/Timeline/Ultimate.playable
+- Assets/Orbis/M3/Resources/M3/Timeline/Ultimate.playable.meta
+- Assets/Orbis/M3/Runtime.meta
+- Assets/Orbis/M3/Runtime/Cinematics.meta
+- Assets/Orbis/M3/Runtime/Cinematics/M3UltimateDirector.cs
+- Assets/Orbis/M3/Runtime/Cinematics/M3UltimateDirector.cs.meta
+- Assets/Orbis/M3/Runtime/Effects.meta
+- Assets/Orbis/M3/Runtime/Effects/M3MeshEffects.cs
+- Assets/Orbis/M3/Runtime/Effects/M3MeshEffects.cs.meta
+- Assets/Orbis/M3/Runtime/Effects/M3Palette.cs
+- Assets/Orbis/M3/Runtime/Effects/M3Palette.cs.meta
+- Assets/Orbis/M3/Runtime/Effects/M3VfxPool.cs
+- Assets/Orbis/M3/Runtime/Effects/M3VfxPool.cs.meta
+- Assets/Orbis/M3/Runtime/Feedback.meta
+- Assets/Orbis/M3/Runtime/Feedback/M3Feedback.cs
+- Assets/Orbis/M3/Runtime/Feedback/M3Feedback.cs.meta
+- Assets/Orbis/M3/Runtime/Orbis.M3.Runtime.asmdef
+- Assets/Orbis/M3/Runtime/Orbis.M3.Runtime.asmdef.meta
+- Assets/Orbis/M3/Runtime/Presentation.meta
+- Assets/Orbis/M3/Runtime/Presentation/M3Presentation.cs
+- Assets/Orbis/M3/Runtime/Presentation/M3Presentation.cs.meta
+- Assets/Orbis/M3/Runtime/Presentation/M3SceneBootstrap.cs
+- Assets/Orbis/M3/Runtime/Presentation/M3SceneBootstrap.cs.meta
+- Assets/Orbis/M3/Scenes.meta
+- Assets/Orbis/M3/Scenes/M3_CrystallizeEffects.unity
+- Assets/Orbis/M3/Scenes/M3_CrystallizeEffects.unity.meta
+- Assets/Orbis/M3/Scenes/M3_EffectsPrototype.unity
+- Assets/Orbis/M3/Scenes/M3_EffectsPrototype.unity.meta
+- Assets/Orbis/M3/Scenes/M3_ExplorationEffects.unity
+- Assets/Orbis/M3/Scenes/M3_ExplorationEffects.unity.meta
+- Assets/Orbis/M3/Tests.meta
+- Assets/Orbis/M3/Tests/EditMode.meta
+- Assets/Orbis/M3/Tests/EditMode/M3FeedbackTests.cs
+- Assets/Orbis/M3/Tests/EditMode/M3FeedbackTests.cs.meta
+- Assets/Orbis/M3/Tests/EditMode/Orbis.M3.EditModeTests.asmdef
+- Assets/Orbis/M3/Tests/EditMode/Orbis.M3.EditModeTests.asmdef.meta
+- Assets/Orbis/M3/Tests/PlayMode.meta
+- Assets/Orbis/M3/Tests/PlayMode/M3IntegrationTests.cs
+- Assets/Orbis/M3/Tests/PlayMode/M3IntegrationTests.cs.meta
+- Assets/Orbis/M3/Tests/PlayMode/Orbis.M3.PlayModeTests.asmdef
+- Assets/Orbis/M3/Tests/PlayMode/Orbis.M3.PlayModeTests.asmdef.meta
+- Docs/M3_구현_테스트.md
+- Docs/M3_Art_Assets.md
+- Docs/M3_FILES.md
+- Tools/Test-M3.ps1
+
+## 검증 산출물
+
+검증 증거도 함께 전달한다. TestResults는 기존 .gitignore에 따라 Git 추적 대상에서 제외된다.
+
+- TestResults/M3_Burst.png
+- TestResults/M3_Chain.png
+- TestResults/M3_Crystallize.png
+- TestResults/M3_ElectroCharged.png
+- TestResults/M3_Impact.png
+- TestResults/M3_Overload.png
+- TestResults/M3_Residue.png
+- TestResults/M3_Shield.png
+- TestResults/M3_Swirl.png
+- TestResults/M3_Trail_Afterimage.png
+- TestResults/M3_Ultimate_Burst.png
+- TestResults/M3_Ultimate_CloseUp.png
+- TestResults/M3_Vaporize.png
+- TestResults/M3-EditMode.log
+- TestResults/M3-EditMode.xml
+- TestResults/M3-PlayMode.log
+- TestResults/M3-PlayMode.xml
+- TestResults/M3-setup.log
+
+기획서 01~05와 이전 테스트·씬·이동·전투 수치는 유지했다. M0에는 연출 입력 잠금, M1에는 표시 이벤트/표시 선택지만 연결했다. 패키지·VFX 프로젝트 설정·새 씬 Build Settings를 추가했다.

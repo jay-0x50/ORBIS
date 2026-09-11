@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="71" result="Passed" total="71" passed="71" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-11 10:32:05Z" end-time="2026-09-11 10:33:45Z" duration="99.7790608">
+  <test-suite type="TestSuite" id="1143" name="Orbis M0" fullname="Orbis M0" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-09-11 10:32:05Z" end-time="2026-09-11 10:33:45Z" duration="99.779061" total="71" passed="71" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1008" name="Orbis.Art.PlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.Art.PlayModeTests.dll" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-09-11 10:32:05Z" end-time="2026-09-11 10:32:23Z" duration="17.801579" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1009" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-09-11 10:32:05Z" end-time="2026-09-11 10:32:23Z" duration="17.801016" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1010" name="Art" fullname="Orbis.Art" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-09-11 10:32:05Z" end-time="2026-09-11 10:32:23Z" duration="17.800739" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1011" name="Tests" fullname="Orbis.Art.Tests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-09-11 10:32:05Z" end-time="2026-09-11 10:32:23Z" duration="17.800359" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="ArtIntegrationTests" fullname="Orbis.Art.Tests.ArtIntegrationTests" classname="Orbis.Art.Tests.ArtIntegrationTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-09-11 10:32:05Z" end-time="2026-09-11 10:32:23Z" duration="17.799052" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1007" name="AllWorldsUseImportedMeshesAndIconsAndRetainObjectiveColliders" fullname="Orbis.Art.Tests.ArtIntegrationTests.AllWorldsUseImportedMeshesAndIconsAndRetainObjectiveColliders" methodname="AllWorldsUseImportedMeshesAndIconsAndRetainObjectiveColliders" classname="Orbis.Art.Tests.ArtIntegrationTests" runstate="Runnable" seed="1698665690" result="Passed" start-time="2026-09-11 10:32:05Z" end-time="2026-09-11 10:32:09Z" duration="3.773959" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="DisabledPresentationAndReenabledRosterFollowTheCurrentPartyMember" fullname="Orbis.Art.Tests.ArtIntegrationTests.DisabledPresentationAndReenabledRosterFollowTheCurrentPartyMember" methodname="DisabledPresentationAndReenabledRosterFollowTheCurrentPartyMember" classname="Orbis.Art.Tests.ArtIntegrationTests" runstate="Runnable" seed="1078335340" result="Passed" start-time="2026-09-11 10:32:09Z" end-time="2026-09-11 10:32:10Z" duration="0.912267" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="FiveCharactersRetargetRealMotionAndSwitchWithoutGrowingEffectPools" fullname="Orbis.Art.Tests.ArtIntegrationTests.FiveCharactersRetargetRealMotionAndSwitchWithoutGrowingEffectPools" methodname="FiveCharactersRetargetRealMotionAndSwitchWithoutGrowingEffectPools" classname="Orbis.Art.Tests.ArtIntegrationTests" runstate="Runnable" seed="1082845803" result="Passed" start-time="2026-09-11 10:32:10Z" end-time="2026-09-11 10:32:19Z" duration="9.255757" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="ImportedGliderFollowsItsVisibilityParentAndPlayerTeleport" fullname="Orbis.Art.Tests.ArtIntegrationTests.ImportedGliderFollowsItsVisibilityParentAndPlayerTeleport" methodname="ImportedGliderFollowsItsVisibilityParentAndPlayerTeleport" classname="Orbis.Art.Tests.ArtIntegrationTests" runstate="Runnable" seed="865865483" result="Passed" start-time="2026-09-11 10:32:19Z" end-time="2026-09-11 10:32:20Z" duration="0.557492" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="ReenabledPresentationCapturesTheOutgoingAvatarBeforeSwapping" fullname="Orbis.Art.Tests.ArtIntegrationTests.ReenabledPresentationCapturesTheOutgoingAvatarBeforeSwapping" methodname="ReenabledPresentationCapturesTheOutgoingAvatarBeforeSwapping" classname="Orbis.Art.Tests.ArtIntegrationTests" runstate="Runnable" seed="2040564439" result="Passed" start-time="2026-09-11 10:32:20Z" end-time="2026-09-11 10:32:21Z" duration="0.561676" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="SkinnedAfterimageKeepsPoseAndUltimateOutlineUsesTheRealMesh" fullname="Orbis.Art.Tests.ArtIntegrationTests.SkinnedAfterimageKeepsPoseAndUltimateOutlineUsesTheRealMesh" methodname="SkinnedAfterimageKeepsPoseAndUltimateOutlineUsesTheRealMesh" classname="Orbis.Art.Tests.ArtIntegrationTests" runstate="Runnable" seed="1561867312" result="Passed" start-time="2026-09-11 10:32:21Z" end-time="2026-09-11 10:32:23Z" duration="2.724974" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1015" name="Orbis.Game.ExplorerArtPlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.Game.ExplorerArtPlayModeTests.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 10:32:23Z" end-time="2026-09-11 10:32:34Z" duration="11.113787" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1016" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 10:32:23Z" end-time="2026-09-11 10:32:34Z" duration="11.113435" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1017" name="Game" fullname="Orbis.Game" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 10:32:23Z" end-time="2026-09-11 10:32:34Z" duration="11.113190" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1018" name="Tests" fullname="Orbis.Game.Tests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 10:32:23Z" end-time="2026-09-11 10:32:34Z" duration="11.112948" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1012" name="ExplorerArtTests" fullname="Orbis.Game.Tests.ExplorerArtTests" classname="Orbis.Game.Tests.ExplorerArtTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 10:32:23Z" end-time="2026-09-11 10:32:34Z" duration="11.112681" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1014" name="PolarisUsesHisOwnHumanoidAndKeepsItThroughWalkingAndElementChanges" fullname="Orbis.Game.Tests.ExplorerArtTests.PolarisUsesHisOwnHumanoidAndKeepsItThroughWalkingAndElementChanges" methodname="PolarisUsesHisOwnHumanoidAndKeepsItThroughWalkingAndElementChanges" classname="Orbis.Game.Tests.ExplorerArtTests" runstate="Runnable" seed="473584798" result="Passed" start-time="2026-09-11 10:32:23Z" end-time="2026-09-11 10:32:29Z" duration="5.789631" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[ORBIS_FACE_CAPTURE Island_Polaris_Unity MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Face_Polaris_Front MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Face_Polaris_ThreeQuarter MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Face_Polaris_Profile MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Polaris_Front MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Polaris_ThreeQuarter MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Polaris_Profile MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Polaris_Back MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Polaris_Walk MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Polaris_Attack MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+]]></output>
+              </test-case>
+              <test-case id="1013" name="StellaUsesHerOwnHumanoidAndKeepsItThroughWalkingAndElementChanges" fullname="Orbis.Game.Tests.ExplorerArtTests.StellaUsesHerOwnHumanoidAndKeepsItThroughWalkingAndElementChanges" methodname="StellaUsesHerOwnHumanoidAndKeepsItThroughWalkingAndElementChanges" classname="Orbis.Game.Tests.ExplorerArtTests" runstate="Runnable" seed="1053253833" result="Passed" start-time="2026-09-11 10:32:29Z" end-time="2026-09-11 10:32:34Z" duration="5.321504" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[ORBIS_FACE_CAPTURE Island_Stella_Unity MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Face_Stella_Front MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Face_Stella_ThreeQuarter MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Face_Stella_Profile MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Stella_Front MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Stella_ThreeQuarter MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Stella_Profile MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Stella_Back MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Stella_Walk MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+ORBIS_FACE_CAPTURE Anatomy_Stella_Attack MSAA=4 CameraPostAA=None sRGB=True Format=R8G8B8A8_SRGB
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1039" name="Orbis.Game.PlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.Game.PlayModeTests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-11 10:32:34Z" end-time="2026-09-11 10:32:56Z" duration="21.749930" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1040" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-11 10:32:34Z" end-time="2026-09-11 10:32:56Z" duration="21.736419" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1041" name="Game" fullname="Orbis.Game" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-11 10:32:34Z" end-time="2026-09-11 10:32:56Z" duration="21.724346" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1042" name="Tests" fullname="Orbis.Game.Tests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-11 10:32:34Z" end-time="2026-09-11 10:32:56Z" duration="21.712617" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1019" name="AuthoredGameSceneTests" fullname="Orbis.Game.Tests.AuthoredGameSceneTests" classname="Orbis.Game.Tests.AuthoredGameSceneTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-11 10:32:34Z" end-time="2026-09-11 10:32:36Z" duration="1.490265" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1024" name="BoundPuzzleChallengeAndGuardianUseTheExistingReactionAndInteractionLogic" fullname="Orbis.Game.Tests.AuthoredGameSceneTests.BoundPuzzleChallengeAndGuardianUseTheExistingReactionAndInteractionLogic" methodname="BoundPuzzleChallengeAndGuardianUseTheExistingReactionAndInteractionLogic" classname="Orbis.Game.Tests.AuthoredGameSceneTests" runstate="Runnable" seed="1140553705" result="Passed" start-time="2026-09-11 10:32:34Z" end-time="2026-09-11 10:32:35Z" duration="0.314458" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Vaporize on Challenge Target 1 (Fire + Water)
+[M1] Vaporize on Challenge Target 2 (Fire + Water)
+[M1] Vaporize on Challenge Target 3 (Fire + Water)
+]]></output>
+              </test-case>
+              <test-case id="1023" name="PreInitializationGeometryAndColliderEditsRemainAndDriveClimbingAndSwimming" fullname="Orbis.Game.Tests.AuthoredGameSceneTests.PreInitializationGeometryAndColliderEditsRemainAndDriveClimbingAndSwimming" methodname="PreInitializationGeometryAndColliderEditsRemainAndDriveClimbingAndSwimming" classname="Orbis.Game.Tests.AuthoredGameSceneTests" runstate="Runnable" seed="168452223" result="Passed" start-time="2026-09-11 10:32:35Z" end-time="2026-09-11 10:32:35Z" duration="0.271845" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1022" name="RegionalRoundTripReturnsToAuthoredAgniaWithHealthAndCompanionIdentityPreserved" fullname="Orbis.Game.Tests.AuthoredGameSceneTests.RegionalRoundTripReturnsToAuthoredAgniaWithHealthAndCompanionIdentityPreserved" methodname="RegionalRoundTripReturnsToAuthoredAgniaWithHealthAndCompanionIdentityPreserved" classname="Orbis.Game.Tests.AuthoredGameSceneTests" runstate="Runnable" seed="366427197" result="Passed" start-time="2026-09-11 10:32:35Z" end-time="2026-09-11 10:32:35Z" duration="0.406929" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1021" name="SavedPolarisStartsDirectlyWithItsPersistedElementAndOnePermanentSlot" fullname="Orbis.Game.Tests.AuthoredGameSceneTests.SavedPolarisStartsDirectlyWithItsPersistedElementAndOnePermanentSlot" methodname="SavedPolarisStartsDirectlyWithItsPersistedElementAndOnePermanentSlot" classname="Orbis.Game.Tests.AuthoredGameSceneTests" runstate="Runnable" seed="1669329055" result="Passed" start-time="2026-09-11 10:32:35Z" end-time="2026-09-11 10:32:36Z" duration="0.164958" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1020" name="UnselectedWorldKeepsAuthoredInstancesAndStartsInTheSameSceneOnlyAfterConfirmation" fullname="Orbis.Game.Tests.AuthoredGameSceneTests.UnselectedWorldKeepsAuthoredInstancesAndStartsInTheSameSceneOnlyAfterConfirmation" methodname="UnselectedWorldKeepsAuthoredInstancesAndStartsInTheSameSceneOnlyAfterConfirmation" classname="Orbis.Game.Tests.AuthoredGameSceneTests" runstate="Runnable" seed="35987863" result="Passed" start-time="2026-09-11 10:32:36Z" end-time="2026-09-11 10:32:36Z" duration="0.329826" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1025" name="IslandLandscapeTests" fullname="Orbis.Game.Tests.IslandLandscapeTests" classname="Orbis.Game.Tests.IslandLandscapeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-11 10:32:36Z" end-time="2026-09-11 10:32:39Z" duration="3.213400" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1026" name="SavedIslandHasContinuousCollisionAtAllFiveSitesAndSelectionStartsOnTheSameTerrain" fullname="Orbis.Game.Tests.IslandLandscapeTests.SavedIslandHasContinuousCollisionAtAllFiveSitesAndSelectionStartsOnTheSameTerrain" methodname="SavedIslandHasContinuousCollisionAtAllFiveSitesAndSelectionStartsOnTheSameTerrain" classname="Orbis.Game.Tests.IslandLandscapeTests" runstate="Runnable" seed="1812411911" result="Passed" start-time="2026-09-11 10:32:36Z" end-time="2026-09-11 10:32:39Z" duration="3.212198" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1027" name="WorldLandmarkTests" fullname="Orbis.Game.Tests.WorldLandmarkTests" classname="Orbis.Game.Tests.WorldLandmarkTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-11 10:32:39Z" end-time="2026-09-11 10:32:41Z" duration="2.324498" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1028" name="SavedLandmarksPreserveRelocatedContentGroundAndAnimatedRotors" fullname="Orbis.Game.Tests.WorldLandmarkTests.SavedLandmarksPreserveRelocatedContentGroundAndAnimatedRotors" methodname="SavedLandmarksPreserveRelocatedContentGroundAndAnimatedRotors" classname="Orbis.Game.Tests.WorldLandmarkTests" runstate="Runnable" seed="166571818" result="Passed" start-time="2026-09-11 10:32:39Z" end-time="2026-09-11 10:32:41Z" duration="2.308533" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1029" name="WorldLandmarkVisibilityTests" fullname="Orbis.Game.Tests.WorldLandmarkVisibilityTests" classname="Orbis.Game.Tests.WorldLandmarkVisibilityTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-11 10:32:41Z" end-time="2026-09-11 10:32:44Z" duration="2.327305" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1030" name="ReportActualRouteSightlinesAndUnseenIntervalsWithoutAssumingEveryLandmarkIsVisible" fullname="Orbis.Game.Tests.WorldLandmarkVisibilityTests.ReportActualRouteSightlinesAndUnseenIntervalsWithoutAssumingEveryLandmarkIsVisible" methodname="ReportActualRouteSightlinesAndUnseenIntervalsWithoutAssumingEveryLandmarkIsVisible" classname="Orbis.Game.Tests.WorldLandmarkVisibilityTests" runstate="Runnable" seed="9840957" result="Passed" start-time="2026-09-11 10:32:41Z" end-time="2026-09-11 10:32:44Z" duration="2.325938" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[ORBIS_ROUTE_VISIBILITY Forward: forward sampled coverage=93.8 %, max sampled gap=240.0m; solid geometry only.
+ORBIS_ROUTE_VISIBILITY Reverse: forward sampled coverage=93.8 %, max sampled gap=160.0m; solid geometry only.
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1031" name="WorldStyleTests" fullname="Orbis.Game.Tests.WorldStyleTests" classname="Orbis.Game.Tests.WorldStyleTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-11 10:32:44Z" end-time="2026-09-11 10:32:47Z" duration="2.797270" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1032" name="WorldGradeRetainsReadableMaterialsContinuousAmbientAndBurstPriority" fullname="Orbis.Game.Tests.WorldStyleTests.WorldGradeRetainsReadableMaterialsContinuousAmbientAndBurstPriority" methodname="WorldGradeRetainsReadableMaterialsContinuousAmbientAndBurstPriority" classname="Orbis.Game.Tests.WorldStyleTests" runstate="Runnable" seed="2035614096" result="Passed" start-time="2026-09-11 10:32:44Z" end-time="2026-09-11 10:32:47Z" duration="2.796062" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1033" name="WorldVegetationVisualTests" fullname="Orbis.Game.Tests.WorldVegetationVisualTests" classname="Orbis.Game.Tests.WorldVegetationVisualTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-11 10:32:47Z" end-time="2026-09-11 10:32:49Z" duration="2.247930" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1034" name="AuthoredVegetationUsesWindZoneAndTheControlledExplorer" fullname="Orbis.Game.Tests.WorldVegetationVisualTests.AuthoredVegetationUsesWindZoneAndTheControlledExplorer" methodname="AuthoredVegetationUsesWindZoneAndTheControlledExplorer" classname="Orbis.Game.Tests.WorldVegetationVisualTests" runstate="Runnable" seed="1318922770" result="Passed" start-time="2026-09-11 10:32:47Z" end-time="2026-09-11 10:32:49Z" duration="2.232923" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1035" name="WorldVisualTests" fullname="Orbis.Game.Tests.WorldVisualTests" classname="Orbis.Game.Tests.WorldVisualTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-11 10:32:49Z" end-time="2026-09-11 10:32:52Z" duration="3.489491" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1036" name="ContinuousWorldPreservesCoreAndCanBeInspectedAtFixedViews" fullname="Orbis.Game.Tests.WorldVisualTests.ContinuousWorldPreservesCoreAndCanBeInspectedAtFixedViews" methodname="ContinuousWorldPreservesCoreAndCanBeInspectedAtFixedViews" classname="Orbis.Game.Tests.WorldVisualTests" runstate="Runnable" seed="1086273638" result="Passed" start-time="2026-09-11 10:32:49Z" end-time="2026-09-11 10:32:52Z" duration="3.475386" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1037" name="WorldWeatherTests" fullname="Orbis.Game.Tests.WorldWeatherTests" classname="Orbis.Game.Tests.WorldWeatherTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-11 10:32:52Z" end-time="2026-09-11 10:32:56Z" duration="3.807358" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1038" name="WeatherBlendsContinuouslyAndSurvivesRealEnvironmentStreamingWithoutChangingTheParty" fullname="Orbis.Game.Tests.WorldWeatherTests.WeatherBlendsContinuouslyAndSurvivesRealEnvironmentStreamingWithoutChangingTheParty" methodname="WeatherBlendsContinuouslyAndSurvivesRealEnvironmentStreamingWithoutChangingTheParty" classname="Orbis.Game.Tests.WorldWeatherTests" runstate="Runnable" seed="133554906" result="Passed" start-time="2026-09-11 10:32:52Z" end-time="2026-09-11 10:32:56Z" duration="3.792051" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1048" name="Orbis.Game.WorldStreamingPlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.Game.WorldStreamingPlayModeTests.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-11 10:32:56Z" end-time="2026-09-11 10:33:00Z" duration="3.651990" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1049" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-11 10:32:56Z" end-time="2026-09-11 10:33:00Z" duration="3.651195" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1050" name="Game" fullname="Orbis.Game" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-11 10:32:56Z" end-time="2026-09-11 10:33:00Z" duration="3.650917" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1051" name="Tests" fullname="Orbis.Game.Tests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-11 10:32:56Z" end-time="2026-09-11 10:33:00Z" duration="3.650617" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1043" name="WorldGrassRenderingTests" fullname="Orbis.Game.Tests.WorldGrassRenderingTests" classname="Orbis.Game.Tests.WorldGrassRenderingTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-11 10:32:56Z" end-time="2026-09-11 10:32:56Z" duration="0.018023" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1044" name="ActualRenderRequestsCullBehindAndFarGrassAndReuseBoundedBatches" fullname="Orbis.Game.Tests.WorldGrassRenderingTests.ActualRenderRequestsCullBehindAndFarGrassAndReuseBoundedBatches" methodname="ActualRenderRequestsCullBehindAndFarGrassAndReuseBoundedBatches" classname="Orbis.Game.Tests.WorldGrassRenderingTests" runstate="Runnable" seed="890397470" result="Passed" start-time="2026-09-11 10:32:56Z" end-time="2026-09-11 10:32:56Z" duration="0.017330" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1045" name="WorldRegionStreamingTests" fullname="Orbis.Game.Tests.WorldRegionStreamingTests" classname="Orbis.Game.Tests.WorldRegionStreamingTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 10:32:56Z" end-time="2026-09-11 10:33:00Z" duration="3.632233" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1047" name="DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests" fullname="Orbis.Game.Tests.WorldRegionStreamingTests.DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests" methodname="DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests" classname="Orbis.Game.Tests.WorldRegionStreamingTests" runstate="Runnable" seed="641492089" result="Passed" start-time="2026-09-11 10:32:56Z" end-time="2026-09-11 10:32:57Z" duration="0.377493" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[WORLD_STREAM_TEST_SETUP DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests
+WORLD_STREAM_TEST_READY DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests
+WORLD_STREAM_TEST_CLEAN DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests
+]]></output>
+              </test-case>
+              <test-case id="1046" name="SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel" fullname="Orbis.Game.Tests.WorldRegionStreamingTests.SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel" methodname="SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel" classname="Orbis.Game.Tests.WorldRegionStreamingTests" runstate="Runnable" seed="83679768" result="Passed" start-time="2026-09-11 10:32:57Z" end-time="2026-09-11 10:33:00Z" duration="3.253575" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[WORLD_STREAM_TEST_SETUP SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel
+WORLD_STREAM_TEST_READY SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel
+WORLD_STREAM_TEST_CLEAN SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1060" name="Orbis.M0.PlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.M0.PlayModeTests.dll" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.250770" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1061" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.250423" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1062" name="M0" fullname="Orbis.M0" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.250181" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1063" name="Tests" fullname="Orbis.M0.Tests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.249925" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1052" name="M0IntegrationTests" fullname="Orbis.M0.Tests.M0IntegrationTests" classname="Orbis.M0.Tests.M0IntegrationTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.249616" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1056" name="AttackLocksTranslationAndJumpButEachNewHitCanTurn" fullname="Orbis.M0.Tests.M0IntegrationTests.AttackLocksTranslationAndJumpButEachNewHitCanTurn" methodname="AttackLocksTranslationAndJumpButEachNewHitCanTurn" classname="Orbis.M0.Tests.M0IntegrationTests" runstate="Runnable" seed="1536761696" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.052702" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1055" name="CameraStickYawChangesTheActualMovementDirection" fullname="Orbis.M0.Tests.M0IntegrationTests.CameraStickYawChangesTheActualMovementDirection" methodname="CameraStickYawChangesTheActualMovementDirection" classname="Orbis.M0.Tests.M0IntegrationTests" runstate="Runnable" seed="1746456070" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.026022" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1058" name="CharacterControllerStopsAtWallsAndCeilings" fullname="Orbis.M0.Tests.M0IntegrationTests.CharacterControllerStopsAtWallsAndCeilings" methodname="CharacterControllerStopsAtWallsAndCeilings" classname="Orbis.M0.Tests.M0IntegrationTests" runstate="Runnable" seed="276278451" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.039447" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1057" name="CinemachineAndUrpAreActiveAndTheCameraAvoidsTheWall" fullname="Orbis.M0.Tests.M0IntegrationTests.CinemachineAndUrpAreActiveAndTheCameraAvoidsTheWall" methodname="CinemachineAndUrpAreActiveAndTheCameraAvoidsTheWall" classname="Orbis.M0.Tests.M0IntegrationTests" runstate="Runnable" seed="1449096652" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.062269" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1054" name="JumpLeavesGroundRejectsAirJumpAndReturnsToIdle" fullname="Orbis.M0.Tests.M0IntegrationTests.JumpLeavesGroundRejectsAirJumpAndReturnsToIdle" methodname="JumpLeavesGroundRejectsAirJumpAndReturnsToIdle" classname="Orbis.M0.Tests.M0IntegrationTests" runstate="Runnable" seed="840666489" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.028325" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1059" name="ReleasingAndRecapturingInputDoesNotStartAnAttack" fullname="Orbis.M0.Tests.M0IntegrationTests.ReleasingAndRecapturingInputDoesNotStartAnAttack" methodname="ReleasingAndRecapturingInputDoesNotStartAnAttack" classname="Orbis.M0.Tests.M0IntegrationTests" runstate="Runnable" seed="1717557833" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.014518" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1053" name="WalkingRunningAndDiagonalInputRespectWorldSpeed" fullname="Orbis.M0.Tests.M0IntegrationTests.WalkingRunningAndDiagonalInputRespectWorldSpeed" methodname="WalkingRunningAndDiagonalInputRespectWorldSpeed" classname="Orbis.M0.Tests.M0IntegrationTests" runstate="Runnable" seed="295340129" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.024754" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1073" name="Orbis.M1.PlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.M1.PlayModeTests.dll" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:01Z" duration="0.470188" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1074" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:01Z" duration="0.469869" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1075" name="M1" fullname="Orbis.M1" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:01Z" duration="0.469630" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1076" name="Tests" fullname="Orbis.M1.Tests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:01Z" duration="0.469379" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1064" name="M1IntegrationTests" fullname="Orbis.M1.Tests.M1IntegrationTests" classname="Orbis.M1.Tests.M1IntegrationTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:01Z" duration="0.469069" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1070" name="BurstHookBlocksSwitchingForOneSecondWithoutAddingNormalCooldown" fullname="Orbis.M1.Tests.M1IntegrationTests.BurstHookBlocksSwitchingForOneSecondWithoutAddingNormalCooldown" methodname="BurstHookBlocksSwitchingForOneSecondWithoutAddingNormalCooldown" classname="Orbis.M1.Tests.M1IntegrationTests" runstate="Runnable" seed="844513769" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.069659" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1072" name="CrystallizeSceneLoadsRockInSlotFourAndItsAttackGrantsAShield" fullname="Orbis.M1.Tests.M1IntegrationTests.CrystallizeSceneLoadsRockInSlotFourAndItsAttackGrantsAShield" methodname="CrystallizeSceneLoadsRockInSlotFourAndItsAttackGrantsAShield" classname="Orbis.M1.Tests.M1IntegrationTests" runstate="Runnable" seed="1936860891" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.075965" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Crystallize on Primary (Fire + Rock)
+]]></output>
+              </test-case>
+              <test-case id="1065" name="NumberKeysSwitchAllFourMembersWithoutReplacingThePawnOrCamera" fullname="Orbis.M1.Tests.M1IntegrationTests.NumberKeysSwitchAllFourMembersWithoutReplacingThePawnOrCamera" methodname="NumberKeysSwitchAllFourMembersWithoutReplacingThePawnOrCamera" classname="Orbis.M1.Tests.M1IntegrationTests" runstate="Runnable" seed="1060022507" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.076566" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1069" name="OffFieldMembersKeepTheirAuraAndShieldWhileTimersContinue" fullname="Orbis.M1.Tests.M1IntegrationTests.OffFieldMembersKeepTheirAuraAndShieldWhileTimersContinue" methodname="OffFieldMembersKeepTheirAuraAndShieldWhileTimersContinue" classname="Orbis.M1.Tests.M1IntegrationTests" runstate="Runnable" seed="1690893816" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.059894" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1068" name="OutgoingAuraIsRetainedForFollowUpButAnExpiredAuraCannotReact" fullname="Orbis.M1.Tests.M1IntegrationTests.OutgoingAuraIsRetainedForFollowUpButAnExpiredAuraCannotReact" methodname="OutgoingAuraIsRetainedForFollowUpButAnExpiredAuraCannotReact" classname="Orbis.M1.Tests.M1IntegrationTests" runstate="Runnable" seed="1604411642" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.057570" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Vaporize on Primary (Fire + Water)
+]]></output>
+              </test-case>
+              <test-case id="1066" name="ReleasedInputIgnoresPartyKeysAndRecaptureDoesNotAttack" fullname="Orbis.M1.Tests.M1IntegrationTests.ReleasedInputIgnoresPartyKeysAndRecaptureDoesNotAttack" methodname="ReleasedInputIgnoresPartyKeysAndRecaptureDoesNotAttack" classname="Orbis.M1.Tests.M1IntegrationTests" runstate="Runnable" seed="1784559718" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.033913" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1067" name="SwitchingCancelsTheOldComboAndTheNextHitUsesTheNewMemberElement" fullname="Orbis.M1.Tests.M1IntegrationTests.SwitchingCancelsTheOldComboAndTheNextHitUsesTheNewMemberElement" methodname="SwitchingCancelsTheOldComboAndTheNextHitUsesTheNewMemberElement" classname="Orbis.M1.Tests.M1IntegrationTests" runstate="Runnable" seed="186510743" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:00Z" duration="0.043724" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Vaporize on Primary (Fire + Water)
+]]></output>
+              </test-case>
+              <test-case id="1071" name="SwitchingInTheAirPreservesTheSameJumpAndLandsNormally" fullname="Orbis.M1.Tests.M1IntegrationTests.SwitchingInTheAirPreservesTheSameJumpAndLandsNormally" methodname="SwitchingInTheAirPreservesTheSameJumpAndLandsNormally" classname="Orbis.M1.Tests.M1IntegrationTests" runstate="Runnable" seed="1560336583" result="Passed" start-time="2026-09-11 10:33:00Z" end-time="2026-09-11 10:33:01Z" duration="0.049872" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1080" name="Orbis.M15.PlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.M15.PlayModeTests.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:01Z" duration="0.137031" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1081" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:01Z" duration="0.136784" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1082" name="M15" fullname="Orbis.M15" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:01Z" duration="0.136566" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1083" name="Tests" fullname="Orbis.M15.Tests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:01Z" duration="0.136334" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1077" name="GachaDemoTests" fullname="Orbis.M15.Tests.GachaDemoTests" classname="Orbis.M15.Tests.GachaDemoTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:01Z" duration="0.136080" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1078" name="DemoButtonsExchangeDrawReloadAndSkipWithoutLosingRewards" fullname="Orbis.M15.Tests.GachaDemoTests.DemoButtonsExchangeDrawReloadAndSkipWithoutLosingRewards" methodname="DemoButtonsExchangeDrawReloadAndSkipWithoutLosingRewards" classname="Orbis.M15.Tests.GachaDemoTests" runstate="Runnable" seed="1048930979" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:01Z" duration="0.071693" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1079" name="SingletonSurvivesDemoReloadAndDuplicateCannotResetInventory" fullname="Orbis.M15.Tests.GachaDemoTests.SingletonSurvivesDemoReloadAndDuplicateCannotResetInventory" methodname="SingletonSurvivesDemoReloadAndDuplicateCannotResetInventory" classname="Orbis.M15.Tests.GachaDemoTests" runstate="Runnable" seed="1139374583" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:01Z" duration="0.063588" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1089" name="Orbis.M16.PlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.M16.PlayModeTests.dll" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:10Z" duration="9.432589" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1090" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:10Z" duration="9.432332" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1091" name="M16" fullname="Orbis.M16" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:10Z" duration="9.432106" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1092" name="Tests" fullname="Orbis.M16.Tests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:10Z" duration="9.431877" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1084" name="ExplorerJourneyTests" fullname="Orbis.M16.Tests.ExplorerJourneyTests" classname="Orbis.M16.Tests.ExplorerJourneyTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:10Z" duration="9.431607" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1085" name="ChoiceIsRequiredAndSavedStellaSpawnsAsTheOnlyFixedExplorer" fullname="Orbis.M16.Tests.ExplorerJourneyTests.ChoiceIsRequiredAndSavedStellaSpawnsAsTheOnlyFixedExplorer" methodname="ChoiceIsRequiredAndSavedStellaSpawnsAsTheOnlyFixedExplorer" classname="Orbis.M16.Tests.ExplorerJourneyTests" runstate="Runnable" seed="1547206958" result="Passed" start-time="2026-09-11 10:33:01Z" end-time="2026-09-11 10:33:03Z" duration="2.321921" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1088" name="PermanentMemberCannotBeDismissedAndBurstHurtDeadReuseTheSameMotor" fullname="Orbis.M16.Tests.ExplorerJourneyTests.PermanentMemberCannotBeDismissedAndBurstHurtDeadReuseTheSameMotor" methodname="PermanentMemberCannotBeDismissedAndBurstHurtDeadReuseTheSameMotor" classname="Orbis.M16.Tests.ExplorerJourneyTests" runstate="Runnable" seed="512642279" result="Passed" start-time="2026-09-11 10:33:03Z" end-time="2026-09-11 10:33:05Z" duration="2.358061" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1087" name="PhysicalComboPreservesAuraAndGSkillUsesTheCastSnapshotWithoutResettingCooldown" fullname="Orbis.M16.Tests.ExplorerJourneyTests.PhysicalComboPreservesAuraAndGSkillUsesTheCastSnapshotWithoutResettingCooldown" methodname="PhysicalComboPreservesAuraAndGSkillUsesTheCastSnapshotWithoutResettingCooldown" classname="Orbis.M16.Tests.ExplorerJourneyTests" runstate="Runnable" seed="1997893370" result="Passed" start-time="2026-09-11 10:33:05Z" end-time="2026-09-11 10:33:08Z" duration="2.354112" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Vaporize on m16.test.target (Water + Fire)
+]]></output>
+              </test-case>
+              <test-case id="1086" name="PolarisKeepsIdentityAndGrayboxWhenElementAndPartyChangeAndAcrossTravel" fullname="Orbis.M16.Tests.ExplorerJourneyTests.PolarisKeepsIdentityAndGrayboxWhenElementAndPartyChangeAndAcrossTravel" methodname="PolarisKeepsIdentityAndGrayboxWhenElementAndPartyChangeAndAcrossTravel" classname="Orbis.M16.Tests.ExplorerJourneyTests" runstate="Runnable" seed="1763752235" result="Passed" start-time="2026-09-11 10:33:08Z" end-time="2026-09-11 10:33:10Z" duration="2.396314" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1103" name="Orbis.M2.PlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.M2.PlayModeTests.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 10:33:10Z" end-time="2026-09-11 10:33:11Z" duration="0.968782" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1104" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 10:33:10Z" end-time="2026-09-11 10:33:11Z" duration="0.955138" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1105" name="M2" fullname="Orbis.M2" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 10:33:10Z" end-time="2026-09-11 10:33:11Z" duration="0.944484" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1106" name="Tests" fullname="Orbis.M2.Tests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 10:33:10Z" end-time="2026-09-11 10:33:11Z" duration="0.930937" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1093" name="M2IntegrationTests" fullname="Orbis.M2.Tests.M2IntegrationTests" classname="Orbis.M2.Tests.M2IntegrationTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 10:33:10Z" end-time="2026-09-11 10:33:11Z" duration="0.916297" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1101" name="ChallengeCanTimeOutRetryAndCompleteWithThreeActualVaporizeHits" fullname="Orbis.M2.Tests.M2IntegrationTests.ChallengeCanTimeOutRetryAndCompleteWithThreeActualVaporizeHits" methodname="ChallengeCanTimeOutRetryAndCompleteWithThreeActualVaporizeHits" classname="Orbis.M2.Tests.M2IntegrationTests" runstate="Runnable" seed="1627396362" result="Passed" start-time="2026-09-11 10:33:10Z" end-time="2026-09-11 10:33:10Z" duration="0.141375" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Vaporize on Challenge Target 1 (Fire + Water)
+[M1] Vaporize on Challenge Target 2 (Fire + Water)
+[M1] Vaporize on Challenge Target 3 (Fire + Water)
+]]></output>
+              </test-case>
+              <test-case id="1095" name="ClimbingMantlesOntoTheCliffAndPartySwitchKeepsTheSharedPool" fullname="Orbis.M2.Tests.M2IntegrationTests.ClimbingMantlesOntoTheCliffAndPartySwitchKeepsTheSharedPool" methodname="ClimbingMantlesOntoTheCliffAndPartySwitchKeepsTheSharedPool" classname="Orbis.M2.Tests.M2IntegrationTests" runstate="Runnable" seed="2086011410" result="Passed" start-time="2026-09-11 10:33:10Z" end-time="2026-09-11 10:33:10Z" duration="0.125474" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1096" name="ExhaustedClimbingFallsAndRecordsLandingDamage" fullname="Orbis.M2.Tests.M2IntegrationTests.ExhaustedClimbingFallsAndRecordsLandingDamage" methodname="ExhaustedClimbingFallsAndRecordsLandingDamage" classname="Orbis.M2.Tests.M2IntegrationTests" runstate="Runnable" seed="1528923558" result="Passed" start-time="2026-09-11 10:33:10Z" end-time="2026-09-11 10:33:10Z" duration="0.055447" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1100" name="FieldPuzzleUsesRealFireHitsAndClaimsItsChestOnlyOnceAcrossReload" fullname="Orbis.M2.Tests.M2IntegrationTests.FieldPuzzleUsesRealFireHitsAndClaimsItsChestOnlyOnceAcrossReload" methodname="FieldPuzzleUsesRealFireHitsAndClaimsItsChestOnlyOnceAcrossReload" classname="Orbis.M2.Tests.M2IntegrationTests" runstate="Runnable" seed="279255406" result="Passed" start-time="2026-09-11 10:33:10Z" end-time="2026-09-11 10:33:11Z" duration="0.124715" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1097" name="GlidingTogglesWithSpaceAndExhaustionReturnsToGravity" fullname="Orbis.M2.Tests.M2IntegrationTests.GlidingTogglesWithSpaceAndExhaustionReturnsToGravity" methodname="GlidingTogglesWithSpaceAndExhaustionReturnsToGravity" classname="Orbis.M2.Tests.M2IntegrationTests" runstate="Runnable" seed="1968815248" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:11Z" duration="0.048601" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1102" name="ReleasedInputCannotGrabAndResetRestoresTheRegionWithoutDeletingRewards" fullname="Orbis.M2.Tests.M2IntegrationTests.ReleasedInputCannotGrabAndResetRestoresTheRegionWithoutDeletingRewards" methodname="ReleasedInputCannotGrabAndResetRestoresTheRegionWithoutDeletingRewards" classname="Orbis.M2.Tests.M2IntegrationTests" runstate="Runnable" seed="197733713" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:11Z" duration="0.087025" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1094" name="RunningHonorsGraceThenExhaustionWalksAndGroundRestRecovers" fullname="Orbis.M2.Tests.M2IntegrationTests.RunningHonorsGraceThenExhaustionWalksAndGroundRestRecovers" methodname="RunningHonorsGraceThenExhaustionWalksAndGroundRestRecovers" classname="Orbis.M2.Tests.M2IntegrationTests" runstate="Runnable" seed="1041692199" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:11Z" duration="0.141905" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1099" name="SwimmingExhaustionReturnsToLastLandWithRescueDamageAndStamina" fullname="Orbis.M2.Tests.M2IntegrationTests.SwimmingExhaustionReturnsToLastLandWithRescueDamageAndStamina" methodname="SwimmingExhaustionReturnsToLastLandWithRescueDamageAndStamina" classname="Orbis.M2.Tests.M2IntegrationTests" runstate="Runnable" seed="1736784488" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:11Z" duration="0.044047" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1098" name="SwimmingSupportsDiveAscendAndWalkingOutOnTheShore" fullname="Orbis.M2.Tests.M2IntegrationTests.SwimmingSupportsDiveAscendAndWalkingOutOnTheShore" methodname="SwimmingSupportsDiveAscendAndWalkingOutOnTheShore" classname="Orbis.M2.Tests.M2IntegrationTests" runstate="Runnable" seed="567148634" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:11Z" duration="0.145139" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1117" name="Orbis.M3.PlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.M3.PlayModeTests.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:27Z" duration="15.806763" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1118" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:27Z" duration="15.806464" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1119" name="M3" fullname="Orbis.M3" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:27Z" duration="15.806233" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1120" name="Tests" fullname="Orbis.M3.Tests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:27Z" duration="15.805965" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1107" name="M3IntegrationTests" fullname="Orbis.M3.Tests.M3IntegrationTests" classname="Orbis.M3.Tests.M3IntegrationTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:27Z" duration="15.805643" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1109" name="AllFiveRealReactionsDriveGraphsAndShieldTracksActualActor" fullname="Orbis.M3.Tests.M3IntegrationTests.AllFiveRealReactionsDriveGraphsAndShieldTracksActualActor" methodname="AllFiveRealReactionsDriveGraphsAndShieldTracksActualActor" classname="Orbis.M3.Tests.M3IntegrationTests" runstate="Runnable" seed="577021453" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:11Z" duration="0.415411" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Vaporize on Primary (Fire + Water)
+[M1] ElectroCharged on Primary (Water + Lightning)
+[M1] Overload on Primary (Fire + Lightning)
+[M1] Swirl on Primary (Fire + Wind)
+[M1] Crystallize on Primary (Fire + Rock)
+]]></output>
+              </test-case>
+              <test-case id="1111" name="BasicAttackAndPartyInputProduceHitsTrailsAndVaporize" fullname="Orbis.M3.Tests.M3IntegrationTests.BasicAttackAndPartyInputProduceHitsTrailsAndVaporize" methodname="BasicAttackAndPartyInputProduceHitsTrailsAndVaporize" classname="Orbis.M3.Tests.M3IntegrationTests" runstate="Runnable" seed="271441878" result="Passed" start-time="2026-09-11 10:33:11Z" end-time="2026-09-11 10:33:12Z" duration="0.816542" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Vaporize on Primary (Fire + Water)
+]]></output>
+              </test-case>
+              <test-case id="1110" name="ElectroChainFollowsOnlyValidatedDamageLinks" fullname="Orbis.M3.Tests.M3IntegrationTests.ElectroChainFollowsOnlyValidatedDamageLinks" methodname="ElectroChainFollowsOnlyValidatedDamageLinks" classname="Orbis.M3.Tests.M3IntegrationTests" runstate="Runnable" seed="1658029152" result="Passed" start-time="2026-09-11 10:33:12Z" end-time="2026-09-11 10:33:13Z" duration="0.746255" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] ElectroCharged on Primary (Water + Lightning)
+]]></output>
+              </test-case>
+              <test-case id="1113" name="EscapeAndDisableCancelWithoutLeakingGlobalState" fullname="Orbis.M3.Tests.M3IntegrationTests.EscapeAndDisableCancelWithoutLeakingGlobalState" methodname="EscapeAndDisableCancelWithoutLeakingGlobalState" classname="Orbis.M3.Tests.M3IntegrationTests" runstate="Runnable" seed="1748664972" result="Passed" start-time="2026-09-11 10:33:13Z" end-time="2026-09-11 10:33:14Z" duration="1.364949" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1108" name="FixedPoolReusesAndReinitializesWithoutGrowing" fullname="Orbis.M3.Tests.M3IntegrationTests.FixedPoolReusesAndReinitializesWithoutGrowing" methodname="FixedPoolReusesAndReinitializesWithoutGrowing" classname="Orbis.M3.Tests.M3IntegrationTests" runstate="Runnable" seed="322252916" result="Passed" start-time="2026-09-11 10:33:14Z" end-time="2026-09-11 10:33:15Z" duration="0.356983" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1112" name="QPlaysFiveTimelineStagesAndRestoresCameraInputAndClock" fullname="Orbis.M3.Tests.M3IntegrationTests.QPlaysFiveTimelineStagesAndRestoresCameraInputAndClock" methodname="QPlaysFiveTimelineStagesAndRestoresCameraInputAndClock" classname="Orbis.M3.Tests.M3IntegrationTests" runstate="Runnable" seed="670627219" result="Passed" start-time="2026-09-11 10:33:15Z" end-time="2026-09-11 10:33:21Z" duration="5.808812" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1115" name="RealGpuGraphsRenderAndReturnToPool" fullname="Orbis.M3.Tests.M3IntegrationTests.RealGpuGraphsRenderAndReturnToPool" methodname="RealGpuGraphsRenderAndReturnToPool" classname="Orbis.M3.Tests.M3IntegrationTests" runstate="Runnable" seed="1105991259" result="Passed" start-time="2026-09-11 10:33:21Z" end-time="2026-09-11 10:33:24Z" duration="3.285359" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[M3 GPU Impact alive=32 culled=False awake=True
+M3 system Element impact sparks (1) alive=32 capacity=32 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 GPU Vaporize alive=74 culled=False awake=True
+M3 system Rising steam plumes (1) alive=44 capacity=64 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 system Hot upward droplets (1) alive=30 capacity=32 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 GPU ElectroCharged alive=102 culled=False awake=True
+M3 system Crackling electric needles (1) alive=84 capacity=128 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 system Electric star nodes (1) alive=18 capacity=32 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 GPU Overload alive=141 culled=False awake=True
+M3 system Expanding shock ring (1) alive=1 capacity=32 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 system Explosive radial sparks (1) alive=140 capacity=256 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 GPU Swirl alive=91 culled=False awake=True
+M3 system Expanding shock ring (1) alive=1 capacity=32 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 system Element tinted outward motes (1) alive=90 capacity=128 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 GPU Crystallize alive=46 culled=False awake=True
+M3 system Faceted crystal scattering (1) alive=46 capacity=64 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 GPU Burst alive=241 culled=False awake=True
+M3 system Expanding shock ring (1) alive=1 capacity=32 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 system Ultimate constellation eruption (1) alive=240 capacity=256 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+M3 GPU Residue alive=76 culled=False awake=True
+M3 system Four second elemental residue (1) alive=76 capacity=128 sleeping=False bounds=Center: (0.00, 2.00, 0.00), Extents: (20.50, 16.50, 20.50)
+]]></output>
+              </test-case>
+              <test-case id="1114" name="RockRosterAndExistingExplorationRemainPlayable" fullname="Orbis.M3.Tests.M3IntegrationTests.RockRosterAndExistingExplorationRemainPlayable" methodname="RockRosterAndExistingExplorationRemainPlayable" classname="Orbis.M3.Tests.M3IntegrationTests" runstate="Runnable" seed="66009914" result="Passed" start-time="2026-09-11 10:33:24Z" end-time="2026-09-11 10:33:25Z" duration="1.563019" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Crystallize on Primary (Wind + Rock)
+]]></output>
+              </test-case>
+              <test-case id="1116" name="ShaderPresentationAndUltimateProduceReviewCaptures" fullname="Orbis.M3.Tests.M3IntegrationTests.ShaderPresentationAndUltimateProduceReviewCaptures" methodname="ShaderPresentationAndUltimateProduceReviewCaptures" classname="Orbis.M3.Tests.M3IntegrationTests" runstate="Runnable" seed="1465740" result="Passed" start-time="2026-09-11 10:33:25Z" end-time="2026-09-11 10:33:27Z" duration="1.443237" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Crystallize on Primary (Water + Rock)
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1126" name="Orbis.M4.IslandPlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.M4.IslandPlayModeTests.dll" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-11 10:33:27Z" end-time="2026-09-11 10:33:35Z" duration="8.435088" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1127" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-11 10:33:27Z" end-time="2026-09-11 10:33:35Z" duration="8.434579" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1128" name="M4" fullname="Orbis.M4" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-11 10:33:27Z" end-time="2026-09-11 10:33:35Z" duration="8.434318" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1129" name="Tests" fullname="Orbis.M4.Tests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-11 10:33:27Z" end-time="2026-09-11 10:33:35Z" duration="8.434069" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1121" name="M4IslandRuntimeTests" fullname="Orbis.M4.Tests.M4IslandRuntimeTests" classname="Orbis.M4.Tests.M4IslandRuntimeTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-11 10:33:27Z" end-time="2026-09-11 10:33:35Z" duration="8.433781" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1123" name="F10FastTravelKeepsTheSameScenePartyResourcesAndSharedSkillCooldown" fullname="Orbis.M4.Tests.M4IslandRuntimeTests.F10FastTravelKeepsTheSameScenePartyResourcesAndSharedSkillCooldown" methodname="F10FastTravelKeepsTheSameScenePartyResourcesAndSharedSkillCooldown" classname="Orbis.M4.Tests.M4IslandRuntimeTests" runstate="Runnable" seed="755427235" result="Passed" start-time="2026-09-11 10:33:27Z" end-time="2026-09-11 10:33:29Z" duration="2.313893" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1122" name="FiveDistrictsShareOnePawnAndCameraAndPositionChangesOnlyRetargetTheContext" fullname="Orbis.M4.Tests.M4IslandRuntimeTests.FiveDistrictsShareOnePawnAndCameraAndPositionChangesOnlyRetargetTheContext" methodname="FiveDistrictsShareOnePawnAndCameraAndPositionChangesOnlyRetargetTheContext" classname="Orbis.M4.Tests.M4IslandRuntimeTests" runstate="Runnable" seed="1668506808" result="Passed" start-time="2026-09-11 10:33:29Z" end-time="2026-09-11 10:33:31Z" duration="1.717033" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1124" name="RemotePuzzleAndChallengeEventsCreditTheirOwnDistrictAndResetClearsEveryEncounter" fullname="Orbis.M4.Tests.M4IslandRuntimeTests.RemotePuzzleAndChallengeEventsCreditTheirOwnDistrictAndResetClearsEveryEncounter" methodname="RemotePuzzleAndChallengeEventsCreditTheirOwnDistrictAndResetClearsEveryEncounter" classname="Orbis.M4.Tests.M4IslandRuntimeTests" runstate="Runnable" seed="188955070" result="Passed" start-time="2026-09-11 10:33:31Z" end-time="2026-09-11 10:33:33Z" duration="2.039937" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Swirl on Zephyr Challenge 1 (Fire + Wind)
+[M1] Swirl on Zephyr Challenge 2 (Fire + Wind)
+[M1] Swirl on Zephyr Challenge 3 (Fire + Wind)
+[M1] ElectroCharged on Teluna Statue 1 (Water + Lightning)
+]]></output>
+              </test-case>
+              <test-case id="1125" name="WeeklyBoundaryRestoresAllFiveDefeatedBossesWithoutReloadingTheWorld" fullname="Orbis.M4.Tests.M4IslandRuntimeTests.WeeklyBoundaryRestoresAllFiveDefeatedBossesWithoutReloadingTheWorld" methodname="WeeklyBoundaryRestoresAllFiveDefeatedBossesWithoutReloadingTheWorld" classname="Orbis.M4.Tests.M4IslandRuntimeTests" runstate="Runnable" seed="1278815747" result="Passed" start-time="2026-09-11 10:33:33Z" end-time="2026-09-11 10:33:35Z" duration="2.361696" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1136" name="Orbis.M4.PlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.M4.PlayModeTests.dll" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-11 10:33:35Z" end-time="2026-09-11 10:33:45Z" duration="9.949005" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1137" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-11 10:33:35Z" end-time="2026-09-11 10:33:45Z" duration="9.934469" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1138" name="M4" fullname="Orbis.M4" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-11 10:33:35Z" end-time="2026-09-11 10:33:45Z" duration="9.920484" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1139" name="Tests" fullname="Orbis.M4.Tests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-11 10:33:35Z" end-time="2026-09-11 10:33:45Z" duration="9.908614" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1130" name="M4IntegrationTests" fullname="Orbis.M4.Tests.M4IntegrationTests" classname="Orbis.M4.Tests.M4IntegrationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-11 10:33:35Z" end-time="2026-09-11 10:33:45Z" duration="9.893827" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1133" name="BasicAttackWeaknessExposureTelegraphAndRescueUseExistingCombat" fullname="Orbis.M4.Tests.M4IntegrationTests.BasicAttackWeaknessExposureTelegraphAndRescueUseExistingCombat" methodname="BasicAttackWeaknessExposureTelegraphAndRescueUseExistingCombat" classname="Orbis.M4.Tests.M4IntegrationTests" runstate="Runnable" seed="260637850" result="Passed" start-time="2026-09-11 10:33:35Z" end-time="2026-09-11 10:33:37Z" duration="1.556561" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1135" name="ClaimingAnEarlierSolutionDoesNotCompleteANewDailyRequest" fullname="Orbis.M4.Tests.M4IntegrationTests.ClaimingAnEarlierSolutionDoesNotCompleteANewDailyRequest" methodname="ClaimingAnEarlierSolutionDoesNotCompleteANewDailyRequest" classname="Orbis.M4.Tests.M4IntegrationTests" runstate="Runnable" seed="1836966065" result="Passed" start-time="2026-09-11 10:33:37Z" end-time="2026-09-11 10:33:38Z" duration="1.008046" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Swirl on Zephyr Challenge 1 (Fire + Wind)
+[M1] Swirl on Zephyr Challenge 2 (Fire + Wind)
+[M1] Swirl on Zephyr Challenge 3 (Fire + Wind)
+[M1] Swirl on Zephyr Challenge 1 (Fire + Wind)
+[M1] Swirl on Zephyr Challenge 2 (Fire + Wind)
+[M1] Swirl on Zephyr Challenge 3 (Fire + Wind)
+]]></output>
+              </test-case>
+              <test-case id="1131" name="FiveAddressableRegionsHavePlayablePuzzlesRoomsAndSafeArrivalPoints" fullname="Orbis.M4.Tests.M4IntegrationTests.FiveAddressableRegionsHavePlayablePuzzlesRoomsAndSafeArrivalPoints" methodname="FiveAddressableRegionsHavePlayablePuzzlesRoomsAndSafeArrivalPoints" classname="Orbis.M4.Tests.M4IntegrationTests" runstate="Runnable" seed="1145751416" result="Passed" start-time="2026-09-11 10:33:38Z" end-time="2026-09-11 10:33:40Z" duration="2.489665" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Vaporize on Challenge Target 1 (Fire + Water)
+[M1] Vaporize on Challenge Target 2 (Fire + Water)
+[M1] Vaporize on Challenge Target 3 (Fire + Water)
+[M1] ElectroCharged on Teluna Challenge 1 (Water + Lightning)
+[M1] ElectroCharged on Teluna Challenge 2 (Water + Lightning)
+[M1] ElectroCharged on Teluna Challenge 3 (Water + Lightning)
+[M1] Swirl on Zephyr Challenge 1 (Fire + Wind)
+[M1] Swirl on Zephyr Challenge 2 (Fire + Wind)
+[M1] Swirl on Zephyr Challenge 3 (Fire + Wind)
+[M1] Crystallize on Granite Challenge 1 (Fire + Rock)
+[M1] Crystallize on Granite Challenge 2 (Fire + Rock)
+[M1] Crystallize on Granite Challenge 3 (Fire + Rock)
+[M1] Overload on Voltheim Challenge 1 (Fire + Lightning)
+[M1] Overload on Voltheim Challenge 2 (Fire + Lightning)
+[M1] Overload on Voltheim Challenge 3 (Fire + Lightning)
+]]></output>
+              </test-case>
+              <test-case id="1132" name="NpcDailyObjectivesTurnInAndWeeklyBossPersistAcrossTravelAndReload" fullname="Orbis.M4.Tests.M4IntegrationTests.NpcDailyObjectivesTurnInAndWeeklyBossPersistAcrossTravelAndReload" methodname="NpcDailyObjectivesTurnInAndWeeklyBossPersistAcrossTravelAndReload" classname="Orbis.M4.Tests.M4IntegrationTests" runstate="Runnable" seed="1107686859" result="Passed" start-time="2026-09-11 10:33:40Z" end-time="2026-09-11 10:33:43Z" duration="2.771014" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[M1] Swirl on Zephyr Challenge 1 (Fire + Wind)
+[M1] Swirl on Zephyr Challenge 2 (Fire + Wind)
+[M1] Swirl on Zephyr Challenge 3 (Fire + Wind)
+]]></output>
+              </test-case>
+              <test-case id="1134" name="TravelMenuInputAndTraversalRetainHealthStaminaAndExistingCharacter" fullname="Orbis.M4.Tests.M4IntegrationTests.TravelMenuInputAndTraversalRetainHealthStaminaAndExistingCharacter" methodname="TravelMenuInputAndTraversalRetainHealthStaminaAndExistingCharacter" classname="Orbis.M4.Tests.M4IntegrationTests" runstate="Runnable" seed="322311383" result="Passed" start-time="2026-09-11 10:33:43Z" end-time="2026-09-11 10:33:45Z" duration="2.066494" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Mirim/AppData/LocalLow/Orbis/Orbis M0\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

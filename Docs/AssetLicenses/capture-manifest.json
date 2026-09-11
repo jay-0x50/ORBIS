@@ -1,0 +1,72 @@
+[
+  {
+    "Pack": "KayKit_Adventurers",
+    "Url": "https://kaylousberg.itch.io/kaykit-adventurers",
+    "CapturedUtc": "2026-09-10T07:01:34.6514709Z",
+    "HtmlSaved": true,
+    "ScreenshotSaved": true,
+    "Errors": [],
+    "ChromeExitCode": 0,
+    "ScreenshotSHA256": "332d2aa3caf8ac2474a59d4ed00539e5cb4537aab03147458a0b1eac3a34ba57"
+  },
+  {
+    "Pack": "KayKit_CharacterAnimations",
+    "Url": "https://kaylousberg.itch.io/kaykit-character-animations",
+    "CapturedUtc": "2026-09-10T07:01:37.3145311Z",
+    "HtmlSaved": true,
+    "ScreenshotSaved": true,
+    "Errors": [],
+    "ChromeExitCode": 0,
+    "ScreenshotSHA256": "920e1caf84b2e1244f61dbf105063909ebc1f9a5477d885471b56f0f7b644a0a"
+  },
+  {
+    "Pack": "Kenney_CastleKit",
+    "Url": "https://kenney.nl/assets/castle-kit",
+    "CapturedUtc": "2026-09-10T07:01:39.9310288Z",
+    "HtmlSaved": true,
+    "ScreenshotSaved": true,
+    "Errors": [],
+    "ChromeExitCode": 0,
+    "ScreenshotSHA256": "11615f2098fe3fbd3a2d4e32e0063bdcafa40a40c8641868edba6c8f9862381c"
+  },
+  {
+    "Pack": "Kenney_MiniDungeon",
+    "Url": "https://kenney.nl/assets/mini-dungeon",
+    "CapturedUtc": "2026-09-10T07:01:44.4346139Z",
+    "HtmlSaved": true,
+    "ScreenshotSaved": true,
+    "Errors": [],
+    "ChromeExitCode": 0,
+    "ScreenshotSHA256": "aed72582ba942bb64200a62d3a62b259ec0a093ccddc4bb2e04f6b25b12ea4db"
+  },
+  {
+    "Pack": "Kenney_ModularDungeonKit",
+    "Url": "https://kenney.nl/assets/modular-dungeon-kit",
+    "CapturedUtc": "2026-09-10T07:01:49.1291905Z",
+    "HtmlSaved": true,
+    "ScreenshotSaved": true,
+    "Errors": [],
+    "ChromeExitCode": 0,
+    "ScreenshotSHA256": "d03eed715d2d0102b6bf7bbe55c10f22352a3ac11fa616515ce48efb618aa7c3"
+  },
+  {
+    "Pack": "Kenney_NatureKit",
+    "Url": "https://kenney.nl/assets/nature-kit",
+    "CapturedUtc": "2026-09-10T07:01:53.3797236Z",
+    "HtmlSaved": true,
+    "ScreenshotSaved": true,
+    "Errors": [],
+    "ChromeExitCode": 0,
+    "ScreenshotSHA256": "7a9354167c73b2259c675df71d9079616d9afa0c99138a7c88d9f39290e0ef71"
+  },
+  {
+    "Pack": "Kenney_UIPack",
+    "Url": "https://kenney.nl/assets/ui-pack",
+    "CapturedUtc": "2026-09-10T07:01:57.5312050Z",
+    "HtmlSaved": true,
+    "ScreenshotSaved": true,
+    "Errors": [],
+    "ChromeExitCode": 0,
+    "ScreenshotSHA256": "db0615b24855f493c08414c53c38dc1c5651c530b35c351fec25129ac1b4dcae"
+  }
+]

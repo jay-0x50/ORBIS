@@ -1,0 +1,27 @@
+{
+  "tool": "built-in image_gen",
+  "actualWidth": 1254,
+  "actualHeight": 1254,
+  "files": [
+    {
+      "name": "Meadow",
+      "path": "C:\\Users\\Mirim\\.codex\\generated_images\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\exec-67663da5-8c5b-4b99-b3ff-06ced910fe26.png",
+      "prompt": "Create a production albedo texture for an ORIGINAL stylized anime fantasy open world in Unity URP. Use-case: game terrain texture, not a landscape illustration. Single square 1024x1024 tile, orthographic straight-down flat scan filling every pixel, seamless repeat on all edges. Muted spring meadow turf: layered short grass blade brushwork, sage and olive greens, subtle warm straw strands. No tall individual clumps, no flowers. Hand-painted, restrained hue variation, readable medium-scale forms, softly brushed fine detail. Diffuse base color only, uniform neutral ambient illumination, no baked directional light, no cast shadows, no vignette, no border, no text, no graphic layout, no perspective, no horizon. Compatible with 3-band cel shaded characters, softly colored natural world. Keep surface details low-contrast so it tiles over a large terrain without a visible grid."
+    },
+    {
+      "name": "Earth",
+      "path": "C:\\Users\\Mirim\\.codex\\generated_images\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\exec-41f4ed97-ea30-4ccf-b915-d3198a2b4ef4.png",
+      "prompt": "Create a production albedo texture for an ORIGINAL stylized anime fantasy open world in Unity URP. Use-case: game terrain texture, not a landscape illustration. Single square 1024x1024 tile, orthographic straight-down flat scan filling every pixel, seamless repeat on all edges. Warm taupe footpath earth: packed ochre soil, sparse embedded pea gravel and shallow worn granular patches. No footprints, no large stones. Hand-painted, restrained hue variation, readable medium-scale forms, softly brushed fine detail. Diffuse base color only, uniform neutral ambient illumination, no baked directional light, no cast shadows, no vignette, no border, no text, no graphic layout, no perspective, no horizon. Compatible with 3-band cel shaded characters, softly colored natural world. Keep surface details low-contrast so it tiles over a large terrain without a visible grid."
+    },
+    {
+      "name": "Stone",
+      "path": "C:\\Users\\Mirim\\.codex\\generated_images\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\exec-7ee326aa-d7df-4210-b878-bc8ca365a853.png",
+      "prompt": "Create a production albedo texture for an ORIGINAL stylized anime fantasy open world in Unity URP. Use-case: game terrain texture, not a landscape illustration. Single square 1024x1024 tile, orthographic straight-down flat scan filling every pixel, seamless repeat on all edges. Pale blue-gray and warm gray weathered rock: broad subtly faceted stone planes, delicate irregular cracks and fine mineral grain. No moss, no strong black outlines. Hand-painted, restrained hue variation, readable medium-scale forms, softly brushed fine detail. Diffuse base color only, uniform neutral ambient illumination, no baked directional light, no cast shadows, no vignette, no border, no text, no graphic layout, no perspective, no horizon. Compatible with 3-band cel shaded characters, softly colored natural world. Keep surface details low-contrast so it tiles over a large terrain without a visible grid."
+    },
+    {
+      "name": "Moss",
+      "path": "C:\\Users\\Mirim\\.codex\\generated_images\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\exec-b2343469-cca9-429a-863a-be2d4f5fa1d6.png",
+      "prompt": "Create a production albedo texture for an ORIGINAL stylized anime fantasy open world in Unity URP. Use-case: game terrain texture, not a landscape illustration. Single square 1024x1024 tile, orthographic straight-down flat scan filling every pixel, seamless repeat on all edges. Soft olive and sage moss carpet: small rounded moss cushions, fine organic leafy speckling, subtle dark crevices, tiny sparse warm leaf litter. No large plants. Hand-painted, restrained hue variation, readable medium-scale forms, softly brushed fine detail. Diffuse base color only, uniform neutral ambient illumination, no baked directional light, no cast shadows, no vignette, no border, no text, no graphic layout, no perspective, no horizon. Compatible with 3-band cel shaded characters, softly colored natural world. Keep surface details low-contrast so it tiles over a large terrain without a visible grid."
+    }
+  ]
+}

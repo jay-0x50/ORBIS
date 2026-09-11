@@ -1,0 +1,6 @@
+{
+  "name": "Orbis.Game.Editor",
+  "rootNamespace": "Orbis.Game.Editor",
+  "references": ["Orbis.Game.Runtime", "Orbis.Art.Runtime", "Orbis.M0.Runtime", "Orbis.M1.Runtime", "Orbis.M2.Runtime", "Orbis.M4.Runtime", "Orbis.M3.Runtime", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Runtime", "Unity.Addressables", "Unity.Addressables.Editor", "Unity.ResourceManager"],
+  "includePlatforms": ["Editor"]
+}

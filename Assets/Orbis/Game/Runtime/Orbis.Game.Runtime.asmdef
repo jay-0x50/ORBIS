@@ -1,0 +1,17 @@
+{
+  "name": "Orbis.Game.Runtime",
+  "rootNamespace": "Orbis.Game",
+  "references": [
+    "Orbis.M16.Core",
+    "Orbis.M16.Runtime",
+    "Orbis.M4.Runtime",
+    "Orbis.Art.Runtime",
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Orbis.M1.Runtime",
+    "Orbis.M3.Runtime",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.InputSystem"
+  ]
+}

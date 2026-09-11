@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ignis
+  m_Controller: {fileID: 9100000, guid: 0945bb203c70cdd4f8c06841f9e96816, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 2ecff72bdfbc97a4ca0ffbab7f1cd773, type: 2}
+    m_OverrideClip: {fileID: -5624545281902316504, guid: 01e1c6ce1d470774a86dbba1aa447b1e, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: ba7f1e09ef555594ebe886d781c4a3a8, type: 2}
+    m_OverrideClip: {fileID: 4043807988371827432, guid: db79dad25ba553e4fb7b9482e04bb7d9, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 0cf95225d4df4dc4b88961d468ff0fdd, type: 2}
+    m_OverrideClip: {fileID: 5034251128425565466, guid: db79dad25ba553e4fb7b9482e04bb7d9, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: fdd0a9f73624a8f40bd1ad749b5916ca, type: 2}
+    m_OverrideClip: {fileID: 3543698089625107784, guid: 63edc50c1de45b34f9fca98cb10b2af5, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: e959d206248ef42488cd5ef2a0190cff, type: 2}
+    m_OverrideClip: {fileID: 5069180758234724613, guid: 63edc50c1de45b34f9fca98cb10b2af5, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 956329fc70d90ce41acfc0a314892504, type: 2}
+    m_OverrideClip: {fileID: -8653722278162725603, guid: db79dad25ba553e4fb7b9482e04bb7d9, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 5e76307efd296954eb42de2449ada129, type: 2}
+    m_OverrideClip: {fileID: 7060811993321468294, guid: 63edc50c1de45b34f9fca98cb10b2af5, type: 3}

@@ -1,0 +1,29 @@
+[
+  {
+    "asset": "AshBlond_Hair_BaseColor.png",
+    "sha256": "5D06238D6FCA8171F14848AEC9085DCF0D3BB2EBF223D614B116CAE9EFA964BB",
+    "width": 1254,
+    "height": 1254,
+    "generator": "Built-in imagegen",
+    "purpose": "3D base color texture",
+    "date": "2026-09-11"
+  },
+  {
+    "asset": "Polaris_Face_BaseColor.png",
+    "sha256": "4A1F914E594FC4435762BF553AE50313A42B2A5F2E85FF5EBC2B4681FBB220BB",
+    "width": 1254,
+    "height": 1254,
+    "generator": "Built-in imagegen",
+    "purpose": "3D base color texture",
+    "date": "2026-09-11"
+  },
+  {
+    "asset": "Stella_Face_BaseColor.png",
+    "sha256": "D980E42D4CBFEB97C464C5568F6EB6BB0BCB750579E267B291B2AE7945986B85",
+    "width": 1254,
+    "height": 1254,
+    "generator": "Built-in imagegen",
+    "purpose": "3D base color texture",
+    "date": "2026-09-11"
+  }
+]

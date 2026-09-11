@@ -1,0 +1,220 @@
+{
+  "id": "MapleTree_1",
+  "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_1.fbx",
+  "sourceTriangles": 3848,
+  "lod0Path": "Assets/Orbis/Game/World/Nature/Models/MapleTree_1_LOD0.fbx",
+  "lod1Path": "Assets/Orbis/Game/World/Nature/Models/MapleTree_1_LOD1.fbx",
+  "lod0Triangles": 1713,
+  "lod1Triangles": 759,
+  "lod0": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/MapleTree_1_LOD0.fbx",
+    "triangles": 1713,
+    "vertices": 2255,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -2.075911045074463,
+      -0.0007562462706118822,
+      -2.4494659900665283
+    ],
+    "boundsUnityMax": [
+      4.153177738189697,
+      6.64415168762207,
+      2.4542856216430664
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          -1.2451945543289185,
+          -2.0
+        ],
+        "max": [
+          4.6180500984191895,
+          4.323125839233398
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          4.0,
+          0.0
+        ],
+        "max": [
+          10.0,
+          1.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "38685fc96926d1da1d7b687931b76e9f6411a21cb67b79bf7a8f8545b915e239"
+  },
+  "lod1": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/MapleTree_1_LOD1.fbx",
+    "triangles": 759,
+    "vertices": 1080,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -2.038991928100586,
+      -0.0007562462706118822,
+      -2.4494659900665283
+    ],
+    "boundsUnityMax": [
+      4.153177738189697,
+      6.594687461853027,
+      2.4542856216430664
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          -1.2451945543289185,
+          -2.0000128746032715
+        ],
+        "max": [
+          4.617278575897217,
+          4.297281742095947
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          4.0,
+          0.0
+        ],
+        "max": [
+          10.0,
+          0.9877458810806274
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          0.9925552010536194
+        ]
+      }
+    ],
+    "sha256": "0a45572d7a41a3cba08552dbd5b5082965c0136ca194fd7a02e25d047d2ed809"
+  },
+  "boundsUnityMin": [
+    -2.075911045074463,
+    -0.0007562462706118822,
+    -2.4494659900665283
+  ],
+  "boundsUnityMax": [
+    4.153177738189697,
+    6.64415168762207,
+    2.4542856216430664
+  ],
+  "slices": [
+    4,
+    10
+  ],
+  "billboard": {
+    "path": "Assets/Orbis/Game/World/Nature/Textures/MapleTree_1_Billboard.png",
+    "width": 8.744022889994984,
+    "height": 6.8766969966888425,
+    "viewCount": 8,
+    "columns": 4,
+    "rows": 2,
+    "cellPixels": 256,
+    "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+    "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+    "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+    "frames": [
+      {
+        "view": 0,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          1.0
+        ],
+        "alphaCoverage": 0.2385711669921875
+      },
+      {
+        "view": 1,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.1999359130859375
+      },
+      {
+        "view": 2,
+        "cameraUnityDirection": [
+          1.0,
+          0,
+          0.0
+        ],
+        "alphaCoverage": 0.1947174072265625
+      },
+      {
+        "view": 3,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.2305145263671875
+      },
+      {
+        "view": 4,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          -1.0
+        ],
+        "alphaCoverage": 0.2384796142578125
+      },
+      {
+        "view": 5,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.1998443603515625
+      },
+      {
+        "view": 6,
+        "cameraUnityDirection": [
+          -1.0,
+          0,
+          -0.0
+        ],
+        "alphaCoverage": 0.195068359375
+      },
+      {
+        "view": 7,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.2303924560546875
+      }
+    ],
+    "sha256": "f00ba55b35c72c0d021117d13d84bb2de6157fab322f5f3550dfc7408ef0b5df"
+  },
+  "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/MapleTree_1_Billboard.png",
+  "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/MapleTree_1_Billboard.png",
+  "billboardWidth": 8.744022889994984,
+  "billboardHeight": 6.8766969966888425
+}

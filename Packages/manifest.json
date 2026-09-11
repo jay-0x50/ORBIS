@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "com.unity.cinemachine": "6.6.0",
+    "com.unity.inputsystem": "1.20.0",
+    "com.unity.render-pipelines.universal": "17.6.0",
+    "com.unity.test-framework": "1.8.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.screencapture": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.visualeffectgraph": "17.6.0",
+    "com.unity.shadergraph": "17.6.0",
+    "com.unity.timeline": "6.6.0",
+    "com.unity.modules.director": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.addressables": "2.11.2",
+    "com.unity.modules.terrain": "1.0.0",
+    "com.unity.modules.terrainphysics": "1.0.0",
+    "com.unity.modules.wind": "1.0.0"
+  }
+}

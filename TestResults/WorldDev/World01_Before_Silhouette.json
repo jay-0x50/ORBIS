@@ -1,0 +1,19 @@
+{
+    "stage": "World01_Before",
+    "view": "Silhouette",
+    "camera": {
+        "x": 0.0,
+        "y": 2500.0,
+        "z": 0.0
+    },
+    "focus": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "fov": 48.0,
+    "monochrome": true,
+    "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+    "vram": 3930,
+    "note": "Actual Unity URP render; fixed world camera recipe. Not a performance benchmark."
+}

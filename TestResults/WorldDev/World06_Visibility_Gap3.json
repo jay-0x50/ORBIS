@@ -1,0 +1,19 @@
+{
+    "stage": "World06_Visibility",
+    "view": "Gap3",
+    "camera": {
+        "x": 528.8186645507813,
+        "y": 13.796582221984863,
+        "z": -362.54876708984375
+    },
+    "focus": {
+        "x": 483.717041015625,
+        "y": 13.796582221984863,
+        "z": -451.80035400390625
+    },
+    "fov": 58.0,
+    "monochrome": false,
+    "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+    "vram": 3930,
+    "note": "Actual Unity URP render; fixed world camera recipe. Not a performance benchmark."
+}

@@ -1,0 +1,19 @@
+{
+    "stage": "World03_After",
+    "view": "CoastalWetland",
+    "camera": {
+        "x": 320.0,
+        "y": 40.0,
+        "z": -195.0
+    },
+    "focus": {
+        "x": 585.0,
+        "y": 16.0,
+        "z": -380.0
+    },
+    "fov": 58.0,
+    "monochrome": false,
+    "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+    "vram": 3930,
+    "note": "Actual Unity URP render; fixed world camera recipe. Not a performance benchmark."
+}

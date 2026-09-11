@@ -1,0 +1,16 @@
+{
+  "name": "Orbis.M0.Editor",
+  "rootNamespace": "Orbis.M0.Editor",
+  "references": [
+    "Orbis.M0.Runtime",
+    "Unity.InputSystem",
+    "Unity.Cinemachine",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Universal.Editor",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Core.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

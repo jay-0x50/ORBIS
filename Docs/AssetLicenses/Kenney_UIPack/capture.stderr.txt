@@ -1,0 +1,2 @@
+[2768:17880:0910/160200.981:ERROR:components\device_event_log\device_event_log_impl.cc:211] [16:02:00.982] USB: usb_service_win.cc:108 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+258703 bytes written to file C:\Users\Mirim\.codex\visualizations\2026\09\10\01a08932-ad4d-7dd1-99a5-ab8a6115569e\orbis-m0\Docs\AssetLicenses\Kenney_UIPack\official-page.png

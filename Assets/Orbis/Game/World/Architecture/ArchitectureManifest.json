@@ -1,0 +1,768 @@
+{
+  "version": 2,
+  "authoring": "Original Orbis procedural architectural geometry; no commercial game or third-party mesh input.",
+  "palette": [
+    {
+      "name": "Architecture_Ivory",
+      "sRGB": [
+        0.79,
+        0.755,
+        0.65,
+        1
+      ],
+      "linear": [
+        0.5870163508936885,
+        0.5303445889969244,
+        0.38005633644979925,
+        1
+      ]
+    },
+    {
+      "name": "Architecture_Timber",
+      "sRGB": [
+        0.245,
+        0.175,
+        0.115,
+        1
+      ],
+      "linear": [
+        0.0488973258050732,
+        0.025842879545199027,
+        0.012510408999112432,
+        1
+      ]
+    },
+    {
+      "name": "Architecture_Slate",
+      "sRGB": [
+        0.17,
+        0.255,
+        0.315,
+        1
+      ],
+      "linear": [
+        0.024515013703524748,
+        0.05290079053734631,
+        0.08088690806308922,
+        1
+      ]
+    },
+    {
+      "name": "Architecture_Stone",
+      "sRGB": [
+        0.43,
+        0.445,
+        0.4,
+        1
+      ],
+      "linear": [
+        0.15487248594976835,
+        0.16661807296157424,
+        0.13286832155381798,
+        1
+      ]
+    },
+    {
+      "name": "Architecture_Brass",
+      "sRGB": [
+        0.6,
+        0.465,
+        0.245,
+        1
+      ],
+      "linear": [
+        0.31854677812509186,
+        0.18306365183121143,
+        0.0488973258050732,
+        1
+      ]
+    },
+    {
+      "name": "Architecture_Glass",
+      "sRGB": [
+        0.095,
+        0.205,
+        0.245,
+        1
+      ],
+      "linear": [
+        0.00926431084760073,
+        0.03468407622580734,
+        0.0488973258050732,
+        1
+      ]
+    }
+  ],
+  "coordinateSystem": "Native FBX: Unity +Y up, -Z front, metres, ground-centre origin. Final prefab: each LOD child rotates Y=180 degrees in WorldLandmarkBuilder, giving +Z front. Rotor rotates around its own local Z axis.",
+  "uv": "UV0 repeating planar mapping: 1 UV unit = 2 metres; no vertex tint multiplication required",
+  "doorHeightsMetres": {
+    "houses": 2.12,
+    "workshop": 2.35,
+    "windmill": 2.35,
+    "spire": 2.55
+  },
+  "models": [
+    {
+      "id": "House_Cottage",
+      "author": "Original Orbis geometry authored in local Blender; no external model input",
+      "lods": [
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/House_Cottage_LOD0.fbx",
+          "triangles": 14400,
+          "meshCount": 1,
+          "boundsUnityMin": [
+            -3.9049999713897705,
+            0.0,
+            -5.075000286102295
+          ],
+          "boundsUnityMax": [
+            3.9049999713897705,
+            6.644999980926514,
+            3.205000400543213
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "House_Cottage_Body",
+              "triangles": 14400,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "sha256": "0fb70b12e829f175522a6f45c5a7f3622840e3c6d6554514ffe11583a70eb3b6",
+          "boundsCoordinateSpace": "nativeUnityFbx",
+          "normalizedPrefabBoundsUnityMin": [
+            -3.9049999713897705,
+            0.0,
+            -3.205000400543213
+          ],
+          "normalizedPrefabBoundsUnityMax": [
+            3.9049999713897705,
+            6.644999980926514,
+            5.075000286102295
+          ]
+        },
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/House_Cottage_LOD1.fbx",
+          "triangles": 1184,
+          "meshCount": 1,
+          "boundsUnityMin": [
+            -3.9049999713897705,
+            0.0,
+            -5.075000286102295
+          ],
+          "boundsUnityMax": [
+            3.9049999713897705,
+            6.644999980926514,
+            3.205000400543213
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "House_Cottage_Body",
+              "triangles": 1184,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "sha256": "fdf77998d4f6d1bb0709fcf235169d69745b2af93c57d5c8376acc674c890e08",
+          "boundsCoordinateSpace": "nativeUnityFbx",
+          "normalizedPrefabBoundsUnityMin": [
+            -3.9049999713897705,
+            0.0,
+            -3.205000400543213
+          ],
+          "normalizedPrefabBoundsUnityMax": [
+            3.9049999713897705,
+            6.644999980926514,
+            5.075000286102295
+          ]
+        }
+      ]
+    },
+    {
+      "id": "House_Merchant",
+      "author": "Original Orbis geometry authored in local Blender; no external model input",
+      "lods": [
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/House_Merchant_LOD0.fbx",
+          "triangles": 18052,
+          "meshCount": 1,
+          "boundsUnityMin": [
+            -4.904999732971191,
+            0.0,
+            -5.475000381469727
+          ],
+          "boundsUnityMax": [
+            4.904999732971191,
+            8.944999694824219,
+            3.6050004959106445
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "House_Merchant_Body",
+              "triangles": 18052,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "sha256": "c8a459519800909c8e2b83369ed2b23f3194d696121a7529b86558e236bbe6b0",
+          "boundsCoordinateSpace": "nativeUnityFbx",
+          "normalizedPrefabBoundsUnityMin": [
+            -4.904999732971191,
+            0.0,
+            -3.6050004959106445
+          ],
+          "normalizedPrefabBoundsUnityMax": [
+            4.904999732971191,
+            8.944999694824219,
+            5.475000381469727
+          ]
+        },
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/House_Merchant_LOD1.fbx",
+          "triangles": 1364,
+          "meshCount": 1,
+          "boundsUnityMin": [
+            -4.904999732971191,
+            0.0,
+            -5.475000381469727
+          ],
+          "boundsUnityMax": [
+            4.904999732971191,
+            8.944999694824219,
+            3.6050004959106445
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "House_Merchant_Body",
+              "triangles": 1364,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "sha256": "c46ffc162e961d0ff67d6004a9de016702e719e92df7c179f95435905ec7bb79",
+          "boundsCoordinateSpace": "nativeUnityFbx",
+          "normalizedPrefabBoundsUnityMin": [
+            -4.904999732971191,
+            0.0,
+            -3.6050004959106445
+          ],
+          "normalizedPrefabBoundsUnityMax": [
+            4.904999732971191,
+            8.944999694824219,
+            5.475000381469727
+          ]
+        }
+      ]
+    },
+    {
+      "id": "House_Workshop",
+      "author": "Original Orbis geometry authored in local Blender; no external model input",
+      "lods": [
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/House_Workshop_LOD0.fbx",
+          "triangles": 22412,
+          "meshCount": 1,
+          "boundsUnityMin": [
+            -4.605000019073486,
+            0.0,
+            -5.775000095367432
+          ],
+          "boundsUnityMax": [
+            6.939999580383301,
+            7.34499979019165,
+            3.9050002098083496
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "House_Workshop_Body",
+              "triangles": 22412,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "sha256": "c35b8acac1714e287a9ec032837d7b5ffe63d76ec00608e343ae5a727cf8856a",
+          "boundsCoordinateSpace": "nativeUnityFbx",
+          "normalizedPrefabBoundsUnityMin": [
+            -6.939999580383301,
+            0.0,
+            -3.9050002098083496
+          ],
+          "normalizedPrefabBoundsUnityMax": [
+            4.605000019073486,
+            7.34499979019165,
+            5.775000095367432
+          ]
+        },
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/House_Workshop_LOD1.fbx",
+          "triangles": 1204,
+          "meshCount": 1,
+          "boundsUnityMin": [
+            -4.605000019073486,
+            0.0,
+            -5.775000095367432
+          ],
+          "boundsUnityMax": [
+            6.939999580383301,
+            7.34499979019165,
+            3.9050002098083496
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "House_Workshop_Body",
+              "triangles": 1204,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "sha256": "46bc2e4a06a78cd54988ac344db357228cbd4d3a39cdb9ff8d82d2b391736823",
+          "boundsCoordinateSpace": "nativeUnityFbx",
+          "normalizedPrefabBoundsUnityMin": [
+            -6.939999580383301,
+            0.0,
+            -3.9050002098083496
+          ],
+          "normalizedPrefabBoundsUnityMax": [
+            4.605000019073486,
+            7.34499979019165,
+            5.775000095367432
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Windmill",
+      "author": "Original Orbis geometry authored in local Blender; no external model input",
+      "lods": [
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/Windmill_LOD0.fbx",
+          "triangles": 9696,
+          "meshCount": 2,
+          "boundsUnityMin": [
+            -7.761796951293945,
+            0.0,
+            -6.375
+          ],
+          "boundsUnityMax": [
+            7.7617974281311035,
+            21.4617977142334,
+            4.296814918518066
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "Windmill_Body",
+              "triangles": 6516,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Rotor",
+              "triangles": 3180,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                4
+              ],
+              "localPivotUnity": [
+                0.0,
+                13.699999809265137,
+                -4.760000228881836
+              ]
+            }
+          ],
+          "sha256": "041b03b46e6ae2b69fc76874e0d7156eacc4c83ccc47b1674ced317b87792d3c",
+          "rotor": {
+            "meshName": "Rotor",
+            "pivotUnity": [
+              0,
+              13.7,
+              -4.76
+            ],
+            "rotationAxisUnity": [
+              0,
+              0,
+              1
+            ],
+            "pivotCoordinateSpace": "nativeUnityFbx",
+            "normalizedPrefabPivotUnity": [
+              0,
+              13.7,
+              4.76
+            ]
+          },
+          "boundsCoordinateSpace": "nativeUnityFbx",
+          "normalizedPrefabBoundsUnityMin": [
+            -7.7617974281311035,
+            0.0,
+            -4.296814918518066
+          ],
+          "normalizedPrefabBoundsUnityMax": [
+            7.761796951293945,
+            21.4617977142334,
+            6.375
+          ]
+        },
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/Windmill_LOD1.fbx",
+          "triangles": 2372,
+          "meshCount": 2,
+          "boundsUnityMin": [
+            -7.763386249542236,
+            0.0,
+            -6.375
+          ],
+          "boundsUnityMax": [
+            7.7633867263793945,
+            21.46338653564453,
+            4.298369884490967
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "Windmill_Body",
+              "triangles": 1800,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Rotor",
+              "triangles": 572,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                4
+              ],
+              "localPivotUnity": [
+                0.0,
+                13.699999809265137,
+                -4.760000228881836
+              ]
+            }
+          ],
+          "sha256": "0901583c23601c5224d323a875aa72107fe3f65d9270228a1ee5ff337d0c40aa",
+          "rotor": {
+            "meshName": "Rotor",
+            "pivotUnity": [
+              0,
+              13.7,
+              -4.76
+            ],
+            "rotationAxisUnity": [
+              0,
+              0,
+              1
+            ],
+            "pivotCoordinateSpace": "nativeUnityFbx",
+            "normalizedPrefabPivotUnity": [
+              0,
+              13.7,
+              4.76
+            ]
+          },
+          "boundsCoordinateSpace": "nativeUnityFbx",
+          "normalizedPrefabBoundsUnityMin": [
+            -7.7633867263793945,
+            0.0,
+            -4.298369884490967
+          ],
+          "normalizedPrefabBoundsUnityMax": [
+            7.763386249542236,
+            21.46338653564453,
+            6.375
+          ]
+        }
+      ]
+    },
+    {
+      "id": "StormSpire",
+      "author": "Original Orbis geometry authored in local Blender; no external model input",
+      "lods": [
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/StormSpire_LOD0.fbx",
+          "triangles": 9660,
+          "meshCount": 1,
+          "boundsUnityMin": [
+            -4.3623576164245605,
+            0.0,
+            -5.755000114440918
+          ],
+          "boundsUnityMax": [
+            4.3623576164245605,
+            31.399999618530273,
+            4.3623576164245605
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "StormSpire_Body",
+              "triangles": 9660,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "sha256": "03c2077c98379a2bd83c1865ad1c25e3e534589b9ddf1e0cfda8ae19fe186c5e",
+          "boundsCoordinateSpace": "nativeUnityFbx",
+          "normalizedPrefabBoundsUnityMin": [
+            -4.3623576164245605,
+            0.0,
+            -4.3623576164245605
+          ],
+          "normalizedPrefabBoundsUnityMax": [
+            4.3623576164245605,
+            31.399999618530273,
+            5.755000114440918
+          ]
+        },
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/StormSpire_LOD1.fbx",
+          "triangles": 2656,
+          "meshCount": 1,
+          "boundsUnityMin": [
+            -4.065070152282715,
+            0.0,
+            -5.755000114440918
+          ],
+          "boundsUnityMax": [
+            4.065070152282715,
+            31.399999618530273,
+            4.065070152282715
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "StormSpire_Body",
+              "triangles": 2656,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "sha256": "96e70da4a60ff0ea54e5dfc6925e577f38a6e5af4a424b9560960088c4ad0ba4",
+          "boundsCoordinateSpace": "nativeUnityFbx",
+          "normalizedPrefabBoundsUnityMin": [
+            -4.065070152282715,
+            0.0,
+            -4.065070152282715
+          ],
+          "normalizedPrefabBoundsUnityMax": [
+            4.065070152282715,
+            31.399999618530273,
+            5.755000114440918
+          ]
+        }
+      ]
+    }
+  ],
+  "coordinateContract": {
+    "blenderAuthoringFront": [
+      0,
+      -1,
+      0
+    ],
+    "nativeUnityFbxFront": [
+      0,
+      0,
+      -1
+    ],
+    "blenderPointToNativeUnity": "(x,z,y)",
+    "prefabLodRotationEuler": [
+      0,
+      180,
+      0
+    ],
+    "normalizedPrefabFront": [
+      0,
+      0,
+      1
+    ],
+    "verification": "Blender round-trip validates mesh/UV/budgets. Unity front sign is separately confirmed from actual prefab bounds and gameplay captures."
+  }
+}

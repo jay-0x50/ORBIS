@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "scope": "Blender FBX reimport only; does not execute Unity or independently verify Unity front direction",
+  "coordinateMappingSource": "Actual Unity native prefab bounds/front inspection; documented in Docs/WorldArt/Architecture_Coordinates.md",
+  "manifest": "Tools/WorldDev/Drafts/ArchitectureManifest.json",
+  "fbxCount": 10,
+  "models": [
+    {
+      "path": "Assets/Orbis/Game/World/Architecture/Models/House_Cottage_LOD0.fbx",
+      "meshCount": 1,
+      "triangles": 14400,
+      "boundsMatch": true,
+      "finiteUV": true,
+      "sharedPalettePreserved": true,
+      "sourceShaUnchanged": true,
+      "rotorPivotUnity": null
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Architecture/Models/House_Cottage_LOD1.fbx",
+      "meshCount": 1,
+      "triangles": 1184,
+      "boundsMatch": true,
+      "finiteUV": true,
+      "sharedPalettePreserved": true,
+      "sourceShaUnchanged": true,
+      "rotorPivotUnity": null
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Architecture/Models/House_Merchant_LOD0.fbx",
+      "meshCount": 1,
+      "triangles": 18052,
+      "boundsMatch": true,
+      "finiteUV": true,
+      "sharedPalettePreserved": true,
+      "sourceShaUnchanged": true,
+      "rotorPivotUnity": null
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Architecture/Models/House_Merchant_LOD1.fbx",
+      "meshCount": 1,
+      "triangles": 1364,
+      "boundsMatch": true,
+      "finiteUV": true,
+      "sharedPalettePreserved": true,
+      "sourceShaUnchanged": true,
+      "rotorPivotUnity": null
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Architecture/Models/House_Workshop_LOD0.fbx",
+      "meshCount": 1,
+      "triangles": 22412,
+      "boundsMatch": true,
+      "finiteUV": true,
+      "sharedPalettePreserved": true,
+      "sourceShaUnchanged": true,
+      "rotorPivotUnity": null
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Architecture/Models/House_Workshop_LOD1.fbx",
+      "meshCount": 1,
+      "triangles": 1204,
+      "boundsMatch": true,
+      "finiteUV": true,
+      "sharedPalettePreserved": true,
+      "sourceShaUnchanged": true,
+      "rotorPivotUnity": null
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Architecture/Models/Windmill_LOD0.fbx",
+      "meshCount": 2,
+      "triangles": 9696,
+      "boundsMatch": true,
+      "finiteUV": true,
+      "sharedPalettePreserved": true,
+      "sourceShaUnchanged": true,
+      "rotorPivotUnity": [
+        0.0,
+        13.699999809265137,
+        -4.760000228881836
+      ]
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Architecture/Models/Windmill_LOD1.fbx",
+      "meshCount": 2,
+      "triangles": 2372,
+      "boundsMatch": true,
+      "finiteUV": true,
+      "sharedPalettePreserved": true,
+      "sourceShaUnchanged": true,
+      "rotorPivotUnity": [
+        0.0,
+        13.699999809265137,
+        -4.760000228881836
+      ]
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Architecture/Models/StormSpire_LOD0.fbx",
+      "meshCount": 1,
+      "triangles": 9660,
+      "boundsMatch": true,
+      "finiteUV": true,
+      "sharedPalettePreserved": true,
+      "sourceShaUnchanged": true,
+      "rotorPivotUnity": null
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Architecture/Models/StormSpire_LOD1.fbx",
+      "meshCount": 1,
+      "triangles": 2656,
+      "boundsMatch": true,
+      "finiteUV": true,
+      "sharedPalettePreserved": true,
+      "sourceShaUnchanged": true,
+      "rotorPivotUnity": null
+    }
+  ]
+}

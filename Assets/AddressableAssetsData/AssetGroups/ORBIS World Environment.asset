@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ORBIS World Environment
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: ORBIS World Environment
+  m_GUID: a9599c91d0a93de4f89d71a9d4002dfa
+  m_SerializeEntries:
+  - m_GUID: 7382473e6e64b514aabc06c176f52df7
+    m_Address: orbis.world.environment.zephyr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f13faeea0d336e4988440c2f0827222
+    m_Address: orbis.world.environment.granite
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c1b884ed46aa9b4886686b92b881380
+    m_Address: orbis.world.environment.teluna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a47b05f9eb05993439660cd2a9058f36
+    m_Address: orbis.world.environment.voltheim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8aac36dc2d10614b99b9f1b39f620d9
+    m_Address: orbis.world.environment.agnia
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0c69c32c67792b0458dbf1d2f139670b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 55c35632cfdb86e4bb6dd389446b45fc, type: 2}
+    - {fileID: 11400000, guid: e2a93131aa1d1004c948f0b02099c59b, type: 2}

@@ -1,0 +1,8 @@
+{
+  "name": "Orbis.M1.Runtime",
+  "rootNamespace": "Orbis.M1",
+  "references": [
+    "Orbis.M0.Runtime",
+    "Unity.InputSystem"
+  ]
+}

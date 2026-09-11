@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ORBIS World Shared Environment
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: ORBIS World Shared Environment
+  m_GUID: 80ede648791840b44867fb91dfc28697
+  m_SerializeEntries:
+  - m_GUID: 00bbb163138c99943bc8a145314e60f4
+    m_Address: orbis.world.shared.00bbb163138c99943bc8a145314e60f4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0205395fcca22da4c9186e493cac36e3
+    m_Address: orbis.world.shared.0205395fcca22da4c9186e493cac36e3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02d315c86a14a1a4988e205f816c8592
+    m_Address: orbis.world.shared.02d315c86a14a1a4988e205f816c8592
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 054b4626ad5339e4e847588dd2349d6e
+    m_Address: orbis.world.shared.054b4626ad5339e4e847588dd2349d6e
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1200804b9230b6441b506fdf75bae16a
+    m_Address: orbis.world.shared.1200804b9230b6441b506fdf75bae16a
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12286de11be830240b53bd71ff0ba853
+    m_Address: orbis.world.shared.12286de11be830240b53bd71ff0ba853
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1373fcbb100f1d740a39d1d70ba1e7c8
+    m_Address: orbis.world.shared.1373fcbb100f1d740a39d1d70ba1e7c8
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 175c7ab4c42d758458a9805ae23a87de
+    m_Address: orbis.world.shared.175c7ab4c42d758458a9805ae23a87de
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 184e1a2b2778665459f7224d00f8e5be
+    m_Address: orbis.world.shared.184e1a2b2778665459f7224d00f8e5be
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24428d02914c31a4f8a53cac1aefd41f
+    m_Address: orbis.world.shared.24428d02914c31a4f8a53cac1aefd41f
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 272e303597924aa458e1a1bf18156e50
+    m_Address: orbis.world.shared.272e303597924aa458e1a1bf18156e50
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ceda783650342141a19d16fdfffb571
+    m_Address: orbis.world.shared.2ceda783650342141a19d16fdfffb571
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dfd377126fa88a4fb625b3982b60c86
+    m_Address: orbis.world.shared.2dfd377126fa88a4fb625b3982b60c86
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31b714b456bf0db4a99646cf44f3d72f
+    m_Address: orbis.world.shared.31b714b456bf0db4a99646cf44f3d72f
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34a24634692cbd147b73708b6f65f0c5
+    m_Address: orbis.world.shared.34a24634692cbd147b73708b6f65f0c5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35275daeffcbc2c4fb632aa0db9ad59b
+    m_Address: orbis.world.shared.35275daeffcbc2c4fb632aa0db9ad59b
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39aca2b06c646fe42a57a8577f2c259a
+    m_Address: orbis.world.shared.39aca2b06c646fe42a57a8577f2c259a
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b5c6b6ab843b11429ea9ea130884a86
+    m_Address: orbis.world.shared.3b5c6b6ab843b11429ea9ea130884a86
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d3ece7610a99c24ab6ae340d5d64e5d
+    m_Address: orbis.world.shared.3d3ece7610a99c24ab6ae340d5d64e5d
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41a1b3cc2996c044390b859a4b2f7589
+    m_Address: orbis.world.shared.41a1b3cc2996c044390b859a4b2f7589
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4294abbacc715ab469b1a1585c056b5e
+    m_Address: orbis.world.shared.4294abbacc715ab469b1a1585c056b5e
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43543dee263e3bc49b9fe1b76ebd654a
+    m_Address: orbis.world.shared.43543dee263e3bc49b9fe1b76ebd654a
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46ffa80acde665643b9ed9becff7e249
+    m_Address: orbis.world.shared.46ffa80acde665643b9ed9becff7e249
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c1261e9643b75f409078b8ffd49c206
+    m_Address: orbis.world.shared.4c1261e9643b75f409078b8ffd49c206
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 527acc22d1c87b145bc4cd9d0c7c05b5
+    m_Address: orbis.world.shared.527acc22d1c87b145bc4cd9d0c7c05b5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56136cbd521fc9d4fb6cce380f2d5188
+    m_Address: orbis.world.shared.56136cbd521fc9d4fb6cce380f2d5188
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58b13c6c886a8f94bad45b8756efd303
+    m_Address: orbis.world.shared.58b13c6c886a8f94bad45b8756efd303
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 596e67e3434b58f99fd8b4ad637420bb
+    m_Address: orbis.world.shared.596e67e3434b58f99fd8b4ad637420bb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b4e66d821babfa47ae758b65ab2ecff
+    m_Address: orbis.world.shared.5b4e66d821babfa47ae758b65ab2ecff
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 603f6b8784c76f94a90dd5726dcd48b7
+    m_Address: orbis.world.shared.603f6b8784c76f94a90dd5726dcd48b7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 647118a97b4ccb849b8cb9db63cd2d1e
+    m_Address: orbis.world.shared.647118a97b4ccb849b8cb9db63cd2d1e
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68fc0b735a77a9549a1aed9d2b1984ed
+    m_Address: orbis.world.shared.68fc0b735a77a9549a1aed9d2b1984ed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ce058a142cecd54a9022d0774b3c3f5
+    m_Address: orbis.world.shared.6ce058a142cecd54a9022d0774b3c3f5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e7c381633e8fe540a0f4044c42d04e1
+    m_Address: orbis.world.shared.6e7c381633e8fe540a0f4044c42d04e1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ec4c19e9dbcb3a4b9102495781b6b52
+    m_Address: orbis.world.shared.6ec4c19e9dbcb3a4b9102495781b6b52
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7525088b06425e7468b7534c6108949e
+    m_Address: orbis.world.shared.7525088b06425e7468b7534c6108949e
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f702b65beb6b454b9a1302b62c6eefd
+    m_Address: orbis.world.shared.7f702b65beb6b454b9a1302b62c6eefd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80f732e96f7c7554eae971b8549698a3
+    m_Address: orbis.world.shared.80f732e96f7c7554eae971b8549698a3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89a24b1bf1ffc6842aa70a8fe2b3df33
+    m_Address: orbis.world.shared.89a24b1bf1ffc6842aa70a8fe2b3df33
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ce3d539a84e86d45beca9e257a07f8e
+    m_Address: orbis.world.shared.8ce3d539a84e86d45beca9e257a07f8e
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e4e912094e03d2439d611f76df1c25d
+    m_Address: orbis.world.shared.8e4e912094e03d2439d611f76df1c25d
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e808adecb1aadd41938f11e2aa542f8
+    m_Address: orbis.world.shared.8e808adecb1aadd41938f11e2aa542f8
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91b8446a92e9dad4eac900de9a87d28f
+    m_Address: orbis.world.shared.91b8446a92e9dad4eac900de9a87d28f
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e2f40fd6011cd6479132b085981df61
+    m_Address: orbis.world.shared.9e2f40fd6011cd6479132b085981df61
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a848f78a78059894d834944eddfff2e0
+    m_Address: orbis.world.shared.a848f78a78059894d834944eddfff2e0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9c91d25b58f8814b9462395a42edc98
+    m_Address: orbis.world.shared.b9c91d25b58f8814b9462395a42edc98
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb89f93687888af41aee22743894c9da
+    m_Address: orbis.world.shared.bb89f93687888af41aee22743894c9da
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c01fc8b5f27b5e648ba85abf8bff3a3e
+    m_Address: orbis.world.shared.c01fc8b5f27b5e648ba85abf8bff3a3e
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4434ef5e7c4da24fb5fc0dab66b191c
+    m_Address: orbis.world.shared.c4434ef5e7c4da24fb5fc0dab66b191c
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5e88ccee28553e5a464b79d37ce991f
+    m_Address: orbis.world.shared.c5e88ccee28553e5a464b79d37ce991f
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8c84feb91ff9b74c90ec079e2f36759
+    m_Address: orbis.world.shared.c8c84feb91ff9b74c90ec079e2f36759
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc600eb07398ce0499077aae4fc546aa
+    m_Address: orbis.world.shared.cc600eb07398ce0499077aae4fc546aa
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc614285ca0743e44a441e479554d357
+    m_Address: orbis.world.shared.cc614285ca0743e44a441e479554d357
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd5ec20c9b421fb4eaa484022f81acaa
+    m_Address: orbis.world.shared.cd5ec20c9b421fb4eaa484022f81acaa
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8a7e80c843795a459416059c9e3fa3f
+    m_Address: orbis.world.shared.d8a7e80c843795a459416059c9e3fa3f
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db1fc3b831a76eb489a3042635020a4b
+    m_Address: orbis.world.shared.db1fc3b831a76eb489a3042635020a4b
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1c1e4a7dd2907c42aa3a0a0a51e81eb
+    m_Address: orbis.world.shared.e1c1e4a7dd2907c42aa3a0a0a51e81eb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e340268c15fed9e4f8cc3b2e4ab946d6
+    m_Address: orbis.world.shared.e340268c15fed9e4f8cc3b2e4ab946d6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6a6763726627c34dac33b8a59a6f54d
+    m_Address: orbis.world.shared.e6a6763726627c34dac33b8a59a6f54d
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee1d8467a55e6e34ba5b07f651d4ec7d
+    m_Address: orbis.world.shared.ee1d8467a55e6e34ba5b07f651d4ec7d
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1acf6c03c9e42d4a89ee4d44dce792b
+    m_Address: orbis.world.shared.f1acf6c03c9e42d4a89ee4d44dce792b
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f55bcc4844046db4c96b158179613195
+    m_Address: orbis.world.shared.f55bcc4844046db4c96b158179613195
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f609b4891fe7787419417fc233da53b0
+    m_Address: orbis.world.shared.f609b4891fe7787419417fc233da53b0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff22b61f4c01f7f4e931d6a20f82acbf
+    m_Address: orbis.world.shared.ff22b61f4c01f7f4e931d6a20f82acbf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0c69c32c67792b0458dbf1d2f139670b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fe51832eb8a91554a9a4877dd2c24755, type: 2}
+    - {fileID: 11400000, guid: f03b14eabb745d4449dbffc8d3bd237f, type: 2}

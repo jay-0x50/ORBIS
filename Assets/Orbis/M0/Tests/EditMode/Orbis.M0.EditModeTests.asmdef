@@ -1,0 +1,13 @@
+{
+  "name": "Orbis.M0.EditModeTests",
+  "rootNamespace": "Orbis.M0.Tests",
+  "references": [
+    "Orbis.M0.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

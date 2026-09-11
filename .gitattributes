@@ -1,0 +1,7 @@
+# Preserve exact source/asset/provenance bytes across Windows and other checkouts.
+# This also keeps the recorded SHA-256 evidence reproducible after a fresh clone.
+* -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text

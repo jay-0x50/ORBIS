@@ -1,0 +1,7 @@
+{
+  "name": "Orbis.Game.WorldEditModeTests",
+  "rootNamespace": "Orbis.Game.Tests",
+  "references": ["Orbis.Game.Runtime", "Orbis.Game.Editor", "Orbis.M4.Runtime"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

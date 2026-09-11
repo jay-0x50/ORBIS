@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-11 07:38:34Z" end-time="2026-09-11 07:38:35Z" duration="0.257865">
+  <test-suite type="TestSuite" id="1131" name="Orbis M0" fullname="Orbis M0" runstate="Runnable" testcasecount="65" result="Passed" start-time="2026-09-11 07:38:34Z" end-time="2026-09-11 07:38:35Z" duration="0.257865" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1036" name="Orbis.Game.WorldStreamingPlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.Game.WorldStreamingPlayModeTests.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 07:38:34Z" end-time="2026-09-11 07:38:35Z" duration="0.247642" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="22820" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1037" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 07:38:34Z" end-time="2026-09-11 07:38:35Z" duration="0.246907" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1038" name="Game" fullname="Orbis.Game" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 07:38:34Z" end-time="2026-09-11 07:38:35Z" duration="0.246535" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1039" name="Tests" fullname="Orbis.Game.Tests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 07:38:34Z" end-time="2026-09-11 07:38:35Z" duration="0.246030" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1033" name="WorldRegionStreamingTests" fullname="Orbis.Game.Tests.WorldRegionStreamingTests" classname="Orbis.Game.Tests.WorldRegionStreamingTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-11 07:38:34Z" end-time="2026-09-11 07:38:35Z" duration="0.244754" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1035" name="DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests" fullname="Orbis.Game.Tests.WorldRegionStreamingTests.DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests" methodname="DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests" classname="Orbis.Game.Tests.WorldRegionStreamingTests" runstate="Runnable" seed="1922991027" result="Passed" start-time="2026-09-11 07:38:34Z" end-time="2026-09-11 07:38:35Z" duration="0.107037" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[WORLD_STREAM_TEST_SETUP DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests
+WORLD_STREAM_TEST_READY DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests
+WORLD_STREAM_TEST_CLEAN DestroyingHostDuringARealLoadDrainsTheSceneAndQueuedRequests
+]]></output>
+              </test-case>
+              <test-case id="1034" name="SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel" fullname="Orbis.Game.Tests.WorldRegionStreamingTests.SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel" methodname="SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel" classname="Orbis.Game.Tests.WorldRegionStreamingTests" runstate="Runnable" seed="1012755811" result="Passed" start-time="2026-09-11 07:38:35Z" end-time="2026-09-11 07:38:35Z" duration="0.125878" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[WORLD_STREAM_TEST_SETUP SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel
+WORLD_STREAM_TEST_READY SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel
+WORLD_STREAM_TEST_CLEAN SceneryLoadsAdditivelyRetainsAnExitMarginAndSurvivesRapidTravel
+Saving results to: C:/Users/Mirim/AppData/LocalLow/Orbis/Orbis M0\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

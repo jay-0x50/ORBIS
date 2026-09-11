@@ -1,0 +1,6 @@
+{
+  "name": "Orbis.M16.Editor",
+  "rootNamespace": "Orbis.M16.Editor",
+  "includePlatforms": ["Editor"],
+  "references": ["Orbis.M16.Core", "Orbis.M16.Runtime", "Orbis.M1.Runtime"]
+}

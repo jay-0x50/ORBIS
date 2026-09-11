@@ -1,0 +1,19 @@
+{
+    "stage": "World04_After",
+    "view": "StellaWorld",
+    "camera": {
+        "x": -69.19999694824219,
+        "y": 26.577539443969727,
+        "z": -221.3000030517578
+    },
+    "focus": {
+        "x": -72.0,
+        "y": 26.29754066467285,
+        "z": -225.0
+    },
+    "fov": 38.0,
+    "monochrome": false,
+    "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+    "vram": 3930,
+    "note": "Actual Unity URP render; fixed world camera recipe. Not a performance benchmark."
+}

@@ -1,0 +1,530 @@
+{
+  "version": 1,
+  "license": "CC0 1.0 Universal; Quaternius. Original license text and manifests preserved under Tools/WorldDev/SourceDownloads.",
+  "coordinateSystem": "Unity metres: +Y up, +Z front, +X right; pivot ground center; original texture UV0 repeats",
+  "vertexContract": {
+    "UV0": "source Repeat UV",
+    "UV1": "x=array slice integer,y=windWeight 0..1",
+    "UV2": "x=leafFlutter 0/1,y=heightNormalized 0..1",
+    "Color": "linear white"
+  },
+  "textures": [
+    {
+      "slice": 0,
+      "name": "Bark_NormalTree",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_00_Bark_NormalTree.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Bark_NormalTree.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "db20f54e572099bb46ebe94739c31e129c439f1518b767b73b301b3585d79045"
+    },
+    {
+      "slice": 1,
+      "name": "Bark_DeadTree",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_01_Bark_DeadTree.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Bark_DeadTree.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "2e6bdd0965118ddc381cab84dd253b39bd4b0d03260adb6c737add77f93561fd"
+    },
+    {
+      "slice": 2,
+      "name": "Bark_TwistedTree",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_02_Bark_TwistedTree.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Bark_TwistedTree.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "4a18987810cfe96850e4bd8fc4220a3c58d012960c0582ab24d29f4d3bec191f"
+    },
+    {
+      "slice": 3,
+      "name": "BirchTree_Bark",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_03_BirchTree_Bark.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Bark.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "67b093a75a093f8dcfa02ab9eed8b0e1db0a9b15b07f94371e4e0cc57078c1ee"
+    },
+    {
+      "slice": 4,
+      "name": "MapleTree_Bark",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_04_MapleTree_Bark.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Bark.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "19b6cafadf8b86f31923d7f6055a03bf3cfcbc2ceffa7ae7143686bf17033850"
+    },
+    {
+      "slice": 5,
+      "name": "PalmTree_Trunk",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_05_PalmTree_Trunk.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Trunk.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "a834a1af3240873a89fb0a1002dbc2fb7741d868dd16eef4774ba5306e53c09e"
+    },
+    {
+      "slice": 6,
+      "name": "Leaves_NormalTree",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_06_Leaves_NormalTree.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Leaves_NormalTree_C.png",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "74e6d7bcaae27caf7fc7224b9332db8068b342efbf0d065e76b5a09d94d395d0"
+    },
+    {
+      "slice": 7,
+      "name": "Leaves_Pine",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_07_Leaves_Pine.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Leaf_Pine_C.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "99512d2f65e555947b08063ba35d53577d403e344f3b44b47335512b15674f2b"
+    },
+    {
+      "slice": 8,
+      "name": "Leaves_TwistedTree",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_08_Leaves_TwistedTree.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Leaves_TwistedTree_C.png",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "c128c3e9c9a995fef5e21d399bdd853695387ca933cef4193b1f47c8c109080c"
+    },
+    {
+      "slice": 9,
+      "name": "BirchTree_Leaves",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_09_BirchTree_Leaves.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Leaves.png",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "0202a5fd21495b38dc720fe2676f950c98d49bb1e800eedda29c5efb5895456a"
+    },
+    {
+      "slice": 10,
+      "name": "MapleTree_Leaves",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_10_MapleTree_Leaves.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Leaves.png",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "4e196b35476bd0f5b0c9ad4263cdd4a82058b7074cd5adb0526632ca44ac2007"
+    },
+    {
+      "slice": 11,
+      "name": "PalmTree_Leaves",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_11_PalmTree_Leaves.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Leaves.png",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "5e4e75828acd067a63be4f309a5368bc58e6616e26caa73b6ba280f7e2f88d7d"
+    },
+    {
+      "slice": 12,
+      "name": "Grass",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_12_Grass.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Grass.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "1729f4bfbb86df17b2825cf8fcf2aeadcd3ac29c4c22cdf8c79eb247ab0a1189"
+    },
+    {
+      "slice": 13,
+      "name": "Leaves",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_13_Leaves.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Leaves.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "691adc7defe5eff8c761199590002776600b6ac5140a5de30deafc9a997942b1"
+    },
+    {
+      "slice": 14,
+      "name": "Rocks",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_14_Rocks.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Rocks_Diffuse.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "3189053cdeef7549cca1f78abc3ec34a777eac44fcf9c8eb652f9a9fcc090d18"
+    }
+  ],
+  "species": [
+    {
+      "id": "CommonTree_3",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/CommonTree_3.gltf",
+      "sourceTriangles": 3505,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD1.fbx",
+      "lod0Triangles": 2900,
+      "lod1Triangles": 1311,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD0.fbx",
+        "triangles": 2900,
+        "vertices": 4203,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.9864652156829834,
+          -5.244834824225109e-07,
+          -2.0609655380249023
+        ],
+        "boundsUnityMax": [
+          2.076380968093872,
+          9.425189971923828,
+          2.1801114082336426
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.0002399999793851748,
+              0.00024002788995858282
+            ],
+            "max": [
+              0.9997600317001343,
+              12.186039924621582
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              6.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "703a45010fe2490eea1a05d30b6cc46cd1a330a5981e2511466c3bb7bfe7274e"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD1.fbx",
+        "triangles": 1311,
+        "vertices": 2004,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.957463264465332,
+          -0.006971138063818216,
+          -2.0609655380249023
+        ],
+        "boundsUnityMax": [
+          2.076380968093872,
+          9.293949127197266,
+          2.1801114082336426
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.0002399999793851748,
+              0.00024002788995858282
+            ],
+            "max": [
+              0.9997600317001343,
+              10.558758735656738
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              6.0,
+              0.9771287441253662
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              0.9860755205154419
+            ]
+          }
+        ],
+        "sha256": "8b0d8d4e768921f34f80552c334c6ff5f10ff92b0c352e3c2c17b92520ac7629"
+      },
+      "boundsUnityMin": [
+        -1.9864652156829834,
+        -5.244834824225109e-07,
+        -2.0609655380249023
+      ],
+      "boundsUnityMax": [
+        2.076380968093872,
+        9.425189971923828,
+        2.1801114082336426
+      ],
+      "slices": [
+        0,
+        6
+      ],
+      "billboard": {
+        "path": "Assets/Orbis/Game/World/Nature/Textures/CommonTree_3_Billboard.png",
+        "width": 4.869128583099936,
+        "height": 9.75507162094116,
+        "viewCount": 8,
+        "columns": 4,
+        "rows": 2,
+        "cellPixels": 256,
+        "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+        "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+        "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+        "frames": [
+          {
+            "view": 0,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              1.0
+            ],
+            "alphaCoverage": 0.35711669921875
+          },
+          {
+            "view": 1,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.3392333984375
+          },
+          {
+            "view": 2,
+            "cameraUnityDirection": [
+              1.0,
+              0,
+              0.0
+            ],
+            "alphaCoverage": 0.3462982177734375
+          },
+          {
+            "view": 3,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.3497314453125
+          },
+          {
+            "view": 4,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              -1.0
+            ],
+            "alphaCoverage": 0.3572845458984375
+          },
+          {
+            "view": 5,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.339691162109375
+          },
+          {
+            "view": 6,
+            "cameraUnityDirection": [
+              -1.0,
+              0,
+              -0.0
+            ],
+            "alphaCoverage": 0.3465576171875
+          },
+          {
+            "view": 7,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.3500518798828125
+          }
+        ],
+        "sha256": "94dd104a0188eeb36fe1318867d3bcaf56e82b37a4fb1b8eb08a177864542daa"
+      },
+      "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/CommonTree_3_Billboard.png",
+      "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/CommonTree_3_Billboard.png",
+      "billboardWidth": 4.869128583099936,
+      "billboardHeight": 9.75507162094116
+    }
+  ],
+  "groundCover": [],
+  "grass": null,
+  "sourceHashes": {
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip": "298f6732b872e4cf7b30e6e7abf9641c7f6dc6b326df37ac089533ed7e3d58c9",
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/License_Standard.txt": "120710e542c3ebaf83856c4eb55b4a1e680593b39302eba7fdc5d942dfe78c58",
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/SourceManifest.json": "ee48d18863cd4c037a6414d09cc3ef1dd36c904eb480ebcdeec0dfbe40df7b79",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/License.txt": "de990ef6fc68cffd7fd1ae342c4d0c823b541b8848d8f76bca5d3339f4de6f6e",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/SourceManifest.json": "9c9a9073e09721817b7667771c7118dfc1aa896a849d179b18a3ba6e9c073bc5",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Bark.png": "689dd3e55523e999cf9a2271aa1e8ce1ac6a7cf3a2dc4bd796dd76860a33154b",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Bark.png": "183645b8dc99e810e9b4c5d48a0944ccff4c2f2a9bd5f1816ab66a367cfe9a92",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Trunk.png": "504d8d7e87ad686efd267a4f6eba2b2faacc589b4a169f1904aca1d6ff5e672d",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Leaves.png": "8b674a02017d987f8ec0448bd2a52ad788d1235f91b7f00499b4ca071f8e69fe",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Leaves.png": "915f0836e9889e28032662c7aa0d0eb9601ba999eda042c9a4e38690786d6c7b",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Leaves.png": "6702bdeb0d5496527a049145583c98c4fdaee9fc55ea5d33a3ca2a9014a0cc74"
+  },
+  "sourceHashesUnchanged": {
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/License_Standard.txt": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/SourceManifest.json": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/License.txt": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/SourceManifest.json": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Bark.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Bark.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Trunk.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Leaves.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Leaves.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Leaves.png": true
+  },
+  "biomeSpecies": {
+    "Zephyr": [
+      "CommonTree_3",
+      "BirchTree_1",
+      "MapleTree_1"
+    ],
+    "Teluna": [
+      "PalmTree_1",
+      "CommonTree_3",
+      "TwistedTree_2"
+    ],
+    "Granite": [
+      "Pine_5",
+      "BirchTree_1",
+      "DeadTree_5"
+    ],
+    "Agnia": [
+      "DeadTree_5",
+      "Pine_5",
+      "MapleTree_1"
+    ],
+    "Voltheim": [
+      "TwistedTree_2",
+      "Pine_5",
+      "BirchTree_1"
+    ]
+  }
+}

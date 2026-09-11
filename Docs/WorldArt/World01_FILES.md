@@ -1,0 +1,97 @@
+# World Step 01 — 변경 파일
+
+단계별 소스 스냅샷 차이입니다. Unity `.meta`도 포함합니다. 테스트 로그·PNG는 `TestResults/WorldDev/`에 별도 보존합니다.
+
+총 91개 파일.
+
+- 변경: `Assets/AddressableAssetsData/AddressableAssetSettings.asset`
+- 생성: `Assets/AddressableAssetsData/AssetGroups/ORBIS World Environment.asset`
+- 생성: `Assets/AddressableAssetsData/AssetGroups/ORBIS World Environment.asset.meta`
+- 생성: `Assets/AddressableAssetsData/AssetGroups/Schemas/ORBIS World Environment_BundledAssetGroupSchema.asset`
+- 생성: `Assets/AddressableAssetsData/AssetGroups/Schemas/ORBIS World Environment_BundledAssetGroupSchema.asset.meta`
+- 생성: `Assets/AddressableAssetsData/AssetGroups/Schemas/ORBIS World Environment_ContentUpdateGroupSchema.asset`
+- 생성: `Assets/AddressableAssetsData/AssetGroups/Schemas/ORBIS World Environment_ContentUpdateGroupSchema.asset.meta`
+- 생성: `Assets/AddressableAssetsData/Windows.meta`
+- 생성: `Assets/AddressableAssetsData/Windows/addressables_content_state.bin`
+- 생성: `Assets/AddressableAssetsData/Windows/addressables_content_state.bin.meta`
+- 생성: `Assets/InitTestScened97b4199-1e33-40a2-8667-eaa46815459b.unity`
+- 생성: `Assets/InitTestScened97b4199-1e33-40a2-8667-eaa46815459b.unity.meta`
+- 변경: `Assets/Orbis/Game/Editor/IslandScenePolish.cs`
+- 변경: `Assets/Orbis/Game/Editor/IslandTerrainBuilder.cs`
+- 변경: `Assets/Orbis/Game/Editor/Orbis.Game.Editor.asmdef`
+- 생성: `Assets/Orbis/Game/Editor/WorldArtBuilder.cs`
+- 생성: `Assets/Orbis/Game/Editor/WorldArtBuilder.cs.meta`
+- 생성: `Assets/Orbis/Game/Editor/WorldStreamingBuilder.cs`
+- 생성: `Assets/Orbis/Game/Editor/WorldStreamingBuilder.cs.meta`
+- 생성: `Assets/Orbis/Game/Editor/WorldTerrainUpgrade.cs`
+- 생성: `Assets/Orbis/Game/Editor/WorldTerrainUpgrade.cs.meta`
+- 변경: `Assets/Orbis/Game/Island/Resources/IslandMap.asset`
+- 변경: `Assets/Orbis/Game/Island/Terrain/Island_0_0.asset`
+- 변경: `Assets/Orbis/Game/Island/Terrain/Island_0_1.asset`
+- 변경: `Assets/Orbis/Game/Island/Terrain/Island_1_0.asset`
+- 변경: `Assets/Orbis/Game/Island/Terrain/Island_1_1.asset`
+- 변경: `Assets/Orbis/Game/Island/Textures/WaterElevation.asset`
+- 변경: `Assets/Orbis/Game/Runtime/Orbis.Game.Runtime.asmdef`
+- 생성: `Assets/Orbis/Game/Runtime/World.meta`
+- 생성: `Assets/Orbis/Game/Runtime/World/WorldBiome.cs`
+- 생성: `Assets/Orbis/Game/Runtime/World/WorldBiome.cs.meta`
+- 생성: `Assets/Orbis/Game/Runtime/World/WorldRegionStreamer.cs`
+- 생성: `Assets/Orbis/Game/Runtime/World/WorldRegionStreamer.cs.meta`
+- 생성: `Assets/Orbis/Game/Runtime/World/WorldStreamCatalog.cs`
+- 생성: `Assets/Orbis/Game/Runtime/World/WorldStreamCatalog.cs.meta`
+- 변경: `Assets/Orbis/Game/Scenes/Orbis_Island.unity`
+- 생성: `Assets/Orbis/Game/Tests/EditMode.meta`
+- 생성: `Assets/Orbis/Game/Tests/EditMode/Orbis.Game.WorldEditModeTests.asmdef`
+- 생성: `Assets/Orbis/Game/Tests/EditMode/Orbis.Game.WorldEditModeTests.asmdef.meta`
+- 생성: `Assets/Orbis/Game/Tests/EditMode/WorldBiomeTests.cs`
+- 생성: `Assets/Orbis/Game/Tests/EditMode/WorldBiomeTests.cs.meta`
+- 생성: `Assets/Orbis/Game/Tests/PlayMode/WorldVisualTests.cs`
+- 생성: `Assets/Orbis/Game/Tests/PlayMode/WorldVisualTests.cs.meta`
+- 생성: `Assets/Orbis/Game/Tests/WorldStreamingPlayMode.meta`
+- 생성: `Assets/Orbis/Game/Tests/WorldStreamingPlayMode/Orbis.Game.WorldStreamingPlayModeTests.asmdef`
+- 생성: `Assets/Orbis/Game/Tests/WorldStreamingPlayMode/Orbis.Game.WorldStreamingPlayModeTests.asmdef.meta`
+- 생성: `Assets/Orbis/Game/Tests/WorldStreamingPlayMode/WorldRegionStreamingTests.cs`
+- 생성: `Assets/Orbis/Game/Tests/WorldStreamingPlayMode/WorldRegionStreamingTests.cs.meta`
+- 생성: `Assets/Orbis/Game/World.meta`
+- 생성: `Assets/Orbis/Game/World/Resources.meta`
+- 생성: `Assets/Orbis/Game/World/Resources/World.meta`
+- 생성: `Assets/Orbis/Game/World/Resources/World/StreamCatalog.asset`
+- 생성: `Assets/Orbis/Game/World/Resources/World/StreamCatalog.asset.meta`
+- 생성: `Assets/Orbis/Game/World/Scenes.meta`
+- 생성: `Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity`
+- 생성: `Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity.meta`
+- 생성: `Assets/Orbis/Game/World/Scenes/Environment_Granite.unity`
+- 생성: `Assets/Orbis/Game/World/Scenes/Environment_Granite.unity.meta`
+- 생성: `Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity`
+- 생성: `Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity.meta`
+- 생성: `Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity`
+- 생성: `Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity.meta`
+- 생성: `Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity`
+- 생성: `Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity.meta`
+- 생성: `Docs/WorldArt/Sources/Quaternius_License_Evidence.json`
+- 생성: `Docs/WorldArt/Sources/Quaternius_MegaKit_Itch.html`
+- 생성: `Docs/WorldArt/Sources/Quaternius_MegaKit_License_Standard.txt`
+- 생성: `Docs/WorldArt/Sources/Quaternius_MegaKit_Official.html`
+- 생성: `Docs/WorldArt/Sources/Quaternius_UltimateStylizedNature_License.txt`
+- 생성: `Docs/WorldArt/Sources/Quaternius_UltimateStylizedNature_Official.html`
+- 생성: `Docs/WorldArt/Sources/Quaternius_증빙_안내.md`
+- 생성: `Docs/World_Environment_Streaming.md`
+- 생성: `Tools/Blender/AnatomyExports/Polaris.fbx`
+- 생성: `Tools/Blender/AnatomyExports/Stella.fbx`
+- 생성: `Tools/Blender/FaceExports/Polaris.fbx`
+- 생성: `Tools/Blender/FaceExports/Stella.fbx`
+- 생성: `Tools/Blender/FinalExports/Polaris.fbx`
+- 생성: `Tools/Blender/FinalExports/Stella.fbx`
+- 생성: `Tools/Blender/HeadRefine-preview/Polaris.blend`
+- 생성: `Tools/Blender/HeadRefine-preview/Polaris_Front.png`
+- 생성: `Tools/Blender/HeadRefine-preview/Polaris_Profile.png`
+- 생성: `Tools/Blender/HeadRefine-preview/Polaris_ThreeQuarter.png`
+- 생성: `Tools/Blender/HeadRefine-preview/Polaris_report.json`
+- 생성: `Tools/Blender/HeadRefine-preview/Stella.blend`
+- 생성: `Tools/Blender/HeadRefine-preview/Stella_Front.png`
+- 생성: `Tools/Blender/HeadRefine-preview/Stella_Profile.png`
+- 생성: `Tools/Blender/HeadRefine-preview/Stella_ThreeQuarter.png`
+- 생성: `Tools/Blender/HeadRefine-preview/Stella_report.json`
+- 생성: `Tools/Blender/create_inferno_hornbeast.py`
+- 생성: `Tools/WorldDev/VegetationSourceInspection.json`
+- 생성: `Tools/WorldDev/record_step.py`

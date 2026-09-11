@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-11 10:25:20Z" end-time="2026-09-11 10:25:24Z" duration="4.0892242">
+  <test-suite type="TestSuite" id="1143" name="Orbis M0" fullname="Orbis M0" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-09-11 10:25:20Z" end-time="2026-09-11 10:25:24Z" duration="4.089224" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1039" name="Orbis.Game.PlayModeTests.dll" fullname="C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Library/ScriptAssemblies/Orbis.Game.PlayModeTests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-11 10:25:20Z" end-time="2026-09-11 10:25:24Z" duration="4.079314" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="46372" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1040" name="Orbis" fullname="Orbis" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-11 10:25:20Z" end-time="2026-09-11 10:25:24Z" duration="4.078592" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1041" name="Game" fullname="Orbis.Game" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-11 10:25:20Z" end-time="2026-09-11 10:25:24Z" duration="4.078109" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1042" name="Tests" fullname="Orbis.Game.Tests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-11 10:25:20Z" end-time="2026-09-11 10:25:24Z" duration="4.077588" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1029" name="WorldLandmarkVisibilityTests" fullname="Orbis.Game.Tests.WorldLandmarkVisibilityTests" classname="Orbis.Game.Tests.WorldLandmarkVisibilityTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-11 10:25:20Z" end-time="2026-09-11 10:25:24Z" duration="4.075864" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1030" name="ReportActualRouteSightlinesAndUnseenIntervalsWithoutAssumingEveryLandmarkIsVisible" fullname="Orbis.Game.Tests.WorldLandmarkVisibilityTests.ReportActualRouteSightlinesAndUnseenIntervalsWithoutAssumingEveryLandmarkIsVisible" methodname="ReportActualRouteSightlinesAndUnseenIntervalsWithoutAssumingEveryLandmarkIsVisible" classname="Orbis.Game.Tests.WorldLandmarkVisibilityTests" runstate="Runnable" seed="513834243" result="Passed" start-time="2026-09-11 10:25:20Z" end-time="2026-09-11 10:25:24Z" duration="4.064489" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[ORBIS_ROUTE_VISIBILITY Forward: forward sampled coverage=93.8 %, max sampled gap=240.0m; solid geometry only.
+ORBIS_ROUTE_VISIBILITY Reverse: forward sampled coverage=93.8 %, max sampled gap=160.0m; solid geometry only.
+Saving results to: C:/Users/Mirim/AppData/LocalLow/Orbis/Orbis M0\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

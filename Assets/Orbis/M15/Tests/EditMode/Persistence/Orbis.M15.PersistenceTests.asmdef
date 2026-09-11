@@ -1,0 +1,7 @@
+{
+  "name": "Orbis.M15.PersistenceTests",
+  "rootNamespace": "Orbis.M15.Tests",
+  "references": ["Orbis.M15.Core", "Orbis.M15.Runtime", "Orbis.M4.Runtime", "Orbis.M1.Runtime"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

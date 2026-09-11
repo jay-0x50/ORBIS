@@ -1,0 +1,10 @@
+{
+  "name": "Orbis.M0.Runtime",
+  "rootNamespace": "Orbis.M0",
+  "references": [
+    "Unity.InputSystem",
+    "Unity.Cinemachine",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Core.Runtime"
+  ]
+}

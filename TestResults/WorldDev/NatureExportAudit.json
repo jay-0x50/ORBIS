@@ -1,0 +1,346 @@
+{
+  "passed": true,
+  "fbxCount": 24,
+  "models": [
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD0.fbx",
+      "triangles": 2900,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        0,
+        6
+      ],
+      "heightMetres": 9.425190490607974,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD1.fbx",
+      "triangles": 1311,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        0,
+        6
+      ],
+      "heightMetres": 9.300920280162245,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Pine_5_LOD0.fbx",
+      "triangles": 1517,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        0,
+        7
+      ],
+      "heightMetres": 8.726893261773512,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Pine_5_LOD1.fbx",
+      "triangles": 729,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        0,
+        7
+      ],
+      "heightMetres": 8.72876828815788,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/DeadTree_5_LOD0.fbx",
+      "triangles": 1800,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        1
+      ],
+      "heightMetres": 16.434857713466045,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/DeadTree_5_LOD1.fbx",
+      "triangles": 719,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        1
+      ],
+      "heightMetres": 16.427246215753257,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/TwistedTree_2_LOD0.fbx",
+      "triangles": 4543,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        2,
+        8
+      ],
+      "heightMetres": 18.951840861234814,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/TwistedTree_2_LOD1.fbx",
+      "triangles": 2014,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        2,
+        8
+      ],
+      "heightMetres": 18.974057922139764,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/BirchTree_1_LOD0.fbx",
+      "triangles": 2659,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        3,
+        9
+      ],
+      "heightMetres": 5.452933560838574,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/BirchTree_1_LOD1.fbx",
+      "triangles": 1219,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        3,
+        9
+      ],
+      "heightMetres": 5.453410986694507,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/MapleTree_1_LOD0.fbx",
+      "triangles": 1713,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        4,
+        10
+      ],
+      "heightMetres": 6.644907933892682,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/MapleTree_1_LOD1.fbx",
+      "triangles": 759,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        4,
+        10
+      ],
+      "heightMetres": 6.595443708123639,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/PalmTree_1_LOD0.fbx",
+      "triangles": 472,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        5,
+        11
+      ],
+      "heightMetres": 5.10337305297449,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/PalmTree_1_LOD1.fbx",
+      "triangles": 228,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        5,
+        11
+      ],
+      "heightMetres": 5.103674155398039,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Grass_Common_Short_LOD0.fbx",
+      "triangles": 155,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        12
+      ],
+      "heightMetres": 1.3341034609548865,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Grass_Common_Short_LOD1.fbx",
+      "triangles": 82,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        12
+      ],
+      "heightMetres": 1.3284957243595272,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Fern_1_LOD0.fbx",
+      "triangles": 288,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        13
+      ],
+      "heightMetres": 0.840243141043274,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Fern_1_LOD1.fbx",
+      "triangles": 152,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        13
+      ],
+      "heightMetres": 0.8373713786713779,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_1_LOD0.fbx",
+      "triangles": 342,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        14
+      ],
+      "heightMetres": 2.259796676004875,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_1_LOD1.fbx",
+      "triangles": 142,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        14
+      ],
+      "heightMetres": 2.253227907931432,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_2_LOD0.fbx",
+      "triangles": 244,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        14
+      ],
+      "heightMetres": 1.89897472933308,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_2_LOD1.fbx",
+      "triangles": 102,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        14
+      ],
+      "heightMetres": 1.905189372599125,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_3_LOD0.fbx",
+      "triangles": 522,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        14
+      ],
+      "heightMetres": 2.3162826616555208,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_3_LOD1.fbx",
+      "triangles": 218,
+      "meshCount": 1,
+      "materialCount": 1,
+      "uvChannels": 3,
+      "slices": [
+        14
+      ],
+      "heightMetres": 2.2919468320906162,
+      "finiteUV": true,
+      "sha256Unchanged": true
+    }
+  ],
+  "sourceHashesUnchanged": {
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/License_Standard.txt": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/SourceManifest.json": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/License.txt": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/SourceManifest.json": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Bark.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Bark.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Trunk.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Leaves.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Leaves.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Leaves.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_1.fbx": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_1.fbx": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_1.fbx": true
+  }
+}

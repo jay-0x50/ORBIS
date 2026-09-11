@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "generatedOn": "2026-09-11",
+  "method": "Built-in image_gen.imagegen; no CLI/API fallback, no post-generation resize or pixel edits.",
+  "requestedDimensions": {
+    "width": 2048,
+    "height": 2048
+  },
+  "actualDimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "references": [
+    {
+      "path": "Assets/Img/여주인공.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 2245562,
+      "sha256": "C352B2B9E898D090C257A451734B5685D30FE7E0E8B60444B6737FB6FB8DE4F7",
+      "role": "Costume color, textile and celestial embroidery reference 1"
+    },
+    {
+      "path": "Assets/Img/남주인공.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 2365946,
+      "sha256": "B551F067DAAECBFA91002EB3D04C8C4BD2F64E7EA36C2E6BAD6EE2AD03632FA4",
+      "role": "Costume color, textile and celestial embroidery reference 2"
+    }
+  ],
+  "assets": [
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/Body_Ivory_BaseColor.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2509023,
+      "sha256": "E3A52E2E126072CC5493ABD7DA92A4E7F7CFAF0418F36DD27C803163EB89B6FD",
+      "materialRole": "EX_TailoredIvory",
+      "originalGeneratedFile": "C:\\Users\\Mirim\\.codex\\generated_images\\01a08e9a-763d-76d1-bb5f-0dcf2572a88d\\exec-0a102d1f-0ef4-4df5-85b7-c858dda17c32.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: production-ready color/albedo texture for the shared ivory cloth on two original anime fantasy RPG protagonist 3D models.\nInput images: Image 1 and Image 2 are reference images ONLY for the ivory costume fabric, fine gold embroidery, elegant celestial details and muted luxurious palette. Do not render the characters or copy the layout of the reference sheets.\nPrimary request: generate ONE square 2048 x 2048 pixel, full-bleed, opaque, orthographic flat fabric albedo texture. The entire image must be warm pearl ivory woven cloth, with exceptionally subtle long vertical fabric grain and low-contrast soft vertical tailoring folds. Use sparse delicate pale-gold celestial seam embroidery and a few tiny understated four-point stars; keep most of the surface uncluttered to map cleanly to curved torso, sleeves and skirt panels. Fine silk/cotton surface with tasteful hand-painted anime material finish and exquisite detail visible at close range.\nComposition: full rectangular cloth surface extends completely to every edge. Overall base ivory near sRGB #EDE7DD, fine embroidery near #BCA47C; gentle cool ivory variation as in the references. Vertical direction runs continuously from top to bottom, with no horizontal breaks. Very low contrast fabric shading, no baked directional light, because Unity will supply lighting. Sparse embroidery must not form a rigid picture frame, large central emblem or big stripes.\nConstraints: no character, face, hands, body, mannequin, garment outline, background margin, text, letters, logo, watermark, texture grid, seams chart, collage or UV wireframe. No metal armor, hard cast shadows, bright glow, raised gold plaque, large rim/frame, dramatic drapery or perspective. Opaque RGB albedo image, not a transparency cutout, not a cloth photograph displayed on a white background. Return the texture itself.",
+      "mapping": "Full 0..1 UV panel, white base color, clamp edges."
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/Body_Navy_BaseColor.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2555129,
+      "sha256": "C3522B6B361453D83CD2E1E5B2340D37C5F319050B506F6E4CD2F00BF3073D57",
+      "materialRole": "EX_TailoredNavy",
+      "originalGeneratedFile": "C:\\Users\\Mirim\\.codex\\generated_images\\01a08e9a-763d-76d1-bb5f-0dcf2572a88d\\exec-17ea0422-af61-400b-a110-4e4c209e5533.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: production-ready color/albedo texture for an original anime fantasy RPG protagonist's navy coat and cape panel.\nInput images: Image 1 and Image 2 are reference images ONLY for the navy-blue fabric color, refined golden compass/star embroidery and celestial costume visual language. Do not render the characters or the reference sheet layout.\nPrimary request: generate ONE square 2048 x 2048 pixel, full-bleed, opaque, straight-on flat cloth albedo texture, suitable to map UV 0..1 onto one smooth long cape panel. Use the elegant subdued slate-navy of the reference capes, with fine vertical silk-wool weave and extremely low-contrast long vertical cloth variation. The upper two thirds must be mostly plain clean navy cloth. In the lower third, centered horizontally, place one refined thin pale antique-gold compass rose / celestial navigation emblem inspired by the references, with a few tiny spaced four-point star accents. Near the bottom edge and along the lower sides, a narrow delicate golden stitched hem line; the upper edge remains plain. Embroidery lies flat within fabric, never raised armor.\nComposition: cloth fills every pixel all the way to every edge; no empty background or garment silhouette. The design reads as one complete continuous elegant rectangular cloth panel, no tile grid. Base color close to sRGB #35445D (muted blue navy, visibly blue rather than near-black), gold around #BEA782. A clear subtle compass emblem roughly 20 percent of the total image width and centered about 75 percent down the image. Keep embroidery light and sparse, not a heavy ornamental frame.\nLighting: color/albedo only with delicate cloth variation. No strong baked illumination or shadows, no metallic specular shine, no vignette, Unity supplies the 3D light.\nConstraints: no people, body, garment outline, stand, mannequin, terrain, border margin, letters, words, labels, compass letters N/E/S/W, logos, watermark, collage, UV wireframe, big gold plates, bright magic effects or photoreal perspective. Opaque RGB albedo, no transparency. Return the texture itself.",
+      "mapping": "Full 0..1 UV cape/coat panel, gold compass at U approximately 0.5 / V approximately 0.25; white base color, clamp edges."
+    }
+  ],
+  "unityImport": {
+    "type": "Default Texture2D",
+    "sRGB": true,
+    "alphaSource": "None",
+    "maxTextureSize": 2048,
+    "npotScale": "None",
+    "filter": "Trilinear",
+    "mipmaps": true,
+    "wrap": "Clamp",
+    "compression": "Uncompressed",
+    "readWrite": false,
+    "anisoLevel": 4
+  },
+  "materialSettings": {
+    "shader": "Orbis/Art/UnifiedToon",
+    "baseColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "bandSoftness": 0.8,
+    "shadowStrength": 0.55,
+    "ambientFill": 0.18,
+    "outlinePixels": 0.35
+  },
+  "notes": [
+    "Reference images are user-provided project concept art; their origin/license is not replaced by this generation record.",
+    "Generated PNG files were copied byte-for-byte from the original built-in output; original generated files remain intact.",
+    "This adds cloth albedo detail to the rebuilt models. It does not create clothing geometry, gameplay, models for other characters or change animation clips."
+  ]
+}

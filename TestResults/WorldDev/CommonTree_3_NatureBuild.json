@@ -1,0 +1,220 @@
+{
+  "id": "CommonTree_3",
+  "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/CommonTree_3.gltf",
+  "sourceTriangles": 3505,
+  "lod0Path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD0.fbx",
+  "lod1Path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD1.fbx",
+  "lod0Triangles": 2900,
+  "lod1Triangles": 1311,
+  "lod0": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD0.fbx",
+    "triangles": 2900,
+    "vertices": 4203,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -1.9864652156829834,
+      -5.244834824225109e-07,
+      -2.0609655380249023
+    ],
+    "boundsUnityMax": [
+      2.076380968093872,
+      9.425189971923828,
+      2.1801114082336426
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.0002399999793851748,
+          0.00024002788995858282
+        ],
+        "max": [
+          0.9997600317001343,
+          12.186039924621582
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          6.0,
+          1.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "247e4d5e70c01946969bc32fa54629527f618e00e57d761b7d5e2e5faae662a7"
+  },
+  "lod1": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD1.fbx",
+    "triangles": 1311,
+    "vertices": 2004,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -1.957463264465332,
+      -0.006971138063818216,
+      -2.0609655380249023
+    ],
+    "boundsUnityMax": [
+      2.076380968093872,
+      9.293949127197266,
+      2.1801114082336426
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.0002399999793851748,
+          0.00024002788995858282
+        ],
+        "max": [
+          0.9997600317001343,
+          10.558758735656738
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          6.0,
+          0.9771287441253662
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          0.9860755205154419
+        ]
+      }
+    ],
+    "sha256": "3fb667b8d20ec76e4dc4c68bec017a4565a7605ae811988a9ad67490dccf6478"
+  },
+  "boundsUnityMin": [
+    -1.9864652156829834,
+    -5.244834824225109e-07,
+    -2.0609655380249023
+  ],
+  "boundsUnityMax": [
+    2.076380968093872,
+    9.425189971923828,
+    2.1801114082336426
+  ],
+  "slices": [
+    0,
+    6
+  ],
+  "billboard": {
+    "path": "Assets/Orbis/Game/World/Nature/Textures/CommonTree_3_Billboard.png",
+    "width": 4.869128583099936,
+    "height": 9.75507162094116,
+    "viewCount": 8,
+    "columns": 4,
+    "rows": 2,
+    "cellPixels": 256,
+    "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+    "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+    "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+    "frames": [
+      {
+        "view": 0,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          1.0
+        ],
+        "alphaCoverage": 0.35711669921875
+      },
+      {
+        "view": 1,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.3392333984375
+      },
+      {
+        "view": 2,
+        "cameraUnityDirection": [
+          1.0,
+          0,
+          0.0
+        ],
+        "alphaCoverage": 0.3462982177734375
+      },
+      {
+        "view": 3,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.3497314453125
+      },
+      {
+        "view": 4,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          -1.0
+        ],
+        "alphaCoverage": 0.3572845458984375
+      },
+      {
+        "view": 5,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.339691162109375
+      },
+      {
+        "view": 6,
+        "cameraUnityDirection": [
+          -1.0,
+          0,
+          -0.0
+        ],
+        "alphaCoverage": 0.3465576171875
+      },
+      {
+        "view": 7,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.3500518798828125
+      }
+    ],
+    "sha256": "94dd104a0188eeb36fe1318867d3bcaf56e82b37a4fb1b8eb08a177864542daa"
+  },
+  "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/CommonTree_3_Billboard.png",
+  "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/CommonTree_3_Billboard.png",
+  "billboardWidth": 4.869128583099936,
+  "billboardHeight": 9.75507162094116
+}

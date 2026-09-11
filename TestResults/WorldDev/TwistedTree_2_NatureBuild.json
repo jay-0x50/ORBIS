@@ -1,0 +1,220 @@
+{
+  "id": "TwistedTree_2",
+  "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/TwistedTree_2.gltf",
+  "sourceTriangles": 9134,
+  "lod0Path": "Assets/Orbis/Game/World/Nature/Models/TwistedTree_2_LOD0.fbx",
+  "lod1Path": "Assets/Orbis/Game/World/Nature/Models/TwistedTree_2_LOD1.fbx",
+  "lod0Triangles": 4543,
+  "lod1Triangles": 2014,
+  "lod0": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/TwistedTree_2_LOD0.fbx",
+    "triangles": 4543,
+    "vertices": 5946,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -6.619970321655273,
+      -0.0026373197324573994,
+      -5.540718078613281
+    ],
+    "boundsUnityMax": [
+      3.942902088165283,
+      18.949203491210938,
+      3.661869764328003
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.0002399999793851748,
+          -0.998539924621582
+        ],
+        "max": [
+          1.9985400438308716,
+          13.84220027923584
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          2.0,
+          0.0
+        ],
+        "max": [
+          8.0,
+          1.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "491614e83abb27d28bc97542d661ce6a9e5dc5cbade32fe109e12e416bb69f9e"
+  },
+  "lod1": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/TwistedTree_2_LOD1.fbx",
+    "triangles": 2014,
+    "vertices": 2846,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -6.619970321655273,
+      -0.02485438995063305,
+      -5.540718078613281
+    ],
+    "boundsUnityMax": [
+      3.9197025299072266,
+      18.949203491210938,
+      3.5111613273620605
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.00023999996483325958,
+          -0.0014432694297283888
+        ],
+        "max": [
+          1.025182843208313,
+          10.99206256866455
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          2.0,
+          0.0
+        ],
+        "max": [
+          8.0,
+          1.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "956e5bcad3a3b6304bccc49464bc74f38d74df3df95389be776c9dc6522a50fd"
+  },
+  "boundsUnityMin": [
+    -6.619970321655273,
+    -0.0026373197324573994,
+    -5.540718078613281
+  ],
+  "boundsUnityMax": [
+    3.942902088165283,
+    18.949203491210938,
+    3.661869764328003
+  ],
+  "slices": [
+    2,
+    8
+  ],
+  "billboard": {
+    "path": "Assets/Orbis/Game/World/Nature/Textures/TwistedTree_2_Billboard.png",
+    "width": 14.633290204792058,
+    "height": 19.612425613403317,
+    "viewCount": 8,
+    "columns": 4,
+    "rows": 2,
+    "cellPixels": 256,
+    "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+    "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+    "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+    "frames": [
+      {
+        "view": 0,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          1.0
+        ],
+        "alphaCoverage": 0.3690338134765625
+      },
+      {
+        "view": 1,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.328277587890625
+      },
+      {
+        "view": 2,
+        "cameraUnityDirection": [
+          1.0,
+          0,
+          0.0
+        ],
+        "alphaCoverage": 0.3160552978515625
+      },
+      {
+        "view": 3,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.3543701171875
+      },
+      {
+        "view": 4,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          -1.0
+        ],
+        "alphaCoverage": 0.369293212890625
+      },
+      {
+        "view": 5,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.32818603515625
+      },
+      {
+        "view": 6,
+        "cameraUnityDirection": [
+          -1.0,
+          0,
+          -0.0
+        ],
+        "alphaCoverage": 0.3162841796875
+      },
+      {
+        "view": 7,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.354278564453125
+      }
+    ],
+    "sha256": "12624875ce0d5767d96cbf52b0bb41f354ec787104530cec1e23a5855788c9e8"
+  },
+  "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/TwistedTree_2_Billboard.png",
+  "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/TwistedTree_2_Billboard.png",
+  "billboardWidth": 14.633290204792058,
+  "billboardHeight": 19.612425613403317
+}

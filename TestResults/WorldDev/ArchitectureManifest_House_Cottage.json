@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "authoring": "Original Orbis procedural architectural geometry; no commercial game or third-party mesh input.",
+  "palette": [
+    {
+      "name": "Architecture_Ivory",
+      "sRGB": [
+        0.79,
+        0.755,
+        0.65,
+        1
+      ],
+      "linear": [
+        0.5870163508936885,
+        0.5303445889969244,
+        0.38005633644979925,
+        1
+      ]
+    },
+    {
+      "name": "Architecture_Timber",
+      "sRGB": [
+        0.245,
+        0.175,
+        0.115,
+        1
+      ],
+      "linear": [
+        0.0488973258050732,
+        0.025842879545199027,
+        0.012510408999112432,
+        1
+      ]
+    },
+    {
+      "name": "Architecture_Slate",
+      "sRGB": [
+        0.17,
+        0.255,
+        0.315,
+        1
+      ],
+      "linear": [
+        0.024515013703524748,
+        0.05290079053734631,
+        0.08088690806308922,
+        1
+      ]
+    },
+    {
+      "name": "Architecture_Stone",
+      "sRGB": [
+        0.43,
+        0.445,
+        0.4,
+        1
+      ],
+      "linear": [
+        0.15487248594976835,
+        0.16661807296157424,
+        0.13286832155381798,
+        1
+      ]
+    },
+    {
+      "name": "Architecture_Brass",
+      "sRGB": [
+        0.6,
+        0.465,
+        0.245,
+        1
+      ],
+      "linear": [
+        0.31854677812509186,
+        0.18306365183121143,
+        0.0488973258050732,
+        1
+      ]
+    },
+    {
+      "name": "Architecture_Glass",
+      "sRGB": [
+        0.095,
+        0.205,
+        0.245,
+        1
+      ],
+      "linear": [
+        0.00926431084760073,
+        0.03468407622580734,
+        0.0488973258050732,
+        1
+      ]
+    }
+  ],
+  "coordinateSystem": "Unity +Y up, +Z front, metres, ground centre pivot; windmill Rotor is separate and rotates around local +Z",
+  "uv": "UV0 repeating planar mapping: 1 UV unit = 2 metres; no vertex tint multiplication required",
+  "doorHeightsMetres": {
+    "houses": 2.12,
+    "workshop": 2.35,
+    "windmill": 2.35,
+    "spire": 2.55
+  },
+  "models": [
+    {
+      "id": "House_Cottage",
+      "author": "Original Orbis geometry authored in local Blender; no external model input",
+      "lods": [
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/House_Cottage_LOD0.fbx",
+          "triangles": 14400,
+          "meshCount": 1,
+          "boundsUnityMin": [
+            -3.9049999713897705,
+            0.0,
+            -3.205000400543213
+          ],
+          "boundsUnityMax": [
+            3.9049999713897705,
+            6.644999980926514,
+            4.74500036239624
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "House_Cottage_Body",
+              "triangles": 14400,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                -0.0
+              ]
+            }
+          ],
+          "sha256": "3a8394f47ef74c9dd3b1dcb8f5c0f972aec3e1475dfbda31b2653bf63a3dcc3a"
+        },
+        {
+          "path": "Assets/Orbis/Game/World/Architecture/Models/House_Cottage_LOD1.fbx",
+          "triangles": 1184,
+          "meshCount": 1,
+          "boundsUnityMin": [
+            -3.9049999713897705,
+            0.0,
+            -3.205000400543213
+          ],
+          "boundsUnityMax": [
+            3.9049999713897705,
+            6.644999980926514,
+            4.74500036239624
+          ],
+          "materialNames": [
+            "Architecture_Ivory",
+            "Architecture_Timber",
+            "Architecture_Slate",
+            "Architecture_Stone",
+            "Architecture_Brass",
+            "Architecture_Glass"
+          ],
+          "meshes": [
+            {
+              "name": "House_Cottage_Body",
+              "triangles": 1184,
+              "usedMaterialSlots": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "localPivotUnity": [
+                0.0,
+                0.0,
+                -0.0
+              ]
+            }
+          ],
+          "sha256": "83c702e360f093d05ae63a47af76b814fa8224036ac52494bddbdcadab603c01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Pack": "Kenney_UIPack",
+  "VerifiedUtc": "2026-09-10T07:07:38.7040816Z",
+  "FileCount": 41,
+  "TotalBytes": 29439.0,
+  "AllSelectedSourceHashesMatch": true,
+  "Mismatches": [],
+  "ScreenshotHashMatches": true,
+  "ScreenshotVisuallyChecked": true,
+  "LicenseSHA256": "69f7eaa5e05913b4d09cf5848f75390b5c3c9a409ef8555777803d9ca0c171fb",
+  "HtmlSHA256": "3193b1ae8250787254e8fb1da65ce1215295743784462387ec276e1676e28105"
+}

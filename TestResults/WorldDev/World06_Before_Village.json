@@ -1,0 +1,22 @@
+{
+  "stage": "World05_After",
+  "view": "Village",
+  "camera": {
+    "x": 2.0,
+    "y": 28.0,
+    "z": -227.0
+  },
+  "focus": {
+    "x": -120.0,
+    "y": 34.0,
+    "z": -225.0
+  },
+  "fov": 58.0,
+  "monochrome": false,
+  "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+  "vram": 3930,
+  "note": "Actual Unity URP render; fixed world camera recipe. Not a performance benchmark.",
+  "aliasNote": "STEP 6 Before is a byte-identical copy of the final STEP 5 clear-weather capture, not a new render.",
+  "sourceCapture": "World05_After_Village.png",
+  "sha256": "08bc2e2d09c4a1116a1154a1f9f37e429e0dfa3dae9b4dd4bacd9dfcf8bd68a7"
+}

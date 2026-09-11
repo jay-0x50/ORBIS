@@ -1,0 +1,341 @@
+{
+  "pairs": [
+    {
+      "step": 1,
+      "view": "Overview",
+      "before": "World01_Before_Overview",
+      "after": "World01_After_Overview",
+      "sameCamera": true
+    },
+    {
+      "step": 1,
+      "view": "Silhouette",
+      "before": "World01_Before_Silhouette",
+      "after": "World01_After_Silhouette",
+      "sameCamera": true
+    },
+    {
+      "step": 1,
+      "view": "MeadowHighland",
+      "before": "World01_Before_MeadowHighland",
+      "after": "World01_After_MeadowHighland",
+      "sameCamera": true
+    },
+    {
+      "step": 1,
+      "view": "CoastalWetland",
+      "before": "World01_Before_CoastalWetland",
+      "after": "World01_After_CoastalWetland",
+      "sameCamera": true
+    },
+    {
+      "step": 1,
+      "view": "Village",
+      "before": "World01_Before_Village",
+      "after": "World01_After_Village",
+      "sameCamera": true
+    },
+    {
+      "step": 1,
+      "view": "Lakeside",
+      "before": "World01_Before_Lakeside",
+      "after": "World01_After_Lakeside",
+      "sameCamera": true
+    },
+    {
+      "step": 1,
+      "view": "ThermalFoothills",
+      "before": "World01_Before_ThermalFoothills",
+      "after": "World01_After_ThermalFoothills",
+      "sameCamera": true
+    },
+    {
+      "step": 1,
+      "view": "StormWoodland",
+      "before": "World01_Before_StormWoodland",
+      "after": "World01_After_StormWoodland",
+      "sameCamera": true
+    },
+    {
+      "step": 2,
+      "view": "Overview",
+      "before": "World02_Before_Overview",
+      "after": "World02_After_Overview",
+      "sameCamera": true
+    },
+    {
+      "step": 2,
+      "view": "Silhouette",
+      "before": "World02_Before_Silhouette",
+      "after": "World02_After_Silhouette",
+      "sameCamera": true
+    },
+    {
+      "step": 2,
+      "view": "MeadowHighland",
+      "before": "World02_Before_MeadowHighland",
+      "after": "World02_After_MeadowHighland",
+      "sameCamera": true
+    },
+    {
+      "step": 2,
+      "view": "CoastalWetland",
+      "before": "World02_Before_CoastalWetland",
+      "after": "World02_After_CoastalWetland",
+      "sameCamera": true
+    },
+    {
+      "step": 2,
+      "view": "Village",
+      "before": "World02_Before_Village",
+      "after": "World02_After_Village",
+      "sameCamera": true
+    },
+    {
+      "step": 2,
+      "view": "Lakeside",
+      "before": "World02_Before_Lakeside",
+      "after": "World02_After_Lakeside",
+      "sameCamera": true
+    },
+    {
+      "step": 2,
+      "view": "ThermalFoothills",
+      "before": "World02_Before_ThermalFoothills",
+      "after": "World02_After_ThermalFoothills",
+      "sameCamera": true
+    },
+    {
+      "step": 2,
+      "view": "StormWoodland",
+      "before": "World02_Before_StormWoodland",
+      "after": "World02_After_StormWoodland",
+      "sameCamera": true
+    },
+    {
+      "step": 3,
+      "view": "Overview",
+      "before": "World03_Before_Overview",
+      "after": "World03_After_Overview",
+      "sameCamera": true
+    },
+    {
+      "step": 3,
+      "view": "Silhouette",
+      "before": "World03_Before_Silhouette",
+      "after": "World03_After_Silhouette",
+      "sameCamera": true
+    },
+    {
+      "step": 3,
+      "view": "MeadowHighland",
+      "before": "World03_Before_MeadowHighland",
+      "after": "World03_After_MeadowHighland",
+      "sameCamera": true
+    },
+    {
+      "step": 3,
+      "view": "CoastalWetland",
+      "before": "World03_Before_CoastalWetland",
+      "after": "World03_After_CoastalWetland",
+      "sameCamera": true
+    },
+    {
+      "step": 3,
+      "view": "Village",
+      "before": "World03_Before_Village",
+      "after": "World03_After_Village",
+      "sameCamera": true
+    },
+    {
+      "step": 3,
+      "view": "Lakeside",
+      "before": "World03_Before_Lakeside",
+      "after": "World03_After_Lakeside",
+      "sameCamera": true
+    },
+    {
+      "step": 3,
+      "view": "ThermalFoothills",
+      "before": "World03_Before_ThermalFoothills",
+      "after": "World03_After_ThermalFoothills",
+      "sameCamera": true
+    },
+    {
+      "step": 3,
+      "view": "StormWoodland",
+      "before": "World03_Before_StormWoodland",
+      "after": "World03_After_StormWoodland",
+      "sameCamera": true
+    },
+    {
+      "step": 4,
+      "view": "Overview",
+      "before": "World04_Before_Overview",
+      "after": "World04_After_Overview",
+      "sameCamera": true
+    },
+    {
+      "step": 4,
+      "view": "Silhouette",
+      "before": "World04_Before_Silhouette",
+      "after": "World04_After_Silhouette",
+      "sameCamera": true
+    },
+    {
+      "step": 4,
+      "view": "MeadowHighland",
+      "before": "World04_Before_MeadowHighland",
+      "after": "World04_After_MeadowHighland",
+      "sameCamera": true
+    },
+    {
+      "step": 4,
+      "view": "CoastalWetland",
+      "before": "World04_Before_CoastalWetland",
+      "after": "World04_After_CoastalWetland",
+      "sameCamera": true
+    },
+    {
+      "step": 4,
+      "view": "Village",
+      "before": "World04_Before_Village",
+      "after": "World04_After_Village",
+      "sameCamera": true
+    },
+    {
+      "step": 4,
+      "view": "Lakeside",
+      "before": "World04_Before_Lakeside",
+      "after": "World04_After_Lakeside",
+      "sameCamera": true
+    },
+    {
+      "step": 4,
+      "view": "ThermalFoothills",
+      "before": "World04_Before_ThermalFoothills",
+      "after": "World04_After_ThermalFoothills",
+      "sameCamera": true
+    },
+    {
+      "step": 4,
+      "view": "StormWoodland",
+      "before": "World04_Before_StormWoodland",
+      "after": "World04_After_StormWoodland",
+      "sameCamera": true
+    },
+    {
+      "step": 5,
+      "view": "Overview",
+      "before": "World05_Before_Overview",
+      "after": "World05_After_Overview",
+      "sameCamera": true
+    },
+    {
+      "step": 5,
+      "view": "Silhouette",
+      "before": "World05_Before_Silhouette",
+      "after": "World05_After_Silhouette",
+      "sameCamera": true
+    },
+    {
+      "step": 5,
+      "view": "MeadowHighland",
+      "before": "World05_Before_MeadowHighland",
+      "after": "World05_After_MeadowHighland",
+      "sameCamera": true
+    },
+    {
+      "step": 5,
+      "view": "CoastalWetland",
+      "before": "World05_Before_CoastalWetland",
+      "after": "World05_After_CoastalWetland",
+      "sameCamera": true
+    },
+    {
+      "step": 5,
+      "view": "Village",
+      "before": "World05_Before_Village",
+      "after": "World05_After_Village",
+      "sameCamera": true
+    },
+    {
+      "step": 5,
+      "view": "Lakeside",
+      "before": "World05_Before_Lakeside",
+      "after": "World05_After_Lakeside",
+      "sameCamera": true
+    },
+    {
+      "step": 5,
+      "view": "ThermalFoothills",
+      "before": "World05_Before_ThermalFoothills",
+      "after": "World05_After_ThermalFoothills",
+      "sameCamera": true
+    },
+    {
+      "step": 5,
+      "view": "StormWoodland",
+      "before": "World05_Before_StormWoodland",
+      "after": "World05_After_StormWoodland",
+      "sameCamera": true
+    },
+    {
+      "step": 6,
+      "view": "Overview",
+      "before": "World06_Before_Overview",
+      "after": "World06_After_Overview",
+      "sameCamera": true
+    },
+    {
+      "step": 6,
+      "view": "Silhouette",
+      "before": "World06_Before_Silhouette",
+      "after": "World06_After_Silhouette",
+      "sameCamera": true
+    },
+    {
+      "step": 6,
+      "view": "MeadowHighland",
+      "before": "World06_Before_MeadowHighland",
+      "after": "World06_After_MeadowHighland",
+      "sameCamera": true
+    },
+    {
+      "step": 6,
+      "view": "CoastalWetland",
+      "before": "World06_Before_CoastalWetland",
+      "after": "World06_After_CoastalWetland",
+      "sameCamera": true
+    },
+    {
+      "step": 6,
+      "view": "Village",
+      "before": "World06_Before_Village",
+      "after": "World06_After_Village",
+      "sameCamera": true
+    },
+    {
+      "step": 6,
+      "view": "Lakeside",
+      "before": "World06_Before_Lakeside",
+      "after": "World06_After_Lakeside",
+      "sameCamera": true
+    },
+    {
+      "step": 6,
+      "view": "ThermalFoothills",
+      "before": "World06_Before_ThermalFoothills",
+      "after": "World06_After_ThermalFoothills",
+      "sameCamera": true
+    },
+    {
+      "step": 6,
+      "view": "StormWoodland",
+      "before": "World06_Before_StormWoodland",
+      "after": "World06_After_StormWoodland",
+      "sameCamera": true
+    }
+  ],
+  "all48PairsSameCamera": true
+}

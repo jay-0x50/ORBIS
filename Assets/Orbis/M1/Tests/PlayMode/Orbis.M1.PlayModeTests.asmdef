@@ -1,0 +1,15 @@
+{
+  "name": "Orbis.M1.PlayModeTests",
+  "rootNamespace": "Orbis.M1.Tests",
+  "references": [
+    "Orbis.M0.Runtime",
+    "Orbis.M1.Runtime",
+    "Unity.InputSystem",
+    "Unity.Cinemachine",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Core.Runtime"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

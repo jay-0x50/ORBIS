@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4ce652f62c21c642a7e9c0fff971971, type: 3}
+  m_Name: Catalog
+  m_EditorClassIdentifier: Orbis.Art.Runtime::Orbis.Art.ArtAssetCatalog
+  Characters:
+  - DisplayName: Ignis
+    Element: 1
+    Prefab: {fileID: 6893353899115749747, guid: 194fad300aa00764ab7ccfb0e526f982, type: 3}
+    Controller: {fileID: 22100000, guid: b79342954a727c74db34ca2dbb5eb930, type: 2}
+    Avatar: {fileID: 9000000, guid: f353ac1e0ce1383449280bfa4bf0c701, type: 3}
+    Weapon: {fileID: 3899161340133496071, guid: 0b21301bfa1d6ad4093ff65915385a23, type: 3}
+    WeaponBoneName: handslot.r
+    WeaponLocalPosition: {x: 0, y: 0, z: 0}
+    WeaponLocalEuler: {x: 0, y: 0, z: 0}
+    WeaponLocalScale: {x: 1, y: 1, z: 1}
+    TrailTipLocalPosition: {x: -0.0000036358833, y: 1.4094958, z: -0.000000044703484}
+  - DisplayName: Maris
+    Element: 2
+    Prefab: {fileID: 7234445130737633970, guid: 9baa72a794e947243ae71dd30c79448d, type: 3}
+    Controller: {fileID: 22100000, guid: cd6ac116c1f363d4a958e4d0fcb63c6b, type: 2}
+    Avatar: {fileID: 9000000, guid: 93e46eb4d6f6b6949b41bcc6965fbb1e, type: 3}
+    Weapon: {fileID: 3899161340133496071, guid: 0b21301bfa1d6ad4093ff65915385a23, type: 3}
+    WeaponBoneName: handslot.r
+    WeaponLocalPosition: {x: 0, y: 0, z: 0}
+    WeaponLocalEuler: {x: 0, y: 0, z: 0}
+    WeaponLocalScale: {x: 1, y: 1, z: 1}
+    TrailTipLocalPosition: {x: -0.0000036358833, y: 1.4094958, z: -0.000000044703484}
+  - DisplayName: Aura
+    Element: 3
+    Prefab: {fileID: 5739293376520816463, guid: 1d82be1ec4efa974985c4d8efe10b147, type: 3}
+    Controller: {fileID: 22100000, guid: 1c9527215bcc0dc479ea9f807d940af5, type: 2}
+    Avatar: {fileID: 9000000, guid: b289416df8b522d49b1039f45179a78d, type: 3}
+    Weapon: {fileID: 3899161340133496071, guid: 0b21301bfa1d6ad4093ff65915385a23, type: 3}
+    WeaponBoneName: handslot.r
+    WeaponLocalPosition: {x: 0, y: 0, z: 0}
+    WeaponLocalEuler: {x: 0, y: 0, z: 0}
+    WeaponLocalScale: {x: 1, y: 1, z: 1}
+    TrailTipLocalPosition: {x: -0.0000036358833, y: 1.4094958, z: -0.000000044703484}
+  - DisplayName: Grom
+    Element: 4
+    Prefab: {fileID: 8198879207145536687, guid: 49d580658400f2943b9b1a15afd81fad, type: 3}
+    Controller: {fileID: 22100000, guid: 9bc499156d574b04594534c17d122aa9, type: 2}
+    Avatar: {fileID: 9000000, guid: ff472c16318a8344b86b2cef57fdd0ed, type: 3}
+    Weapon: {fileID: 3899161340133496071, guid: 0b21301bfa1d6ad4093ff65915385a23, type: 3}
+    WeaponBoneName: handslot.r
+    WeaponLocalPosition: {x: 0, y: 0, z: 0}
+    WeaponLocalEuler: {x: 0, y: 0, z: 0}
+    WeaponLocalScale: {x: 1, y: 1, z: 1}
+    TrailTipLocalPosition: {x: -0.0000036358833, y: 1.4094958, z: -0.000000044703484}
+  - DisplayName: Sparkle
+    Element: 5
+    Prefab: {fileID: 4251878983562383950, guid: 260c7d8471ed2e445b4877904c81f1b2, type: 3}
+    Controller: {fileID: 22100000, guid: 86dd0b329b98cf0438bd4d1db6b6b855, type: 2}
+    Avatar: {fileID: 9000000, guid: f41d17912b36239489e52b262db0e7fd, type: 3}
+    Weapon: {fileID: 3899161340133496071, guid: 0b21301bfa1d6ad4093ff65915385a23, type: 3}
+    WeaponBoneName: handslot.r
+    WeaponLocalPosition: {x: 0, y: 0, z: 0}
+    WeaponLocalEuler: {x: 0, y: 0, z: 0}
+    WeaponLocalScale: {x: 1, y: 1, z: 1}
+    TrailTipLocalPosition: {x: -0.0000036358833, y: 1.4094958, z: -0.000000044703484}
+  Explorers:
+  - SourceId: stella
+    Character:
+      DisplayName: Stella
+      Element: 0
+      Prefab: {fileID: 2233584839538520330, guid: 549a2d26110ae4148891ed8e5df32e75, type: 3}
+      Controller: {fileID: 22100000, guid: b79342954a727c74db34ca2dbb5eb930, type: 2}
+      Avatar: {fileID: 9000000, guid: b1e1e8475805c134f8d168acba98a6e5, type: 3}
+      Weapon: {fileID: 6956536256493908355, guid: d8c01ef56cf55d348bc7f6adba530bd5, type: 3}
+      WeaponBoneName: RightHand
+      WeaponLocalPosition: {x: 0, y: 0, z: 0}
+      WeaponLocalEuler: {x: 0, y: 0, z: 0}
+      WeaponLocalScale: {x: 0.92494375, y: 0.92494375, z: 0.92494375}
+      TrailTipLocalPosition: {x: 0, y: 0.94, z: 0}
+  - SourceId: polaris
+    Character:
+      DisplayName: Polaris
+      Element: 0
+      Prefab: {fileID: 6637521072728157100, guid: 0388ef1e93fb40248a9d771c0c86fea3, type: 3}
+      Controller: {fileID: 22100000, guid: b79342954a727c74db34ca2dbb5eb930, type: 2}
+      Avatar: {fileID: 9000000, guid: 68554d644ab7f0841b44fa8d1f138b16, type: 3}
+      Weapon: {fileID: 6956536256493908355, guid: d8c01ef56cf55d348bc7f6adba530bd5, type: 3}
+      WeaponBoneName: RightHand
+      WeaponLocalPosition: {x: 0, y: 0, z: 0}
+      WeaponLocalEuler: {x: 0, y: 0, z: 0}
+      WeaponLocalScale: {x: 0.9340079, y: 0.9340079, z: 0.9340079}
+      TrailTipLocalPosition: {x: 0, y: 0.94, z: 0}
+  Environment:
+  - Key: floor_stone
+    Prefab: {fileID: 2811737006538377462, guid: be27368a428fa3342b6984c18d9bbd27, type: 3}
+  - Key: ground_grass
+    Prefab: {fileID: 2935300886580327673, guid: e3ee7b1453e183a4f8c4da54f199a9d7, type: 3}
+  - Key: ground_stone
+    Prefab: {fileID: 4183355825036957212, guid: b95f684e576eb014e8773d5860ece1cf, type: 3}
+  - Key: ground_dirt
+    Prefab: {fileID: 8548059179262430074, guid: e9409d062aa1ab34d89546ce8c5dbae4, type: 3}
+  - Key: wall_stone
+    Prefab: {fileID: 8086126358769402463, guid: 60a67e8f134b8f7479eecec61f5e3381, type: 3}
+  - Key: rock_large
+    Prefab: {fileID: 4623435076530394814, guid: 8846c7cb990730c4ea38cb1b6cb8fd61, type: 3}
+  - Key: rock_small
+    Prefab: {fileID: 2671865784962530814, guid: 46e052faa3cb7634baa9d5f82a24a34d, type: 3}
+  - Key: rock_bare
+    Prefab: {fileID: 5841427292767304138, guid: 5c6ce136fec61f342951c1bc82250681, type: 3}
+  - Key: tree_oak
+    Prefab: {fileID: 3021057902333973443, guid: 9a75ad8a2641748418f5664e074d3424, type: 3}
+  - Key: tree_pine
+    Prefab: {fileID: 4122334229217523992, guid: 9e10881d9c70e2b48948080822e2e6e4, type: 3}
+  - Key: tree_palm
+    Prefab: {fileID: 7419740030170918118, guid: 5964e1da07db29d44a2123ad24433a21, type: 3}
+  - Key: bush
+    Prefab: {fileID: 8144677166740878501, guid: b7c7469f501a3f0439da45243f06bc92, type: 3}
+  - Key: crystal
+    Prefab: {fileID: 9202261141997764870, guid: 2ec8b67d622308c4eba1eb4231cd1b40, type: 3}
+  - Key: bridge
+    Prefab: {fileID: 185709535038472513, guid: 6a10f6b0f93318046919e25df40dac7b, type: 3}
+  - Key: column
+    Prefab: {fileID: 1424323548755273600, guid: b61d8ca32ef6c17408dd4562465a656c, type: 3}
+  - Key: arch
+    Prefab: {fileID: 182456235353231940, guid: f849d68c89b7c1a4697ba9d317a65502, type: 3}
+  - Key: fence
+    Prefab: {fileID: 5439948901634455536, guid: 089ee9a3dd6bdbd44ad0e41fcd0c68da, type: 3}
+  - Key: barrel
+    Prefab: {fileID: 1485719207268718948, guid: 8df0aa2a85720564aae0c35be71742f4, type: 3}
+  - Key: crate
+    Prefab: {fileID: 6734531976064064233, guid: f4804f9068a889844954fb916af18d0b, type: 3}
+  - Key: chest
+    Prefab: {fileID: 2810971470718474675, guid: eae6903dfb4590e4aaf500f2e71e9f37, type: 3}
+  - Key: lamp
+    Prefab: {fileID: 8028006135738679355, guid: ec6affc7542f3434a9a74f6a11f6eb4d, type: 3}
+  - Key: statue
+    Prefab: {fileID: 6612945629881219967, guid: bfa50bf6527cfe241aaf3242058463aa, type: 3}
+  - Key: enemy
+    Prefab: {fileID: 2647324635303784732, guid: 9b2cb69b51767634c802b59828b937ac, type: 3}
+  - Key: banner
+    Prefab: {fileID: 5973259306394145165, guid: adba00a6c9409a74a88b6bbbdc198296, type: 3}
+  - Key: roof
+    Prefab: {fileID: 2163558969706618985, guid: 931e1207383b9ef47ab4c7f40e33b356, type: 3}
+  - Key: stairs
+    Prefab: {fileID: 1245132818240306095, guid: 0e3ee82c2b492964b88cdcf9b137bc40, type: 3}
+  - Key: board
+    Prefab: {fileID: 6914787491004039251, guid: eb6f1bb44999f8e419e9a3cf8ed24724, type: 3}
+  - Key: cliff
+    Prefab: {fileID: 2561971777947264923, guid: d5215e47aac3642408300537bcd506b2, type: 3}
+  - Key: cave
+    Prefab: {fileID: 2689329402087545135, guid: 1eddbfffabbd3dd4f8b03af1b590b789, type: 3}
+  - Key: cliff_slope
+    Prefab: {fileID: 5322465643109026813, guid: 91cc21c1facfa0849a3cd60e49e3ddd8, type: 3}
+  - Key: ground_sand
+    Prefab: {fileID: 7168257349784394156, guid: b758fdf17f82f56499fd338bbe9e179b, type: 3}
+  - Key: bridge_stone
+    Prefab: {fileID: 4724164523333145564, guid: 2cfadfceb14cdbd4d9e64ec52a54d912, type: 3}
+  - Key: mine_support
+    Prefab: {fileID: 7327968419849447256, guid: 2ba1563e8838499488818b127d9a95ed, type: 3}
+  - Key: mine_structure
+    Prefab: {fileID: 6450343930422038692, guid: e6d85d9cb3f31594e81d45a31bbe820f, type: 3}
+  - Key: boat
+    Prefab: {fileID: 555908715092925816, guid: 01110588ca14ffe498bbee1b561b4eeb, type: 3}
+  - Key: obelisk
+    Prefab: {fileID: 4615246770185974552, guid: cd2118b7854df4d4db1ac5de32393b70, type: 3}
+  - Key: coin
+    Prefab: {fileID: 6465273540114365609, guid: 02bcce1370705e648861bf59b959f4df, type: 3}
+  - Key: shield
+    Prefab: {fileID: 1375968015781805188, guid: 88c105c77f6507644bd6fcce42ef4eaa, type: 3}
+  - Key: tower
+    Prefab: {fileID: 7836706650170247272, guid: 4dcbed4dcf2b2434cb772d5386f183aa, type: 3}
+  Icons:
+  - Key: panel
+    Texture: {fileID: 2800000, guid: 32019ae470eb92d42bade61c8e0911a3, type: 3}
+  - Key: button
+    Texture: {fileID: 2800000, guid: 19fde30cca461264289814f68512ba18, type: 3}
+  - Key: bar_back
+    Texture: {fileID: 2800000, guid: dfa75824ef766a14d853739c9159d005, type: 3}
+  - Key: bar_fill
+    Texture: {fileID: 2800000, guid: ccd221981dc74cf43a436e3aead92451, type: 3}
+  - Key: star
+    Texture: {fileID: 2800000, guid: 4dac43099ff0f424ca4f1d0b87be7e1c, type: 3}
+  - Key: check
+    Texture: {fileID: 2800000, guid: 86a1f094d1ea08a40a6c166ac8af027e, type: 3}
+  - Key: arrow_left
+    Texture: {fileID: 2800000, guid: 73aa28b4cb47879469e4dad102cdb763, type: 3}
+  - Key: arrow_right
+    Texture: {fileID: 2800000, guid: 1ee7b818d0843e2469f1ee5fbde799f9, type: 3}
+  - Key: close
+    Texture: {fileID: 2800000, guid: 744cd577816cec849a979aabfb7dee40, type: 3}
+  DefaultToonMaterial: {fileID: 2100000, guid: 57068e56d8a472e4eb858e276df346aa, type: 2}
+  OutlineMaterial: {fileID: 2100000, guid: c17931b8bc1e71849983d3825e8cc305, type: 2}
+  ExplorerToonMaterial: {fileID: 2100000, guid: e7644a270bf90584b985fb68c9a36fcc, type: 2}
+  ExplorerOutlineMaterial: {fileID: 2100000, guid: 3389df4223004f3489ab83c9e03cabcf, type: 2}
+  WaterMaterial: {fileID: 2100000, guid: 13a4577ddd69a2743922b899ef7e5f1d, type: 2}
+  AnimationSource: KayKit Character Animations 1.1 / CC0 (complete Mixamo input unavailable)
+  UsesMixamo: 0

@@ -1,0 +1,156 @@
+[
+  {
+    "path": "Assets/AddressableAssetsData/AddressableAssetSettings.asset",
+    "baseline": "0333C5116C94022A706DBB231DBE43A409ADFEE6E7F55A417E1C8DE245882DC6",
+    "targetNow": "0333C5116C94022A706DBB231DBE43A409ADFEE6E7F55A417E1C8DE245882DC6",
+    "unchangedSinceTaskStart": true,
+    "bytes": 4412
+  },
+  {
+    "path": "Assets/DefaultVolumeProfile.asset",
+    "baseline": "70E9ED4656132BF185009CB47DB521FDEECE0B1F4D464A73CB9D0BD04FE3BDA5",
+    "targetNow": "70E9ED4656132BF185009CB47DB521FDEECE0B1F4D464A73CB9D0BD04FE3BDA5",
+    "unchangedSinceTaskStart": true,
+    "bytes": 497
+  },
+  {
+    "path": "Assets/Orbis/Game/Editor/IslandScenePolish.cs",
+    "baseline": "E0A5D7D485099ACC638AC5EA69FEE247A62BF0A6254B21A570E5CFC350A102BF",
+    "targetNow": "E0A5D7D485099ACC638AC5EA69FEE247A62BF0A6254B21A570E5CFC350A102BF",
+    "unchangedSinceTaskStart": true,
+    "bytes": 23219
+  },
+  {
+    "path": "Assets/Orbis/Game/Editor/IslandTerrainBuilder.cs",
+    "baseline": "4CA476A68265D0085A06F0BE155D57A32397A47D2E26CE0926ACE3685A2226F3",
+    "targetNow": "4CA476A68265D0085A06F0BE155D57A32397A47D2E26CE0926ACE3685A2226F3",
+    "unchangedSinceTaskStart": true,
+    "bytes": 17134
+  },
+  {
+    "path": "Assets/Orbis/Game/Editor/Orbis.Game.Editor.asmdef",
+    "baseline": "DD0138F625F53CCE6D9EDEA2EB1D70B884FA45CBBE3F13DF4C1250FDFB376E54",
+    "targetNow": "DD0138F625F53CCE6D9EDEA2EB1D70B884FA45CBBE3F13DF4C1250FDFB376E54",
+    "unchangedSinceTaskStart": true,
+    "bytes": 351
+  },
+  {
+    "path": "Assets/Orbis/Game/Island/Materials/IslandTerrain.mat",
+    "baseline": "8A53318284DACCCB5F89FCC46DC9F846BBA72B5EF7D3C1EA459BA37F099FD21B",
+    "targetNow": "8A53318284DACCCB5F89FCC46DC9F846BBA72B5EF7D3C1EA459BA37F099FD21B",
+    "unchangedSinceTaskStart": true,
+    "bytes": 3166
+  },
+  {
+    "path": "Assets/Orbis/Game/Island/Resources/IslandMap.asset",
+    "baseline": "074A944BF5C1B71FFE57D7B4E7FB71D144F77EF4A252F78E7434FD244FD26ADF",
+    "targetNow": "074A944BF5C1B71FFE57D7B4E7FB71D144F77EF4A252F78E7434FD244FD26ADF",
+    "unchangedSinceTaskStart": true,
+    "bytes": 394246
+  },
+  {
+    "path": "Assets/Orbis/Game/Island/Shaders/IslandSky.shader",
+    "baseline": "3AE964581E40EE1F4E20DF27F28B57543575F98ACD4E1A479EB886AA0E750AE1",
+    "targetNow": "3AE964581E40EE1F4E20DF27F28B57543575F98ACD4E1A479EB886AA0E750AE1",
+    "unchangedSinceTaskStart": true,
+    "bytes": 2216
+  },
+  {
+    "path": "Assets/Orbis/Game/Island/Terrain/Island_0_0.asset",
+    "baseline": "06DC9281005899AF74E6A55C1BF8F1DF58DEA6C062750C56F736B268557DB2ED",
+    "targetNow": "06DC9281005899AF74E6A55C1BF8F1DF58DEA6C062750C56F736B268557DB2ED",
+    "unchangedSinceTaskStart": true,
+    "bytes": 1423196
+  },
+  {
+    "path": "Assets/Orbis/Game/Island/Terrain/Island_0_1.asset",
+    "baseline": "6D67FA7FC6E0E93BBE9BB1930CB2443C1B42621EE635039AAE51D864CFDCE68D",
+    "targetNow": "6D67FA7FC6E0E93BBE9BB1930CB2443C1B42621EE635039AAE51D864CFDCE68D",
+    "unchangedSinceTaskStart": true,
+    "bytes": 1309980
+  },
+  {
+    "path": "Assets/Orbis/Game/Island/Terrain/Island_1_0.asset",
+    "baseline": "0EEBAC51DF74EA3704FCDF46C503EB39D70DFAD1DA9F2A4E481BEED35FF1B7DD",
+    "targetNow": "0EEBAC51DF74EA3704FCDF46C503EB39D70DFAD1DA9F2A4E481BEED35FF1B7DD",
+    "unchangedSinceTaskStart": true,
+    "bytes": 1453724
+  },
+  {
+    "path": "Assets/Orbis/Game/Island/Terrain/Island_1_1.asset",
+    "baseline": "823E7C1679791D2D7E9CC677399201B2750C579E127F1DCD27C9EDAD26146F21",
+    "targetNow": "823E7C1679791D2D7E9CC677399201B2750C579E127F1DCD27C9EDAD26146F21",
+    "unchangedSinceTaskStart": true,
+    "bytes": 1446828
+  },
+  {
+    "path": "Assets/Orbis/Game/Island/Textures/WaterElevation.asset",
+    "baseline": "5EB58DC71BCE450E03E2BFBB1EFB879A08176AD00F018EE24D4D366EBB7F3D7A",
+    "targetNow": "5EB58DC71BCE450E03E2BFBB1EFB879A08176AD00F018EE24D4D366EBB7F3D7A",
+    "unchangedSinceTaskStart": true,
+    "bytes": 2098190
+  },
+  {
+    "path": "Assets/Orbis/Game/Runtime/Orbis.Game.Runtime.asmdef",
+    "baseline": "D2F66DDD3BA16DF83207DB1277966895C257AF5C1295D1F0D40A0BE8C6F26EEE",
+    "targetNow": "D2F66DDD3BA16DF83207DB1277966895C257AF5C1295D1F0D40A0BE8C6F26EEE",
+    "unchangedSinceTaskStart": true,
+    "bytes": 166
+  },
+  {
+    "path": "Assets/Orbis/Game/Scenes/Orbis_Island.unity",
+    "baseline": "A5E538028933500FDC1366E8B8E4110C7B5F3A4F911B28891AB7A75ED7B260A6",
+    "targetNow": "A5E538028933500FDC1366E8B8E4110C7B5F3A4F911B28891AB7A75ED7B260A6",
+    "unchangedSinceTaskStart": true,
+    "bytes": 3230521
+  },
+  {
+    "path": "Assets/Orbis/M0/Settings/M0_Renderer.asset",
+    "baseline": "9B9CF55E182A2C52A84A566C7E9DF7EE55583CC2BC62032993F020A98DAC4FE9",
+    "targetNow": "9B9CF55E182A2C52A84A566C7E9DF7EE55583CC2BC62032993F020A98DAC4FE9",
+    "unchangedSinceTaskStart": true,
+    "bytes": 1853
+  },
+  {
+    "path": "Assets/Orbis/M0/Settings/M0_URP.asset",
+    "baseline": "AE6DA7FE2BE36912CB0DF843C0E27E4D8876ADCCB2FAE91B7E6A723BA085B3DC",
+    "targetNow": "AE6DA7FE2BE36912CB0DF843C0E27E4D8876ADCCB2FAE91B7E6A723BA085B3DC",
+    "unchangedSinceTaskStart": true,
+    "bytes": 4911
+  },
+  {
+    "path": "Assets/UniversalRenderPipelineGlobalSettings.asset",
+    "baseline": "11BEB0A815425B542F6A583D00D03CD4754801448C7D04B7B8F81F42C6E457EC",
+    "targetNow": "11BEB0A815425B542F6A583D00D03CD4754801448C7D04B7B8F81F42C6E457EC",
+    "unchangedSinceTaskStart": true,
+    "bytes": 28329
+  },
+  {
+    "path": "Credits.md",
+    "baseline": "DEE6A975F687E17CF4F2E6CB11423523C2F3B4831EBF18CAE3063C5B5B136F40",
+    "targetNow": "DEE6A975F687E17CF4F2E6CB11423523C2F3B4831EBF18CAE3063C5B5B136F40",
+    "unchangedSinceTaskStart": true,
+    "bytes": 11320
+  },
+  {
+    "path": "Packages/manifest.json",
+    "baseline": "D7CCA6DF3637652F46612F926FA78F2DB6067E12230054B7D9E1BF8A456D156C",
+    "targetNow": "D7CCA6DF3637652F46612F926FA78F2DB6067E12230054B7D9E1BF8A456D156C",
+    "unchangedSinceTaskStart": true,
+    "bytes": 920
+  },
+  {
+    "path": "Packages/packages-lock.json",
+    "baseline": "0EAB75A095AE946275B77CF56BD265E0A6D00292CEF315D22ACDE342F423EA39",
+    "targetNow": "0EAB75A095AE946275B77CF56BD265E0A6D00292CEF315D22ACDE342F423EA39",
+    "unchangedSinceTaskStart": true,
+    "bytes": 8586
+  },
+  {
+    "path": "기획서/04_에셋소싱플랜.md",
+    "baseline": "78CC6C69EB04618C778AB5BCDE75104B3A7805875B45D9ED67D8473ED3FD6BA3",
+    "targetNow": "78CC6C69EB04618C778AB5BCDE75104B3A7805875B45D9ED67D8473ED3FD6BA3",
+    "unchangedSinceTaskStart": true,
+    "bytes": 2491
+  }
+]

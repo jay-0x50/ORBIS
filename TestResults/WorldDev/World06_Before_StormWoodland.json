@@ -1,0 +1,22 @@
+{
+  "stage": "World05_After",
+  "view": "StormWoodland",
+  "camera": {
+    "x": 265.0,
+    "y": 60.0,
+    "z": 165.0
+  },
+  "focus": {
+    "x": 465.0,
+    "y": 105.0,
+    "z": 420.0
+  },
+  "fov": 58.0,
+  "monochrome": false,
+  "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+  "vram": 3930,
+  "note": "Actual Unity URP render; fixed world camera recipe. Not a performance benchmark.",
+  "aliasNote": "STEP 6 Before is a byte-identical copy of the final STEP 5 clear-weather capture, not a new render.",
+  "sourceCapture": "World05_After_StormWoodland.png",
+  "sha256": "0a37c104397900f9588ab29ddf5572a0b383d23610794f06560193eb2e008d66"
+}

@@ -1,0 +1,60 @@
+{
+  "screenshotStatus": "unavailable",
+  "screenshotReason": "CUA getState returned {\"apps\":[],\"browsers\":[]}; no connected browser or native surface is available. No screenshots were created or substituted.",
+  "pagePreservation": "Official HTTP responses preserved byte-for-byte as HTML; referenced remote resources are not bundled.",
+  "ultimateLicenseHeadingNote": "The included License.txt begins with Ultimate Platformer Pack. This mismatched heading is preserved verbatim; the official Ultimate Stylized Nature product page separately states CC0.",
+  "records": [
+    {
+      "file": "Quaternius_MegaKit_Official.html",
+      "sourceUrl": "https://quaternius.com/packs/stylizednaturemegakit.html",
+      "resolvedUrl": "https://quaternius.com/packs/stylizednaturemegakit.html",
+      "retrievedAtUtc": "2026-09-11T07:35:48.147511+00:00",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 19899,
+      "sha256": "5ea514ac8547a0d9c35e74441ea4dc290652af2d01c4fb423fa7bf1728a85eb3",
+      "cc0TextPresent": true,
+      "type": "unmodified official webpage HTML; not screenshot"
+    },
+    {
+      "file": "Quaternius_MegaKit_Itch.html",
+      "sourceUrl": "https://quaternius.itch.io/stylized-nature-megakit",
+      "resolvedUrl": "https://quaternius.itch.io/stylized-nature-megakit",
+      "retrievedAtUtc": "2026-09-11T07:35:48.493447+00:00",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 30803,
+      "sha256": "cf9808d9ec74185b3611948dc94de5edee1b311c15567c8afb9f097f17d0ce4c",
+      "cc0TextPresent": true,
+      "type": "unmodified official webpage HTML; not screenshot"
+    },
+    {
+      "file": "Quaternius_UltimateStylizedNature_Official.html",
+      "sourceUrl": "https://quaternius.com/packs/ultimatestylizednature.html",
+      "resolvedUrl": "https://quaternius.com/packs/ultimatestylizednature.html",
+      "retrievedAtUtc": "2026-09-11T07:35:49.041483+00:00",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 15223,
+      "sha256": "d65e16ad1dfedf319947214626c1497e92ed0eee746eb58b2bf08a563ad27748",
+      "cc0TextPresent": true,
+      "type": "unmodified official webpage HTML; not screenshot"
+    },
+    {
+      "file": "Quaternius_MegaKit_License_Standard.txt",
+      "sourceLocalFile": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/License_Standard.txt",
+      "copiedAtUtc": "2026-09-11T07:35:49.043803+00:00",
+      "bytes": 852,
+      "sha256": "120710e542c3ebaf83856c4eb55b4a1e680593b39302eba7fdc5d942dfe78c58",
+      "type": "byte-identical included license file"
+    },
+    {
+      "file": "Quaternius_UltimateStylizedNature_License.txt",
+      "sourceLocalFile": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/License.txt",
+      "copiedAtUtc": "2026-09-11T07:35:49.046459+00:00",
+      "bytes": 374,
+      "sha256": "de990ef6fc68cffd7fd1ae342c4d0c823b541b8848d8f76bca5d3339f4de6f6e",
+      "type": "byte-identical included license file"
+    }
+  ]
+}

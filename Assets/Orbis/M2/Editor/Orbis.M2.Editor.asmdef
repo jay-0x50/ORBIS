@@ -1,0 +1,10 @@
+{
+  "name": "Orbis.M2.Editor",
+  "rootNamespace": "Orbis.M2.Editor",
+  "references": [
+    "Orbis.M0.Editor",
+    "Orbis.M1.Editor",
+    "Orbis.M2.Runtime"
+  ],
+  "includePlatforms": ["Editor"]
+}

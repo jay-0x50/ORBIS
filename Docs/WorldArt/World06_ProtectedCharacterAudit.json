@@ -1,0 +1,1140 @@
+{
+  "schemaVersion": 1,
+  "completedUtc": "2026-09-11T10:12:09.5152314Z",
+  "operation": "Read-only SHA-256 comparison; this report is the only output from the hash audit",
+  "baselineNotes": [
+    "lookdev-step03-hashes.json is the last character look-development snapshot before the world redesign.",
+    "World01_Hashes.json is the first recorded world-step snapshot, not a new Blender or Unity rig audit. Both baselines match every scoped file."
+  ],
+  "baselines": [
+    "TestResults/LookDev/lookdev-step03-hashes.json",
+    "Docs/WorldArt/World01_Hashes.json"
+  ],
+  "scope": "Canonical Stella/Polaris FBX and importer metadata, canonical Blender sources, explorer prefab/material/texture/data assets, KayKit Rig_Medium animation sources and importers, M0 animation/controller assets, and existing companion prefab/override controllers present in World01 manifest",
+  "auditedFileCount": 140,
+  "mismatchCount": 0,
+  "allMatch": true,
+  "rigInterpretation": "FBX, FBX importer metadata and Blender sources are byte-identical to both baselines. Prior Anatomy-Source-Audit.json recorded 52 bones with names/rest matrices/hierarchy preserved; no Blender or Unity rig audit was re-run here.",
+  "files": [
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_CombatMelee.fbx",
+      "sha256": "018BA1C4F2AD30E9D4B051F12C46EB3FA3DA01C1D4CBA3603F673DCA3BF899CA",
+      "world01Sha256": "018BA1C4F2AD30E9D4B051F12C46EB3FA3DA01C1D4CBA3603F673DCA3BF899CA",
+      "world01Match": true,
+      "preWorldLook03Sha256": "018BA1C4F2AD30E9D4B051F12C46EB3FA3DA01C1D4CBA3603F673DCA3BF899CA",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_CombatMelee.fbx.meta",
+      "sha256": "7D879B24B3DD984619A940B6A4A30DBB5A22F949D673A8540829B76C6E7FCD33",
+      "world01Sha256": "7D879B24B3DD984619A940B6A4A30DBB5A22F949D673A8540829B76C6E7FCD33",
+      "world01Match": true,
+      "preWorldLook03Sha256": "7D879B24B3DD984619A940B6A4A30DBB5A22F949D673A8540829B76C6E7FCD33",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_CombatRanged.fbx",
+      "sha256": "B70E1D5EF64FAFAAD5C50CA2225C238F33EC9622876014F38478DEEB10EE2BA4",
+      "world01Sha256": "B70E1D5EF64FAFAAD5C50CA2225C238F33EC9622876014F38478DEEB10EE2BA4",
+      "world01Match": true,
+      "preWorldLook03Sha256": "B70E1D5EF64FAFAAD5C50CA2225C238F33EC9622876014F38478DEEB10EE2BA4",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_CombatRanged.fbx.meta",
+      "sha256": "4BB726BBBAB4703090CB9BC5F3E1D4367ACD465A42ED82F5D5B14E8B4A240A63",
+      "world01Sha256": "4BB726BBBAB4703090CB9BC5F3E1D4367ACD465A42ED82F5D5B14E8B4A240A63",
+      "world01Match": true,
+      "preWorldLook03Sha256": "4BB726BBBAB4703090CB9BC5F3E1D4367ACD465A42ED82F5D5B14E8B4A240A63",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_General.fbx",
+      "sha256": "0A3420D6CBBF00694E625D84E55C2AFBF0A7284C4280C46642F62F066DBD3950",
+      "world01Sha256": "0A3420D6CBBF00694E625D84E55C2AFBF0A7284C4280C46642F62F066DBD3950",
+      "world01Match": true,
+      "preWorldLook03Sha256": "0A3420D6CBBF00694E625D84E55C2AFBF0A7284C4280C46642F62F066DBD3950",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_General.fbx.meta",
+      "sha256": "F47B13FE04638565E406A2A32D1273DAB120F3059D6E47C6A2EB164D89E39AE5",
+      "world01Sha256": "F47B13FE04638565E406A2A32D1273DAB120F3059D6E47C6A2EB164D89E39AE5",
+      "world01Match": true,
+      "preWorldLook03Sha256": "F47B13FE04638565E406A2A32D1273DAB120F3059D6E47C6A2EB164D89E39AE5",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_MovementAdvanced.fbx",
+      "sha256": "09A2462F554FAE1F36EF083B3EA089626E60F258B09AABDAD4BE2C38012A4F07",
+      "world01Sha256": "09A2462F554FAE1F36EF083B3EA089626E60F258B09AABDAD4BE2C38012A4F07",
+      "world01Match": true,
+      "preWorldLook03Sha256": "09A2462F554FAE1F36EF083B3EA089626E60F258B09AABDAD4BE2C38012A4F07",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_MovementAdvanced.fbx.meta",
+      "sha256": "223CEED423CD2DE5F32792035C54FA43BF05586EB142720315A45ED416E5EFED",
+      "world01Sha256": "223CEED423CD2DE5F32792035C54FA43BF05586EB142720315A45ED416E5EFED",
+      "world01Match": true,
+      "preWorldLook03Sha256": "223CEED423CD2DE5F32792035C54FA43BF05586EB142720315A45ED416E5EFED",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_MovementBasic.fbx",
+      "sha256": "6B0339D304A07D87AC0A02028D1822078E581924EDDF9C7C7F2049132AD89EC4",
+      "world01Sha256": "6B0339D304A07D87AC0A02028D1822078E581924EDDF9C7C7F2049132AD89EC4",
+      "world01Match": true,
+      "preWorldLook03Sha256": "6B0339D304A07D87AC0A02028D1822078E581924EDDF9C7C7F2049132AD89EC4",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_MovementBasic.fbx.meta",
+      "sha256": "550CD7C33B8D8110197EE24124D0A26C92A932AE6C70BB70E9B8983C70FBDC3E",
+      "world01Sha256": "550CD7C33B8D8110197EE24124D0A26C92A932AE6C70BB70E9B8983C70FBDC3E",
+      "world01Match": true,
+      "preWorldLook03Sha256": "550CD7C33B8D8110197EE24124D0A26C92A932AE6C70BB70E9B8983C70FBDC3E",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_Simulation.fbx",
+      "sha256": "7A75D775E966F28E0D365147C3CD844D3641B40FA97BC591F33B9FC609463142",
+      "world01Sha256": "7A75D775E966F28E0D365147C3CD844D3641B40FA97BC591F33B9FC609463142",
+      "world01Match": true,
+      "preWorldLook03Sha256": "7A75D775E966F28E0D365147C3CD844D3641B40FA97BC591F33B9FC609463142",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_Simulation.fbx.meta",
+      "sha256": "42729102BC5876A4575BFADB8EA3214FA57F8BA1FD8B40F88DD3730DAD494FE8",
+      "world01Sha256": "42729102BC5876A4575BFADB8EA3214FA57F8BA1FD8B40F88DD3730DAD494FE8",
+      "world01Match": true,
+      "preWorldLook03Sha256": "42729102BC5876A4575BFADB8EA3214FA57F8BA1FD8B40F88DD3730DAD494FE8",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_Special.fbx",
+      "sha256": "CB29702957265C4DB3B888F75A504EC07021F37F973D8ED5C683E42B057F50F2",
+      "world01Sha256": "CB29702957265C4DB3B888F75A504EC07021F37F973D8ED5C683E42B057F50F2",
+      "world01Match": true,
+      "preWorldLook03Sha256": "CB29702957265C4DB3B888F75A504EC07021F37F973D8ED5C683E42B057F50F2",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_Special.fbx.meta",
+      "sha256": "B3D488EB02F416ECF714EBF1F07ADF7FAD3D1A77E4F1B4E0E27441563B265515",
+      "world01Sha256": "B3D488EB02F416ECF714EBF1F07ADF7FAD3D1A77E4F1B4E0E27441563B265515",
+      "world01Match": true,
+      "preWorldLook03Sha256": "B3D488EB02F416ECF714EBF1F07ADF7FAD3D1A77E4F1B4E0E27441563B265515",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_Tools.fbx",
+      "sha256": "83FE62F77D03CAA1B221D3CE1E7B9377F486CFF978204061784F9944CAA00A32",
+      "world01Sha256": "83FE62F77D03CAA1B221D3CE1E7B9377F486CFF978204061784F9944CAA00A32",
+      "world01Match": true,
+      "preWorldLook03Sha256": "83FE62F77D03CAA1B221D3CE1E7B9377F486CFF978204061784F9944CAA00A32",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/Rig_Medium_Tools.fbx.meta",
+      "sha256": "B965D267A032C17D7C815D63C56CE3EB8E0806847F6DE0C3CBE88DEB2D855F93",
+      "world01Sha256": "B965D267A032C17D7C815D63C56CE3EB8E0806847F6DE0C3CBE88DEB2D855F93",
+      "world01Match": true,
+      "preWorldLook03Sha256": "B965D267A032C17D7C815D63C56CE3EB8E0806847F6DE0C3CBE88DEB2D855F93",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Aura.overrideController",
+      "sha256": "28D3B5F8EF019E8D5A0389C617769B5938C21F4817ED3565CD870CD9EA514D10",
+      "world01Sha256": "28D3B5F8EF019E8D5A0389C617769B5938C21F4817ED3565CD870CD9EA514D10",
+      "world01Match": true,
+      "preWorldLook03Sha256": "28D3B5F8EF019E8D5A0389C617769B5938C21F4817ED3565CD870CD9EA514D10",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Aura.overrideController.meta",
+      "sha256": "A4F77160E2BE3995DE9F3823F9C1A80E14192543C0DAFCB3B9DA34958C81B43E",
+      "world01Sha256": "A4F77160E2BE3995DE9F3823F9C1A80E14192543C0DAFCB3B9DA34958C81B43E",
+      "world01Match": true,
+      "preWorldLook03Sha256": "A4F77160E2BE3995DE9F3823F9C1A80E14192543C0DAFCB3B9DA34958C81B43E",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Aura.prefab",
+      "sha256": "789DAB8949B61B699CED796E728D5BF7F925CBF1C37C30085F3CC8E65F9F32BE",
+      "world01Sha256": "789DAB8949B61B699CED796E728D5BF7F925CBF1C37C30085F3CC8E65F9F32BE",
+      "world01Match": true,
+      "preWorldLook03Sha256": "789DAB8949B61B699CED796E728D5BF7F925CBF1C37C30085F3CC8E65F9F32BE",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Aura.prefab.meta",
+      "sha256": "475158135C1120B7B9D48B37BC383C99B1A359AA60929AE78CBA370EA1D5950A",
+      "world01Sha256": "475158135C1120B7B9D48B37BC383C99B1A359AA60929AE78CBA370EA1D5950A",
+      "world01Match": true,
+      "preWorldLook03Sha256": "475158135C1120B7B9D48B37BC383C99B1A359AA60929AE78CBA370EA1D5950A",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Grom.overrideController",
+      "sha256": "4D6D05D771046F0B4E836D08DCC89C48F32D89DDA1FF23C56A174BEAC91E0D80",
+      "world01Sha256": "4D6D05D771046F0B4E836D08DCC89C48F32D89DDA1FF23C56A174BEAC91E0D80",
+      "world01Match": true,
+      "preWorldLook03Sha256": "4D6D05D771046F0B4E836D08DCC89C48F32D89DDA1FF23C56A174BEAC91E0D80",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Grom.overrideController.meta",
+      "sha256": "6D198906F1D022EABA8A4B94FCBB8531338C614D5926D062DF28FA6F77DDB381",
+      "world01Sha256": "6D198906F1D022EABA8A4B94FCBB8531338C614D5926D062DF28FA6F77DDB381",
+      "world01Match": true,
+      "preWorldLook03Sha256": "6D198906F1D022EABA8A4B94FCBB8531338C614D5926D062DF28FA6F77DDB381",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Grom.prefab",
+      "sha256": "88EB7E0221B4ECCAB19F2FA25218F84E655CC8B116A7CE2AE6C1E63A1B91DBD8",
+      "world01Sha256": "88EB7E0221B4ECCAB19F2FA25218F84E655CC8B116A7CE2AE6C1E63A1B91DBD8",
+      "world01Match": true,
+      "preWorldLook03Sha256": "88EB7E0221B4ECCAB19F2FA25218F84E655CC8B116A7CE2AE6C1E63A1B91DBD8",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Grom.prefab.meta",
+      "sha256": "6305E9FA0B30FD952B55BFC2860DBAF4931A06F79501F395F2BF12396E0B5370",
+      "world01Sha256": "6305E9FA0B30FD952B55BFC2860DBAF4931A06F79501F395F2BF12396E0B5370",
+      "world01Match": true,
+      "preWorldLook03Sha256": "6305E9FA0B30FD952B55BFC2860DBAF4931A06F79501F395F2BF12396E0B5370",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Ignis.overrideController",
+      "sha256": "1386746387A00179AEF6FC2FED69C6E95A32B570E9D7D5DBB5979FB149B994F7",
+      "world01Sha256": "1386746387A00179AEF6FC2FED69C6E95A32B570E9D7D5DBB5979FB149B994F7",
+      "world01Match": true,
+      "preWorldLook03Sha256": "1386746387A00179AEF6FC2FED69C6E95A32B570E9D7D5DBB5979FB149B994F7",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Ignis.overrideController.meta",
+      "sha256": "8CC8AC2A907BE12B363861AFE4B301BDCFDB4E17023F31368A9FC4C3BD043B15",
+      "world01Sha256": "8CC8AC2A907BE12B363861AFE4B301BDCFDB4E17023F31368A9FC4C3BD043B15",
+      "world01Match": true,
+      "preWorldLook03Sha256": "8CC8AC2A907BE12B363861AFE4B301BDCFDB4E17023F31368A9FC4C3BD043B15",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Ignis.prefab",
+      "sha256": "3BB75B432DD5BD722D2E3CA16D993DDA2EE89462577091876DD4E63625D384D4",
+      "world01Sha256": "3BB75B432DD5BD722D2E3CA16D993DDA2EE89462577091876DD4E63625D384D4",
+      "world01Match": true,
+      "preWorldLook03Sha256": "3BB75B432DD5BD722D2E3CA16D993DDA2EE89462577091876DD4E63625D384D4",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Ignis.prefab.meta",
+      "sha256": "A66CA12D0CEA75A6E248F9FFB6679E98055006D4EDC83A8B86C795F1CA4D9E8B",
+      "world01Sha256": "A66CA12D0CEA75A6E248F9FFB6679E98055006D4EDC83A8B86C795F1CA4D9E8B",
+      "world01Match": true,
+      "preWorldLook03Sha256": "A66CA12D0CEA75A6E248F9FFB6679E98055006D4EDC83A8B86C795F1CA4D9E8B",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Maris.overrideController",
+      "sha256": "F7AC19B060AE41AA857EC7137B71B4D6D672294425A4720E809656FC3681079B",
+      "world01Sha256": "F7AC19B060AE41AA857EC7137B71B4D6D672294425A4720E809656FC3681079B",
+      "world01Match": true,
+      "preWorldLook03Sha256": "F7AC19B060AE41AA857EC7137B71B4D6D672294425A4720E809656FC3681079B",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Maris.overrideController.meta",
+      "sha256": "7C01145FEF0AAA0A02D92E38482CD4ED7476D72CBA144BD7DD65D5DF927DA62A",
+      "world01Sha256": "7C01145FEF0AAA0A02D92E38482CD4ED7476D72CBA144BD7DD65D5DF927DA62A",
+      "world01Match": true,
+      "preWorldLook03Sha256": "7C01145FEF0AAA0A02D92E38482CD4ED7476D72CBA144BD7DD65D5DF927DA62A",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Maris.prefab",
+      "sha256": "7085368E88AD7B65B7751066E63E72C38823E2CD475845B61B193F98D39DC5DC",
+      "world01Sha256": "7085368E88AD7B65B7751066E63E72C38823E2CD475845B61B193F98D39DC5DC",
+      "world01Match": true,
+      "preWorldLook03Sha256": "7085368E88AD7B65B7751066E63E72C38823E2CD475845B61B193F98D39DC5DC",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Maris.prefab.meta",
+      "sha256": "844534F8453691DBDA79B27B913144D99D07611EBE49588612AA6E2B9E643B1A",
+      "world01Sha256": "844534F8453691DBDA79B27B913144D99D07611EBE49588612AA6E2B9E643B1A",
+      "world01Match": true,
+      "preWorldLook03Sha256": "844534F8453691DBDA79B27B913144D99D07611EBE49588612AA6E2B9E643B1A",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Sparkle.overrideController",
+      "sha256": "97C48DA9BB9E8113FF84E104E3264AD9CC09080EB304ECE7595A97F6FD0FA2AD",
+      "world01Sha256": "97C48DA9BB9E8113FF84E104E3264AD9CC09080EB304ECE7595A97F6FD0FA2AD",
+      "world01Match": true,
+      "preWorldLook03Sha256": "97C48DA9BB9E8113FF84E104E3264AD9CC09080EB304ECE7595A97F6FD0FA2AD",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Sparkle.overrideController.meta",
+      "sha256": "F6E0F2B6B5C7447EA31A45791AD383B70A8FEFF922B9D321E1A7727BF9FF1182",
+      "world01Sha256": "F6E0F2B6B5C7447EA31A45791AD383B70A8FEFF922B9D321E1A7727BF9FF1182",
+      "world01Match": true,
+      "preWorldLook03Sha256": "F6E0F2B6B5C7447EA31A45791AD383B70A8FEFF922B9D321E1A7727BF9FF1182",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Sparkle.prefab",
+      "sha256": "3D7368F96587E876099AA04BF0A82A4A3AC0025569D1726BCE4A39E0545510E5",
+      "world01Sha256": "3D7368F96587E876099AA04BF0A82A4A3AC0025569D1726BCE4A39E0545510E5",
+      "world01Match": true,
+      "preWorldLook03Sha256": "3D7368F96587E876099AA04BF0A82A4A3AC0025569D1726BCE4A39E0545510E5",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Sparkle.prefab.meta",
+      "sha256": "6C434432088780F73FAD59F87DDEB0DD993D6E6BD9DFB503CEBA90D459C61B46",
+      "world01Sha256": "6C434432088780F73FAD59F87DDEB0DD993D6E6BD9DFB503CEBA90D459C61B46",
+      "world01Match": true,
+      "preWorldLook03Sha256": "6C434432088780F73FAD59F87DDEB0DD993D6E6BD9DFB503CEBA90D459C61B46",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Sword_1H.prefab",
+      "sha256": "78E5EE8133B83FCA40DE7C369695E07A36076457C5D7AC228491C2A6D4C32449",
+      "world01Sha256": "78E5EE8133B83FCA40DE7C369695E07A36076457C5D7AC228491C2A6D4C32449",
+      "world01Match": true,
+      "preWorldLook03Sha256": "78E5EE8133B83FCA40DE7C369695E07A36076457C5D7AC228491C2A6D4C32449",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Art/Resources/Art/Characters/Sword_1H.prefab.meta",
+      "sha256": "11F66599CB5A15E41315192C057D106FC4609D884F4E07D09B152854EEB38712",
+      "world01Sha256": "11F66599CB5A15E41315192C057D106FC4609D884F4E07D09B152854EEB38712",
+      "world01Match": true,
+      "preWorldLook03Sha256": "11F66599CB5A15E41315192C057D106FC4609D884F4E07D09B152854EEB38712",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_CapeLining.mat",
+      "sha256": "6896323063622E1DEE4130193B8773BA06ED4E2E603CC0012334ECF4150A98BD",
+      "world01Sha256": "6896323063622E1DEE4130193B8773BA06ED4E2E603CC0012334ECF4150A98BD",
+      "world01Match": true,
+      "preWorldLook03Sha256": "6896323063622E1DEE4130193B8773BA06ED4E2E603CC0012334ECF4150A98BD",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_CapeLining.mat.meta",
+      "sha256": "AA98161F63F3D9A8A0301620A895B8EA04F1C938ABCA101F36BA8EE11BCA2C64",
+      "world01Sha256": "AA98161F63F3D9A8A0301620A895B8EA04F1C938ABCA101F36BA8EE11BCA2C64",
+      "world01Match": true,
+      "preWorldLook03Sha256": "AA98161F63F3D9A8A0301620A895B8EA04F1C938ABCA101F36BA8EE11BCA2C64",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_EyeWhite.mat",
+      "sha256": "6F3BE5F7A12429BCA548FDA42E42743F1D98262E45702B1DC432AC4552271D5C",
+      "world01Sha256": "6F3BE5F7A12429BCA548FDA42E42743F1D98262E45702B1DC432AC4552271D5C",
+      "world01Match": true,
+      "preWorldLook03Sha256": "6F3BE5F7A12429BCA548FDA42E42743F1D98262E45702B1DC432AC4552271D5C",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_EyeWhite.mat.meta",
+      "sha256": "941A5E83D558233EB237AE791CAC36AC6C4EB4317F82ED460B8B76A43E7D943D",
+      "world01Sha256": "941A5E83D558233EB237AE791CAC36AC6C4EB4317F82ED460B8B76A43E7D943D",
+      "world01Match": true,
+      "preWorldLook03Sha256": "941A5E83D558233EB237AE791CAC36AC6C4EB4317F82ED460B8B76A43E7D943D",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Face.mat",
+      "sha256": "0B3111712A0784DCFA4BC8DB4A5144671341AF06F1DB14CD3DE238AEF36E9DD4",
+      "world01Sha256": "0B3111712A0784DCFA4BC8DB4A5144671341AF06F1DB14CD3DE238AEF36E9DD4",
+      "world01Match": true,
+      "preWorldLook03Sha256": "0B3111712A0784DCFA4BC8DB4A5144671341AF06F1DB14CD3DE238AEF36E9DD4",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Face.mat.meta",
+      "sha256": "5742F6CAA94848F84948B5310B975A51E9D94F04CB59EA0CBF6F58FDA6780D80",
+      "world01Sha256": "5742F6CAA94848F84948B5310B975A51E9D94F04CB59EA0CBF6F58FDA6780D80",
+      "world01Match": true,
+      "preWorldLook03Sha256": "5742F6CAA94848F84948B5310B975A51E9D94F04CB59EA0CBF6F58FDA6780D80",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Gem.mat",
+      "sha256": "FAF2EE637150C545D67A90E5E35B0852BF9B9FAD4C6B6575164A3AFF0F38FB66",
+      "world01Sha256": "FAF2EE637150C545D67A90E5E35B0852BF9B9FAD4C6B6575164A3AFF0F38FB66",
+      "world01Match": true,
+      "preWorldLook03Sha256": "FAF2EE637150C545D67A90E5E35B0852BF9B9FAD4C6B6575164A3AFF0F38FB66",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Gem.mat.meta",
+      "sha256": "558F46B0AEEDC383F3EB1DE4CCD914013A8F66035A2DBD7E70ACF06C5530EA26",
+      "world01Sha256": "558F46B0AEEDC383F3EB1DE4CCD914013A8F66035A2DBD7E70ACF06C5530EA26",
+      "world01Match": true,
+      "preWorldLook03Sha256": "558F46B0AEEDC383F3EB1DE4CCD914013A8F66035A2DBD7E70ACF06C5530EA26",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Gold.mat",
+      "sha256": "01A3A930B2D15720E72EC5DED2A1D282809FEDA77ACF982BDBF67544EBCE6117",
+      "world01Sha256": "01A3A930B2D15720E72EC5DED2A1D282809FEDA77ACF982BDBF67544EBCE6117",
+      "world01Match": true,
+      "preWorldLook03Sha256": "01A3A930B2D15720E72EC5DED2A1D282809FEDA77ACF982BDBF67544EBCE6117",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Gold.mat.meta",
+      "sha256": "1F108A26CBE76C11421E68A46A15F9782D7F270C6085F73655F3083582B79FFA",
+      "world01Sha256": "1F108A26CBE76C11421E68A46A15F9782D7F270C6085F73655F3083582B79FFA",
+      "world01Match": true,
+      "preWorldLook03Sha256": "1F108A26CBE76C11421E68A46A15F9782D7F270C6085F73655F3083582B79FFA",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Hair.mat",
+      "sha256": "CB9A2E318D9FD990B267C7EBAB20DB40FCC34DD3E80A0885F81AE7D6A83F429D",
+      "world01Sha256": "CB9A2E318D9FD990B267C7EBAB20DB40FCC34DD3E80A0885F81AE7D6A83F429D",
+      "world01Match": true,
+      "preWorldLook03Sha256": "CB9A2E318D9FD990B267C7EBAB20DB40FCC34DD3E80A0885F81AE7D6A83F429D",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Hair.mat.meta",
+      "sha256": "85FC80F4C93EB41B2BF34CE3F4A438EBB5E3C9D710422C6F0D2640E73DEF4981",
+      "world01Sha256": "85FC80F4C93EB41B2BF34CE3F4A438EBB5E3C9D710422C6F0D2640E73DEF4981",
+      "world01Match": true,
+      "preWorldLook03Sha256": "85FC80F4C93EB41B2BF34CE3F4A438EBB5E3C9D710422C6F0D2640E73DEF4981",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_HairLight.mat",
+      "sha256": "CEFD2F32BE0E4DB9D47B5E6E7491CFD06A13FA6625703A24DF4D35F52E714E3A",
+      "world01Sha256": "CEFD2F32BE0E4DB9D47B5E6E7491CFD06A13FA6625703A24DF4D35F52E714E3A",
+      "world01Match": true,
+      "preWorldLook03Sha256": "CEFD2F32BE0E4DB9D47B5E6E7491CFD06A13FA6625703A24DF4D35F52E714E3A",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_HairLight.mat.meta",
+      "sha256": "334DEA9B761A51BC1D8A85671CD4AFFCBC39606ED52B399C9D95144F32CFBDC8",
+      "world01Sha256": "334DEA9B761A51BC1D8A85671CD4AFFCBC39606ED52B399C9D95144F32CFBDC8",
+      "world01Match": true,
+      "preWorldLook03Sha256": "334DEA9B761A51BC1D8A85671CD4AFFCBC39606ED52B399C9D95144F32CFBDC8",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Ink.mat",
+      "sha256": "E3809EDB23BFB08B82EA7B6581C19E64128FDA1A2748A484395CD329C3706D22",
+      "world01Sha256": "E3809EDB23BFB08B82EA7B6581C19E64128FDA1A2748A484395CD329C3706D22",
+      "world01Match": true,
+      "preWorldLook03Sha256": "E3809EDB23BFB08B82EA7B6581C19E64128FDA1A2748A484395CD329C3706D22",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Ink.mat.meta",
+      "sha256": "8DDF7FDBD088FE2DA4892AEF8D16403F29A93F7DBE46B74F67EA9004FB3C116E",
+      "world01Sha256": "8DDF7FDBD088FE2DA4892AEF8D16403F29A93F7DBE46B74F67EA9004FB3C116E",
+      "world01Match": true,
+      "preWorldLook03Sha256": "8DDF7FDBD088FE2DA4892AEF8D16403F29A93F7DBE46B74F67EA9004FB3C116E",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Ivory.mat",
+      "sha256": "003A101108151FBC3DD3A17A0DC578613EBB58478981D0FA8DF9A56783207C07",
+      "world01Sha256": "003A101108151FBC3DD3A17A0DC578613EBB58478981D0FA8DF9A56783207C07",
+      "world01Match": true,
+      "preWorldLook03Sha256": "003A101108151FBC3DD3A17A0DC578613EBB58478981D0FA8DF9A56783207C07",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Ivory.mat.meta",
+      "sha256": "3EB401DD7D88EFA81FF1D5DF204EBCC513979F201ACCA84B0CC097E4BB60510E",
+      "world01Sha256": "3EB401DD7D88EFA81FF1D5DF204EBCC513979F201ACCA84B0CC097E4BB60510E",
+      "world01Match": true,
+      "preWorldLook03Sha256": "3EB401DD7D88EFA81FF1D5DF204EBCC513979F201ACCA84B0CC097E4BB60510E",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Leather.mat",
+      "sha256": "49FE03BED9B0EC7A28823FC79B22755E02BDBEA36E2B84BB03A07E2DE371885F",
+      "world01Sha256": "49FE03BED9B0EC7A28823FC79B22755E02BDBEA36E2B84BB03A07E2DE371885F",
+      "world01Match": true,
+      "preWorldLook03Sha256": "49FE03BED9B0EC7A28823FC79B22755E02BDBEA36E2B84BB03A07E2DE371885F",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Leather.mat.meta",
+      "sha256": "1FE20EDA6CD9F36EFF00B65BBEB6524F1341ECCF89134B058FD22827F8314322",
+      "world01Sha256": "1FE20EDA6CD9F36EFF00B65BBEB6524F1341ECCF89134B058FD22827F8314322",
+      "world01Match": true,
+      "preWorldLook03Sha256": "1FE20EDA6CD9F36EFF00B65BBEB6524F1341ECCF89134B058FD22827F8314322",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Navy.mat",
+      "sha256": "D8BDA5B5D5C0F4ED07818C10C835890BFCA2E9393FAEA5B9A9B2D5A4D29E7154",
+      "world01Sha256": "D8BDA5B5D5C0F4ED07818C10C835890BFCA2E9393FAEA5B9A9B2D5A4D29E7154",
+      "world01Match": true,
+      "preWorldLook03Sha256": "D8BDA5B5D5C0F4ED07818C10C835890BFCA2E9393FAEA5B9A9B2D5A4D29E7154",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Navy.mat.meta",
+      "sha256": "F101BAE8B66507B50CE4C86008E1BA557A6EC8B2CC9F6BD6CB1BD32D8A6153C6",
+      "world01Sha256": "F101BAE8B66507B50CE4C86008E1BA557A6EC8B2CC9F6BD6CB1BD32D8A6153C6",
+      "world01Match": true,
+      "preWorldLook03Sha256": "F101BAE8B66507B50CE4C86008E1BA557A6EC8B2CC9F6BD6CB1BD32D8A6153C6",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Skin.mat",
+      "sha256": "07A0A73253FBC9A0B2F86F0358599B27FF60477DDBE9466EEBA8B2B955D6B791",
+      "world01Sha256": "07A0A73253FBC9A0B2F86F0358599B27FF60477DDBE9466EEBA8B2B955D6B791",
+      "world01Match": true,
+      "preWorldLook03Sha256": "07A0A73253FBC9A0B2F86F0358599B27FF60477DDBE9466EEBA8B2B955D6B791",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Skin.mat.meta",
+      "sha256": "6505DDC23269348DD24EAA66C9FC09EB6D21148EFE80C8D99EDB2E46E9F02B20",
+      "world01Sha256": "6505DDC23269348DD24EAA66C9FC09EB6D21148EFE80C8D99EDB2E46E9F02B20",
+      "world01Match": true,
+      "preWorldLook03Sha256": "6505DDC23269348DD24EAA66C9FC09EB6D21148EFE80C8D99EDB2E46E9F02B20",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_TailoredIvory.mat",
+      "sha256": "869964BF31942B5057C6CEDF637AC83149E549FE54D2EA419F917F9EAE3EC1A4",
+      "world01Sha256": "869964BF31942B5057C6CEDF637AC83149E549FE54D2EA419F917F9EAE3EC1A4",
+      "world01Match": true,
+      "preWorldLook03Sha256": "869964BF31942B5057C6CEDF637AC83149E549FE54D2EA419F917F9EAE3EC1A4",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_TailoredIvory.mat.meta",
+      "sha256": "6E845C362C5A42DC2BAD631B9663384288DE74EAF5714893F52C7420C9ACB33C",
+      "world01Sha256": "6E845C362C5A42DC2BAD631B9663384288DE74EAF5714893F52C7420C9ACB33C",
+      "world01Match": true,
+      "preWorldLook03Sha256": "6E845C362C5A42DC2BAD631B9663384288DE74EAF5714893F52C7420C9ACB33C",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_TailoredNavy.mat",
+      "sha256": "1B834EC1703C2A74A8BA0A449C8ECF071F379E1FAE9C34E1C7DB2D89B9D0D71E",
+      "world01Sha256": "1B834EC1703C2A74A8BA0A449C8ECF071F379E1FAE9C34E1C7DB2D89B9D0D71E",
+      "world01Match": true,
+      "preWorldLook03Sha256": "1B834EC1703C2A74A8BA0A449C8ECF071F379E1FAE9C34E1C7DB2D89B9D0D71E",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_TailoredNavy.mat.meta",
+      "sha256": "0BE9C9564BE0E96BEF2FB9FE390AF16B20F0CB3DF6883776D18E65E54E32EEE5",
+      "world01Sha256": "0BE9C9564BE0E96BEF2FB9FE390AF16B20F0CB3DF6883776D18E65E54E32EEE5",
+      "world01Match": true,
+      "preWorldLook03Sha256": "0BE9C9564BE0E96BEF2FB9FE390AF16B20F0CB3DF6883776D18E65E54E32EEE5",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Teal.mat",
+      "sha256": "AB6890BAE03D777A70BFE7A2734FF669DD974970EDF0589CA6E2E1E13247A317",
+      "world01Sha256": "AB6890BAE03D777A70BFE7A2734FF669DD974970EDF0589CA6E2E1E13247A317",
+      "world01Match": true,
+      "preWorldLook03Sha256": "AB6890BAE03D777A70BFE7A2734FF669DD974970EDF0589CA6E2E1E13247A317",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Teal.mat.meta",
+      "sha256": "F0B59972BA42D5593B12DE7D7DD11582C3B70C648892A2E4F7677DCF554B754A",
+      "world01Sha256": "F0B59972BA42D5593B12DE7D7DD11582C3B70C648892A2E4F7677DCF554B754A",
+      "world01Match": true,
+      "preWorldLook03Sha256": "F0B59972BA42D5593B12DE7D7DD11582C3B70C648892A2E4F7677DCF554B754A",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Trousers.mat",
+      "sha256": "DE8213ACE9BBE89C3A3453691D035E7242350582B2E2BC0D3A222544EBF433ED",
+      "world01Sha256": "DE8213ACE9BBE89C3A3453691D035E7242350582B2E2BC0D3A222544EBF433ED",
+      "world01Match": true,
+      "preWorldLook03Sha256": "DE8213ACE9BBE89C3A3453691D035E7242350582B2E2BC0D3A222544EBF433ED",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Polaris_EX_Trousers.mat.meta",
+      "sha256": "D4B174555F742A97118A8D7C5EC20F347C894712D09B76BD5252D8267269B951",
+      "world01Sha256": "D4B174555F742A97118A8D7C5EC20F347C894712D09B76BD5252D8267269B951",
+      "world01Match": true,
+      "preWorldLook03Sha256": "D4B174555F742A97118A8D7C5EC20F347C894712D09B76BD5252D8267269B951",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_CapeLining.mat",
+      "sha256": "7B14AC837A9D202783CB03DDEE8EDCB5F3D2EF6E4DA7530715B982050F8F5995",
+      "world01Sha256": "7B14AC837A9D202783CB03DDEE8EDCB5F3D2EF6E4DA7530715B982050F8F5995",
+      "world01Match": true,
+      "preWorldLook03Sha256": "7B14AC837A9D202783CB03DDEE8EDCB5F3D2EF6E4DA7530715B982050F8F5995",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_CapeLining.mat.meta",
+      "sha256": "03B5E8893E284C458907711FFB3353D52C1457E549809A8261883BCD5566F6BE",
+      "world01Sha256": "03B5E8893E284C458907711FFB3353D52C1457E549809A8261883BCD5566F6BE",
+      "world01Match": true,
+      "preWorldLook03Sha256": "03B5E8893E284C458907711FFB3353D52C1457E549809A8261883BCD5566F6BE",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_EyeWhite.mat",
+      "sha256": "2D63BE686906F6ACE2AFDFF8F62965AAAADF7FD278F70E3034FF71370D658DEA",
+      "world01Sha256": "2D63BE686906F6ACE2AFDFF8F62965AAAADF7FD278F70E3034FF71370D658DEA",
+      "world01Match": true,
+      "preWorldLook03Sha256": "2D63BE686906F6ACE2AFDFF8F62965AAAADF7FD278F70E3034FF71370D658DEA",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_EyeWhite.mat.meta",
+      "sha256": "F46AA34EED2898A2C9C2F791C3C68C49177F72E2AC13CBA78161E27BBC9383B0",
+      "world01Sha256": "F46AA34EED2898A2C9C2F791C3C68C49177F72E2AC13CBA78161E27BBC9383B0",
+      "world01Match": true,
+      "preWorldLook03Sha256": "F46AA34EED2898A2C9C2F791C3C68C49177F72E2AC13CBA78161E27BBC9383B0",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Face.mat",
+      "sha256": "65DF1FF75C3E16DA20CC2D1A0C05FF6DD60A75690FE7E4EB5839F63C0C1217CE",
+      "world01Sha256": "65DF1FF75C3E16DA20CC2D1A0C05FF6DD60A75690FE7E4EB5839F63C0C1217CE",
+      "world01Match": true,
+      "preWorldLook03Sha256": "65DF1FF75C3E16DA20CC2D1A0C05FF6DD60A75690FE7E4EB5839F63C0C1217CE",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Face.mat.meta",
+      "sha256": "241A10DA693A53501E725D4796AD8C549D41CA5128345A4D8F5CC9D57A87D3D3",
+      "world01Sha256": "241A10DA693A53501E725D4796AD8C549D41CA5128345A4D8F5CC9D57A87D3D3",
+      "world01Match": true,
+      "preWorldLook03Sha256": "241A10DA693A53501E725D4796AD8C549D41CA5128345A4D8F5CC9D57A87D3D3",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Gem.mat",
+      "sha256": "4087D6F5CAA5E28C0C566049EDDB7846264043BF215537E99E521EBB945CB719",
+      "world01Sha256": "4087D6F5CAA5E28C0C566049EDDB7846264043BF215537E99E521EBB945CB719",
+      "world01Match": true,
+      "preWorldLook03Sha256": "4087D6F5CAA5E28C0C566049EDDB7846264043BF215537E99E521EBB945CB719",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Gem.mat.meta",
+      "sha256": "90A12CD3FF659F8F409B3A41C04B0E6425EDEEDC99DB4F6D7BAE587B6AE8C48E",
+      "world01Sha256": "90A12CD3FF659F8F409B3A41C04B0E6425EDEEDC99DB4F6D7BAE587B6AE8C48E",
+      "world01Match": true,
+      "preWorldLook03Sha256": "90A12CD3FF659F8F409B3A41C04B0E6425EDEEDC99DB4F6D7BAE587B6AE8C48E",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Gold.mat",
+      "sha256": "1DF6C884FB16EA6296C6CFF609F6F0C37A598D468EC055A361CC6AA94F2BE8A4",
+      "world01Sha256": "1DF6C884FB16EA6296C6CFF609F6F0C37A598D468EC055A361CC6AA94F2BE8A4",
+      "world01Match": true,
+      "preWorldLook03Sha256": "1DF6C884FB16EA6296C6CFF609F6F0C37A598D468EC055A361CC6AA94F2BE8A4",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Gold.mat.meta",
+      "sha256": "40144B5EE2A674E668D655BB369C2BF1F08348560EB793A53D443607BDD2B8BA",
+      "world01Sha256": "40144B5EE2A674E668D655BB369C2BF1F08348560EB793A53D443607BDD2B8BA",
+      "world01Match": true,
+      "preWorldLook03Sha256": "40144B5EE2A674E668D655BB369C2BF1F08348560EB793A53D443607BDD2B8BA",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Hair.mat",
+      "sha256": "AC57D1460B54101A336B59F1DCF83212A8FF214CCA0A7E35991519C9C68DCD4E",
+      "world01Sha256": "AC57D1460B54101A336B59F1DCF83212A8FF214CCA0A7E35991519C9C68DCD4E",
+      "world01Match": true,
+      "preWorldLook03Sha256": "AC57D1460B54101A336B59F1DCF83212A8FF214CCA0A7E35991519C9C68DCD4E",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Hair.mat.meta",
+      "sha256": "DA2369797B049C3C399CFAD214881F14BAEAB557393B3C1EA0A6720D1E8843E0",
+      "world01Sha256": "DA2369797B049C3C399CFAD214881F14BAEAB557393B3C1EA0A6720D1E8843E0",
+      "world01Match": true,
+      "preWorldLook03Sha256": "DA2369797B049C3C399CFAD214881F14BAEAB557393B3C1EA0A6720D1E8843E0",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_HairLight.mat",
+      "sha256": "572B6F856DE2B16340173D58953AAF4BFDE0A29FBB56999D496A4B37CC60859C",
+      "world01Sha256": "572B6F856DE2B16340173D58953AAF4BFDE0A29FBB56999D496A4B37CC60859C",
+      "world01Match": true,
+      "preWorldLook03Sha256": "572B6F856DE2B16340173D58953AAF4BFDE0A29FBB56999D496A4B37CC60859C",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_HairLight.mat.meta",
+      "sha256": "81782C869CE4FF39012A9D9FCB0D472AB4EC3A732721BED523263943A0B93DC5",
+      "world01Sha256": "81782C869CE4FF39012A9D9FCB0D472AB4EC3A732721BED523263943A0B93DC5",
+      "world01Match": true,
+      "preWorldLook03Sha256": "81782C869CE4FF39012A9D9FCB0D472AB4EC3A732721BED523263943A0B93DC5",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Ink.mat",
+      "sha256": "6F5888E84202430EB8E404A397AFB4607F5A8A5931A45B749D4949F8CE08426E",
+      "world01Sha256": "6F5888E84202430EB8E404A397AFB4607F5A8A5931A45B749D4949F8CE08426E",
+      "world01Match": true,
+      "preWorldLook03Sha256": "6F5888E84202430EB8E404A397AFB4607F5A8A5931A45B749D4949F8CE08426E",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Ink.mat.meta",
+      "sha256": "E051525D31E2FE172576C068AFAE35F7D6E384124DFF853A77D5579EABE32C28",
+      "world01Sha256": "E051525D31E2FE172576C068AFAE35F7D6E384124DFF853A77D5579EABE32C28",
+      "world01Match": true,
+      "preWorldLook03Sha256": "E051525D31E2FE172576C068AFAE35F7D6E384124DFF853A77D5579EABE32C28",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Ivory.mat",
+      "sha256": "610589E9B9B0FE83FEFA96B17C8C99ED786A2A90A3B4303966D274E6FCCD44D8",
+      "world01Sha256": "610589E9B9B0FE83FEFA96B17C8C99ED786A2A90A3B4303966D274E6FCCD44D8",
+      "world01Match": true,
+      "preWorldLook03Sha256": "610589E9B9B0FE83FEFA96B17C8C99ED786A2A90A3B4303966D274E6FCCD44D8",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Ivory.mat.meta",
+      "sha256": "AACDCA643611C6799ABC449F1BF4F6FDE5429617D58C002A71247E3A3D9C9B5D",
+      "world01Sha256": "AACDCA643611C6799ABC449F1BF4F6FDE5429617D58C002A71247E3A3D9C9B5D",
+      "world01Match": true,
+      "preWorldLook03Sha256": "AACDCA643611C6799ABC449F1BF4F6FDE5429617D58C002A71247E3A3D9C9B5D",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Leather.mat",
+      "sha256": "6420EE0CB32B38F01E4263954B69D66D1D30AA6EAADA35756E63FDB4F4AAC831",
+      "world01Sha256": "6420EE0CB32B38F01E4263954B69D66D1D30AA6EAADA35756E63FDB4F4AAC831",
+      "world01Match": true,
+      "preWorldLook03Sha256": "6420EE0CB32B38F01E4263954B69D66D1D30AA6EAADA35756E63FDB4F4AAC831",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Leather.mat.meta",
+      "sha256": "A74F93987EDFA9FBE0DEC2C98A683EC7A0E86CC847156533BB78E37978FF3C7C",
+      "world01Sha256": "A74F93987EDFA9FBE0DEC2C98A683EC7A0E86CC847156533BB78E37978FF3C7C",
+      "world01Match": true,
+      "preWorldLook03Sha256": "A74F93987EDFA9FBE0DEC2C98A683EC7A0E86CC847156533BB78E37978FF3C7C",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Navy.mat",
+      "sha256": "572EA8AED5D3953F64CDA698641E1F4E50E7F655FE8F6A659A99103B948C7620",
+      "world01Sha256": "572EA8AED5D3953F64CDA698641E1F4E50E7F655FE8F6A659A99103B948C7620",
+      "world01Match": true,
+      "preWorldLook03Sha256": "572EA8AED5D3953F64CDA698641E1F4E50E7F655FE8F6A659A99103B948C7620",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Navy.mat.meta",
+      "sha256": "65286E57125BA7CC22DE9A36E1133C3CF855E65B0D80BC67597EF7FD511FE784",
+      "world01Sha256": "65286E57125BA7CC22DE9A36E1133C3CF855E65B0D80BC67597EF7FD511FE784",
+      "world01Match": true,
+      "preWorldLook03Sha256": "65286E57125BA7CC22DE9A36E1133C3CF855E65B0D80BC67597EF7FD511FE784",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Skin.mat",
+      "sha256": "0F84688117072AC33D548D45F3CA64B61F2B902E6CFA4EF47843FBB688EAB7DB",
+      "world01Sha256": "0F84688117072AC33D548D45F3CA64B61F2B902E6CFA4EF47843FBB688EAB7DB",
+      "world01Match": true,
+      "preWorldLook03Sha256": "0F84688117072AC33D548D45F3CA64B61F2B902E6CFA4EF47843FBB688EAB7DB",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Skin.mat.meta",
+      "sha256": "C8CAF4A05CC6DE373C4FC1F819988D8E86A93A7A9726B66C8F88DA818ED85452",
+      "world01Sha256": "C8CAF4A05CC6DE373C4FC1F819988D8E86A93A7A9726B66C8F88DA818ED85452",
+      "world01Match": true,
+      "preWorldLook03Sha256": "C8CAF4A05CC6DE373C4FC1F819988D8E86A93A7A9726B66C8F88DA818ED85452",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_TailoredIvory.mat",
+      "sha256": "9D444F47FFEE3170E7ADED71D26675F0C994AFB9BEBF982E3906D2EBAE0C0DCF",
+      "world01Sha256": "9D444F47FFEE3170E7ADED71D26675F0C994AFB9BEBF982E3906D2EBAE0C0DCF",
+      "world01Match": true,
+      "preWorldLook03Sha256": "9D444F47FFEE3170E7ADED71D26675F0C994AFB9BEBF982E3906D2EBAE0C0DCF",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_TailoredIvory.mat.meta",
+      "sha256": "1FDAAC7328F8E8455A93B9B4AEF812B350F7B78D33B26D231CDF3C4256E210C5",
+      "world01Sha256": "1FDAAC7328F8E8455A93B9B4AEF812B350F7B78D33B26D231CDF3C4256E210C5",
+      "world01Match": true,
+      "preWorldLook03Sha256": "1FDAAC7328F8E8455A93B9B4AEF812B350F7B78D33B26D231CDF3C4256E210C5",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_TailoredNavy.mat",
+      "sha256": "DC2E071DA92CD476EC01FC02DECD182942A7A1D99CF964F7C428A1CB26D1B0A3",
+      "world01Sha256": "DC2E071DA92CD476EC01FC02DECD182942A7A1D99CF964F7C428A1CB26D1B0A3",
+      "world01Match": true,
+      "preWorldLook03Sha256": "DC2E071DA92CD476EC01FC02DECD182942A7A1D99CF964F7C428A1CB26D1B0A3",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_TailoredNavy.mat.meta",
+      "sha256": "3C7C77E8A11740219B10C44D9F67428CE5C04C3D5EE7FD37408E1DC09CB27D65",
+      "world01Sha256": "3C7C77E8A11740219B10C44D9F67428CE5C04C3D5EE7FD37408E1DC09CB27D65",
+      "world01Match": true,
+      "preWorldLook03Sha256": "3C7C77E8A11740219B10C44D9F67428CE5C04C3D5EE7FD37408E1DC09CB27D65",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Teal.mat",
+      "sha256": "6B59C6A5416D8AFC52CC823DC9501AC7905DF94136B4E6886841E2591DCF9E60",
+      "world01Sha256": "6B59C6A5416D8AFC52CC823DC9501AC7905DF94136B4E6886841E2591DCF9E60",
+      "world01Match": true,
+      "preWorldLook03Sha256": "6B59C6A5416D8AFC52CC823DC9501AC7905DF94136B4E6886841E2591DCF9E60",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Materials/Explorers/Stella_EX_Teal.mat.meta",
+      "sha256": "B1090A286DF57A5D88D1592D502F03F37C6930B86DAE2C034F24D4AB63851F4D",
+      "world01Sha256": "B1090A286DF57A5D88D1592D502F03F37C6930B86DAE2C034F24D4AB63851F4D",
+      "world01Match": true,
+      "preWorldLook03Sha256": "B1090A286DF57A5D88D1592D502F03F37C6930B86DAE2C034F24D4AB63851F4D",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Models/Polaris.fbx",
+      "sha256": "20519CE8D78133C8456159F56C60F54BAB7355593671E3680A3FC3644D89F61B",
+      "world01Sha256": "20519CE8D78133C8456159F56C60F54BAB7355593671E3680A3FC3644D89F61B",
+      "world01Match": true,
+      "preWorldLook03Sha256": "20519CE8D78133C8456159F56C60F54BAB7355593671E3680A3FC3644D89F61B",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Models/Polaris.fbx.meta",
+      "sha256": "0563C2CF420472CCFE95DB0E942E600672C7521AB7249E7971374201517793A8",
+      "world01Sha256": "0563C2CF420472CCFE95DB0E942E600672C7521AB7249E7971374201517793A8",
+      "world01Match": true,
+      "preWorldLook03Sha256": "0563C2CF420472CCFE95DB0E942E600672C7521AB7249E7971374201517793A8",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Models/Stella.fbx",
+      "sha256": "12929707257FC093272F1517721C4C5274B894B5CC31046369DD55F2E2CED00C",
+      "world01Sha256": "12929707257FC093272F1517721C4C5274B894B5CC31046369DD55F2E2CED00C",
+      "world01Match": true,
+      "preWorldLook03Sha256": "12929707257FC093272F1517721C4C5274B894B5CC31046369DD55F2E2CED00C",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Models/Stella.fbx.meta",
+      "sha256": "BD15FDABCF11BBF30763A2C550FC50C063FED74B7A0B3E9684E98E4E0E5BF46F",
+      "world01Sha256": "BD15FDABCF11BBF30763A2C550FC50C063FED74B7A0B3E9684E98E4E0E5BF46F",
+      "world01Match": true,
+      "preWorldLook03Sha256": "BD15FDABCF11BBF30763A2C550FC50C063FED74B7A0B3E9684E98E4E0E5BF46F",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Prefabs/Polaris.prefab",
+      "sha256": "8E7CD3A2C62D61E88CC77869C8F270D444DD0C86E0159FF898DD653CC63198C0",
+      "world01Sha256": "8E7CD3A2C62D61E88CC77869C8F270D444DD0C86E0159FF898DD653CC63198C0",
+      "world01Match": true,
+      "preWorldLook03Sha256": "8E7CD3A2C62D61E88CC77869C8F270D444DD0C86E0159FF898DD653CC63198C0",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Prefabs/Polaris.prefab.meta",
+      "sha256": "ED8BD872435BE7481A23B6CE85867DDEEC722CF43757BC33739DA3C90C94C510",
+      "world01Sha256": "ED8BD872435BE7481A23B6CE85867DDEEC722CF43757BC33739DA3C90C94C510",
+      "world01Match": true,
+      "preWorldLook03Sha256": "ED8BD872435BE7481A23B6CE85867DDEEC722CF43757BC33739DA3C90C94C510",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Prefabs/Stella.prefab",
+      "sha256": "37906F8C6F69AD2C7A39B0692D89FA4649B2997BB97555E45F35F56FF1F5CEFC",
+      "world01Sha256": "37906F8C6F69AD2C7A39B0692D89FA4649B2997BB97555E45F35F56FF1F5CEFC",
+      "world01Match": true,
+      "preWorldLook03Sha256": "37906F8C6F69AD2C7A39B0692D89FA4649B2997BB97555E45F35F56FF1F5CEFC",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Prefabs/Stella.prefab.meta",
+      "sha256": "D76C7D26C3C7DA08A8797C4774812855F028F05EBC185796765C2F102C0E929B",
+      "world01Sha256": "D76C7D26C3C7DA08A8797C4774812855F028F05EBC185796765C2F102C0E929B",
+      "world01Match": true,
+      "preWorldLook03Sha256": "D76C7D26C3C7DA08A8797C4774812855F028F05EBC185796765C2F102C0E929B",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/AshBlond_Hair_BaseColor.png",
+      "sha256": "5D06238D6FCA8171F14848AEC9085DCF0D3BB2EBF223D614B116CAE9EFA964BB",
+      "world01Sha256": "5D06238D6FCA8171F14848AEC9085DCF0D3BB2EBF223D614B116CAE9EFA964BB",
+      "world01Match": true,
+      "preWorldLook03Sha256": "5D06238D6FCA8171F14848AEC9085DCF0D3BB2EBF223D614B116CAE9EFA964BB",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/AshBlond_Hair_BaseColor.png.meta",
+      "sha256": "A1F9992B371087675AA9D5EA326EEFD36447D9FA6038421753D0A56F93AF87F8",
+      "world01Sha256": "A1F9992B371087675AA9D5EA326EEFD36447D9FA6038421753D0A56F93AF87F8",
+      "world01Match": true,
+      "preWorldLook03Sha256": "A1F9992B371087675AA9D5EA326EEFD36447D9FA6038421753D0A56F93AF87F8",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/Body_Ivory_BaseColor.png",
+      "sha256": "E3A52E2E126072CC5493ABD7DA92A4E7F7CFAF0418F36DD27C803163EB89B6FD",
+      "world01Sha256": "E3A52E2E126072CC5493ABD7DA92A4E7F7CFAF0418F36DD27C803163EB89B6FD",
+      "world01Match": true,
+      "preWorldLook03Sha256": "E3A52E2E126072CC5493ABD7DA92A4E7F7CFAF0418F36DD27C803163EB89B6FD",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/Body_Ivory_BaseColor.png.meta",
+      "sha256": "DEC3000E7EC759B187BEB2BADEB9EEB4C2435FCCFABAF2E19E65B3A302DAD5ED",
+      "world01Sha256": "DEC3000E7EC759B187BEB2BADEB9EEB4C2435FCCFABAF2E19E65B3A302DAD5ED",
+      "world01Match": true,
+      "preWorldLook03Sha256": "DEC3000E7EC759B187BEB2BADEB9EEB4C2435FCCFABAF2E19E65B3A302DAD5ED",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/Body_Navy_BaseColor.png",
+      "sha256": "C3522B6B361453D83CD2E1E5B2340D37C5F319050B506F6E4CD2F00BF3073D57",
+      "world01Sha256": "C3522B6B361453D83CD2E1E5B2340D37C5F319050B506F6E4CD2F00BF3073D57",
+      "world01Match": true,
+      "preWorldLook03Sha256": "C3522B6B361453D83CD2E1E5B2340D37C5F319050B506F6E4CD2F00BF3073D57",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/Body_Navy_BaseColor.png.meta",
+      "sha256": "E69A30C1CB9B7CD65F8872BC85882BC9E02F0AD76326918539012E6E0BCF37C3",
+      "world01Sha256": "E69A30C1CB9B7CD65F8872BC85882BC9E02F0AD76326918539012E6E0BCF37C3",
+      "world01Match": true,
+      "preWorldLook03Sha256": "E69A30C1CB9B7CD65F8872BC85882BC9E02F0AD76326918539012E6E0BCF37C3",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/Polaris_Face_BaseColor.png",
+      "sha256": "4A1F914E594FC4435762BF553AE50313A42B2A5F2E85FF5EBC2B4681FBB220BB",
+      "world01Sha256": "4A1F914E594FC4435762BF553AE50313A42B2A5F2E85FF5EBC2B4681FBB220BB",
+      "world01Match": true,
+      "preWorldLook03Sha256": "4A1F914E594FC4435762BF553AE50313A42B2A5F2E85FF5EBC2B4681FBB220BB",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/Polaris_Face_BaseColor.png.meta",
+      "sha256": "60E9101738FC7ADAFE8D4764ADDC557CF7D9B62721FC33836D7D35ACD8614A67",
+      "world01Sha256": "60E9101738FC7ADAFE8D4764ADDC557CF7D9B62721FC33836D7D35ACD8614A67",
+      "world01Match": true,
+      "preWorldLook03Sha256": "60E9101738FC7ADAFE8D4764ADDC557CF7D9B62721FC33836D7D35ACD8614A67",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/Stella_Face_BaseColor.png",
+      "sha256": "D980E42D4CBFEB97C464C5568F6EB6BB0BCB750579E267B291B2AE7945986B85",
+      "world01Sha256": "D980E42D4CBFEB97C464C5568F6EB6BB0BCB750579E267B291B2AE7945986B85",
+      "world01Match": true,
+      "preWorldLook03Sha256": "D980E42D4CBFEB97C464C5568F6EB6BB0BCB750579E267B291B2AE7945986B85",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/Game/Island/Textures/Explorers/Stella_Face_BaseColor.png.meta",
+      "sha256": "78912D1F52C3B193FB1B7E3638330C2DAEB51FB5B2DF4AC6A9731C815E032FD9",
+      "world01Sha256": "78912D1F52C3B193FB1B7E3638330C2DAEB51FB5B2DF4AC6A9731C815E032FD9",
+      "world01Match": true,
+      "preWorldLook03Sha256": "78912D1F52C3B193FB1B7E3638330C2DAEB51FB5B2DF4AC6A9731C815E032FD9",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Attack1.anim",
+      "sha256": "0434DCE054D9F2287F686CB993D7D21E0E092FBB5A7AF66CD4CA72F6F4A5D7D3",
+      "world01Sha256": "0434DCE054D9F2287F686CB993D7D21E0E092FBB5A7AF66CD4CA72F6F4A5D7D3",
+      "world01Match": true,
+      "preWorldLook03Sha256": "0434DCE054D9F2287F686CB993D7D21E0E092FBB5A7AF66CD4CA72F6F4A5D7D3",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Attack1.anim.meta",
+      "sha256": "21B93B3FFBCBA2A101FC1295D2BE185EC2F67942A6E51EBC6E8AF1C8B2812383",
+      "world01Sha256": "21B93B3FFBCBA2A101FC1295D2BE185EC2F67942A6E51EBC6E8AF1C8B2812383",
+      "world01Match": true,
+      "preWorldLook03Sha256": "21B93B3FFBCBA2A101FC1295D2BE185EC2F67942A6E51EBC6E8AF1C8B2812383",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Attack2.anim",
+      "sha256": "B6B7E29484067398944EAAB566C37319C2BF53B3EB122E33C66EB108CF86512C",
+      "world01Sha256": "B6B7E29484067398944EAAB566C37319C2BF53B3EB122E33C66EB108CF86512C",
+      "world01Match": true,
+      "preWorldLook03Sha256": "B6B7E29484067398944EAAB566C37319C2BF53B3EB122E33C66EB108CF86512C",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Attack2.anim.meta",
+      "sha256": "440B950D37DE3A1593832D281FB8473EFD1C91B7C8BEAE4AAB4BB59BCF90AFAB",
+      "world01Sha256": "440B950D37DE3A1593832D281FB8473EFD1C91B7C8BEAE4AAB4BB59BCF90AFAB",
+      "world01Match": true,
+      "preWorldLook03Sha256": "440B950D37DE3A1593832D281FB8473EFD1C91B7C8BEAE4AAB4BB59BCF90AFAB",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Attack3.anim",
+      "sha256": "1D1B2615306AD9B9920B92FD5AE4397C78FD002E7FA36001BEF5FCBD5D3A8747",
+      "world01Sha256": "1D1B2615306AD9B9920B92FD5AE4397C78FD002E7FA36001BEF5FCBD5D3A8747",
+      "world01Match": true,
+      "preWorldLook03Sha256": "1D1B2615306AD9B9920B92FD5AE4397C78FD002E7FA36001BEF5FCBD5D3A8747",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Attack3.anim.meta",
+      "sha256": "84D3931B8F0817D987376A9C843210DB1F87D33E7D22F44A2B6B2D5268889676",
+      "world01Sha256": "84D3931B8F0817D987376A9C843210DB1F87D33E7D22F44A2B6B2D5268889676",
+      "world01Match": true,
+      "preWorldLook03Sha256": "84D3931B8F0817D987376A9C843210DB1F87D33E7D22F44A2B6B2D5268889676",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Idle.anim",
+      "sha256": "21F6EC0568BC11DECD5F58A5AD4BF235EE1F4058EF8E41A1BBAA9AB772582C84",
+      "world01Sha256": "21F6EC0568BC11DECD5F58A5AD4BF235EE1F4058EF8E41A1BBAA9AB772582C84",
+      "world01Match": true,
+      "preWorldLook03Sha256": "21F6EC0568BC11DECD5F58A5AD4BF235EE1F4058EF8E41A1BBAA9AB772582C84",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Idle.anim.meta",
+      "sha256": "363C1FAB049656FF88069E092CF84277115170B76E83422D03B3E98561D6F867",
+      "world01Sha256": "363C1FAB049656FF88069E092CF84277115170B76E83422D03B3E98561D6F867",
+      "world01Match": true,
+      "preWorldLook03Sha256": "363C1FAB049656FF88069E092CF84277115170B76E83422D03B3E98561D6F867",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Jump.anim",
+      "sha256": "E49609A4218BCB6C95576723C08D8D93B5B5FD3A9C3CF437BE03A59D04B8C6B1",
+      "world01Sha256": "E49609A4218BCB6C95576723C08D8D93B5B5FD3A9C3CF437BE03A59D04B8C6B1",
+      "world01Match": true,
+      "preWorldLook03Sha256": "E49609A4218BCB6C95576723C08D8D93B5B5FD3A9C3CF437BE03A59D04B8C6B1",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Jump.anim.meta",
+      "sha256": "D89008C74377E629AAA3B7B3689ACBBF644EBAF8E920FF1CAB49A3B922E6B9C1",
+      "world01Sha256": "D89008C74377E629AAA3B7B3689ACBBF644EBAF8E920FF1CAB49A3B922E6B9C1",
+      "world01Match": true,
+      "preWorldLook03Sha256": "D89008C74377E629AAA3B7B3689ACBBF644EBAF8E920FF1CAB49A3B922E6B9C1",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/PlayerAnimator.controller",
+      "sha256": "8C3F6EBF69360D2DA819D8BD1E3DC21C94E6AD979583A1605DE11F63C6205AB8",
+      "world01Sha256": "8C3F6EBF69360D2DA819D8BD1E3DC21C94E6AD979583A1605DE11F63C6205AB8",
+      "world01Match": true,
+      "preWorldLook03Sha256": "8C3F6EBF69360D2DA819D8BD1E3DC21C94E6AD979583A1605DE11F63C6205AB8",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/PlayerAnimator.controller.meta",
+      "sha256": "F8FC3542428832F9FBC44B52117F9B4B82B1A641B715BE4DCB0C4D2EB62A09C5",
+      "world01Sha256": "F8FC3542428832F9FBC44B52117F9B4B82B1A641B715BE4DCB0C4D2EB62A09C5",
+      "world01Match": true,
+      "preWorldLook03Sha256": "F8FC3542428832F9FBC44B52117F9B4B82B1A641B715BE4DCB0C4D2EB62A09C5",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Run.anim",
+      "sha256": "9C03DAF1B12A684C396CFD2C84C11AA35F4CC9B9FDE54DC4A81EDF5F8DFCCFCD",
+      "world01Sha256": "9C03DAF1B12A684C396CFD2C84C11AA35F4CC9B9FDE54DC4A81EDF5F8DFCCFCD",
+      "world01Match": true,
+      "preWorldLook03Sha256": "9C03DAF1B12A684C396CFD2C84C11AA35F4CC9B9FDE54DC4A81EDF5F8DFCCFCD",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Run.anim.meta",
+      "sha256": "450F5BE547A42168EF16017B83BDE5065A54F7BD72788B50CB6E4EEDD4F38B45",
+      "world01Sha256": "450F5BE547A42168EF16017B83BDE5065A54F7BD72788B50CB6E4EEDD4F38B45",
+      "world01Match": true,
+      "preWorldLook03Sha256": "450F5BE547A42168EF16017B83BDE5065A54F7BD72788B50CB6E4EEDD4F38B45",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Walk.anim",
+      "sha256": "DE19C1FD96D20E003E8F1CBF82A31E1810F56C9E62BA0D5B6A3161F2B3184E13",
+      "world01Sha256": "DE19C1FD96D20E003E8F1CBF82A31E1810F56C9E62BA0D5B6A3161F2B3184E13",
+      "world01Match": true,
+      "preWorldLook03Sha256": "DE19C1FD96D20E003E8F1CBF82A31E1810F56C9E62BA0D5B6A3161F2B3184E13",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M0/Resources/M0/Walk.anim.meta",
+      "sha256": "7B802151F1DA7A90094C7252931F29DAC027C5731CEB4A160B5C3FA822A7208F",
+      "world01Sha256": "7B802151F1DA7A90094C7252931F29DAC027C5731CEB4A160B5C3FA822A7208F",
+      "world01Match": true,
+      "preWorldLook03Sha256": "7B802151F1DA7A90094C7252931F29DAC027C5731CEB4A160B5C3FA822A7208F",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M16/Resources/M16/Explorers/polaris.asset",
+      "sha256": "FC95DD1B315697909B677E1462F36C8CBA62CE37113ED89F69459D716A478B2D",
+      "world01Sha256": "FC95DD1B315697909B677E1462F36C8CBA62CE37113ED89F69459D716A478B2D",
+      "world01Match": true,
+      "preWorldLook03Sha256": "FC95DD1B315697909B677E1462F36C8CBA62CE37113ED89F69459D716A478B2D",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M16/Resources/M16/Explorers/polaris.asset.meta",
+      "sha256": "216330BDCC0B89748901A804669D9DABABAAB8CA18861E4B8E3DE5D99DAC196F",
+      "world01Sha256": "216330BDCC0B89748901A804669D9DABABAAB8CA18861E4B8E3DE5D99DAC196F",
+      "world01Match": true,
+      "preWorldLook03Sha256": "216330BDCC0B89748901A804669D9DABABAAB8CA18861E4B8E3DE5D99DAC196F",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M16/Resources/M16/Explorers/stella.asset",
+      "sha256": "D2121DD4F744DBDC3B975DAEF6B5C0F876580E3FB8590251E2411BA35CCE1222",
+      "world01Sha256": "D2121DD4F744DBDC3B975DAEF6B5C0F876580E3FB8590251E2411BA35CCE1222",
+      "world01Match": true,
+      "preWorldLook03Sha256": "D2121DD4F744DBDC3B975DAEF6B5C0F876580E3FB8590251E2411BA35CCE1222",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Assets/Orbis/M16/Resources/M16/Explorers/stella.asset.meta",
+      "sha256": "F17CF7D6D7CC08F1B3B39FF8FD9C3AD5F50977FF9367449A8F6FBA4D25E6F793",
+      "world01Sha256": "F17CF7D6D7CC08F1B3B39FF8FD9C3AD5F50977FF9367449A8F6FBA4D25E6F793",
+      "world01Match": true,
+      "preWorldLook03Sha256": "F17CF7D6D7CC08F1B3B39FF8FD9C3AD5F50977FF9367449A8F6FBA4D25E6F793",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Tools/Blender/Sources/Polaris.blend",
+      "sha256": "393C66C58EF548B098B2F24BD2CABB11686B707A3ABABAAD89927F7BBB3A9AE8",
+      "world01Sha256": "393C66C58EF548B098B2F24BD2CABB11686B707A3ABABAAD89927F7BBB3A9AE8",
+      "world01Match": true,
+      "preWorldLook03Sha256": "393C66C58EF548B098B2F24BD2CABB11686B707A3ABABAAD89927F7BBB3A9AE8",
+      "preWorldLook03Match": true
+    },
+    {
+      "path": "Tools/Blender/Sources/Stella.blend",
+      "sha256": "561F75993AFA588F1297940C9DD48AF5604B871F83777B07232B826DBD775EC9",
+      "world01Sha256": "561F75993AFA588F1297940C9DD48AF5604B871F83777B07232B826DBD775EC9",
+      "world01Match": true,
+      "preWorldLook03Sha256": "561F75993AFA588F1297940C9DD48AF5604B871F83777B07232B826DBD775EC9",
+      "preWorldLook03Match": true
+    }
+  ]
+}

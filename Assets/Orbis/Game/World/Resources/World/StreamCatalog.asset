@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71662b9f234e9ef4b8edd654ebf0acac, type: 3}
+  m_Name: StreamCatalog
+  m_EditorClassIdentifier: Orbis.Game.Runtime::Orbis.Game.World.WorldStreamCatalog
+  Regions:
+  - Id: 0
+    Address: orbis.world.environment.agnia
+    WorldBounds:
+      m_Center: {x: -476.25745, y: 110.096275, z: 389.97516}
+      m_Extent: {x: 452.81927, y: 113.936356, z: 489.70837}
+  - Id: 1
+    Address: orbis.world.environment.teluna
+    WorldBounds:
+      m_Center: {x: 496.94632, y: 28.052757, z: -377.71426}
+      m_Extent: {x: 440.9699, y: 36.07966, z: 439.56107}
+  - Id: 2
+    Address: orbis.world.environment.zephyr
+    WorldBounds:
+      m_Center: {x: -10.578857, y: 41.256275, z: -244.55316}
+      m_Extent: {x: 381.97247, y: 39.58567, z: 554.43945}
+  - Id: 3
+    Address: orbis.world.environment.granite
+    WorldBounds:
+      m_Center: {x: -428.85376, y: 102.51965, z: -445.76468}
+      m_Extent: {x: 498.48004, y: 106.359985, z: 404.9608}
+  - Id: 4
+    Address: orbis.world.environment.voltheim
+    WorldBounds:
+      m_Center: {x: 404.79135, y: 74.55251, z: 453.93774}
+      m_Extent: {x: 491.05307, y: 78.39176, z: 441.7093}
+  LoadDistance: 700
+  UnloadDistance: 850
+  RefreshSeconds: 0.25
+  HubCenter: {x: 0, y: 0, z: 0}
+  HubPreloadRadius: 140

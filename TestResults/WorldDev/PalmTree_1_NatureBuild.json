@@ -1,0 +1,220 @@
+{
+  "id": "PalmTree_1",
+  "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_1.fbx",
+  "sourceTriangles": 472,
+  "lod0Path": "Assets/Orbis/Game/World/Nature/Models/PalmTree_1_LOD0.fbx",
+  "lod1Path": "Assets/Orbis/Game/World/Nature/Models/PalmTree_1_LOD1.fbx",
+  "lod0Triangles": 472,
+  "lod1Triangles": 228,
+  "lod0": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/PalmTree_1_LOD0.fbx",
+    "triangles": 472,
+    "vertices": 349,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -2.734689950942993,
+      0.0,
+      -2.7246909141540527
+    ],
+    "boundsUnityMax": [
+      2.357530355453491,
+      5.103373050689697,
+      2.2219085693359375
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.0037158727645874023,
+          -1.6690287590026855
+        ],
+        "max": [
+          0.9926822185516357,
+          2.5426440238952637
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          5.0,
+          0.0
+        ],
+        "max": [
+          11.0,
+          1.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "2f2ad39dc14af3c8f7a10af150378bdc525972c8703b515694998f878fd12a0d"
+  },
+  "lod1": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/PalmTree_1_LOD1.fbx",
+    "triangles": 228,
+    "vertices": 196,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -2.734689950942993,
+      -0.00030111419619061053,
+      -2.7246909141540527
+    ],
+    "boundsUnityMax": [
+      2.357530355453491,
+      5.103373050689697,
+      2.2219085693359375
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.0037158727645874023,
+          -1.669525146484375
+        ],
+        "max": [
+          0.9926822781562805,
+          2.542039394378662
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          5.0,
+          0.0
+        ],
+        "max": [
+          11.0,
+          1.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "58e7900e9b3c202202bf56079bac63a88b9fbac5b133a3f7b6c9601b44034639"
+  },
+  "boundsUnityMin": [
+    -2.734689950942993,
+    0.0,
+    -2.7246909141540527
+  ],
+  "boundsUnityMax": [
+    2.357530355453491,
+    5.103373050689697,
+    2.2219085693359375
+  ],
+  "slices": [
+    5,
+    11
+  ],
+  "billboard": {
+    "path": "Assets/Orbis/Game/World/Nature/Textures/PalmTree_1_Billboard.png",
+    "width": 5.834496796329578,
+    "height": 5.281991107463837,
+    "viewCount": 8,
+    "columns": 4,
+    "rows": 2,
+    "cellPixels": 256,
+    "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+    "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+    "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+    "frames": [
+      {
+        "view": 0,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          1.0
+        ],
+        "alphaCoverage": 0.098480224609375
+      },
+      {
+        "view": 1,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.1012725830078125
+      },
+      {
+        "view": 2,
+        "cameraUnityDirection": [
+          1.0,
+          0,
+          0.0
+        ],
+        "alphaCoverage": 0.1045684814453125
+      },
+      {
+        "view": 3,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.102935791015625
+      },
+      {
+        "view": 4,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          -1.0
+        ],
+        "alphaCoverage": 0.0982818603515625
+      },
+      {
+        "view": 5,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.1012420654296875
+      },
+      {
+        "view": 6,
+        "cameraUnityDirection": [
+          -1.0,
+          0,
+          -0.0
+        ],
+        "alphaCoverage": 0.1045989990234375
+      },
+      {
+        "view": 7,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.102569580078125
+      }
+    ],
+    "sha256": "c588b04b070b628fee117f2c4c6c1fd37917387143519ec2cefc268ff6c7c6ae"
+  },
+  "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/PalmTree_1_Billboard.png",
+  "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/PalmTree_1_Billboard.png",
+  "billboardWidth": 5.834496796329578,
+  "billboardHeight": 5.281991107463837
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-character-animations\\KayKit_Character_Animations_1.1\\Animations\\fbx\\Rig_Medium\\Rig_Medium_CombatMelee.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\CharacterAnimations\\Rig_Medium\\Rig_Medium_CombatMelee.fbx",
+    "bytes": 3313740,
+    "sha256": "018ba1c4f2ad30e9d4b051f12c46eb3fa3da01c1d4cba3603f673dca3bf899ca"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-character-animations\\KayKit_Character_Animations_1.1\\Animations\\fbx\\Rig_Medium\\Rig_Medium_CombatRanged.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\CharacterAnimations\\Rig_Medium\\Rig_Medium_CombatRanged.fbx",
+    "bytes": 3068636,
+    "sha256": "b70e1d5ef64fafaad5c50ca2225c238f33ec9622876014f38478deeb10ee2ba4"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-character-animations\\KayKit_Character_Animations_1.1\\Animations\\fbx\\Rig_Medium\\Rig_Medium_General.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\CharacterAnimations\\Rig_Medium\\Rig_Medium_General.fbx",
+    "bytes": 2382700,
+    "sha256": "0a3420d6cbbf00694e625d84e55c2afbf0a7284c4280c46642f62f066dbd3950"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-character-animations\\KayKit_Character_Animations_1.1\\Animations\\fbx\\Rig_Medium\\Rig_Medium_MovementAdvanced.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\CharacterAnimations\\Rig_Medium\\Rig_Medium_MovementAdvanced.fbx",
+    "bytes": 2062124,
+    "sha256": "09a2462f554fae1f36ef083b3ea089626e60f258b09aabdad4be2c38012a4f07"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-character-animations\\KayKit_Character_Animations_1.1\\Animations\\fbx\\Rig_Medium\\Rig_Medium_MovementBasic.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\CharacterAnimations\\Rig_Medium\\Rig_Medium_MovementBasic.fbx",
+    "bytes": 1821068,
+    "sha256": "6b0339d304a07d87ac0a02028d1822078e581924eddf9c7c7f2049132ad89ec4"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-character-animations\\KayKit_Character_Animations_1.1\\Animations\\fbx\\Rig_Medium\\Rig_Medium_Simulation.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\CharacterAnimations\\Rig_Medium\\Rig_Medium_Simulation.fbx",
+    "bytes": 2325724,
+    "sha256": "7a75d775e966f28e0d365147c3cd844d3641b40fa97bc591f33b9fc609463142"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-character-animations\\KayKit_Character_Animations_1.1\\Animations\\fbx\\Rig_Medium\\Rig_Medium_Special.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\CharacterAnimations\\Rig_Medium\\Rig_Medium_Special.fbx",
+    "bytes": 2502060,
+    "sha256": "cb29702957265c4db3b888f75a504ec07021f37f973d8ed5c683e42b057f50f2"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-character-animations\\KayKit_Character_Animations_1.1\\Animations\\fbx\\Rig_Medium\\Rig_Medium_Tools.fbx",
+    "destination": "Assets\\ImportedAssets\\KayKit\\CharacterAnimations\\Rig_Medium\\Rig_Medium_Tools.fbx",
+    "bytes": 4444524,
+    "sha256": "83fe62f77d03caa1b221d3ce1e7b9377f486cff978204061784f9944caa00a32"
+  },
+  {
+    "source": "Downloads\\AssetSwap\\KayKit\\kaykit-character-animations\\KayKit_Character_Animations_1.1\\License.txt",
+    "destination": "Assets\\ImportedAssets\\KayKit\\CharacterAnimations\\License.txt",
+    "bytes": 1548,
+    "sha256": "373b159044d1a886ed15f57ca5a7673ba14e2623c460283452705f2056912ed9"
+  }
+]

@@ -1,0 +1,219 @@
+{
+  "id": "DeadTree_5",
+  "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/DeadTree_5.gltf",
+  "sourceTriangles": 5648,
+  "lod0Path": "Assets/Orbis/Game/World/Nature/Models/DeadTree_5_LOD0.fbx",
+  "lod1Path": "Assets/Orbis/Game/World/Nature/Models/DeadTree_5_LOD1.fbx",
+  "lod0Triangles": 1800,
+  "lod1Triangles": 719,
+  "lod0": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/DeadTree_5_LOD0.fbx",
+    "triangles": 1800,
+    "vertices": 1034,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -3.9773430824279785,
+      -0.0005525490851141512,
+      -4.796408176422119
+    ],
+    "boundsUnityMax": [
+      4.366498947143555,
+      16.43430519104004,
+      3.5932250022888184
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.0002399999793851748,
+          0.00023254405823536217
+        ],
+        "max": [
+          1.018430233001709,
+          15.45765209197998
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          1.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          0.21993206441402435
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.0,
+          0.9998128414154053
+        ]
+      }
+    ],
+    "sha256": "16b792a3f78d74c5e363cbe8c8326622035daaab673ac4f1eb717cdb25f4aebf"
+  },
+  "lod1": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/DeadTree_5_LOD1.fbx",
+    "triangles": 719,
+    "vertices": 477,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -3.9663054943084717,
+      -0.0042573995888233185,
+      -4.767768859863281
+    ],
+    "boundsUnityMax": [
+      4.349830150604248,
+      16.422988891601562,
+      3.5966038703918457
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          -0.0367891900241375,
+          7.55067594582215e-05
+        ],
+        "max": [
+          0.9997600317001343,
+          12.438237190246582
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          1.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          0.2196822464466095
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.0,
+          0.9991244077682495
+        ]
+      }
+    ],
+    "sha256": "ac760f2954bfe288d5dbc4cfcba5969e7605ef8ba45cb01ca0425aadcfeee8eb"
+  },
+  "boundsUnityMin": [
+    -3.9773430824279785,
+    -0.0005525490851141512,
+    -4.796408176422119
+  ],
+  "boundsUnityMax": [
+    4.366498947143555,
+    16.43430519104004,
+    3.5932250022888184
+  ],
+  "slices": [
+    1
+  ],
+  "billboard": {
+    "path": "Assets/Orbis/Game/World/Nature/Textures/DeadTree_5_Billboard.png",
+    "width": 10.435080553384855,
+    "height": 17.00950587272644,
+    "viewCount": 8,
+    "columns": 4,
+    "rows": 2,
+    "cellPixels": 256,
+    "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+    "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+    "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+    "frames": [
+      {
+        "view": 0,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          1.0
+        ],
+        "alphaCoverage": 0.156524658203125
+      },
+      {
+        "view": 1,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.1575469970703125
+      },
+      {
+        "view": 2,
+        "cameraUnityDirection": [
+          1.0,
+          0,
+          0.0
+        ],
+        "alphaCoverage": 0.1507720947265625
+      },
+      {
+        "view": 3,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.1408843994140625
+      },
+      {
+        "view": 4,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          -1.0
+        ],
+        "alphaCoverage": 0.15667724609375
+      },
+      {
+        "view": 5,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.1578216552734375
+      },
+      {
+        "view": 6,
+        "cameraUnityDirection": [
+          -1.0,
+          0,
+          -0.0
+        ],
+        "alphaCoverage": 0.1507415771484375
+      },
+      {
+        "view": 7,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.141143798828125
+      }
+    ],
+    "sha256": "3bd61f7bd6c265fd72aa85e3eaa5b6713c9afc1e2d27758f3ddf2adca53cf7e7"
+  },
+  "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/DeadTree_5_Billboard.png",
+  "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/DeadTree_5_Billboard.png",
+  "billboardWidth": 10.435080553384855,
+  "billboardHeight": 17.00950587272644
+}

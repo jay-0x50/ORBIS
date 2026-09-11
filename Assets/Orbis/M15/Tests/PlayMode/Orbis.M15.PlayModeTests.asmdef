@@ -1,0 +1,5 @@
+{
+  "name": "Orbis.M15.PlayModeTests",
+  "references": ["Orbis.M15.Core", "Orbis.M15.Runtime", "Orbis.M4.Runtime"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

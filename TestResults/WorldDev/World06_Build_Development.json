@@ -1,0 +1,1925 @@
+{
+    "utc": "2026-09-11T10:38:50.4365592Z",
+    "unityVersion": "6000.6.0f1",
+    "target": "StandaloneWindows64",
+    "kind": "Development",
+    "executable": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\Builds\\WorldBenchmark\\Development\\Orbis.exe",
+    "result": "Succeeded",
+    "error": "",
+    "options": "ForceOptimizeScriptCompilation, Il2CPP, CompressTextures, StripDebugSymbols, ShaderLivelinkSupport, Development, DetailedBuildReport",
+    "scriptingBackend": "Mono2x",
+    "scenes": [
+        "Assets/Orbis/M16/Scenes/M16_CharacterSelection.unity",
+        "Assets/Orbis/M4/Scenes/M4_Launcher.unity",
+        "Assets/Orbis/M0/Scenes/M0_Prototype.unity",
+        "Assets/Orbis/M1/Scenes/M1_PartyPrototype.unity",
+        "Assets/Orbis/M1/Scenes/M1_CrystallizePrototype.unity",
+        "Assets/Orbis/M2/Scenes/M2_ExplorationPrototype.unity",
+        "Assets/Orbis/M3/Scenes/M3_EffectsPrototype.unity",
+        "Assets/Orbis/M3/Scenes/M3_CrystallizeEffects.unity",
+        "Assets/Orbis/M3/Scenes/M3_ExplorationEffects.unity",
+        "Assets/Orbis/M15/Scenes/M15_GachaDemo.unity",
+        "Assets/Orbis/Game/Scenes/Orbis_OpenWorld.unity",
+        "Assets/Orbis/Game/Scenes/Orbis_Island.unity"
+    ],
+    "graphicsApis": [
+        "Direct3D12",
+        "Direct3D11"
+    ],
+    "frameTimingStatsDuringBuild": true,
+    "frameTimingStatsOriginal": false,
+    "restoredBuildSettings": true,
+    "bytes": 295222892,
+    "warnings": 9,
+    "errors": 0,
+    "seconds": 26.981248899999997,
+    "addressables": {
+        "outputPath": "Library/com.unity.addressables/aa/Windows/settings.json",
+        "localBuildPath": "Library/com.unity.addressables/aa/Windows/StandaloneWindows64",
+        "localLoadPath": "{UnityEngine.AddressableAssets.Addressables.RuntimePath}/StandaloneWindows64",
+        "profile": "Default",
+        "playerBuilder": "UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptPackedMode",
+        "layoutReports": [
+            "Library/com.unity.addressables/buildlayout.json",
+            "Library/com.unity.addressables/BuildReports/buildlayout_2026.09.11.19.38.50.json"
+        ],
+        "seconds": 6.4574755999999995
+    },
+    "files": [
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/globalgamemanagers",
+            "role": "GlobalGameManagers",
+            "bytes": 189876
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/globalgamemanagers.assets",
+            "role": "SharedAssets",
+            "bytes": 1565600
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/globalgamemanagers.assets.resS",
+            "role": "StreamingResourceFile",
+            "bytes": 5716192
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level0",
+            "role": "Scene",
+            "bytes": 1168
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level1",
+            "role": "Scene",
+            "bytes": 1120
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level10",
+            "role": "Scene",
+            "bytes": 314336
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level11",
+            "role": "Scene",
+            "bytes": 1899312
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level2",
+            "role": "Scene",
+            "bytes": 1120
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level3",
+            "role": "Scene",
+            "bytes": 1124
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level4",
+            "role": "Scene",
+            "bytes": 1140
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level5",
+            "role": "Scene",
+            "bytes": 1136
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level6",
+            "role": "Scene",
+            "bytes": 1144
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level7",
+            "role": "Scene",
+            "bytes": 1144
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level8",
+            "role": "Scene",
+            "bytes": 1144
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/level9",
+            "role": "Scene",
+            "bytes": 1152
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/resources.assets",
+            "role": "ResourcesFile",
+            "bytes": 20347216
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/resources.assets.resS",
+            "role": "StreamingResourceFile",
+            "bytes": 39175296
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/resources.resource",
+            "role": "StreamingResourceFile",
+            "bytes": 5600
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Resources/unity_builtin_extra",
+            "role": "BuiltInShaders",
+            "bytes": 534516
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/RuntimeInitializeOnLoads.json",
+            "role": "GlobalGameManagers",
+            "bytes": 6226
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/ScriptingAssemblies.json",
+            "role": "GlobalGameManagers",
+            "bytes": 5079
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets0.assets",
+            "role": "SharedAssets",
+            "bytes": 10880
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets1.assets",
+            "role": "SharedAssets",
+            "bytes": 277
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets10.assets",
+            "role": "SharedAssets",
+            "bytes": 8528
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets10.assets.resS",
+            "role": "StreamingResourceFile",
+            "bytes": 524288
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets11.assets",
+            "role": "SharedAssets",
+            "bytes": 15434464
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets11.assets.resS",
+            "role": "StreamingResourceFile",
+            "bytes": 5592512
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets2.assets",
+            "role": "SharedAssets",
+            "bytes": 277
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets3.assets",
+            "role": "SharedAssets",
+            "bytes": 277
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets4.assets",
+            "role": "SharedAssets",
+            "bytes": 277
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets5.assets",
+            "role": "SharedAssets",
+            "bytes": 277
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets6.assets",
+            "role": "SharedAssets",
+            "bytes": 277
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets7.assets",
+            "role": "SharedAssets",
+            "bytes": 277
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets8.assets",
+            "role": "SharedAssets",
+            "bytes": 277
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/sharedassets9.assets",
+            "role": "SharedAssets",
+            "bytes": 349
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/boot.config",
+            "role": "BootConfig",
+            "bytes": 454
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/catalog.bin",
+            "role": "bin",
+            "bytes": 24434
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/catalog.hash",
+            "role": "hash",
+            "bytes": 32
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/settings.json",
+            "role": "json",
+            "bytes": 865
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/AddressablesLink/link.xml",
+            "role": "xml",
+            "bytes": 2804
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/1e225d290faa5995bbf2e45d886ab357_monoscripts_9cb89cf19a1e361c86b88d1fbf17dfae.bundle",
+            "role": "bundle",
+            "bytes": 1828
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/1e225d290faa5995bbf2e45d886ab357_unitybuiltinassets_fd6154ba48603eb8b1c6d5584b0f15a7.bundle",
+            "role": "bundle",
+            "bytes": 150296
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/orbism4regions_scenes_orbis.region.agnia_94543a58b7543a49c2afdcb5d962b941.bundle",
+            "role": "bundle",
+            "bytes": 5996
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/orbism4regions_scenes_orbis.region.granite_f0a708c3c6ee39e997b0cf43bf5334d4.bundle",
+            "role": "bundle",
+            "bytes": 6001
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/orbism4regions_scenes_orbis.region.teluna_7070c3c0b249a3002a2924aff99502f3.bundle",
+            "role": "bundle",
+            "bytes": 5999
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/orbism4regions_scenes_orbis.region.voltheim_22f866256975a5e59adcd18b77afe40a.bundle",
+            "role": "bundle",
+            "bytes": 6002
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/orbism4regions_scenes_orbis.region.zephyr_4c7ea71ae1523c08094f3e49d1fcb055.bundle",
+            "role": "bundle",
+            "bytes": 6000
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/orbisworldenvironment_scenes_orbis.world.environment.agnia_65af31cfa455656ecfd370232cbc8030.bundle",
+            "role": "bundle",
+            "bytes": 5166748
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/orbisworldenvironment_scenes_orbis.world.environment.granite_59d77daae80cc07ea8de7c2025adda5b.bundle",
+            "role": "bundle",
+            "bytes": 4196408
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/orbisworldenvironment_scenes_orbis.world.environment.teluna_5e5fcab4cb455cade5cd8d4d5edf2c79.bundle",
+            "role": "bundle",
+            "bytes": 4418990
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/orbisworldenvironment_scenes_orbis.world.environment.voltheim_a2931718cf9ff89116dca607530bddcf.bundle",
+            "role": "bundle",
+            "bytes": 6226658
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/orbisworldenvironment_scenes_orbis.world.environment.zephyr_90211f507250795c9af36f13fd2046df.bundle",
+            "role": "bundle",
+            "bytes": 5501585
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/StreamingAssets/aa/StandaloneWindows64/orbisworldsharedenvironment_assets_all_6c3fb401350adef838d1cbe31f57302b.bundle",
+            "role": "bundle",
+            "bytes": 12462217
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Mono.Security.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 241152
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/mscorlib.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 4632064
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/netstandard.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 90112
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.Art.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 45568
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.Game.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 61952
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M0.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 32768
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M1.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 40960
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M15.Core.dll",
+            "role": "ManagedLibrary",
+            "bytes": 16384
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M15.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 23040
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M16.Core.dll",
+            "role": "ManagedLibrary",
+            "bytes": 9216
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M16.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 27136
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M2.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 49152
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M3.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 48640
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M4.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 91136
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Buffers.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 4608
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Collections.Immutable.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 252680
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.ComponentModel.Composition.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 257024
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Configuration.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 124928
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Core.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 1113088
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Data.DataSetExtensions.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 29696
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Data.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 2125312
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 2641920
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Drawing.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 489984
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.EnterpriseServices.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 44544
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.IO.Compression.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 114688
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.IO.Compression.FileSystem.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 18432
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Memory.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 4608
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Net.Http.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 122880
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Numerics.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 119296
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Reflection.Metadata.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 487584
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 19256
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Runtime.Serialization.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 934400
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Security.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 320000
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.ServiceModel.Internals.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 215040
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Transactions.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 35328
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Xml.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 3160064
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/System.Xml.Linq.dll",
+            "role": "DependentManagedLibrary",
+            "bytes": 136704
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Addressables.dll",
+            "role": "ManagedLibrary",
+            "bytes": 110080
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Burst.dll",
+            "role": "ManagedLibrary",
+            "bytes": 5120
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Cinemachine.dll",
+            "role": "ManagedLibrary",
+            "bytes": 428544
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Collections.dll",
+            "role": "ManagedLibrary",
+            "bytes": 442880
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+            "role": "ManagedLibrary",
+            "bytes": 5120
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Collections.Tests.CoreCLR.InternalJobNestedPrivate.dll",
+            "role": "ManagedLibrary",
+            "bytes": 4608
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Collections.Tests.CoreCLR.PrivateJobNested.dll",
+            "role": "ManagedLibrary",
+            "bytes": 4096
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Collections.Tests.CoreCLR.ProtectedJobNested.dll",
+            "role": "ManagedLibrary",
+            "bytes": 4096
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Collections.Tests.CoreCLR.PublicJobPrivateGeneric.dll",
+            "role": "ManagedLibrary",
+            "bytes": 4608
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.InputSystem.dll",
+            "role": "ManagedLibrary",
+            "bytes": 1071104
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.InputSystem.ForUI.dll",
+            "role": "ManagedLibrary",
+            "bytes": 15360
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.InternalAPIEngineBridge.ObjectDispatcher.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 5632
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.dll",
+            "role": "ManagedLibrary",
+            "bytes": 3584
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Mathematics.dll",
+            "role": "ManagedLibrary",
+            "bytes": 5632
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.PathTracing.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 159744
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Profiling.Core.dll",
+            "role": "ManagedLibrary",
+            "bytes": 10240
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+            "role": "ManagedLibrary",
+            "bytes": 7680
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 1083904
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+            "role": "ManagedLibrary",
+            "bytes": 11264
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+            "role": "ManagedLibrary",
+            "bytes": 3584
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 299520
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+            "role": "ManagedLibrary",
+            "bytes": 3584
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 213504
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 4096
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 744960
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+            "role": "ManagedLibrary",
+            "bytes": 3584
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.ResourceManager.dll",
+            "role": "ManagedLibrary",
+            "bytes": 138752
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.ScriptableBuildPipeline.dll",
+            "role": "ManagedLibrary",
+            "bytes": 7680
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Scripting.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 70568
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Splines.dll",
+            "role": "ManagedLibrary",
+            "bytes": 144384
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.SurfaceCache.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 36864
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Timeline.dll",
+            "role": "ManagedLibrary",
+            "bytes": 121344
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 105984
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.VisualEffectGraph.Runtime.dll",
+            "role": "ManagedLibrary",
+            "bytes": 91648
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AccessibilityModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 49584
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 122280
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AIModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 87472
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AMDModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 21936
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 121264
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AnimationModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 218024
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ARModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 27568
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AssetBundleModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 42928
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AudioModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 142248
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.BurstModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 337840
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ClothModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 38312
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ClusterInputModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 30120
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 28592
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ContentLoadModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 56240
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.CoreModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 2026920
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.CrashReportingModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 28584
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.DirectorModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 42928
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 225712
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.DSPGraphModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 33200
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.GameCenterModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 46504
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.GIModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 26032
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 14248
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.GridModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 32680
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 111528
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.HierarchyModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 113584
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.HotReloadModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 26024
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.IdentifiersModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 16816
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ImageConversionModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 34216
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.IMGUIModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 190888
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.InputForUIModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 56744
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.InputLegacyModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 42928
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.InputModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 32688
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.InsightsModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 15784
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 29096
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.LocalizationModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 29096
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ManagedKernelModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 14248
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.MarshallingModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 100784
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.MathematicsModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 740776
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.MultiplayerModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 18352
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.NVIDIAModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 41392
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 169384
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 27056
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.Physics2DModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 222640
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 14256
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.PhysicsCore2DModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 482728
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.PhysicsModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 181672
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.PropertiesModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 124848
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.RenderAs2DModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 27568
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 26032
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 28072
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ScriptingModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 65968
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 26032
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 30640
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 34216
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.StreamingModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 28072
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.SubstanceModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 31144
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.SubsystemsModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 42928
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TerrainModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 132520
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 27568
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TetgenModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 26024
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 86448
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 313776
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TextRenderingModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 39344
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TilemapModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 75696
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TimelineFoundationModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 167336
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TLSModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 34224
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.U2DRuntimeModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 73648
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UIElementsModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 2532264
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UIModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 56744
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UmbraModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 26032
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 36776
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 61872
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityConnectModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 29616
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityConsentModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 16304
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityCurlModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 28080
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 30632
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 30640
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 80816
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 29616
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 35240
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.VectorGraphicsModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 229296
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.VehiclesModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 33192
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.VFXModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 82344
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.VideoModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 48560
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 43952
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.WindModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 28584
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.XRModule.dll",
+            "role": "ManagedEngineAPI",
+            "bytes": 96176
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.Art.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 27308
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.Game.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 32720
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M0.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 23332
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M1.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 26264
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M15.Core.pdb",
+            "role": "pdb",
+            "bytes": 19332
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M15.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 20724
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M16.Core.pdb",
+            "role": "pdb",
+            "bytes": 16996
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M16.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 21436
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M2.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 27764
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M3.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 29712
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Orbis.M4.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 39704
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Addressables.pdb",
+            "role": "pdb",
+            "bytes": 52912
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Burst.pdb",
+            "role": "pdb",
+            "bytes": 15428
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Cinemachine.pdb",
+            "role": "pdb",
+            "bytes": 171664
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Collections.pdb",
+            "role": "pdb",
+            "bytes": 230868
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Collections.Tests.CoreCLR.InternalJobNestedPrivate.pdb",
+            "role": "pdb",
+            "bytes": 15688
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Collections.Tests.CoreCLR.PrivateJobNested.pdb",
+            "role": "pdb",
+            "bytes": 15672
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Collections.Tests.CoreCLR.ProtectedJobNested.pdb",
+            "role": "pdb",
+            "bytes": 15676
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Collections.Tests.CoreCLR.PublicJobPrivateGeneric.pdb",
+            "role": "pdb",
+            "bytes": 15796
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.InputSystem.ForUI.pdb",
+            "role": "pdb",
+            "bytes": 19000
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.InputSystem.pdb",
+            "role": "pdb",
+            "bytes": 407588
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.InternalAPIEngineBridge.ObjectDispatcher.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 16052
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.pdb",
+            "role": "pdb",
+            "bytes": 15540
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Mathematics.pdb",
+            "role": "pdb",
+            "bytes": 15440
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.PathTracing.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 64984
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Profiling.Core.pdb",
+            "role": "pdb",
+            "bytes": 18224
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb",
+            "role": "pdb",
+            "bytes": 15768
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 319728
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.pdb",
+            "role": "pdb",
+            "bytes": 17944
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb",
+            "role": "pdb",
+            "bytes": 15468
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 115452
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb",
+            "role": "pdb",
+            "bytes": 15468
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 104304
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 15548
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 248496
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb",
+            "role": "pdb",
+            "bytes": 15456
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.ResourceManager.pdb",
+            "role": "pdb",
+            "bytes": 69684
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.ScriptableBuildPipeline.pdb",
+            "role": "pdb",
+            "bytes": 16984
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Scripting.pdb",
+            "role": "pdb",
+            "bytes": 29096
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Splines.pdb",
+            "role": "pdb",
+            "bytes": 75088
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.SurfaceCache.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 25272
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.Timeline.pdb",
+            "role": "pdb",
+            "bytes": 65856
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.UnifiedRayTracing.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 49976
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/Unity.VisualEffectGraph.Runtime.pdb",
+            "role": "pdb",
+            "bytes": 44208
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AccessibilityModule.pdb",
+            "role": "pdb",
+            "bytes": 20772
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AdaptivePerformanceModule.pdb",
+            "role": "pdb",
+            "bytes": 48720
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AIModule.pdb",
+            "role": "pdb",
+            "bytes": 23060
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AMDModule.pdb",
+            "role": "pdb",
+            "bytes": 12376
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AndroidJNIModule.pdb",
+            "role": "pdb",
+            "bytes": 40944
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AnimationModule.pdb",
+            "role": "pdb",
+            "bytes": 49452
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ARModule.pdb",
+            "role": "pdb",
+            "bytes": 10812
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AssetBundleModule.pdb",
+            "role": "pdb",
+            "bytes": 13948
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.AudioModule.pdb",
+            "role": "pdb",
+            "bytes": 31032
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.BurstModule.pdb",
+            "role": "pdb",
+            "bytes": 170492
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ClothModule.pdb",
+            "role": "pdb",
+            "bytes": 11392
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ClusterInputModule.pdb",
+            "role": "pdb",
+            "bytes": 10260
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ClusterRendererModule.pdb",
+            "role": "pdb",
+            "bytes": 10728
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ContentLoadModule.pdb",
+            "role": "pdb",
+            "bytes": 18096
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.CoreModule.pdb",
+            "role": "pdb",
+            "bytes": 498804
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.CrashReportingModule.pdb",
+            "role": "pdb",
+            "bytes": 10892
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.DirectorModule.pdb",
+            "role": "pdb",
+            "bytes": 13808
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.DSPGraphModule.pdb",
+            "role": "pdb",
+            "bytes": 10472
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.GameCenterModule.pdb",
+            "role": "pdb",
+            "bytes": 16572
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.GIModule.pdb",
+            "role": "pdb",
+            "bytes": 10132
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.pdb",
+            "role": "pdb",
+            "bytes": 10164
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.GridModule.pdb",
+            "role": "pdb",
+            "bytes": 10912
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.HierarchyCoreModule.pdb",
+            "role": "pdb",
+            "bytes": 34736
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.HierarchyModule.pdb",
+            "role": "pdb",
+            "bytes": 45924
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.HotReloadModule.pdb",
+            "role": "pdb",
+            "bytes": 10132
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.IdentifiersModule.pdb",
+            "role": "pdb",
+            "bytes": 10564
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ImageConversionModule.pdb",
+            "role": "pdb",
+            "bytes": 11344
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.IMGUIModule.pdb",
+            "role": "pdb",
+            "bytes": 64504
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.InputForUIModule.pdb",
+            "role": "pdb",
+            "bytes": 24260
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.InputLegacyModule.pdb",
+            "role": "pdb",
+            "bytes": 14284
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.InputModule.pdb",
+            "role": "pdb",
+            "bytes": 13428
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.InsightsModule.pdb",
+            "role": "pdb",
+            "bytes": 10924
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.JSONSerializeModule.pdb",
+            "role": "pdb",
+            "bytes": 10620
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.LocalizationModule.pdb",
+            "role": "pdb",
+            "bytes": 10560
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ManagedKernelModule.pdb",
+            "role": "pdb",
+            "bytes": 10164
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.MarshallingModule.pdb",
+            "role": "pdb",
+            "bytes": 17104
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.MathematicsModule.pdb",
+            "role": "pdb",
+            "bytes": 324472
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.MultiplayerModule.pdb",
+            "role": "pdb",
+            "bytes": 11320
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.NVIDIAModule.pdb",
+            "role": "pdb",
+            "bytes": 15572
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ParticleSystemModule.pdb",
+            "role": "pdb",
+            "bytes": 36116
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.pdb",
+            "role": "pdb",
+            "bytes": 13180
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.PerformanceReportingModule.pdb",
+            "role": "pdb",
+            "bytes": 10380
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.Physics2DModule.pdb",
+            "role": "pdb",
+            "bytes": 43444
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.pdb",
+            "role": "pdb",
+            "bytes": 10156
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.PhysicsCore2DModule.pdb",
+            "role": "pdb",
+            "bytes": 115088
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.PhysicsModule.pdb",
+            "role": "pdb",
+            "bytes": 39968
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.PropertiesModule.pdb",
+            "role": "pdb",
+            "bytes": 51876
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.RenderAs2DModule.pdb",
+            "role": "pdb",
+            "bytes": 10192
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
+            "role": "pdb",
+            "bytes": 10200
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ScreenCaptureModule.pdb",
+            "role": "pdb",
+            "bytes": 10664
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ScriptingModule.pdb",
+            "role": "pdb",
+            "bytes": 24592
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.pdb",
+            "role": "pdb",
+            "bytes": 10264
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.SpriteMaskModule.pdb",
+            "role": "pdb",
+            "bytes": 10480
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.SpriteShapeModule.pdb",
+            "role": "pdb",
+            "bytes": 11528
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.StreamingModule.pdb",
+            "role": "pdb",
+            "bytes": 10220
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.SubstanceModule.pdb",
+            "role": "pdb",
+            "bytes": 12088
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.SubsystemsModule.pdb",
+            "role": "pdb",
+            "bytes": 16104
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TerrainModule.pdb",
+            "role": "pdb",
+            "bytes": 29136
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb",
+            "role": "pdb",
+            "bytes": 10580
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TetgenModule.pdb",
+            "role": "pdb",
+            "bytes": 10132
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
+            "role": "pdb",
+            "bytes": 26484
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
+            "role": "pdb",
+            "bytes": 116444
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TextRenderingModule.pdb",
+            "role": "pdb",
+            "bytes": 14660
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TilemapModule.pdb",
+            "role": "pdb",
+            "bytes": 22984
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TimelineFoundationModule.pdb",
+            "role": "pdb",
+            "bytes": 81040
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.TLSModule.pdb",
+            "role": "pdb",
+            "bytes": 10320
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.U2DRuntimeModule.pdb",
+            "role": "pdb",
+            "bytes": 34080
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UIElementsModule.pdb",
+            "role": "pdb",
+            "bytes": 1004472
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UIModule.pdb",
+            "role": "pdb",
+            "bytes": 15704
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UmbraModule.pdb",
+            "role": "pdb",
+            "bytes": 10132
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb",
+            "role": "pdb",
+            "bytes": 13908
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb",
+            "role": "pdb",
+            "bytes": 18588
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityConnectModule.pdb",
+            "role": "pdb",
+            "bytes": 10700
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityConsentModule.pdb",
+            "role": "pdb",
+            "bytes": 10704
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityCurlModule.pdb",
+            "role": "pdb",
+            "bytes": 10528
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb",
+            "role": "pdb",
+            "bytes": 11420
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb",
+            "role": "pdb",
+            "bytes": 11472
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityWebRequestModule.pdb",
+            "role": "pdb",
+            "bytes": 27720
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
+            "role": "pdb",
+            "bytes": 11476
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb",
+            "role": "pdb",
+            "bytes": 13112
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.VectorGraphicsModule.pdb",
+            "role": "pdb",
+            "bytes": 103876
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.VehiclesModule.pdb",
+            "role": "pdb",
+            "bytes": 11200
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.VFXModule.pdb",
+            "role": "pdb",
+            "bytes": 18680
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.VideoModule.pdb",
+            "role": "pdb",
+            "bytes": 14416
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.VirtualTexturingModule.pdb",
+            "role": "pdb",
+            "bytes": 13288
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.WindModule.pdb",
+            "role": "pdb",
+            "bytes": 10276
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Managed/UnityEngine.XRModule.pdb",
+            "role": "pdb",
+            "bytes": 23548
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Plugins/x86_64/lib_burst_generated.dll",
+            "role": "dll",
+            "bytes": 576000
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Plugins/x86_64/lib_burst_generated.pdb",
+            "role": "pdb",
+            "bytes": 3280896
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_BackUpThisFolder_ButDontShipItWithYourGame/x86_64/lib_burst_generated.txt",
+            "role": "txt",
+            "bytes": 232669
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/app.info",
+            "role": "info",
+            "bytes": 14
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis_Data/Resources/unity default resources",
+            "role": "unity default resources",
+            "bytes": 5919584
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/Orbis.exe",
+            "role": "exe",
+            "bytes": 667136
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/dstorage.dll",
+            "role": "dll",
+            "bytes": 206904
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/dstoragecore.dll",
+            "role": "dll",
+            "bytes": 1482784
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+            "role": "dll",
+            "bytes": 7834536
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+            "role": "dll",
+            "bytes": 611248
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+            "role": "browser",
+            "bytes": 1605
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+            "role": "aspx",
+            "bytes": 60575
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/2.0/machine.config",
+            "role": "config",
+            "bytes": 29066
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/2.0/settings.map",
+            "role": "map",
+            "bytes": 2622
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/2.0/web.config",
+            "role": "config",
+            "bytes": 11635
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+            "role": "browser",
+            "bytes": 1605
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+            "role": "aspx",
+            "bytes": 60575
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/4.0/machine.config",
+            "role": "config",
+            "bytes": 33598
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/4.0/settings.map",
+            "role": "map",
+            "bytes": 2622
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/4.0/web.config",
+            "role": "config",
+            "bytes": 18802
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+            "role": "browser",
+            "bytes": 1605
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+            "role": "aspx",
+            "bytes": 60575
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/4.5/machine.config",
+            "role": "config",
+            "bytes": 34056
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/4.5/settings.map",
+            "role": "map",
+            "bytes": 2622
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/4.5/web.config",
+            "role": "config",
+            "bytes": 18811
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/browscap.ini",
+            "role": "ini",
+            "bytes": 311984
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/config",
+            "role": "config",
+            "bytes": 3815
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+            "role": "xml",
+            "bytes": 25817
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/UnityCrashHandler64.exe",
+            "role": "exe",
+            "bytes": 1843120
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/UnityPlayer.dll",
+            "role": "dll",
+            "bytes": 91080616
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/WinPixEventRuntime.dll",
+            "role": "dll",
+            "bytes": 58368
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/D3D12/D3D12Core.dll",
+            "role": "dll",
+            "bytes": 4725304
+        },
+        {
+            "path": "C:/Users/Mirim/.codex/visualizations/2026/09/10/01a08932-ad4d-7dd1-99a5-ab8a6115569e/orbis-m0/Builds/WorldBenchmark/Development/D3D12/d3d12SDKLayers.dll",
+            "role": "dll",
+            "bytes": 4930104
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Orbis.Game.PlayModeTests",
+  "references": [
+    "Orbis.Game.Runtime", "Orbis.M16.Core", "Orbis.M16.Runtime",
+    "Orbis.M0.Runtime", "Orbis.M1.Runtime", "Orbis.M2.Runtime",
+    "Orbis.M3.Runtime", "Orbis.M4.Runtime", "Orbis.Art.Runtime",
+    "Unity.InputSystem", "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Core.Runtime"
+  ],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

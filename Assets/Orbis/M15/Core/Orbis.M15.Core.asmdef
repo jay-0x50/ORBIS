@@ -1,0 +1,5 @@
+{
+  "name": "Orbis.M15.Core",
+  "rootNamespace": "Orbis.M15",
+  "references": ["Orbis.M1.Runtime"]
+}

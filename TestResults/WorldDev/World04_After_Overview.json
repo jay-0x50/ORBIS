@@ -1,0 +1,19 @@
+{
+    "stage": "World04_After",
+    "view": "Overview",
+    "camera": {
+        "x": -1150.0,
+        "y": 1250.0,
+        "z": -1360.0
+    },
+    "focus": {
+        "x": 0.0,
+        "y": 45.0,
+        "z": 0.0
+    },
+    "fov": 59.0,
+    "monochrome": false,
+    "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+    "vram": 3930,
+    "note": "Actual Unity URP render; fixed world camera recipe. Not a performance benchmark."
+}

@@ -1,0 +1,128 @@
+{
+  "id": "Rock_Medium_3",
+  "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/Rock_Medium_3.gltf",
+  "sourceTriangles": 522,
+  "lod0Path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_3_LOD0.fbx",
+  "lod1Path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_3_LOD1.fbx",
+  "lod0Triangles": 522,
+  "lod1Triangles": 218,
+  "lod0": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_3_LOD0.fbx",
+    "triangles": 522,
+    "vertices": 531,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -1.8242793083190918,
+      0.0,
+      -0.8904620409011841
+    ],
+    "boundsUnityMax": [
+      1.5958054065704346,
+      2.3162827491760254,
+      2.5856480598449707
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.001953125,
+          0.05923086404800415
+        ],
+        "max": [
+          0.7555315494537354,
+          0.9949035048484802
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          14.0,
+          0.0
+        ],
+        "max": [
+          14.0,
+          0.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.0,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "09d8d0c057caae9af6f89e73740988ef795110708d46d6db71b736520ce791e4"
+  },
+  "lod1": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_3_LOD1.fbx",
+    "triangles": 218,
+    "vertices": 111,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -1.8278071880340576,
+      0.007701848167926073,
+      -0.8829036951065063
+    ],
+    "boundsUnityMax": [
+      1.5829168558120728,
+      2.2996487617492676,
+      2.597850799560547
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.001953125,
+          0.05930425226688385
+        ],
+        "max": [
+          0.7555315494537354,
+          0.9934149384498596
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          14.0,
+          0.0
+        ],
+        "max": [
+          14.0,
+          0.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0033250898122787476
+        ],
+        "max": [
+          0.0,
+          0.9928186535835266
+        ]
+      }
+    ],
+    "sha256": "2763e1795c391c49f5e5bcad690eee3e729589d674425d64ba2afcf4230ce5a4"
+  },
+  "boundsUnityMin": [
+    -1.8242793083190918,
+    0.0,
+    -0.8904620409011841
+  ],
+  "boundsUnityMax": [
+    1.5958054065704346,
+    2.3162827491760254,
+    2.5856480598449707
+  ],
+  "slices": [
+    14
+  ]
+}

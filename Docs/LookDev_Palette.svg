@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="660" viewBox="0 0 920 660">
+<rect width="920" height="660" fill="#f7f5f0"/>
+<text x="28" y="34" font-family="sans-serif" font-size="22" fill="#252832">ORBIS — sampled concept palette</text>
+<rect x="28" y="60" width="270" height="68" rx="5" fill="#556484"/>
+<text x="28" y="148" font-family="sans-serif" font-size="15" fill="#252832">Navy #556484</text>
+<text x="28" y="166" font-family="sans-serif" font-size="12" fill="#555">pixel (167, 725)</text>
+<rect x="328" y="60" width="270" height="68" rx="5" fill="#4A5167"/>
+<text x="328" y="148" font-family="sans-serif" font-size="15" fill="#252832">NavyShadow #4A5167</text>
+<text x="328" y="166" font-family="sans-serif" font-size="12" fill="#555">pixel (701, 786)</text>
+<rect x="628" y="60" width="270" height="68" rx="5" fill="#F6F1EC"/>
+<text x="628" y="148" font-family="sans-serif" font-size="15" fill="#252832">Ivory #F6F1EC</text>
+<text x="628" y="166" font-family="sans-serif" font-size="12" fill="#555">pixel (443, 376)</text>
+<rect x="28" y="178" width="270" height="68" rx="5" fill="#E2D9D8"/>
+<text x="28" y="266" font-family="sans-serif" font-size="15" fill="#252832">IvoryShadow #E2D9D8</text>
+<text x="28" y="284" font-family="sans-serif" font-size="12" fill="#555">pixel (460, 389)</text>
+<rect x="328" y="178" width="270" height="68" rx="5" fill="#D6B799"/>
+<text x="328" y="266" font-family="sans-serif" font-size="15" fill="#252832">Gold #D6B799</text>
+<text x="328" y="284" font-family="sans-serif" font-size="12" fill="#555">pixel (756, 776)</text>
+<rect x="628" y="178" width="270" height="68" rx="5" fill="#9C826E"/>
+<text x="628" y="266" font-family="sans-serif" font-size="15" fill="#252832">GoldShadow #9C826E</text>
+<text x="628" y="284" font-family="sans-serif" font-size="12" fill="#555">pixel (727, 828)</text>
+<rect x="28" y="296" width="270" height="68" rx="5" fill="#F4DBBF"/>
+<text x="28" y="384" font-family="sans-serif" font-size="15" fill="#252832">GoldHighlight #F4DBBF</text>
+<text x="28" y="402" font-family="sans-serif" font-size="12" fill="#555">pixel (766, 844)</text>
+<rect x="328" y="296" width="270" height="68" rx="5" fill="#7DD0D7"/>
+<text x="328" y="384" font-family="sans-serif" font-size="15" fill="#252832">Turquoise #7DD0D7</text>
+<text x="328" y="402" font-family="sans-serif" font-size="12" fill="#555">pixel (753, 824)</text>
+<rect x="628" y="296" width="270" height="68" rx="5" fill="#289CC0"/>
+<text x="628" y="384" font-family="sans-serif" font-size="15" fill="#252832">TurquoiseDeep #289CC0</text>
+<text x="628" y="402" font-family="sans-serif" font-size="12" fill="#555">pixel (1006, 866)</text>
+<rect x="28" y="414" width="270" height="68" rx="5" fill="#F1DACF"/>
+<text x="28" y="502" font-family="sans-serif" font-size="15" fill="#252832">Skin #F1DACF</text>
+<text x="28" y="520" font-family="sans-serif" font-size="12" fill="#555">pixel (881, 252)</text>
+<rect x="328" y="414" width="270" height="68" rx="5" fill="#CAB4A7"/>
+<text x="328" y="502" font-family="sans-serif" font-size="15" fill="#252832">Hair #CAB4A7</text>
+<text x="328" y="520" font-family="sans-serif" font-size="12" fill="#555">pixel (849, 87)</text>
+<rect x="628" y="414" width="270" height="68" rx="5" fill="#3B2F2D"/>
+<text x="628" y="502" font-family="sans-serif" font-size="15" fill="#252832">Leather #3B2F2D</text>
+<text x="628" y="520" font-family="sans-serif" font-size="12" fill="#555">pixel (547, 475)</text>
+<rect x="28" y="532" width="270" height="68" rx="5" fill="#615B58"/>
+<text x="28" y="620" font-family="sans-serif" font-size="15" fill="#252832">Steel #615B58</text>
+<text x="28" y="638" font-family="sans-serif" font-size="12" fill="#555">pixel (1000, 955)</text>
+</svg>

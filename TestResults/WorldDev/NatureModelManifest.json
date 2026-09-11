@@ -1,0 +1,2623 @@
+{
+  "version": 1,
+  "license": "CC0 1.0 Universal; Quaternius. Original license text and manifests preserved under Tools/WorldDev/SourceDownloads.",
+  "coordinateSystem": "Unity metres: +Y up, +Z front, +X right; pivot ground center; original texture UV0 repeats",
+  "vertexContract": {
+    "UV0": "source Repeat UV",
+    "UV1": "x=array slice integer,y=windWeight 0..1",
+    "UV2": "x=leafFlutter 0/1,y=heightNormalized 0..1",
+    "Color": "linear white"
+  },
+  "textures": [
+    {
+      "slice": 0,
+      "name": "Bark_NormalTree",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_00_Bark_NormalTree.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Bark_NormalTree.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "db20f54e572099bb46ebe94739c31e129c439f1518b767b73b301b3585d79045"
+    },
+    {
+      "slice": 1,
+      "name": "Bark_DeadTree",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_01_Bark_DeadTree.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Bark_DeadTree.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "2e6bdd0965118ddc381cab84dd253b39bd4b0d03260adb6c737add77f93561fd"
+    },
+    {
+      "slice": 2,
+      "name": "Bark_TwistedTree",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_02_Bark_TwistedTree.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Bark_TwistedTree.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "4a18987810cfe96850e4bd8fc4220a3c58d012960c0582ab24d29f4d3bec191f"
+    },
+    {
+      "slice": 3,
+      "name": "BirchTree_Bark",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_03_BirchTree_Bark.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Bark.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "67b093a75a093f8dcfa02ab9eed8b0e1db0a9b15b07f94371e4e0cc57078c1ee"
+    },
+    {
+      "slice": 4,
+      "name": "MapleTree_Bark",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_04_MapleTree_Bark.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Bark.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "19b6cafadf8b86f31923d7f6055a03bf3cfcbc2ceffa7ae7143686bf17033850"
+    },
+    {
+      "slice": 5,
+      "name": "PalmTree_Trunk",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_05_PalmTree_Trunk.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Trunk.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "a834a1af3240873a89fb0a1002dbc2fb7741d868dd16eef4774ba5306e53c09e"
+    },
+    {
+      "slice": 6,
+      "name": "Leaves_NormalTree",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_06_Leaves_NormalTree.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Leaves_NormalTree_C.png",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "74e6d7bcaae27caf7fc7224b9332db8068b342efbf0d065e76b5a09d94d395d0"
+    },
+    {
+      "slice": 7,
+      "name": "Leaves_Pine",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_07_Leaves_Pine.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Leaf_Pine_C.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "99512d2f65e555947b08063ba35d53577d403e344f3b44b47335512b15674f2b"
+    },
+    {
+      "slice": 8,
+      "name": "Leaves_TwistedTree",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_08_Leaves_TwistedTree.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Leaves_TwistedTree_C.png",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "c128c3e9c9a995fef5e21d399bdd853695387ca933cef4193b1f47c8c109080c"
+    },
+    {
+      "slice": 9,
+      "name": "BirchTree_Leaves",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_09_BirchTree_Leaves.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Leaves.png",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "0202a5fd21495b38dc720fe2676f950c98d49bb1e800eedda29c5efb5895456a"
+    },
+    {
+      "slice": 10,
+      "name": "MapleTree_Leaves",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_10_MapleTree_Leaves.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Leaves.png",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "4e196b35476bd0f5b0c9ad4263cdd4a82058b7074cd5adb0526632ca44ac2007"
+    },
+    {
+      "slice": 11,
+      "name": "PalmTree_Leaves",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_11_PalmTree_Leaves.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Leaves.png",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "5e4e75828acd067a63be4f309a5368bc58e6616e26caa73b6ba280f7e2f88d7d"
+    },
+    {
+      "slice": 12,
+      "name": "Grass",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_12_Grass.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Grass.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "1729f4bfbb86df17b2825cf8fcf2aeadcd3ac29c4c22cdf8c79eb247ab0a1189"
+    },
+    {
+      "slice": 13,
+      "name": "Leaves",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_13_Leaves.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Leaves.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": true,
+      "sha256": "691adc7defe5eff8c761199590002776600b6ac5140a5de30deafc9a997942b1"
+    },
+    {
+      "slice": 14,
+      "name": "Rocks",
+      "path": "Assets/Orbis/Game/World/Nature/Textures/Slice_14_Rocks.png",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!Textures/Rocks_Diffuse.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alphaCutout": false,
+      "sha256": "3189053cdeef7549cca1f78abc3ec34a777eac44fcf9c8eb652f9a9fcc090d18"
+    }
+  ],
+  "species": [
+    {
+      "id": "CommonTree_3",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/CommonTree_3.gltf",
+      "sourceTriangles": 3505,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD1.fbx",
+      "lod0Triangles": 2900,
+      "lod1Triangles": 1311,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD0.fbx",
+        "triangles": 2900,
+        "vertices": 4203,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.9864652156829834,
+          -5.244834824225109e-07,
+          -2.0609655380249023
+        ],
+        "boundsUnityMax": [
+          2.076380968093872,
+          9.425189971923828,
+          2.1801114082336426
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.0002399999793851748,
+              0.00024002788995858282
+            ],
+            "max": [
+              0.9997600317001343,
+              12.186039924621582
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              6.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "247e4d5e70c01946969bc32fa54629527f618e00e57d761b7d5e2e5faae662a7"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/CommonTree_3_LOD1.fbx",
+        "triangles": 1311,
+        "vertices": 2004,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.957463264465332,
+          -0.006971138063818216,
+          -2.0609655380249023
+        ],
+        "boundsUnityMax": [
+          2.076380968093872,
+          9.293949127197266,
+          2.1801114082336426
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.0002399999793851748,
+              0.00024002788995858282
+            ],
+            "max": [
+              0.9997600317001343,
+              10.558758735656738
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              6.0,
+              0.9771287441253662
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              0.9860755205154419
+            ]
+          }
+        ],
+        "sha256": "3fb667b8d20ec76e4dc4c68bec017a4565a7605ae811988a9ad67490dccf6478"
+      },
+      "boundsUnityMin": [
+        -1.9864652156829834,
+        -5.244834824225109e-07,
+        -2.0609655380249023
+      ],
+      "boundsUnityMax": [
+        2.076380968093872,
+        9.425189971923828,
+        2.1801114082336426
+      ],
+      "slices": [
+        0,
+        6
+      ],
+      "billboard": {
+        "path": "Assets/Orbis/Game/World/Nature/Textures/CommonTree_3_Billboard.png",
+        "width": 4.869128583099936,
+        "height": 9.75507162094116,
+        "viewCount": 8,
+        "columns": 4,
+        "rows": 2,
+        "cellPixels": 256,
+        "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+        "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+        "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+        "frames": [
+          {
+            "view": 0,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              1.0
+            ],
+            "alphaCoverage": 0.35711669921875
+          },
+          {
+            "view": 1,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.3392333984375
+          },
+          {
+            "view": 2,
+            "cameraUnityDirection": [
+              1.0,
+              0,
+              0.0
+            ],
+            "alphaCoverage": 0.3462982177734375
+          },
+          {
+            "view": 3,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.3497314453125
+          },
+          {
+            "view": 4,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              -1.0
+            ],
+            "alphaCoverage": 0.3572845458984375
+          },
+          {
+            "view": 5,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.339691162109375
+          },
+          {
+            "view": 6,
+            "cameraUnityDirection": [
+              -1.0,
+              0,
+              -0.0
+            ],
+            "alphaCoverage": 0.3465576171875
+          },
+          {
+            "view": 7,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.3500518798828125
+          }
+        ],
+        "sha256": "94dd104a0188eeb36fe1318867d3bcaf56e82b37a4fb1b8eb08a177864542daa"
+      },
+      "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/CommonTree_3_Billboard.png",
+      "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/CommonTree_3_Billboard.png",
+      "billboardWidth": 4.869128583099936,
+      "billboardHeight": 9.75507162094116
+    },
+    {
+      "id": "Pine_5",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/Pine_5.gltf",
+      "sourceTriangles": 1646,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/Pine_5_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/Pine_5_LOD1.fbx",
+      "lod0Triangles": 1517,
+      "lod1Triangles": 729,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Pine_5_LOD0.fbx",
+        "triangles": 1517,
+        "vertices": 1967,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -2.987706422805786,
+          -0.0030859364196658134,
+          -3.7784042358398438
+        ],
+        "boundsUnityMax": [
+          3.432434320449829,
+          8.723807334899902,
+          2.4435970783233643
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.00023999999393709004,
+              0.00024002790451049805
+            ],
+            "max": [
+              0.9997600317001343,
+              10.733200073242188
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              7.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "0f7e296974a4ea9c71019e6b7de541c14c4b7e880f6b30831dd5acb21c6afc6f"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Pine_5_LOD1.fbx",
+        "triangles": 729,
+        "vertices": 972,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -2.987706422805786,
+          -0.004960988648235798,
+          -3.7784042358398438
+        ],
+        "boundsUnityMax": [
+          2.848371982574463,
+          8.723807334899902,
+          2.4435970783233643
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.00023999999393709004,
+              -0.0021624069195240736
+            ],
+            "max": [
+              0.9997599720954895,
+              10.655513763427734
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              7.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "13d4c2ad8de8fef260c3acd763ee264c8d05d1b173ba3e852c5225be2a7db53b"
+      },
+      "boundsUnityMin": [
+        -2.987706422805786,
+        -0.0030859364196658134,
+        -3.7784042358398438
+      ],
+      "boundsUnityMax": [
+        3.432434320449829,
+        8.723807334899902,
+        2.4435970783233643
+      ],
+      "slices": [
+        0,
+        7
+      ],
+      "billboard": {
+        "path": "Assets/Orbis/Game/World/Nature/Textures/Pine_5_Billboard.png",
+        "width": 7.82196263225903,
+        "height": 9.029140591621399,
+        "viewCount": 8,
+        "columns": 4,
+        "rows": 2,
+        "cellPixels": 256,
+        "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+        "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+        "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+        "frames": [
+          {
+            "view": 0,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              1.0
+            ],
+            "alphaCoverage": 0.273162841796875
+          },
+          {
+            "view": 1,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.2528839111328125
+          },
+          {
+            "view": 2,
+            "cameraUnityDirection": [
+              1.0,
+              0,
+              0.0
+            ],
+            "alphaCoverage": 0.2637176513671875
+          },
+          {
+            "view": 3,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.271636962890625
+          },
+          {
+            "view": 4,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              -1.0
+            ],
+            "alphaCoverage": 0.2728729248046875
+          },
+          {
+            "view": 5,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.2528533935546875
+          },
+          {
+            "view": 6,
+            "cameraUnityDirection": [
+              -1.0,
+              0,
+              -0.0
+            ],
+            "alphaCoverage": 0.2637786865234375
+          },
+          {
+            "view": 7,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.2715301513671875
+          }
+        ],
+        "sha256": "1334b02bcf4331735cbb17b215b07489a4c3c53b80ea444bf300bd0f8dfb5039"
+      },
+      "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/Pine_5_Billboard.png",
+      "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/Pine_5_Billboard.png",
+      "billboardWidth": 7.82196263225903,
+      "billboardHeight": 9.029140591621399
+    },
+    {
+      "id": "DeadTree_5",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/DeadTree_5.gltf",
+      "sourceTriangles": 5648,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/DeadTree_5_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/DeadTree_5_LOD1.fbx",
+      "lod0Triangles": 1800,
+      "lod1Triangles": 719,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/DeadTree_5_LOD0.fbx",
+        "triangles": 1800,
+        "vertices": 1034,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -3.9773430824279785,
+          -0.0005525490851141512,
+          -4.796408176422119
+        ],
+        "boundsUnityMax": [
+          4.366498947143555,
+          16.43430519104004,
+          3.5932250022888184
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.0002399999793851748,
+              0.00023254405823536217
+            ],
+            "max": [
+              1.018430233001709,
+              15.45765209197998
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              1.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              0.21993206441402435
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              0.9998128414154053
+            ]
+          }
+        ],
+        "sha256": "16b792a3f78d74c5e363cbe8c8326622035daaab673ac4f1eb717cdb25f4aebf"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/DeadTree_5_LOD1.fbx",
+        "triangles": 719,
+        "vertices": 477,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -3.9663054943084717,
+          -0.0042573995888233185,
+          -4.767768859863281
+        ],
+        "boundsUnityMax": [
+          4.349830150604248,
+          16.422988891601562,
+          3.5966038703918457
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              -0.0367891900241375,
+              7.55067594582215e-05
+            ],
+            "max": [
+              0.9997600317001343,
+              12.438237190246582
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              1.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              0.2196822464466095
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              0.9991244077682495
+            ]
+          }
+        ],
+        "sha256": "ac760f2954bfe288d5dbc4cfcba5969e7605ef8ba45cb01ca0425aadcfeee8eb"
+      },
+      "boundsUnityMin": [
+        -3.9773430824279785,
+        -0.0005525490851141512,
+        -4.796408176422119
+      ],
+      "boundsUnityMax": [
+        4.366498947143555,
+        16.43430519104004,
+        3.5932250022888184
+      ],
+      "slices": [
+        1
+      ],
+      "billboard": {
+        "path": "Assets/Orbis/Game/World/Nature/Textures/DeadTree_5_Billboard.png",
+        "width": 10.435080553384855,
+        "height": 17.00950587272644,
+        "viewCount": 8,
+        "columns": 4,
+        "rows": 2,
+        "cellPixels": 256,
+        "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+        "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+        "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+        "frames": [
+          {
+            "view": 0,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              1.0
+            ],
+            "alphaCoverage": 0.156524658203125
+          },
+          {
+            "view": 1,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.1575469970703125
+          },
+          {
+            "view": 2,
+            "cameraUnityDirection": [
+              1.0,
+              0,
+              0.0
+            ],
+            "alphaCoverage": 0.1507720947265625
+          },
+          {
+            "view": 3,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.1408843994140625
+          },
+          {
+            "view": 4,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              -1.0
+            ],
+            "alphaCoverage": 0.15667724609375
+          },
+          {
+            "view": 5,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.1578216552734375
+          },
+          {
+            "view": 6,
+            "cameraUnityDirection": [
+              -1.0,
+              0,
+              -0.0
+            ],
+            "alphaCoverage": 0.1507415771484375
+          },
+          {
+            "view": 7,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.141143798828125
+          }
+        ],
+        "sha256": "3bd61f7bd6c265fd72aa85e3eaa5b6713c9afc1e2d27758f3ddf2adca53cf7e7"
+      },
+      "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/DeadTree_5_Billboard.png",
+      "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/DeadTree_5_Billboard.png",
+      "billboardWidth": 10.435080553384855,
+      "billboardHeight": 17.00950587272644
+    },
+    {
+      "id": "TwistedTree_2",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/TwistedTree_2.gltf",
+      "sourceTriangles": 9134,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/TwistedTree_2_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/TwistedTree_2_LOD1.fbx",
+      "lod0Triangles": 4543,
+      "lod1Triangles": 2014,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/TwistedTree_2_LOD0.fbx",
+        "triangles": 4543,
+        "vertices": 5946,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -6.619970321655273,
+          -0.0026373197324573994,
+          -5.540718078613281
+        ],
+        "boundsUnityMax": [
+          3.942902088165283,
+          18.949203491210938,
+          3.661869764328003
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.0002399999793851748,
+              -0.998539924621582
+            ],
+            "max": [
+              1.9985400438308716,
+              13.84220027923584
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              2.0,
+              0.0
+            ],
+            "max": [
+              8.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "491614e83abb27d28bc97542d661ce6a9e5dc5cbade32fe109e12e416bb69f9e"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/TwistedTree_2_LOD1.fbx",
+        "triangles": 2014,
+        "vertices": 2846,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -6.619970321655273,
+          -0.02485438995063305,
+          -5.540718078613281
+        ],
+        "boundsUnityMax": [
+          3.9197025299072266,
+          18.949203491210938,
+          3.5111613273620605
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.00023999996483325958,
+              -0.0014432694297283888
+            ],
+            "max": [
+              1.025182843208313,
+              10.99206256866455
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              2.0,
+              0.0
+            ],
+            "max": [
+              8.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "956e5bcad3a3b6304bccc49464bc74f38d74df3df95389be776c9dc6522a50fd"
+      },
+      "boundsUnityMin": [
+        -6.619970321655273,
+        -0.0026373197324573994,
+        -5.540718078613281
+      ],
+      "boundsUnityMax": [
+        3.942902088165283,
+        18.949203491210938,
+        3.661869764328003
+      ],
+      "slices": [
+        2,
+        8
+      ],
+      "billboard": {
+        "path": "Assets/Orbis/Game/World/Nature/Textures/TwistedTree_2_Billboard.png",
+        "width": 14.633290204792058,
+        "height": 19.612425613403317,
+        "viewCount": 8,
+        "columns": 4,
+        "rows": 2,
+        "cellPixels": 256,
+        "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+        "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+        "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+        "frames": [
+          {
+            "view": 0,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              1.0
+            ],
+            "alphaCoverage": 0.3690338134765625
+          },
+          {
+            "view": 1,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.328277587890625
+          },
+          {
+            "view": 2,
+            "cameraUnityDirection": [
+              1.0,
+              0,
+              0.0
+            ],
+            "alphaCoverage": 0.3160552978515625
+          },
+          {
+            "view": 3,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.3543701171875
+          },
+          {
+            "view": 4,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              -1.0
+            ],
+            "alphaCoverage": 0.369293212890625
+          },
+          {
+            "view": 5,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.32818603515625
+          },
+          {
+            "view": 6,
+            "cameraUnityDirection": [
+              -1.0,
+              0,
+              -0.0
+            ],
+            "alphaCoverage": 0.3162841796875
+          },
+          {
+            "view": 7,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.354278564453125
+          }
+        ],
+        "sha256": "12624875ce0d5767d96cbf52b0bb41f354ec787104530cec1e23a5855788c9e8"
+      },
+      "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/TwistedTree_2_Billboard.png",
+      "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/TwistedTree_2_Billboard.png",
+      "billboardWidth": 14.633290204792058,
+      "billboardHeight": 19.612425613403317
+    },
+    {
+      "id": "BirchTree_1",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_1.fbx",
+      "sourceTriangles": 4598,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/BirchTree_1_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/BirchTree_1_LOD1.fbx",
+      "lod0Triangles": 2659,
+      "lod1Triangles": 1219,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/BirchTree_1_LOD0.fbx",
+        "triangles": 2659,
+        "vertices": 4259,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.341935396194458,
+          -4.0780527342576534e-05,
+          -0.8737319111824036
+        ],
+        "boundsUnityMax": [
+          1.3658959865570068,
+          5.452892780303955,
+          1.068799376487732
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.0,
+              -2.67755389213562
+            ],
+            "max": [
+              4.51820707321167,
+              3.6801390647888184
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              3.0,
+              0.0
+            ],
+            "max": [
+              9.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "cd8397ad20b2f87426dd0b541a9d41943c6e80ec1c2c5de7743bbfb1ad5751cb"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/BirchTree_1_LOD1.fbx",
+        "triangles": 1219,
+        "vertices": 2042,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.341935396194458,
+          -0.0005182064487598836,
+          -0.8200610280036926
+        ],
+        "boundsUnityMax": [
+          1.356456995010376,
+          5.452892780303955,
+          1.0645655393600464
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.0,
+              -2.677313804626465
+            ],
+            "max": [
+              4.51820707321167,
+              3.6802566051483154
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              3.0,
+              0.0
+            ],
+            "max": [
+              9.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "3bbea79f6834c368dc67dabc3012e8f60ba857868c2ef38ff49507c72ac87608"
+      },
+      "boundsUnityMin": [
+        -1.341935396194458,
+        -4.0780527342576534e-05,
+        -0.8737319111824036
+      ],
+      "boundsUnityMax": [
+        1.3658959865570068,
+        5.452892780303955,
+        1.068799376487732
+      ],
+      "slices": [
+        3,
+        9
+      ],
+      "billboard": {
+        "path": "Assets/Orbis/Game/World/Nature/Textures/BirchTree_1_Billboard.png",
+        "width": 2.8507717218631194,
+        "height": 5.643744027614593,
+        "viewCount": 8,
+        "columns": 4,
+        "rows": 2,
+        "cellPixels": 256,
+        "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+        "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+        "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+        "frames": [
+          {
+            "view": 0,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              1.0
+            ],
+            "alphaCoverage": 0.342132568359375
+          },
+          {
+            "view": 1,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.339385986328125
+          },
+          {
+            "view": 2,
+            "cameraUnityDirection": [
+              1.0,
+              0,
+              0.0
+            ],
+            "alphaCoverage": 0.269683837890625
+          },
+          {
+            "view": 3,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.302886962890625
+          },
+          {
+            "view": 4,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              -1.0
+            ],
+            "alphaCoverage": 0.3423004150390625
+          },
+          {
+            "view": 5,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.3392791748046875
+          },
+          {
+            "view": 6,
+            "cameraUnityDirection": [
+              -1.0,
+              0,
+              -0.0
+            ],
+            "alphaCoverage": 0.2696075439453125
+          },
+          {
+            "view": 7,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.30291748046875
+          }
+        ],
+        "sha256": "c9429b0e01ba57a898204e03d8227d6296b82495c116b4106f7a47d2e2a767c5"
+      },
+      "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/BirchTree_1_Billboard.png",
+      "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/BirchTree_1_Billboard.png",
+      "billboardWidth": 2.8507717218631194,
+      "billboardHeight": 5.643744027614593
+    },
+    {
+      "id": "MapleTree_1",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_1.fbx",
+      "sourceTriangles": 3848,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/MapleTree_1_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/MapleTree_1_LOD1.fbx",
+      "lod0Triangles": 1713,
+      "lod1Triangles": 759,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/MapleTree_1_LOD0.fbx",
+        "triangles": 1713,
+        "vertices": 2255,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -2.075911045074463,
+          -0.0007562462706118822,
+          -2.4494659900665283
+        ],
+        "boundsUnityMax": [
+          4.153177738189697,
+          6.64415168762207,
+          2.4542856216430664
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              -1.2451945543289185,
+              -2.0
+            ],
+            "max": [
+              4.6180500984191895,
+              4.323125839233398
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              4.0,
+              0.0
+            ],
+            "max": [
+              10.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "38685fc96926d1da1d7b687931b76e9f6411a21cb67b79bf7a8f8545b915e239"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/MapleTree_1_LOD1.fbx",
+        "triangles": 759,
+        "vertices": 1080,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -2.038991928100586,
+          -0.0007562462706118822,
+          -2.4494659900665283
+        ],
+        "boundsUnityMax": [
+          4.153177738189697,
+          6.594687461853027,
+          2.4542856216430664
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              -1.2451945543289185,
+              -2.0000128746032715
+            ],
+            "max": [
+              4.617278575897217,
+              4.297281742095947
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              4.0,
+              0.0
+            ],
+            "max": [
+              10.0,
+              0.9877458810806274
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              0.9925552010536194
+            ]
+          }
+        ],
+        "sha256": "0a45572d7a41a3cba08552dbd5b5082965c0136ca194fd7a02e25d047d2ed809"
+      },
+      "boundsUnityMin": [
+        -2.075911045074463,
+        -0.0007562462706118822,
+        -2.4494659900665283
+      ],
+      "boundsUnityMax": [
+        4.153177738189697,
+        6.64415168762207,
+        2.4542856216430664
+      ],
+      "slices": [
+        4,
+        10
+      ],
+      "billboard": {
+        "path": "Assets/Orbis/Game/World/Nature/Textures/MapleTree_1_Billboard.png",
+        "width": 8.744022889994984,
+        "height": 6.8766969966888425,
+        "viewCount": 8,
+        "columns": 4,
+        "rows": 2,
+        "cellPixels": 256,
+        "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+        "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+        "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+        "frames": [
+          {
+            "view": 0,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              1.0
+            ],
+            "alphaCoverage": 0.2385711669921875
+          },
+          {
+            "view": 1,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.1999359130859375
+          },
+          {
+            "view": 2,
+            "cameraUnityDirection": [
+              1.0,
+              0,
+              0.0
+            ],
+            "alphaCoverage": 0.1947174072265625
+          },
+          {
+            "view": 3,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.2305145263671875
+          },
+          {
+            "view": 4,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              -1.0
+            ],
+            "alphaCoverage": 0.2384796142578125
+          },
+          {
+            "view": 5,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.1998443603515625
+          },
+          {
+            "view": 6,
+            "cameraUnityDirection": [
+              -1.0,
+              0,
+              -0.0
+            ],
+            "alphaCoverage": 0.195068359375
+          },
+          {
+            "view": 7,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.2303924560546875
+          }
+        ],
+        "sha256": "f00ba55b35c72c0d021117d13d84bb2de6157fab322f5f3550dfc7408ef0b5df"
+      },
+      "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/MapleTree_1_Billboard.png",
+      "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/MapleTree_1_Billboard.png",
+      "billboardWidth": 8.744022889994984,
+      "billboardHeight": 6.8766969966888425
+    },
+    {
+      "id": "PalmTree_1",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_1.fbx",
+      "sourceTriangles": 472,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/PalmTree_1_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/PalmTree_1_LOD1.fbx",
+      "lod0Triangles": 472,
+      "lod1Triangles": 228,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/PalmTree_1_LOD0.fbx",
+        "triangles": 472,
+        "vertices": 349,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -2.734689950942993,
+          0.0,
+          -2.7246909141540527
+        ],
+        "boundsUnityMax": [
+          2.357530355453491,
+          5.103373050689697,
+          2.2219085693359375
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.0037158727645874023,
+              -1.6690287590026855
+            ],
+            "max": [
+              0.9926822185516357,
+              2.5426440238952637
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              5.0,
+              0.0
+            ],
+            "max": [
+              11.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "2f2ad39dc14af3c8f7a10af150378bdc525972c8703b515694998f878fd12a0d"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/PalmTree_1_LOD1.fbx",
+        "triangles": 228,
+        "vertices": 196,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -2.734689950942993,
+          -0.00030111419619061053,
+          -2.7246909141540527
+        ],
+        "boundsUnityMax": [
+          2.357530355453491,
+          5.103373050689697,
+          2.2219085693359375
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.0037158727645874023,
+              -1.669525146484375
+            ],
+            "max": [
+              0.9926822781562805,
+              2.542039394378662
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              5.0,
+              0.0
+            ],
+            "max": [
+              11.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "58e7900e9b3c202202bf56079bac63a88b9fbac5b133a3f7b6c9601b44034639"
+      },
+      "boundsUnityMin": [
+        -2.734689950942993,
+        0.0,
+        -2.7246909141540527
+      ],
+      "boundsUnityMax": [
+        2.357530355453491,
+        5.103373050689697,
+        2.2219085693359375
+      ],
+      "slices": [
+        5,
+        11
+      ],
+      "billboard": {
+        "path": "Assets/Orbis/Game/World/Nature/Textures/PalmTree_1_Billboard.png",
+        "width": 5.834496796329578,
+        "height": 5.281991107463837,
+        "viewCount": 8,
+        "columns": 4,
+        "rows": 2,
+        "cellPixels": 256,
+        "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+        "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+        "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+        "frames": [
+          {
+            "view": 0,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              1.0
+            ],
+            "alphaCoverage": 0.098480224609375
+          },
+          {
+            "view": 1,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.1012725830078125
+          },
+          {
+            "view": 2,
+            "cameraUnityDirection": [
+              1.0,
+              0,
+              0.0
+            ],
+            "alphaCoverage": 0.1045684814453125
+          },
+          {
+            "view": 3,
+            "cameraUnityDirection": [
+              0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.102935791015625
+          },
+          {
+            "view": 4,
+            "cameraUnityDirection": [
+              0.0,
+              0,
+              -1.0
+            ],
+            "alphaCoverage": 0.0982818603515625
+          },
+          {
+            "view": 5,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              -0.707107
+            ],
+            "alphaCoverage": 0.1012420654296875
+          },
+          {
+            "view": 6,
+            "cameraUnityDirection": [
+              -1.0,
+              0,
+              -0.0
+            ],
+            "alphaCoverage": 0.1045989990234375
+          },
+          {
+            "view": 7,
+            "cameraUnityDirection": [
+              -0.707107,
+              0,
+              0.707107
+            ],
+            "alphaCoverage": 0.102569580078125
+          }
+        ],
+        "sha256": "c588b04b070b628fee117f2c4c6c1fd37917387143519ec2cefc268ff6c7c6ae"
+      },
+      "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/PalmTree_1_Billboard.png",
+      "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/PalmTree_1_Billboard.png",
+      "billboardWidth": 5.834496796329578,
+      "billboardHeight": 5.281991107463837
+    }
+  ],
+  "groundCover": [
+    {
+      "id": "Grass_Common_Short",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/Grass_Common_Short.gltf",
+      "sourceTriangles": 155,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/Grass_Common_Short_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/Grass_Common_Short_LOD1.fbx",
+      "lod0Triangles": 155,
+      "lod1Triangles": 82,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Grass_Common_Short_LOD0.fbx",
+        "triangles": 155,
+        "vertices": 153,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -0.3556424081325531,
+          0.0,
+          -0.47937828302383423
+        ],
+        "boundsUnityMax": [
+          0.2832280695438385,
+          1.3341034650802612,
+          0.25788721442222595
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.1798340082168579,
+              0.009534597396850586
+            ],
+            "max": [
+              0.20606371760368347,
+              0.9767898321151733
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              12.0,
+              0.0
+            ],
+            "max": [
+              12.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              1.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "082b4d60dc46f701dced430e748be90347bb3ba0dedf5668bb339346f4991c2f"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Grass_Common_Short_LOD1.fbx",
+        "triangles": 82,
+        "vertices": 96,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -0.355898380279541,
+          -0.0008500686381012201,
+          -0.43738266825675964
+        ],
+        "boundsUnityMax": [
+          0.2532240152359009,
+          1.3276456594467163,
+          0.21459156274795532
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.1798340082168579,
+              0.009298174642026424
+            ],
+            "max": [
+              0.20606371760368347,
+              0.9718129634857178
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              12.0,
+              0.0
+            ],
+            "max": [
+              12.0,
+              0.9903423190116882
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              1.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              0.9951594471931458
+            ]
+          }
+        ],
+        "sha256": "ad9f506b82d5358db127ae7218f943182c62f9a88b0b8e328ccc4cdc945097a4"
+      },
+      "boundsUnityMin": [
+        -0.3556424081325531,
+        0.0,
+        -0.47937828302383423
+      ],
+      "boundsUnityMax": [
+        0.2832280695438385,
+        1.3341034650802612,
+        0.25788721442222595
+      ],
+      "slices": [
+        12
+      ]
+    },
+    {
+      "id": "Fern_1",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/Fern_1.gltf",
+      "sourceTriangles": 288,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/Fern_1_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/Fern_1_LOD1.fbx",
+      "lod0Triangles": 288,
+      "lod1Triangles": 152,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Fern_1_LOD0.fbx",
+        "triangles": 288,
+        "vertices": 243,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.381242275238037,
+          0.0,
+          -1.278536081314087
+        ],
+        "boundsUnityMax": [
+          1.4456915855407715,
+          0.8402432203292847,
+          1.373783826828003
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.014465048909187317,
+              0.005929768085479736
+            ],
+            "max": [
+              0.2885432541370392,
+              0.5630925893783569
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              13.0,
+              0.0
+            ],
+            "max": [
+              13.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              1.0,
+              0.0
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "8d1ad690ffdcd464abb9fe4fc8c66c14fe29f1550f1cfeb29059f46156fcf962"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Fern_1_LOD1.fbx",
+        "triangles": 152,
+        "vertices": 145,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.381242275238037,
+          0.002871762029826641,
+          -1.278536081314087
+        ],
+        "boundsUnityMax": [
+          1.4456915855407715,
+          0.8402432203292847,
+          1.373783826828003
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.014465048909187317,
+              0.0031764949671924114
+            ],
+            "max": [
+              0.2885432541370392,
+              0.5630925893783569
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              13.0,
+              1.1681184332701378e-05
+            ],
+            "max": [
+              13.0,
+              1.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              1.0,
+              0.0034177748020738363
+            ],
+            "max": [
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "5e1d6aae1bb982545ae03b5051e332955e708f91d10389467fe14b5abe68f6ec"
+      },
+      "boundsUnityMin": [
+        -1.381242275238037,
+        0.0,
+        -1.278536081314087
+      ],
+      "boundsUnityMax": [
+        1.4456915855407715,
+        0.8402432203292847,
+        1.373783826828003
+      ],
+      "slices": [
+        13
+      ]
+    },
+    {
+      "id": "Rock_Medium_1",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/Rock_Medium_1.gltf",
+      "sourceTriangles": 342,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_1_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_1_LOD1.fbx",
+      "lod0Triangles": 342,
+      "lod1Triangles": 142,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_1_LOD0.fbx",
+        "triangles": 342,
+        "vertices": 351,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.7272872924804688,
+          0.0,
+          -1.1498832702636719
+        ],
+        "boundsUnityMax": [
+          1.4978611469268799,
+          2.259796619415283,
+          1.8392531871795654
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.07334776967763901,
+              0.46713173389434814
+            ],
+            "max": [
+              0.9276419281959534,
+              0.9302409291267395
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              14.0,
+              0.0
+            ],
+            "max": [
+              14.0,
+              0.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "e9b8bfe7a1ae5ddba3c1259a368579cda18d5d9ca4f47e62b6034f7969a6a0a8"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_1_LOD1.fbx",
+        "triangles": 142,
+        "vertices": 73,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.743658423423767,
+          -0.0028470950201153755,
+          -1.1685658693313599
+        ],
+        "boundsUnityMax": [
+          1.4978611469268799,
+          2.250380754470825,
+          1.819196105003357
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.07334776967763901,
+              0.46714162826538086
+            ],
+            "max": [
+              0.9276419281959534,
+              0.9302409291267395
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              14.0,
+              0.0
+            ],
+            "max": [
+              14.0,
+              0.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              0.9958333373069763
+            ]
+          }
+        ],
+        "sha256": "23554726175b221fa458d5be07d8b6f877f33ac259ae84eee338b3dd92943a5b"
+      },
+      "boundsUnityMin": [
+        -1.7272872924804688,
+        0.0,
+        -1.1498832702636719
+      ],
+      "boundsUnityMax": [
+        1.4978611469268799,
+        2.259796619415283,
+        1.8392531871795654
+      ],
+      "slices": [
+        14
+      ]
+    },
+    {
+      "id": "Rock_Medium_2",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/Rock_Medium_2.gltf",
+      "sourceTriangles": 244,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_2_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_2_LOD1.fbx",
+      "lod0Triangles": 244,
+      "lod1Triangles": 102,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_2_LOD0.fbx",
+        "triangles": 244,
+        "vertices": 249,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.713641881942749,
+          0.0,
+          -1.1591253280639648
+        ],
+        "boundsUnityMax": [
+          1.3351185321807861,
+          1.898974895477295,
+          1.3199462890625
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.001953125,
+              0.001953125
+            ],
+            "max": [
+              0.8449106812477112,
+              0.9415258169174194
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              14.0,
+              0.0
+            ],
+            "max": [
+              14.0,
+              0.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "7917a0b091d782fde6def394fae688c25a3b44a5d2dc64123800152d282f71b9"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_2_LOD1.fbx",
+        "triangles": 102,
+        "vertices": 53,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.713641881942749,
+          -0.006214638706296682,
+          -1.1480697393417358
+        ],
+        "boundsUnityMax": [
+          1.3244280815124512,
+          1.898974895477295,
+          1.311432957649231
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.001953125,
+              0.001953125
+            ],
+            "max": [
+              0.8449106812477112,
+              0.9404301643371582
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              14.0,
+              0.0
+            ],
+            "max": [
+              14.0,
+              0.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "beadd3cdd5911edfb12951e13bec18ae109ad876e33b93fd9dafd752a4a448a6"
+      },
+      "boundsUnityMin": [
+        -1.713641881942749,
+        0.0,
+        -1.1591253280639648
+      ],
+      "boundsUnityMax": [
+        1.3351185321807861,
+        1.898974895477295,
+        1.3199462890625
+      ],
+      "slices": [
+        14
+      ]
+    },
+    {
+      "id": "Rock_Medium_3",
+      "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/Rock_Medium_3.gltf",
+      "sourceTriangles": 522,
+      "lod0Path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_3_LOD0.fbx",
+      "lod1Path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_3_LOD1.fbx",
+      "lod0Triangles": 522,
+      "lod1Triangles": 218,
+      "lod0": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_3_LOD0.fbx",
+        "triangles": 522,
+        "vertices": 531,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.8242793083190918,
+          0.0,
+          -0.8904620409011841
+        ],
+        "boundsUnityMax": [
+          1.5958054065704346,
+          2.3162827491760254,
+          2.5856480598449707
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.001953125,
+              0.05923086404800415
+            ],
+            "max": [
+              0.7555315494537354,
+              0.9949035048484802
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              14.0,
+              0.0
+            ],
+            "max": [
+              14.0,
+              0.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "sha256": "09d8d0c057caae9af6f89e73740988ef795110708d46d6db71b736520ce791e4"
+      },
+      "lod1": {
+        "path": "Assets/Orbis/Game/World/Nature/Models/Rock_Medium_3_LOD1.fbx",
+        "triangles": 218,
+        "vertices": 111,
+        "meshCount": 1,
+        "materialCount": 1,
+        "boundsUnityMin": [
+          -1.8278071880340576,
+          0.007701848167926073,
+          -0.8829036951065063
+        ],
+        "boundsUnityMax": [
+          1.5829168558120728,
+          2.2996487617492676,
+          2.597850799560547
+        ],
+        "uv": [
+          {
+            "name": "UV0",
+            "min": [
+              0.001953125,
+              0.05930425226688385
+            ],
+            "max": [
+              0.7555315494537354,
+              0.9934149384498596
+            ]
+          },
+          {
+            "name": "UV1_ArrayWind",
+            "min": [
+              14.0,
+              0.0
+            ],
+            "max": [
+              14.0,
+              0.0
+            ]
+          },
+          {
+            "name": "UV2_FlutterHeight",
+            "min": [
+              0.0,
+              0.0033250898122787476
+            ],
+            "max": [
+              0.0,
+              0.9928186535835266
+            ]
+          }
+        ],
+        "sha256": "2763e1795c391c49f5e5bcad690eee3e729589d674425d64ba2afcf4230ce5a4"
+      },
+      "boundsUnityMin": [
+        -1.8242793083190918,
+        0.0,
+        -0.8904620409011841
+      ],
+      "boundsUnityMax": [
+        1.5958054065704346,
+        2.3162827491760254,
+        2.5856480598449707
+      ],
+      "slices": [
+        14
+      ]
+    }
+  ],
+  "grass": {
+    "id": "Grass_Common_Short",
+    "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/Grass_Common_Short.gltf",
+    "sourceTriangles": 155,
+    "lod0Path": "Assets/Orbis/Game/World/Nature/Models/Grass_Common_Short_LOD0.fbx",
+    "lod1Path": "Assets/Orbis/Game/World/Nature/Models/Grass_Common_Short_LOD1.fbx",
+    "lod0Triangles": 155,
+    "lod1Triangles": 82,
+    "lod0": {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Grass_Common_Short_LOD0.fbx",
+      "triangles": 155,
+      "vertices": 153,
+      "meshCount": 1,
+      "materialCount": 1,
+      "boundsUnityMin": [
+        -0.3556424081325531,
+        0.0,
+        -0.47937828302383423
+      ],
+      "boundsUnityMax": [
+        0.2832280695438385,
+        1.3341034650802612,
+        0.25788721442222595
+      ],
+      "uv": [
+        {
+          "name": "UV0",
+          "min": [
+            0.1798340082168579,
+            0.009534597396850586
+          ],
+          "max": [
+            0.20606371760368347,
+            0.9767898321151733
+          ]
+        },
+        {
+          "name": "UV1_ArrayWind",
+          "min": [
+            12.0,
+            0.0
+          ],
+          "max": [
+            12.0,
+            1.0
+          ]
+        },
+        {
+          "name": "UV2_FlutterHeight",
+          "min": [
+            1.0,
+            0.0
+          ],
+          "max": [
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "sha256": "082b4d60dc46f701dced430e748be90347bb3ba0dedf5668bb339346f4991c2f"
+    },
+    "lod1": {
+      "path": "Assets/Orbis/Game/World/Nature/Models/Grass_Common_Short_LOD1.fbx",
+      "triangles": 82,
+      "vertices": 96,
+      "meshCount": 1,
+      "materialCount": 1,
+      "boundsUnityMin": [
+        -0.355898380279541,
+        -0.0008500686381012201,
+        -0.43738266825675964
+      ],
+      "boundsUnityMax": [
+        0.2532240152359009,
+        1.3276456594467163,
+        0.21459156274795532
+      ],
+      "uv": [
+        {
+          "name": "UV0",
+          "min": [
+            0.1798340082168579,
+            0.009298174642026424
+          ],
+          "max": [
+            0.20606371760368347,
+            0.9718129634857178
+          ]
+        },
+        {
+          "name": "UV1_ArrayWind",
+          "min": [
+            12.0,
+            0.0
+          ],
+          "max": [
+            12.0,
+            0.9903423190116882
+          ]
+        },
+        {
+          "name": "UV2_FlutterHeight",
+          "min": [
+            1.0,
+            0.0
+          ],
+          "max": [
+            1.0,
+            0.9951594471931458
+          ]
+        }
+      ],
+      "sha256": "ad9f506b82d5358db127ae7218f943182c62f9a88b0b8e328ccc4cdc945097a4"
+    },
+    "boundsUnityMin": [
+      -0.3556424081325531,
+      0.0,
+      -0.47937828302383423
+    ],
+    "boundsUnityMax": [
+      0.2832280695438385,
+      1.3341034650802612,
+      0.25788721442222595
+    ],
+    "slices": [
+      12
+    ]
+  },
+  "sourceHashes": {
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip": "298f6732b872e4cf7b30e6e7abf9641c7f6dc6b326df37ac089533ed7e3d58c9",
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/License_Standard.txt": "120710e542c3ebaf83856c4eb55b4a1e680593b39302eba7fdc5d942dfe78c58",
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/SourceManifest.json": "ee48d18863cd4c037a6414d09cc3ef1dd36c904eb480ebcdeec0dfbe40df7b79",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/License.txt": "de990ef6fc68cffd7fd1ae342c4d0c823b541b8848d8f76bca5d3339f4de6f6e",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/SourceManifest.json": "9c9a9073e09721817b7667771c7118dfc1aa896a849d179b18a3ba6e9c073bc5",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Bark.png": "689dd3e55523e999cf9a2271aa1e8ce1ac6a7cf3a2dc4bd796dd76860a33154b",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Bark.png": "183645b8dc99e810e9b4c5d48a0944ccff4c2f2a9bd5f1816ab66a367cfe9a92",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Trunk.png": "504d8d7e87ad686efd267a4f6eba2b2faacc589b4a169f1904aca1d6ff5e672d",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Leaves.png": "8b674a02017d987f8ec0448bd2a52ad788d1235f91b7f00499b4ca071f8e69fe",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Leaves.png": "915f0836e9889e28032662c7aa0d0eb9601ba999eda042c9a4e38690786d6c7b",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Leaves.png": "6702bdeb0d5496527a049145583c98c4fdaee9fc55ea5d33a3ca2a9014a0cc74",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_1.fbx": "d2d173e72b57b06663961bfabf7f2e1642219630d9aeb32bea891fdd16577c32",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_1.fbx": "97847e5111e27e2c87016c9e94e58e19e4907ab344abb27281f7f8249f3aef5e",
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_1.fbx": "a9acb20e27c32548dd7239d4103f99d366ae94623e171ca298267ef4e7bef3e0"
+  },
+  "sourceHashesUnchanged": {
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/License_Standard.txt": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/SourceManifest.json": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/License.txt": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/SourceManifest.json": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Bark.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Bark.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Trunk.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_Leaves.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_Leaves.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_Leaves.png": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_1.fbx": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/MapleTree_1.fbx": true,
+    "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/PalmTree_1.fbx": true
+  },
+  "biomeSpecies": {
+    "Zephyr": [
+      "CommonTree_3",
+      "BirchTree_1",
+      "MapleTree_1"
+    ],
+    "Teluna": [
+      "PalmTree_1",
+      "CommonTree_3",
+      "TwistedTree_2"
+    ],
+    "Granite": [
+      "Pine_5",
+      "BirchTree_1",
+      "DeadTree_5"
+    ],
+    "Agnia": [
+      "DeadTree_5",
+      "Pine_5",
+      "MapleTree_1"
+    ],
+    "Voltheim": [
+      "TwistedTree_2",
+      "Pine_5",
+      "BirchTree_1"
+    ]
+  }
+}

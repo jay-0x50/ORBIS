@@ -1,0 +1,128 @@
+{
+  "id": "Fern_1",
+  "source": "Tools/WorldDev/SourceDownloads/Quaternius_MegaKit_Standard/Stylized Nature MegaKit[Standard].zip!glTF/Fern_1.gltf",
+  "sourceTriangles": 288,
+  "lod0Path": "Assets/Orbis/Game/World/Nature/Models/Fern_1_LOD0.fbx",
+  "lod1Path": "Assets/Orbis/Game/World/Nature/Models/Fern_1_LOD1.fbx",
+  "lod0Triangles": 288,
+  "lod1Triangles": 152,
+  "lod0": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/Fern_1_LOD0.fbx",
+    "triangles": 288,
+    "vertices": 243,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -1.381242275238037,
+      0.0,
+      -1.278536081314087
+    ],
+    "boundsUnityMax": [
+      1.4456915855407715,
+      0.8402432203292847,
+      1.373783826828003
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.014465048909187317,
+          0.005929768085479736
+        ],
+        "max": [
+          0.2885432541370392,
+          0.5630925893783569
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          13.0,
+          0.0
+        ],
+        "max": [
+          13.0,
+          1.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          1.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "8d1ad690ffdcd464abb9fe4fc8c66c14fe29f1550f1cfeb29059f46156fcf962"
+  },
+  "lod1": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/Fern_1_LOD1.fbx",
+    "triangles": 152,
+    "vertices": 145,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -1.381242275238037,
+      0.002871762029826641,
+      -1.278536081314087
+    ],
+    "boundsUnityMax": [
+      1.4456915855407715,
+      0.8402432203292847,
+      1.373783826828003
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.014465048909187317,
+          0.0031764949671924114
+        ],
+        "max": [
+          0.2885432541370392,
+          0.5630925893783569
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          13.0,
+          1.1681184332701378e-05
+        ],
+        "max": [
+          13.0,
+          1.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          1.0,
+          0.0034177748020738363
+        ],
+        "max": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "5e1d6aae1bb982545ae03b5051e332955e708f91d10389467fe14b5abe68f6ec"
+  },
+  "boundsUnityMin": [
+    -1.381242275238037,
+    0.0,
+    -1.278536081314087
+  ],
+  "boundsUnityMax": [
+    1.4456915855407715,
+    0.8402432203292847,
+    1.373783826828003
+  ],
+  "slices": [
+    13
+  ]
+}

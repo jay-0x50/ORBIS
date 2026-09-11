@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75dd2e131a5334ebba8cfa425578d0, type: 3}
+  m_Name: Catalog
+  m_EditorClassIdentifier: Orbis.M16.Core::Orbis.M16.ExplorerCatalog
+  Explorers:
+  - {fileID: 11400000, guid: 9a929702cf7356f4e8c82a995e3133be, type: 2}
+  - {fileID: 11400000, guid: 964dee835a4464a49aa2ff2d9a7ecc75, type: 2}
+  Skills:
+  - {fileID: 11400000, guid: ea19958306e7914448280783063f0f8e, type: 2}
+  - {fileID: 11400000, guid: b8698cd487771fa49b87d35954974143, type: 2}
+  - {fileID: 11400000, guid: b4d67a5a134aaee438cd5a6f09b54e2d, type: 2}
+  - {fileID: 11400000, guid: fb57773d87844944c801dc07e0242d95, type: 2}
+  - {fileID: 11400000, guid: 9a3344cb4d7eb124e9311315901a2f01, type: 2}
+  SharedSkillCooldown: 2
+  DefaultElement: 1

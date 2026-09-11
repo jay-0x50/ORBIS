@@ -1,0 +1,220 @@
+{
+  "id": "BirchTree_1",
+  "source": "Tools/WorldDev/SourceDownloads/Quaternius_UltimateStylizedNature_Selection/BirchTree_1.fbx",
+  "sourceTriangles": 4598,
+  "lod0Path": "Assets/Orbis/Game/World/Nature/Models/BirchTree_1_LOD0.fbx",
+  "lod1Path": "Assets/Orbis/Game/World/Nature/Models/BirchTree_1_LOD1.fbx",
+  "lod0Triangles": 2659,
+  "lod1Triangles": 1219,
+  "lod0": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/BirchTree_1_LOD0.fbx",
+    "triangles": 2659,
+    "vertices": 4259,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -1.341935396194458,
+      -4.0780527342576534e-05,
+      -0.8737319111824036
+    ],
+    "boundsUnityMax": [
+      1.3658959865570068,
+      5.452892780303955,
+      1.068799376487732
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.0,
+          -2.67755389213562
+        ],
+        "max": [
+          4.51820707321167,
+          3.6801390647888184
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          3.0,
+          0.0
+        ],
+        "max": [
+          9.0,
+          1.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "cd8397ad20b2f87426dd0b541a9d41943c6e80ec1c2c5de7743bbfb1ad5751cb"
+  },
+  "lod1": {
+    "path": "Assets/Orbis/Game/World/Nature/Models/BirchTree_1_LOD1.fbx",
+    "triangles": 1219,
+    "vertices": 2042,
+    "meshCount": 1,
+    "materialCount": 1,
+    "boundsUnityMin": [
+      -1.341935396194458,
+      -0.0005182064487598836,
+      -0.8200610280036926
+    ],
+    "boundsUnityMax": [
+      1.356456995010376,
+      5.452892780303955,
+      1.0645655393600464
+    ],
+    "uv": [
+      {
+        "name": "UV0",
+        "min": [
+          0.0,
+          -2.677313804626465
+        ],
+        "max": [
+          4.51820707321167,
+          3.6802566051483154
+        ]
+      },
+      {
+        "name": "UV1_ArrayWind",
+        "min": [
+          3.0,
+          0.0
+        ],
+        "max": [
+          9.0,
+          1.0
+        ]
+      },
+      {
+        "name": "UV2_FlutterHeight",
+        "min": [
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "3bbea79f6834c368dc67dabc3012e8f60ba857868c2ef38ff49507c72ac87608"
+  },
+  "boundsUnityMin": [
+    -1.341935396194458,
+    -4.0780527342576534e-05,
+    -0.8737319111824036
+  ],
+  "boundsUnityMax": [
+    1.3658959865570068,
+    5.452892780303955,
+    1.068799376487732
+  ],
+  "slices": [
+    3,
+    9
+  ],
+  "billboard": {
+    "path": "Assets/Orbis/Game/World/Nature/Textures/BirchTree_1_Billboard.png",
+    "width": 2.8507717218631194,
+    "height": 5.643744027614593,
+    "viewCount": 8,
+    "columns": 4,
+    "rows": 2,
+    "cellPixels": 256,
+    "lighting": "unlit source baseColor; alpha threshold 0.2; actual LOD0 geometry",
+    "pivot": "ground center; quad x=-width/2..+width/2, y=0..height, z=0",
+    "viewOrder": "round(atan2(cameraObject.x,cameraObject.z)/TAU*8) mod8; view0 at UV lower-left",
+    "frames": [
+      {
+        "view": 0,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          1.0
+        ],
+        "alphaCoverage": 0.342132568359375
+      },
+      {
+        "view": 1,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.339385986328125
+      },
+      {
+        "view": 2,
+        "cameraUnityDirection": [
+          1.0,
+          0,
+          0.0
+        ],
+        "alphaCoverage": 0.269683837890625
+      },
+      {
+        "view": 3,
+        "cameraUnityDirection": [
+          0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.302886962890625
+      },
+      {
+        "view": 4,
+        "cameraUnityDirection": [
+          0.0,
+          0,
+          -1.0
+        ],
+        "alphaCoverage": 0.3423004150390625
+      },
+      {
+        "view": 5,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          -0.707107
+        ],
+        "alphaCoverage": 0.3392791748046875
+      },
+      {
+        "view": 6,
+        "cameraUnityDirection": [
+          -1.0,
+          0,
+          -0.0
+        ],
+        "alphaCoverage": 0.2696075439453125
+      },
+      {
+        "view": 7,
+        "cameraUnityDirection": [
+          -0.707107,
+          0,
+          0.707107
+        ],
+        "alphaCoverage": 0.30291748046875
+      }
+    ],
+    "sha256": "c9429b0e01ba57a898204e03d8227d6296b82495c116b4106f7a47d2e2a767c5"
+  },
+  "billboardPath": "Assets/Orbis/Game/World/Nature/Textures/BirchTree_1_Billboard.png",
+  "billboardTexturePath": "Assets/Orbis/Game/World/Nature/Textures/BirchTree_1_Billboard.png",
+  "billboardWidth": 2.8507717218631194,
+  "billboardHeight": 5.643744027614593
+}

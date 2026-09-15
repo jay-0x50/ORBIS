@@ -1,0 +1,68 @@
+{
+  "createdUtc": "2026-09-15T02:18:53.382349+00:00",
+  "status": "journal_retry_fix_synthetic_tests_passed",
+  "productionDryRunExecuted": false,
+  "productionApplyExecuted": false,
+  "syntheticTests": {
+    "passed": 15,
+    "failed": 0,
+    "durationSeconds": 1.138,
+    "command": "C:/Python314/python.exe Tools/CharacterPipeline/test_apply_delivery.py",
+    "scope": "Temporary synthetic staging/target fixtures under Tools/CharacterPipeline/DeliveryCopierTests; patched module constants; fixtures removed after tests"
+  },
+  "pythonAstPass": true,
+  "cliHelpExitCode": 0,
+  "actualJunctionCreationTested": false,
+  "files": [
+    {
+      "path": "Tools/CharacterPipeline/apply_delivery.py",
+      "sha256": "56b43caa99b8e5bd4b26428cd5435bbdb16aeed86180c831ddc49c0371de42e5",
+      "bytes": 17652
+    },
+    {
+      "path": "Tools/CharacterPipeline/test_apply_delivery.py",
+      "sha256": "208f5fcde472d7adc61e368c8ada3a021fc6c58a9dac6547a9dd1d3c0dddbcae",
+      "bytes": 12053
+    },
+    {
+      "path": "Tools/CharacterPipeline/DeliveryCopier_README.md",
+      "sha256": "9322dc344d2a5bf673ad3ddc6a4b905545ed71c537323332499c153dfe15da11",
+      "bytes": 3655
+    }
+  ],
+  "support01Listed": {
+    "Tools/CharacterPipeline/apply_delivery.py": true,
+    "Tools/CharacterPipeline/test_apply_delivery.py": false,
+    "Tools/CharacterPipeline/DeliveryCopier_README.md": false
+  },
+  "limits": [
+    "Atomic replacement is per file, not project transaction.",
+    "No cross-process locking; exclusive writer window is required to close final hash-to-replace race.",
+    "No Assets, Unity or production target writes in helper preparation.",
+    "New plan reconstruction is required after the parent-audited partial Apply02; no automatic resume or rollback is added."
+  ],
+  "productionExecutionNote": "The parent reported Apply02 partial failure in journal replacement. This helper author has not run production dry-run/apply; this revision is prepared only.",
+  "journalRetry": {
+    "scope": "Fresh staging journal temp -> same run Run.json only",
+    "allowedException": "PermissionError",
+    "allowedWinerror": [
+      5,
+      32,
+      33
+    ],
+    "totalAttempts": 5,
+    "delaysSeconds": [
+      0.1,
+      0.2,
+      0.3,
+      0.4
+    ],
+    "maxAddedWaitSeconds": 1.0,
+    "onExhaustion": "Re-raise; retain existing journal and owned temporary file",
+    "actualLockOwnerKnown": false,
+    "hypothesisOnly": "Possible transient Windows reader/indexer/antivirus sharing; not established by WinError5 alone",
+    "previousCopierSha256": "7e3d21b6b176484e8d833f44331bf1c4c1232cfa88fdb1134e049a87b5776dcf",
+    "reverseOnlyJournalBlockEqualsPreviousSha256": true,
+    "productionTargetReplacementAndGuardsUnchanged": true
+  }
+}

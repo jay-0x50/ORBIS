@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Orbis.M1;
+using Orbis.EditorSupport;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.SceneManagement;
@@ -58,7 +59,7 @@ namespace Orbis.M15.Editor
             new Definition("sparkle", "스파클", ElementType.Lightning, CharacterRarity.Five, "볼트하임의 수호자", WeaponType.Spear)
         };
 
-        [MenuItem("Orbis/M1.5/Setup and Validate")]
+        [MenuItem("Orbis/Development/Legacy/M1.5/Setup and Validate")]
         public static void SetupAndValidate()
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
@@ -92,6 +93,7 @@ namespace Orbis.M15.Editor
             var buildScenes = new List<EditorBuildSettingsScene>(EditorBuildSettings.scenes);
             if (!buildScenes.Any(x => x.path == ScenePath))
             { buildScenes.Add(new EditorBuildSettingsScene(ScenePath, true)); EditorBuildSettings.scenes = buildScenes.ToArray(); }
+            FieldSceneBuildPolicy.ApplyProductLayout();
             AssetDatabase.SaveAssets(); AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
             Validate();
             Debug.Log("ORBIS M1.5 ready: 18 character definitions, two independent banners, rules and Gacha Demo. Existing gameplay scenes preserved.");
@@ -107,7 +109,7 @@ namespace Orbis.M15.Editor
             EditorUtility.SetDirty(asset);
         }
 
-        [MenuItem("Orbis/M1.5/Validate Data")]
+        [MenuItem("Orbis/Development/Legacy/M1.5/Validate Data")]
         public static void Validate()
         {
             var catalog = AssetDatabase.LoadAssetAtPath<GachaCatalog>(CatalogPath);
@@ -128,7 +130,7 @@ namespace Orbis.M15.Editor
                 throw new BuildFailedException("M1.5 demo must be appended to Build Settings.");
         }
 
-        [MenuItem("Orbis/M1.5/Open Gacha Demo")]
+        [MenuItem("Orbis/Development/Legacy/M1.5/Open Gacha Demo")]
         public static void OpenGachaDemo()
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;

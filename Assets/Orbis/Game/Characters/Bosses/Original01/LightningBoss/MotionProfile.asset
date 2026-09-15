@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6247b5ef47d46a42b2c61e74957a737, type: 3}
+  m_Name: MotionProfile
+  m_EditorClassIdentifier: Orbis.Game.Runtime::Orbis.Game.Animation.BossMotionProfile
+  Idle: {fileID: 7400000, guid: 984221622f39cf547866704c3615e1f9, type: 2}
+  Move: {fileID: 7400000, guid: 8ee2458d44ddcb742ba0d91a92088493, type: 2}
+  Attack: {fileID: 7400000, guid: 17cbf03c32664b448b66dd7aae3a8b23, type: 2}
+  Hurt: {fileID: 7400000, guid: b75fcfd54b1153f4caf9e8c477cc5f32, type: 2}
+  Exposed: {fileID: 7400000, guid: 1ea8b68c756ade4469fad546f9b46f49, type: 2}
+  Dead: {fileID: 7400000, guid: 4036dd164c2d40e4eb1bc8db0a7d401e, type: 2}
+  Controller: {fileID: 9100000, guid: f6e0c456d22228446ae043f2d3d5dc65, type: 2}
+  HurtMask: {fileID: 31900000, guid: 4e18b8ac5f570364485d66903474b09d, type: 2}
+  AttackContact: 0.33333334
+  TransitionSeconds: 0.12
+  HurtWeight: 0.55
+  HurtFadeSeconds: 0.08
+  SourceRigSha256: bff2886f6d969b5a29f2b88ccfea40032589694d9a5b0df82bf4c91845f49315
+  Provenance: Original anatomy-specific authored animation; Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/LightningBoss/SourceManifest.json; rest SHA256=bff2886f6d969b5a29f2b88ccfea40032589694d9a5b0df82bf4c91845f49315; motion SHA256=c6023a1bfe394730759daaca02ed1999ecd401e4778eaa8fe8cf629b8ade9420. Move remains a review-library clip because the existing M4 encounter has a fixed gameplay anchor.

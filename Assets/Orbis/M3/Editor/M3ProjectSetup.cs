@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using Orbis.M2.Editor;
+using Orbis.EditorSupport;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
@@ -17,7 +18,7 @@ namespace Orbis.M3.Editor
         public const string RockScene = "Assets/Orbis/M3/Scenes/M3_CrystallizeEffects.unity";
         public const string ExplorationScene = "Assets/Orbis/M3/Scenes/M3_ExplorationEffects.unity";
 
-        [MenuItem("Orbis/M3/Setup and Validate")]
+        [MenuItem("Orbis/Development/Legacy/M3/Setup and Validate")]
         public static void SetupAndValidate()
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
@@ -33,9 +34,10 @@ namespace Orbis.M3.Editor
             foreach (string path in new[] { WindScene, RockScene, ExplorationScene })
                 if (!scenes.Exists(scene => scene.path == path)) scenes.Add(new EditorBuildSettingsScene(path, true));
             EditorBuildSettings.scenes = scenes.ToArray();
+            FieldSceneBuildPolicy.ApplyProductLayout();
             AssetDatabase.SaveAssets(); AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
             Validate();
-            Debug.Log("ORBIS M3 setup and validation passed. Open Orbis > M3 > Open Effects Prototype.");
+            Debug.Log("ORBIS M3 setup and validation passed. Open Orbis > Development > Legacy > M3 > Open Effects Prototype.");
         }
 
         public static void Validate()
@@ -48,11 +50,11 @@ namespace Orbis.M3.Editor
                     throw new BuildFailedException("Missing M3 scene: " + path);
         }
 
-        [MenuItem("Orbis/M3/Open Effects Prototype")]
+        [MenuItem("Orbis/Development/Legacy/M3/Open Effects Prototype")]
         public static void OpenWind() => Open(WindScene);
-        [MenuItem("Orbis/M3/Open Crystallize Effects")]
+        [MenuItem("Orbis/Development/Legacy/M3/Open Crystallize Effects")]
         public static void OpenRock() => Open(RockScene);
-        [MenuItem("Orbis/M3/Open Exploration Effects")]
+        [MenuItem("Orbis/Development/Legacy/M3/Open Exploration Effects")]
         public static void OpenExploration() => Open(ExplorationScene);
 
         private static void Open(string path)

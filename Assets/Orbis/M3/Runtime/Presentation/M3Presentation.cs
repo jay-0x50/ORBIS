@@ -239,6 +239,10 @@ namespace Orbis.M3
         private void Update()
         {
             popupAge += Time.unscaledDeltaTime;
+            if (motor != null && motor.State == PlayerActionState.Burst && Ultimate != null &&
+                Ultimate.Director != null && Ultimate.Director.state == UnityEngine.Playables.PlayState.Playing &&
+                Ultimate.Director.duration > 0 && !double.IsInfinity(Ultimate.Director.duration))
+                motor.SetActionNormalizedTime(PlayerActionState.Burst, (float)(Ultimate.Director.time / Ultimate.Director.duration));
             if (flashVolume == null) return;
             flashAge += Time.unscaledDeltaTime;
             float envelope = flashDuration > 0f ? Mathf.Clamp01(1f - flashAge / flashDuration) : 0f;

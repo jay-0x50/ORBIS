@@ -1,0 +1,146 @@
+{
+    "passed": true,
+    "sourceFileUnchangedWhileDirty": true,
+    "loadedSourceStillDirty": true,
+    "noUnexpectedLoadedEnvironment": true,
+    "movedVisualMatches": true,
+    "movedCollisionMatches": true,
+    "cloneVisualMatches": true,
+    "cloneCollisionMatches": true,
+    "deletionMatches": true,
+    "authoringComponentStripped": true,
+    "residentCollisionRetained": true,
+    "restoredAllFiles": true,
+    "stableExportChangedNoFiles": true,
+    "error": "",
+    "restorationError": "",
+    "movedTree": "FieldExportProbe_Moved_37cd8ed6b2524f61b0187b1e95a7cb6f",
+    "clonedTree": "FieldExportProbe_Clone_37cd8ed6b2524f61b0187b1e95a7cb6f",
+    "deletedTree": "BirchTree_1 / 2434",
+    "region": "Agnia",
+    "originalLodCount": 1375,
+    "editedLodCount": 1375,
+    "originalColliderCount": 899,
+    "editedColliderCount": 899,
+    "movedPosition": {
+        "x": -648.73876953125,
+        "y": 72.55594635009766,
+        "z": -40.959564208984375
+    },
+    "clonedPosition": {
+        "x": -441.83599853515625,
+        "y": 63.41436767578125,
+        "z": -7.288625717163086
+    },
+    "originalSceneSetup": [],
+    "files": [
+        {
+            "path": "Assets/Scenes/Field.unity",
+            "originalSha256": "6823d6feb72d8228ed55a8778620d38e843d2ac3ad552f7fa5542b7134569bb8",
+            "restoredSha256": "6823d6feb72d8228ed55a8778620d38e843d2ac3ad552f7fa5542b7134569bb8",
+            "afterStableExportSha256": "6823d6feb72d8228ed55a8778620d38e843d2ac3ad552f7fa5542b7134569bb8"
+        },
+        {
+            "path": "Assets/Orbis/Game/Scenes/Orbis_Island.unity",
+            "originalSha256": "92d112a12483312c961e398114eadad4e5170a716a6214905d2f3a3babc19a65",
+            "restoredSha256": "92d112a12483312c961e398114eadad4e5170a716a6214905d2f3a3babc19a65",
+            "afterStableExportSha256": "92d112a12483312c961e398114eadad4e5170a716a6214905d2f3a3babc19a65"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity",
+            "originalSha256": "d7feed2d87bae0eef96aec8c3c6fbeefa22ea33defed681e5b9b7037e253b404",
+            "restoredSha256": "d7feed2d87bae0eef96aec8c3c6fbeefa22ea33defed681e5b9b7037e253b404",
+            "afterStableExportSha256": "d7feed2d87bae0eef96aec8c3c6fbeefa22ea33defed681e5b9b7037e253b404"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity",
+            "originalSha256": "4a8d83fa41376b17c9ef7389333bc016746540c582dfb6944cbbb5cd2abeb999",
+            "restoredSha256": "4a8d83fa41376b17c9ef7389333bc016746540c582dfb6944cbbb5cd2abeb999",
+            "afterStableExportSha256": "4a8d83fa41376b17c9ef7389333bc016746540c582dfb6944cbbb5cd2abeb999"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity",
+            "originalSha256": "f384c9edfdec1b6c10fc67727803a804b15971695df15292c100dffba36cd220",
+            "restoredSha256": "f384c9edfdec1b6c10fc67727803a804b15971695df15292c100dffba36cd220",
+            "afterStableExportSha256": "f384c9edfdec1b6c10fc67727803a804b15971695df15292c100dffba36cd220"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity",
+            "originalSha256": "56b84c6307580eaea6f0ac42c4c7be9fb7b6722f687a504c781d0b10e442b7cd",
+            "restoredSha256": "56b84c6307580eaea6f0ac42c4c7be9fb7b6722f687a504c781d0b10e442b7cd",
+            "afterStableExportSha256": "56b84c6307580eaea6f0ac42c4c7be9fb7b6722f687a504c781d0b10e442b7cd"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity",
+            "originalSha256": "637a85d0f80356cac38a0d2d7373690c830ff5aaddaab3a1e86e8726e1096fd3",
+            "restoredSha256": "637a85d0f80356cac38a0d2d7373690c830ff5aaddaab3a1e86e8726e1096fd3",
+            "afterStableExportSha256": "637a85d0f80356cac38a0d2d7373690c830ff5aaddaab3a1e86e8726e1096fd3"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Resources/World/StreamCatalog.asset",
+            "originalSha256": "9f6f641a672fc06d6a039be1b59217294192ce510da0705b04190b5d80fc6860",
+            "restoredSha256": "9f6f641a672fc06d6a039be1b59217294192ce510da0705b04190b5d80fc6860",
+            "afterStableExportSha256": "9f6f641a672fc06d6a039be1b59217294192ce510da0705b04190b5d80fc6860"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Authoring/FieldExportState.json",
+            "originalSha256": "42f0318981be4eda39f6d30f5af201b3a08b9f481196fd759b662e69ba138807",
+            "restoredSha256": "42f0318981be4eda39f6d30f5af201b3a08b9f481196fd759b662e69ba138807",
+            "afterStableExportSha256": "42f0318981be4eda39f6d30f5af201b3a08b9f481196fd759b662e69ba138807"
+        },
+        {
+            "path": "Assets/Scenes/Field.unity.meta",
+            "originalSha256": "374f4ac60fc4583d001d02ef567a9510a044fa925f56ce8e41b8d69a1705381d",
+            "restoredSha256": "374f4ac60fc4583d001d02ef567a9510a044fa925f56ce8e41b8d69a1705381d",
+            "afterStableExportSha256": "374f4ac60fc4583d001d02ef567a9510a044fa925f56ce8e41b8d69a1705381d"
+        },
+        {
+            "path": "Assets/Orbis/Game/Scenes/Orbis_Island.unity.meta",
+            "originalSha256": "dc012945f498a23722250ba700824246a256dcb8adb35c78be0864d2b9ecdedc",
+            "restoredSha256": "dc012945f498a23722250ba700824246a256dcb8adb35c78be0864d2b9ecdedc",
+            "afterStableExportSha256": "dc012945f498a23722250ba700824246a256dcb8adb35c78be0864d2b9ecdedc"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity.meta",
+            "originalSha256": "d6d587083afe8ad90a404448b525837b78c1b85c14e61d21cec3be0cac752e20",
+            "restoredSha256": "d6d587083afe8ad90a404448b525837b78c1b85c14e61d21cec3be0cac752e20",
+            "afterStableExportSha256": "d6d587083afe8ad90a404448b525837b78c1b85c14e61d21cec3be0cac752e20"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity.meta",
+            "originalSha256": "0fca3bbb784566ba54b91693bb968520a366c96c82e1f035349eaa1a34fcaf2d",
+            "restoredSha256": "0fca3bbb784566ba54b91693bb968520a366c96c82e1f035349eaa1a34fcaf2d",
+            "afterStableExportSha256": "0fca3bbb784566ba54b91693bb968520a366c96c82e1f035349eaa1a34fcaf2d"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity.meta",
+            "originalSha256": "9211d8e1d572cdbb9e031df2d6804f921a2ec8dc040c4e33a9d94c036e6d16f6",
+            "restoredSha256": "9211d8e1d572cdbb9e031df2d6804f921a2ec8dc040c4e33a9d94c036e6d16f6",
+            "afterStableExportSha256": "9211d8e1d572cdbb9e031df2d6804f921a2ec8dc040c4e33a9d94c036e6d16f6"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Scenes/Environment_Granite.unity.meta",
+            "originalSha256": "e365bf10014a74cbacdd40181f2e2c41ade2dfb74299bc96d4705f99f4c67941",
+            "restoredSha256": "e365bf10014a74cbacdd40181f2e2c41ade2dfb74299bc96d4705f99f4c67941",
+            "afterStableExportSha256": "e365bf10014a74cbacdd40181f2e2c41ade2dfb74299bc96d4705f99f4c67941"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity.meta",
+            "originalSha256": "5dab4940ad09ba74bf7593387f738e3d89f2ac2285fb3fdcda5325238957037e",
+            "restoredSha256": "5dab4940ad09ba74bf7593387f738e3d89f2ac2285fb3fdcda5325238957037e",
+            "afterStableExportSha256": "5dab4940ad09ba74bf7593387f738e3d89f2ac2285fb3fdcda5325238957037e"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Resources/World/StreamCatalog.asset.meta",
+            "originalSha256": "d9dd06e0e31953c6c4bfda1cf2f952c339665b22dc1f6963cfa3dee291e0e44a",
+            "restoredSha256": "d9dd06e0e31953c6c4bfda1cf2f952c339665b22dc1f6963cfa3dee291e0e44a",
+            "afterStableExportSha256": "d9dd06e0e31953c6c4bfda1cf2f952c339665b22dc1f6963cfa3dee291e0e44a"
+        },
+        {
+            "path": "Assets/Orbis/Game/World/Authoring/FieldExportState.json.meta",
+            "originalSha256": "ffd88f75d244aca7786ae2ec237d385a8a7b1ac119dc4af26da5677c0cc02b29",
+            "restoredSha256": "ffd88f75d244aca7786ae2ec237d385a8a7b1ac119dc4af26da5677c0cc02b29",
+            "afterStableExportSha256": "ffd88f75d244aca7786ae2ec237d385a8a7b1ac119dc4af26da5677c0cc02b29"
+        }
+    ]
+}

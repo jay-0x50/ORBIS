@@ -15,9 +15,10 @@ namespace Orbis.Game.Editor
     public static partial class WorldArtBuilder
     {
         public const string Root="Assets/Orbis/Game/World";
-        [MenuItem("Orbis/World Art/01 Continuous Biomes and Streaming")]
+        [MenuItem("Orbis/Development/Legacy/World Art/01 Continuous Biomes and Streaming")]
         public static void Step1()
         {
+            FieldSceneAuthoring.RequireGeneratedEditingAllowed();
             var scene=EditorSceneManager.OpenScene(IslandSceneBuilder.ScenePath,OpenSceneMode.Single);
             var world=scene.GetRootGameObjects().SelectMany(x=>x.GetComponentsInChildren<M4SceneBootstrap>(true)).Single();
             if(world.GetComponent<WorldRegionStreamer>()!=null)

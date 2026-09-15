@@ -1,0 +1,307 @@
+{
+  "minimum": {
+    "frame": 9,
+    "side": "Right",
+    "phase": "Idle",
+    "minimum": -0.00022303355217445642,
+    "maximum": 0.0038264193572103977,
+    "contact": 1.0,
+    "solve": 0.9999999403953552,
+    "applied": 1.0,
+    "adapted": true,
+    "recovering": false,
+    "released": false,
+    "rootZ": 30.0,
+    "soleZ": 29.8779296875,
+    "normalYs": [
+      0.91355
+    ],
+    "rays": 15,
+    "finalVertical": -0.09737396240234375,
+    "unresolved": 3.861153174966603e-07
+  },
+  "groups": {
+    "adapted": {
+      "footFrames": 600,
+      "minimum": {
+        "frame": 9,
+        "side": "Right",
+        "phase": "Idle",
+        "minimum": -0.00022303355217445642,
+        "maximum": 0.0038264193572103977,
+        "contact": 1.0,
+        "solve": 0.9999999403953552,
+        "applied": 1.0,
+        "adapted": true,
+        "recovering": false,
+        "released": false,
+        "rootZ": 30.0,
+        "soleZ": 29.8779296875,
+        "normalYs": [
+          0.91355
+        ],
+        "rays": 15,
+        "finalVertical": -0.09737396240234375,
+        "unresolved": 3.861153174966603e-07
+      }
+    },
+    "entireSoleOnIncline": {
+      "footFrames": 600,
+      "minimum": {
+        "frame": 9,
+        "side": "Right",
+        "phase": "Idle",
+        "minimum": -0.00022303355217445642,
+        "maximum": 0.0038264193572103977,
+        "contact": 1.0,
+        "solve": 0.9999999403953552,
+        "applied": 1.0,
+        "adapted": true,
+        "recovering": false,
+        "released": false,
+        "rootZ": 30.0,
+        "soleZ": 29.8779296875,
+        "normalYs": [
+          0.91355
+        ],
+        "rays": 15,
+        "finalVertical": -0.09737396240234375,
+        "unresolved": 3.861153174966603e-07
+      }
+    },
+    "Idle": {
+      "footFrames": 60,
+      "minimum": {
+        "frame": 9,
+        "side": "Right",
+        "phase": "Idle",
+        "minimum": -0.00022303355217445642,
+        "maximum": 0.0038264193572103977,
+        "contact": 1.0,
+        "solve": 0.9999999403953552,
+        "applied": 1.0,
+        "adapted": true,
+        "recovering": false,
+        "released": false,
+        "rootZ": 30.0,
+        "soleZ": 29.8779296875,
+        "normalYs": [
+          0.91355
+        ],
+        "rays": 15,
+        "finalVertical": -0.09737396240234375,
+        "unresolved": 3.861153174966603e-07
+      }
+    },
+    "FinalStop": {
+      "footFrames": 60,
+      "minimum": {
+        "frame": 278,
+        "side": "Left",
+        "phase": "FinalStop",
+        "minimum": -2.090939597110264e-05,
+        "maximum": 0.0038264193572103977,
+        "contact": 1.0,
+        "solve": 1.0,
+        "applied": 1.0,
+        "adapted": true,
+        "recovering": false,
+        "released": false,
+        "rootZ": 15.5,
+        "soleZ": 15.6171875,
+        "normalYs": [
+          0.91355
+        ],
+        "rays": 21,
+        "finalVertical": -0.01860809326171875,
+        "unresolved": 2.9784728212689515e-06
+      }
+    },
+    "DownhillRun": {
+      "footFrames": 120,
+      "minimum": {
+        "frame": 159,
+        "side": "Right",
+        "phase": "DownhillRun",
+        "minimum": -0.00011151677608722821,
+        "maximum": 0.003840358927845955,
+        "contact": 1.0,
+        "solve": 0.4550588130950928,
+        "applied": 1.0,
+        "adapted": true,
+        "recovering": false,
+        "released": false,
+        "rootZ": 14.5,
+        "soleZ": 14.28173828125,
+        "normalYs": [
+          0.91355
+        ],
+        "rays": 15,
+        "finalVertical": -0.16857147216796875,
+        "unresolved": 3.861153174966603e-07
+      }
+    },
+    "Stop": {
+      "footFrames": 60,
+      "minimum": {
+        "frame": 206,
+        "side": "Right",
+        "phase": "Stop",
+        "minimum": -0.00019515435269568115,
+        "maximum": 0.003840358927845955,
+        "contact": 0.9997085928916931,
+        "solve": 0.9997491240501404,
+        "applied": 1.0,
+        "adapted": true,
+        "recovering": false,
+        "released": false,
+        "rootZ": 10.5,
+        "soleZ": 10.383056640625,
+        "normalYs": [
+          0.91355
+        ],
+        "rays": 15,
+        "finalVertical": -0.1234283447265625,
+        "unresolved": 3.861153174966603e-07
+      }
+    },
+    "Downhill": {
+      "footFrames": 180,
+      "minimum": {
+        "frame": 89,
+        "side": "Right",
+        "phase": "Downhill",
+        "minimum": -0.00022303355217445642,
+        "maximum": 0.003819449571892619,
+        "contact": 1.0,
+        "solve": 0.5454955697059631,
+        "applied": 1.0,
+        "adapted": true,
+        "recovering": false,
+        "released": true,
+        "rootZ": 25.0,
+        "soleZ": 24.800048828125,
+        "normalYs": [
+          0.91355
+        ],
+        "rays": 15,
+        "finalVertical": -0.1604766845703125,
+        "unresolved": 3.861153174966603e-07
+      }
+    },
+    "UphillReturn": {
+      "footFrames": 120,
+      "minimum": {
+        "frame": 210,
+        "side": "Right",
+        "phase": "UphillReturn",
+        "minimum": -0.00018818455282598734,
+        "maximum": 0.003770661074668169,
+        "contact": 0.716729998588562,
+        "solve": 0.8711671233177185,
+        "applied": 1.0,
+        "adapted": true,
+        "recovering": false,
+        "released": false,
+        "rootZ": 10.583251953125,
+        "soleZ": 10.40087890625,
+        "normalYs": [
+          0.91355
+        ],
+        "rays": 15,
+        "finalVertical": -0.15032196044921875,
+        "unresolved": 2.686809466467821e-06
+      }
+    }
+  },
+  "below6mmFootFrames": 0,
+  "stableContactIntervals": 130,
+  "worstStableContactVelocity": {
+    "frame": 227,
+    "side": "Left",
+    "maximumSpeed": 0.21760036002802519,
+    "vertices": 26,
+    "phase": "UphillReturn"
+  },
+  "diagnostics": {
+    "terrainGeometryReady": {
+      "True": 600
+    },
+    "terrainGeometryAttempts": {
+      "1": 600
+    },
+    "terrainGeometryError": {
+      "": 600
+    },
+    "calibratedSolePointCount": {
+      "26": 300,
+      "27": 300
+    },
+    "terrainConstraintFeasible": {
+      "True": 600
+    },
+    "terrainSupportPresent": {
+      "True": 600
+    },
+    "terrainHandoffActive": {
+      "True": 600
+    },
+    "terrainHandoff": {
+      "False": 600
+    },
+    "terrainFinalVerticalCorrection": {
+      "maximumAbsolute": 0.24773406982421875
+    },
+    "terrainUnresolvedClearance": {
+      "maximumAbsolute": 3.6827102576353354e-06
+    },
+    "terrainReachProjection": {
+      "maximumAbsolute": 0.15703144669532776
+    },
+    "terrainPelvisRemainder": {
+      "maximumAbsolute": 0.13999944925308228
+    },
+    "terrainHandoffClearance": {
+      "maximumAbsolute": 0.0
+    },
+    "raysPerFrame": {
+      "maximum": 36,
+      "mean": 22.823333333333334
+    }
+  },
+  "missingSurfaceSamples": 0,
+  "motionSha256": "c119846c96a46165dd3d163c128be8201f08a2a6aa2741c24a51446c4239d2c2",
+  "surfaceSha256": "e118c447ca9b2bb92186dbe38769cdd27b392bea02678f695b722e283a9989fc",
+  "phases": [
+    "0..29 Idle on upper slope",
+    "30..119 S downhill",
+    "120..179 S+Shift downhill",
+    "180..209 Stop",
+    "210..269 W uphill return",
+    "270..299 Stop"
+  ],
+  "actualDescent": {
+    "walkFrames": [
+      30,
+      119
+    ],
+    "runFrames": [
+      120,
+      179
+    ],
+    "startRoot": {
+      "x": 3200.0,
+      "y": 113.3868637084961,
+      "z": 3030.0
+    },
+    "endRoot": {
+      "x": 3200.0,
+      "y": 104.73329162597656,
+      "z": 3010.5
+    },
+    "heightLoss": 8.653572082519531,
+    "horizontalTravel": 19.5,
+    "inputMotionFrames": 150,
+    "allRootsDescending": true
+  }
+}

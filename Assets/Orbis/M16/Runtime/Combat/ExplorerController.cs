@@ -90,6 +90,7 @@ namespace Orbis.M16
             if (hurtRemaining > 0f)
             {
                 hurtRemaining = Mathf.Max(0f, hurtRemaining - deltaTime);
+                motor.SetActionNormalizedTime(PlayerActionState.Hurt, 1f - hurtRemaining / HurtSeconds);
                 if (hurtRemaining <= 0f) motor.EndAction(PlayerActionState.Hurt);
             }
         }
@@ -122,6 +123,9 @@ namespace Orbis.M16
             catalog.Validate(); skill.Validate();
             if (!motor.TryBeginAction(PlayerActionState.Skill)) return false;
             if (!sequence.TryStart(skill, catalog.SharedSkillCooldown)) { motor.EndAction(PlayerActionState.Skill); return false; }
+            // Publish the successful cast's initial FSM time before this frame's motor observation.
+            // This prevents the visual fallback clock from advancing a new G cast ahead of its owner.
+            motor.SetActionNormalizedTime(PlayerActionState.Skill, sequence.NormalizedTime);
             hitTargets.Clear();
             SkillStarted?.Invoke(sequence.CurrentCast);
             return true;

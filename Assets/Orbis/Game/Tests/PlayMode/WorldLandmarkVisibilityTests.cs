@@ -49,7 +49,10 @@ namespace Orbis.Game.Tests
         {
             var markers = Object.FindObjectsByType<WorldLandmark>(FindObjectsSortMode.None);
             Assert.That(markers.Length, Is.GreaterThanOrEqualTo(20));
-            var colliderGroups = world.GetComponentsInChildren<MeshCollider>().Where(c => c.enabled && c.sharedMesh != null)
+            // Collision belongs to the resident core scene. Export keeps complete transform chains
+            // in a sibling root, so nonuniform authoring transforms do not shear the copied geometry.
+            var colliderGroups = world.gameObject.scene.GetRootGameObjects()
+                .SelectMany(root => root.GetComponentsInChildren<MeshCollider>()).Where(c => c.enabled && c.sharedMesh != null)
                 .GroupBy(c => c.sharedMesh).ToDictionary(g => g.Key, g => g.ToArray());
             var targets = markers.Select(m => BuildTarget(m, colliderGroups)).OrderBy(t => t.Id, StringComparer.Ordinal).ToArray();
             foreach (var target in targets)

@@ -12,9 +12,10 @@ namespace Orbis.Game.Editor
 {
     public static class WorldWeatherBuilder
     {
-        [MenuItem("Orbis/World Art/05 Connect Continuous Visual Weather")]
+        [MenuItem("Orbis/Development/Legacy/World Art/05 Connect Continuous Visual Weather")]
         public static void Step5()
         {
+            FieldSceneAuthoring.RequireGeneratedEditingAllowed();
             var scene=EditorSceneManager.OpenScene(IslandSceneBuilder.ScenePath,OpenSceneMode.Single);
             var world=Object.FindAnyObjectByType<M4SceneBootstrap>();
             if(world==null||world.GetComponent<WorldAtmosphere>()==null)throw new InvalidOperationException("Finish world styling first.");

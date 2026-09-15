@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
+using Orbis.EditorSupport;
 using Orbis.M1;
 using Orbis.M2;
 using Orbis.M4.Editor;
@@ -65,7 +66,7 @@ namespace Orbis.M4.Tests
         }
 
         [Test]
-        public void FiveAddressableScenesAreDistinctAndLauncherRemainsEnabledAfterSelectionEntry()
+        public void FiveAddressableScenesAreDistinctAndProductOrLegacyEntryIsValid()
         {
             Assert.That(M4RegionCatalog.All.Select(x => x.Id).Distinct().Count(), Is.EqualTo(5));
             Assert.That(M4RegionCatalog.All.Select(x => M4ProjectSetup.Address(x.Id)).Distinct().Count(), Is.EqualTo(5));
@@ -73,10 +74,25 @@ namespace Orbis.M4.Tests
             Assert.DoesNotThrow(M4ProjectSetup.Validate);
             var builtIn = EditorBuildSettings.scenes.Where(x => x.enabled).Select(x => x.path).ToArray();
             const string selection = "Assets/Orbis/M16/Scenes/M16_CharacterSelection.unity";
-            string expectedEntry = AssetDatabase.LoadAssetAtPath<SceneAsset>(selection) != null
-                ? selection : M4ProjectSetup.LauncherScene;
-            Assert.That(builtIn[0], Is.EqualTo(expectedEntry));
-            Assert.That(builtIn, Does.Contain(M4ProjectSetup.LauncherScene));
+            if (FieldSceneBuildPolicy.IsProductMode)
+            {
+                Assert.That(builtIn[0], Is.EqualTo(FieldSceneBuildPolicy.RuntimeScenePath));
+                if (FieldSceneBuildPolicy.IsRegressionTestScopeActive)
+                    Assert.That(builtIn, Does.Contain(M4ProjectSetup.LauncherScene));
+                else
+                    Assert.That(builtIn, Is.EqualTo(new[] { FieldSceneBuildPolicy.RuntimeScenePath }),
+                        "The normal player ships one entry, with legacy built-in demos disabled.");
+                foreach (string path in FieldSceneBuildPolicy.LegacyBuiltInScenes)
+                    Assert.That(EditorBuildSettings.scenes.Any(scene => scene.path == path), Is.True,
+                        "Retain the legacy fixture entry so automatic setup does not recreate it: " + path);
+            }
+            else
+            {
+                string expectedEntry = AssetDatabase.LoadAssetAtPath<SceneAsset>(selection) != null
+                    ? selection : M4ProjectSetup.LauncherScene;
+                Assert.That(builtIn[0], Is.EqualTo(expectedEntry));
+                Assert.That(builtIn, Does.Contain(M4ProjectSetup.LauncherScene));
+            }
             foreach (var region in M4RegionCatalog.All)
                 Assert.That(builtIn, Does.Not.Contain(M4ProjectSetup.ScenePath(region.Id)));
             Assert.Throws<ArgumentOutOfRangeException>(() => M4RegionCatalog.Get((M4RegionId)99));

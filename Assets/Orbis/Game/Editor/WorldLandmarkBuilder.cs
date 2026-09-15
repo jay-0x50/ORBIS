@@ -32,9 +32,10 @@ namespace Orbis.Game.Editor
         static List<Vector4> contentKeepout;
         static List<Vector3> buildings;
 
-        [MenuItem("Orbis/World Art/03 Landmarks and Discovery Routes")]
+        [MenuItem("Orbis/Development/Legacy/World Art/03 Landmarks and Discovery Routes")]
         public static void Step3()
         {
+            FieldSceneAuthoring.RequireGeneratedEditingAllowed();
             var scene=EditorSceneManager.OpenScene(IslandSceneBuilder.ScenePath,OpenSceneMode.Single);
             var world=Object.FindAnyObjectByType<M4SceneBootstrap>();
             if(world==null||world.GetComponent<WorldWind>()==null)throw new InvalidOperationException("Complete world vegetation first.");

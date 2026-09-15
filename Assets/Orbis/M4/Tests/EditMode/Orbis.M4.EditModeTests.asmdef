@@ -1,7 +1,19 @@
 {
   "name": "Orbis.M4.EditModeTests",
   "rootNamespace": "Orbis.M4.Tests",
-  "references": ["Orbis.M0.Runtime", "Orbis.M1.Runtime", "Orbis.M2.Runtime", "Orbis.M3.Runtime", "Orbis.M4.Runtime", "Orbis.M4.Editor"],
-  "includePlatforms": ["Editor"],
-  "optionalUnityReferences": ["TestAssemblies"]
+  "references": [
+    "Orbis.M0.Runtime",
+    "Orbis.M1.Runtime",
+    "Orbis.M2.Runtime",
+    "Orbis.M3.Runtime",
+    "Orbis.M4.Runtime",
+    "Orbis.M4.Editor",
+    "Orbis.EditorSupport"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
 }

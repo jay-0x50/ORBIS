@@ -6,40 +6,40 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Orbis/M16/Scenes/M16_CharacterSelection.unity
-    guid: b58bb351679ccad48a780aa8ddecb1b1
-  - enabled: 1
-    path: Assets/Orbis/M4/Scenes/M4_Launcher.unity
-    guid: 7b773fdd429b51c4a935619fb66144a9
-  - enabled: 1
-    path: Assets/Orbis/M0/Scenes/M0_Prototype.unity
-    guid: d2e6f192e4bd37c49a8e51f1b408c1d9
-  - enabled: 1
-    path: Assets/Orbis/M1/Scenes/M1_PartyPrototype.unity
-    guid: 266029c7d913425488b10a59ee3f2b52
-  - enabled: 1
-    path: Assets/Orbis/M1/Scenes/M1_CrystallizePrototype.unity
-    guid: 9fa99ae7c74cc7d41a26a1f402f49efd
-  - enabled: 1
-    path: Assets/Orbis/M2/Scenes/M2_ExplorationPrototype.unity
-    guid: 719ac311defe1414f823471ddea28cb4
-  - enabled: 1
-    path: Assets/Orbis/M3/Scenes/M3_EffectsPrototype.unity
-    guid: 58aa0872f190a7b4993e878959987f2f
-  - enabled: 1
-    path: Assets/Orbis/M3/Scenes/M3_CrystallizeEffects.unity
-    guid: e11fd45ae9b12e845a2622d281c49707
-  - enabled: 1
-    path: Assets/Orbis/M3/Scenes/M3_ExplorationEffects.unity
-    guid: 2c02519f4ffeef04ca5acb12d9c86304
-  - enabled: 1
-    path: Assets/Orbis/M15/Scenes/M15_GachaDemo.unity
-    guid: f8be74a97608eb045b1cfa784187b9b9
-  - enabled: 1
-    path: Assets/Orbis/Game/Scenes/Orbis_OpenWorld.unity
-    guid: 109bc100a1109784bb878614426c54c3
-  - enabled: 1
     path: Assets/Orbis/Game/Scenes/Orbis_Island.unity
     guid: 4f2acf684c8de20448d7b21ea66407c2
+  - enabled: 0
+    path: Assets/Orbis/M16/Scenes/M16_CharacterSelection.unity
+    guid: b58bb351679ccad48a780aa8ddecb1b1
+  - enabled: 0
+    path: Assets/Orbis/M4/Scenes/M4_Launcher.unity
+    guid: 7b773fdd429b51c4a935619fb66144a9
+  - enabled: 0
+    path: Assets/Orbis/M0/Scenes/M0_Prototype.unity
+    guid: d2e6f192e4bd37c49a8e51f1b408c1d9
+  - enabled: 0
+    path: Assets/Orbis/M1/Scenes/M1_PartyPrototype.unity
+    guid: 266029c7d913425488b10a59ee3f2b52
+  - enabled: 0
+    path: Assets/Orbis/M1/Scenes/M1_CrystallizePrototype.unity
+    guid: 9fa99ae7c74cc7d41a26a1f402f49efd
+  - enabled: 0
+    path: Assets/Orbis/M2/Scenes/M2_ExplorationPrototype.unity
+    guid: 719ac311defe1414f823471ddea28cb4
+  - enabled: 0
+    path: Assets/Orbis/M3/Scenes/M3_EffectsPrototype.unity
+    guid: 58aa0872f190a7b4993e878959987f2f
+  - enabled: 0
+    path: Assets/Orbis/M3/Scenes/M3_CrystallizeEffects.unity
+    guid: e11fd45ae9b12e845a2622d281c49707
+  - enabled: 0
+    path: Assets/Orbis/M3/Scenes/M3_ExplorationEffects.unity
+    guid: 2c02519f4ffeef04ca5acb12d9c86304
+  - enabled: 0
+    path: Assets/Orbis/M15/Scenes/M15_GachaDemo.unity
+    guid: f8be74a97608eb045b1cfa784187b9b9
+  - enabled: 0
+    path: Assets/Orbis/Game/Scenes/Orbis_OpenWorld.unity
+    guid: 109bc100a1109784bb878614426c54c3
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: aad4d6c9185b37943823e6cea0e09027, type: 2}

@@ -7,26 +7,28 @@ Unity **6000.6.0f1**, URP·VFX Graph·Shader Graph **17.6.0**, Cinemachine·Time
 
 ## 게임 씬 열기
 
-**Orbis > World > Open Full Continent for Editing**을 선택하고 Play합니다. `Assets/Orbis/Game/Scenes/Orbis_Island.unity`는 가로·세로 2km의 지형에 아그니아·텔루나·자피르·그라니테·볼트하임을 통합한 씬입니다. 물 위 육지는 약 2.5361km²입니다. 이 메뉴는 본체와 다섯 Addressables 환경 씬을 함께 열어 Terrain·혼합 식생·마을·풍차·절벽·호수·기존 콘텐츠를 Hierarchy에서 확인하게 합니다. 실제 Play는 본체에서 시작하고 환경은 Addressables가 로드합니다.
+**Orbis > Field > Open Field**로 **`Assets/Scenes/Field.unity` 하나**를 엽니다. Play 전부터 Terrain·혼합 식생·마을·풍차·절벽·호수·기존 콘텐츠가 Hierarchy와 Scene 뷰에 보이며, 실제 오브젝트를 선택해 배치를 수정하고 저장할 수 있습니다. 가로·세로 2km 지형에 아그니아·텔루나·자피르·그라니테·볼트하임을 연결했으며, 물 위 육지는 약 2.5361km²입니다.
 
-**F11**로 맑음·비·뇌우·강풍을 전환합니다. 다른 마일스톤 데모로 돌아갈 때는 **Orbis > World > Restore Play from Current Scene**으로 시작 씬 고정을 해제합니다. 최신 안내는 [연속 월드 실행](Docs/World_실행안내.md), [단계별 검수](Docs/WorldArt_검수기록.md), [같은 앵글 Before/After](Docs/WorldArt/BeforeAfter.md)에 있습니다. 회귀 테스트는 EditMode 292개와 PlayMode 71개를 통과했습니다. 실제 1080p 60fps 유지 검증은 아직 남아 있으며 offscreen 렌더 처리율을 게임 FPS로 취급하지 않습니다.
+Play 직전에 현재 원본을 실행용 코어·환경 씬으로 자동 내보내고 기존 Addressables 스트리밍으로 실행합니다. 내부 산출물인 `Orbis_Island.unity`와 `Environment_*.unity`는 직접 편집하지 않습니다. 편집·저장·실행·Hierarchy 확인 절차는 [필드 작업 안내](Docs/Field_Workflow.md)를 따릅니다.
+
+**F11**로 맑음·비·뇌우·강풍을 전환합니다. 예전 기능 데모는 **Orbis > Development > Legacy**에 모았습니다. 해당 데모를 직접 실행할 때는 같은 메뉴의 **Restore Play from Current Scene**으로 시작 씬 고정을 해제합니다. 이전 월드 제작 기록은 [연속 월드 실행](Docs/World_실행안내.md), [단계별 검수](Docs/WorldArt_검수기록.md), [같은 앵글 Before/After](Docs/WorldArt/BeforeAfter.md)에 있습니다. 실제 1080p 60fps 유지 검증은 아직 남아 있으며 offscreen 렌더 처리율을 게임 FPS로 취급하지 않습니다.
 
 새로 clone한 프로젝트도 위 메뉴로 실행합니다. Unity 패키지·Library·빌드 결과는 에디터에서 복구/생성합니다. 독립 실행 파일은 **Orbis > World Performance > Build Windows Player**에서 실제 Addressables 번들과 함께 만듭니다. 외부 팩 원본 ZIP·중간 변환 캐시·로컬 백업은 Git에 포함하지 않으며, 실행에 필요한 FBX·텍스처·재질·프리팹은 `Assets/`에 있습니다. 모델을 다시 생성할 때 필요한 원본 다운로드 위치와 라이선스는 [Credits](Credits.md) 및 `Docs/WorldArt/Sources/`를 참고하세요.
 
-저장된 주인공으로 자피르 초원에서 시작하며, 미선택 저장은 스텔라/폴라리스 선택 화면을 표시합니다. 두 주인공은 제공된 원화를 참고한 Blender 모델과 기존 Humanoid 애니메이션을 사용합니다. 이번 전신 보완에서는 얼굴형과 머리 비율을 조정하고, 목·어깨·몸통·허리·골반·팔다리 및 의상 메시를 다시 구성합니다. 아이보리 천·남색 망토에 금색 자수 텍스처를 연결하며, 기존 52개 본과 게임 내 높이 1.8m 정규화는 유지합니다. 실행·재생성·검수 절차는 [전신·얼굴 조형 및 의상 안내](Docs/Anatomy_구현_테스트.md)를 참고하세요. 이전 단계의 얼굴 텍스처 기록은 [얼굴 개선 안내](Docs/Face_얼굴개선_테스트.md)에 남아 있습니다. **F10**으로 구역을 빠르게 이동하고 **H**로 상세 HUD를 표시합니다. `Open Open World` 메뉴도 새 섬을 엽니다. 종전 `Orbis_OpenWorld.unity`는 보존했습니다.
+저장된 주인공으로 자피르 초원에서 시작하며, 미선택 저장은 필드 위에 스텔라/폴라리스 선택 화면을 표시합니다. 두 주인공은 제공된 원화를 참고한 Blender 모델과 기존 Humanoid 애니메이션을 사용합니다. 전신 보완 기록과 검수 절차는 [전신·얼굴 조형 및 의상 안내](Docs/Anatomy_구현_테스트.md), 이전 얼굴 텍스처 기록은 [얼굴 개선 안내](Docs/Face_얼굴개선_테스트.md)에 있습니다. **F10**으로 구역을 빠르게 이동하고 **H**로 상세 HUD를 표시합니다. 종전 `Orbis_OpenWorld.unity`는 회귀 테스트용으로 보존했습니다.
 
 [통합 섬·주인공 실행 및 테스트](Docs/Island_통합섬_주인공_테스트.md) · [변경 파일 전체 목록](Docs/Island_FILES.md) · [출처와 라이선스](Credits.md)
 
-## M1.6 주인공으로 시작
+## M1.6 주인공 기능
 
-**Orbis > M1.6 > Open Character Selection**에서 Play합니다. 스텔라/폴라리스 카드 선택 → 선택 확정 → 여정 시작 순서로 기존 월드에 들어갑니다. 선택은 저장되며 다음 실행부터 이어하기가 표시됩니다.
+일반 플레이는 위의 `Field.unity`에서 시작합니다. 선택 UI만 따로 시험하려면 **Orbis > Development > Legacy > M1.6 > Open Character Selection**을 사용합니다. 스텔라/폴라리스 카드 선택 → 선택 확정 → 여정 시작 순서이며, 선택은 저장됩니다.
 
 선택한 주인공은 4인 파티의 **1번 슬롯**에 고정됩니다. **Tab**으로 화·수·풍·암·뢰를 바꾸고 **G**로 공통 원소 스킬을 사용합니다. 일반공격은 여정의 검의 물리 공격이며 **Q**는 기존 궁극기 연출입니다. 두 선택지는 별도 Stella/Polaris 모델과 Humanoid Avatar를 사용하며 기존 애니메이션·상태머신을 공유합니다.
 
 기존 JSON 저장을 v3로 확장해 주인공 선택과 원소를 보존합니다. 데이터·API·검증은 [M1.6 구현·테스트](Docs/M16_구현_테스트.md), 전체 변경 파일은 [M1.6 파일 목록](Docs/M16_FILES.md)을 참고하세요.
 ## M1.5 재화·뽑기 시연
 
-**Orbis > M1.5 > Open Gacha Demo**로 전용 씬을 열고 Play를 누릅니다. 하단 개발용 **결정 +1600 → 서약서 10장 교환 → 10회 모집** 순서로 시연합니다. 한정(마리스 픽업)·상시 배너, 18명 동료 데이터, 6종 재화, 74/90회 천장과 50/50 보장을 지원합니다.
+**Orbis > Development > Legacy > M1.5 > Open Gacha Demo**로 전용 씬을 열고 Play를 누릅니다. 하단 개발용 **결정 +1600 → 서약서 10장 교환 → 10회 모집** 순서로 시연합니다. 한정(마리스 픽업)·상시 배너, 18명 동료 데이터, 6종 재화, 74/90회 천장과 50/50 보장을 지원합니다.
 
 기존 JSON 저장에 재화·보유·배너별 천장을 통합했고 M4 코인은 루멘으로 이전됩니다. 세부 기본값·API·검증은 [M1.5 구현·테스트](Docs/M15_구현_테스트.md), 변경/생성 파일 전체는 [M1.5 파일 목록](Docs/M15_FILES.md)을 참고하세요.
 ## 기존 마일스톤 월드 직접 검증

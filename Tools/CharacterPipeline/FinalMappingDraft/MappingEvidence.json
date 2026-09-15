@@ -1,0 +1,486 @@
+{
+  "status": "Staging documentation snapshot, not final delivery approval",
+  "utc": "2026-09-15T01:21:45.918875+00:00",
+  "stagingProject": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0",
+  "targetProjectReadOnly": "D:/Project/ORBIS",
+  "originalSources": [
+    {
+      "actualReadPath": "D:\\Project\\ORBIS\\Assets\\blend\\남주인공.blend",
+      "sha256": "ede6750ab39e7f392990dd660c58ddb75ec4f530e88b22d8278a1000a7562051",
+      "bytes": 140181025,
+      "matchingInitialAudit": "Polaris",
+      "note": "Matches initial SourceAudit SHA256."
+    },
+    {
+      "actualReadPath": "D:\\Project\\ORBIS\\Assets\\blend\\여주인공.blend",
+      "sha256": "5c6b96a4dbc1e004c1fbb2d08ee3f7de8a7e45d1b67f1f9dd8fe1395be556c36",
+      "bytes": 361100586,
+      "matchingInitialAudit": "Stella",
+      "note": "Matches initial SourceAudit SHA256."
+    },
+    {
+      "actualReadPath": "D:\\Project\\ORBIS\\Assets\\blend\\조력자.blend",
+      "sha256": "34c51b4993c874205d0b5065b369fe868fc5531367053ca924820ef8e5c6d2a1",
+      "bytes": 208577284,
+      "matchingInitialAudit": null,
+      "note": "Read only. Unmatched held source was not opened in Blender or imported."
+    },
+    {
+      "actualReadPath": "D:\\Project\\ORBIS\\Assets\\blend\\몬스터\\보스몬스터\\물보스몬스터.blend",
+      "sha256": "f3d124634d5f1319d777a0948622e18c9281a16e78d3c1dcd1c31593d288203f",
+      "bytes": 121768164,
+      "matchingInitialAudit": "WaterBoss",
+      "note": "Matches initial SourceAudit SHA256."
+    },
+    {
+      "actualReadPath": "D:\\Project\\ORBIS\\Assets\\blend\\몬스터\\보스몬스터\\바람보스몬스터.blend",
+      "sha256": "f13cedba1f4a3931cb533af3952f4164f7fd7dd6204e14a2e7ab53ed04ea41aa",
+      "bytes": 276572495,
+      "matchingInitialAudit": "WindBoss",
+      "note": "Matches initial SourceAudit SHA256."
+    },
+    {
+      "actualReadPath": "D:\\Project\\ORBIS\\Assets\\blend\\몬스터\\보스몬스터\\바위보스몬스터.blend",
+      "sha256": "501fb34c95c15618b7636bee8e0616f56e9a80521be3637ab83d7520db85d8ff",
+      "bytes": 371965268,
+      "matchingInitialAudit": "RockBoss",
+      "note": "Matches initial SourceAudit SHA256."
+    },
+    {
+      "actualReadPath": "D:\\Project\\ORBIS\\Assets\\blend\\몬스터\\보스몬스터\\번개보스몬스터.blend",
+      "sha256": "915e0b3f7c23596398cfc4a1e57c8ffbeb3f459eb4cded6109ad9b39c27f22c1",
+      "bytes": 145403130,
+      "matchingInitialAudit": "LightningBoss",
+      "note": "Matches initial SourceAudit SHA256."
+    },
+    {
+      "actualReadPath": "D:\\Project\\ORBIS\\Assets\\blend\\몬스터\\보스몬스터\\불보스몬스터.blend",
+      "sha256": "256f519eb6fbda3fa210e0fe5d2ceeac8445af693f57cc84af44ef8eb0c15612",
+      "bytes": 186046816,
+      "matchingInitialAudit": "FireBoss",
+      "note": "Matches initial SourceAudit SHA256."
+    }
+  ],
+  "bindings": [
+    {
+      "name": "Stella",
+      "prefab": "Assets/Orbis/Game/Characters/Candidates/Stella12GripRuntime01/Stella/Stella.prefab",
+      "prefabSha256": "ccbc42555103a92e65e9ede84f0c25089c5aef881d2c4d1ab6c265e9bc36c18c",
+      "skinnedRendererCount": 1,
+      "boneReferenceCount": 66,
+      "materialSlotCount": 2,
+      "serializedRefs": [
+        {
+          "field": "m_Avatar",
+          "path": "Assets/Orbis/Game/Characters/Candidates/StellaIntegrated12/Stella/Stella.fbx"
+        },
+        {
+          "field": "m_Controller",
+          "path": "Assets/Orbis/Characters/Animation/Stella12GripRuntime01/Stella/Character.controller"
+        },
+        {
+          "field": "profile",
+          "path": "Assets/Orbis/Characters/Animation/Stella12GripRuntime01/Stella/MotionProfile.asset"
+        },
+        {
+          "field": "m_Mesh",
+          "path": "Assets/Orbis/Game/Characters/Candidates/StellaIntegrated12/Stella/Stella.fbx"
+        }
+      ]
+    },
+    {
+      "name": "Polaris",
+      "prefab": "Assets/Orbis/Game/Characters/Candidates/Motion06GripRuntime01/Polaris/Polaris.prefab",
+      "prefabSha256": "2c92c98519da6ccdbb972d6612c20bfc4149a628090d6dba37cd63d161f309f9",
+      "skinnedRendererCount": 1,
+      "boneReferenceCount": 64,
+      "materialSlotCount": 1,
+      "serializedRefs": [
+        {
+          "field": "m_Mesh",
+          "path": "Assets/Orbis/Game/Characters/Candidates/OriginTrial01/Polaris/Polaris.fbx"
+        },
+        {
+          "field": "m_Avatar",
+          "path": "Assets/Orbis/Game/Characters/Candidates/OriginTrial01/Polaris/Polaris.fbx"
+        },
+        {
+          "field": "m_Controller",
+          "path": "Assets/Orbis/Characters/Animation/Motion06GripRuntime01/Polaris/Character.controller"
+        },
+        {
+          "field": "profile",
+          "path": "Assets/Orbis/Characters/Animation/Motion06GripRuntime01/Polaris/MotionProfile.asset"
+        }
+      ]
+    },
+    {
+      "name": "FireBoss",
+      "prefab": "Assets/Orbis/Game/Characters/Bosses/Original01/FireBoss/FireBoss.prefab",
+      "prefabSha256": "c29e81e9c6fc13f1061bf959f47c87e621bf24d2840a085d3752b231330b4dba",
+      "skinnedRendererCount": 1,
+      "boneReferenceCount": 30,
+      "materialSlotCount": 1,
+      "serializedRefs": [
+        {
+          "field": "m_Avatar",
+          "path": "Assets/Orbis/Game/Characters/BossCandidates/Import02/FireBoss/FireBoss.fbx"
+        },
+        {
+          "field": "m_Controller",
+          "path": "Assets/Orbis/Game/Characters/Bosses/Original01/FireBoss/Boss.controller"
+        },
+        {
+          "field": "m_Mesh",
+          "path": "Assets/Orbis/Game/Characters/BossCandidates/Import02/FireBoss/FireBoss.fbx"
+        }
+      ]
+    },
+    {
+      "name": "WaterBoss",
+      "prefab": "Assets/Orbis/Game/Characters/Bosses/Original01/WaterBoss/WaterBoss.prefab",
+      "prefabSha256": "fa969ff35d9eb1f220afa33be84373b3b5f355200bd5b09132ce0bcdeaaf5c36",
+      "skinnedRendererCount": 1,
+      "boneReferenceCount": 20,
+      "materialSlotCount": 1,
+      "serializedRefs": [
+        {
+          "field": "m_Avatar",
+          "path": "Assets/Orbis/Game/Characters/BossCandidates/Import01/WaterBoss/WaterBoss.fbx"
+        },
+        {
+          "field": "m_Controller",
+          "path": "Assets/Orbis/Game/Characters/Bosses/Original01/WaterBoss/Boss.controller"
+        },
+        {
+          "field": "m_Mesh",
+          "path": "Assets/Orbis/Game/Characters/BossCandidates/Import01/WaterBoss/WaterBoss.fbx"
+        }
+      ]
+    },
+    {
+      "name": "WindBoss",
+      "prefab": "Assets/Orbis/Game/Characters/Bosses/Original01/WindBoss/WindBoss.prefab",
+      "prefabSha256": "3c51ceb131e996db17bd3349573ad390d3c2545964006bd25480449979fb244f",
+      "skinnedRendererCount": 1,
+      "boneReferenceCount": 31,
+      "materialSlotCount": 1,
+      "serializedRefs": [
+        {
+          "field": "m_Mesh",
+          "path": "Assets/Orbis/Game/Characters/BossCandidates/Import02/WindBoss/WindBoss.fbx"
+        },
+        {
+          "field": "m_Avatar",
+          "path": "Assets/Orbis/Game/Characters/BossCandidates/Import02/WindBoss/WindBoss.fbx"
+        },
+        {
+          "field": "m_Controller",
+          "path": "Assets/Orbis/Game/Characters/Bosses/Original01/WindBoss/Boss.controller"
+        }
+      ]
+    },
+    {
+      "name": "RockBoss",
+      "prefab": "Assets/Orbis/Game/Characters/Bosses/Original01/RockBoss/RockBoss.prefab",
+      "prefabSha256": "7d7f29ffca782361ee8dfd586c2f1303cf1f70195a1df48f148bdf5256201cac",
+      "skinnedRendererCount": 1,
+      "boneReferenceCount": 17,
+      "materialSlotCount": 1,
+      "serializedRefs": [
+        {
+          "field": "m_Avatar",
+          "path": "Assets/Orbis/Game/Characters/BossCandidates/Import03/RockBoss/RockBoss.fbx"
+        },
+        {
+          "field": "m_Controller",
+          "path": "Assets/Orbis/Game/Characters/Bosses/Original01/RockBoss/Boss.controller"
+        },
+        {
+          "field": "m_Mesh",
+          "path": "Assets/Orbis/Game/Characters/BossCandidates/Import03/RockBoss/RockBoss.fbx"
+        }
+      ]
+    },
+    {
+      "name": "LightningBoss",
+      "prefab": "Assets/Orbis/Game/Characters/Bosses/Original01/LightningBoss/LightningBoss.prefab",
+      "prefabSha256": "35d02f0c73bda51bc7877a52b3110540e073083c54c9996d3c13690cb917afca",
+      "skinnedRendererCount": 1,
+      "boneReferenceCount": 31,
+      "materialSlotCount": 1,
+      "serializedRefs": [
+        {
+          "field": "m_Avatar",
+          "path": "Assets/Orbis/Game/Characters/BossCandidates/Import02/LightningBoss/LightningBoss.fbx"
+        },
+        {
+          "field": "m_Controller",
+          "path": "Assets/Orbis/Game/Characters/Bosses/Original01/LightningBoss/Boss.controller"
+        },
+        {
+          "field": "m_Mesh",
+          "path": "Assets/Orbis/Game/Characters/BossCandidates/Import02/LightningBoss/LightningBoss.fbx"
+        }
+      ]
+    }
+  ],
+  "bosses": [
+    {
+      "name": "FireBoss",
+      "geometry": "Assets/Orbis/Game/Characters/BossCandidates/Import02/FireBoss/FireBoss.fbx",
+      "geometrySha256": "6a88848a99bf81cb8f748bf3e1b5b3df16c2a6641e3bf70a8c7c66687aa91200",
+      "triangles": 79998,
+      "importedVertices": 61457,
+      "boneCount": 30,
+      "sourceManifest": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/FireBoss/SourceManifest.json",
+      "sourceManifestSha256": "35b19ce4b3e6d4986aca2a3c7d8bd48cbc4fc817b8ad69c4b1c1910d83f5a7eb",
+      "restRig": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\BossRigReviewV6\\FireBoss\\FireBoss_rig_review.blend",
+      "authoredMotionFbx": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\BossMotionReviewV4\\FireBoss\\FireBoss_Motions.fbx",
+      "importedMotionFbx": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/FireBoss/OriginalMotion.fbx",
+      "importedMotionSha256": "5fa08917bb1f859cd8330d9a3068f181d9cb87434948c152cb4a7847a9abd094",
+      "motionProfile": "Assets/Orbis/Game/Characters/Bosses/Original01/FireBoss/MotionProfile.asset",
+      "motionProfileSha256": "c17245e296c434c45426168fcd2d2c57b75c70b823cd0c8690c74c2e4de61c2b",
+      "clipRefs": {
+        "Idle": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/FireBoss/Idle.anim",
+        "Move": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/FireBoss/Move.anim",
+        "Attack": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/FireBoss/Attack.anim",
+        "Hurt": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/FireBoss/Hurt.anim",
+        "Exposed": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/FireBoss/Exposed.anim",
+        "Dead": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/FireBoss/Dead.anim"
+      },
+      "originMode": "standing_feet",
+      "attackContactNormalized": 0.3333333333333333
+    },
+    {
+      "name": "WaterBoss",
+      "geometry": "Assets/Orbis/Game/Characters/BossCandidates/Import01/WaterBoss/WaterBoss.fbx",
+      "geometrySha256": "34e1ed7ef99bfa168a3ff4251456b748fa40aaef0a222ac65ee2382190076a31",
+      "triangles": 79992,
+      "importedVertices": 66646,
+      "boneCount": 20,
+      "sourceManifest": "Assets/Orbis/Game/Characters/BossMotionCandidates/Motion02/WaterBoss/SourceManifest.json",
+      "sourceManifestSha256": "738b0f7cb2a0df974b270ba52e1eaff76d88281623f0ee7617102849f676a236",
+      "restRig": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\BossRigReviewV4\\WaterBoss\\WaterBoss_rig_review.blend",
+      "authoredMotionFbx": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\BossMotionReviewV1\\WaterBoss\\WaterBoss_MotionsV3.fbx",
+      "importedMotionFbx": "Assets/Orbis/Game/Characters/BossMotionCandidates/Motion02/WaterBoss/OriginalMotion.fbx",
+      "importedMotionSha256": "f508300e9f90226d40351705de341fc2f30150ba1637eb4e2d35b41047b7b285",
+      "motionProfile": "Assets/Orbis/Game/Characters/Bosses/Original01/WaterBoss/MotionProfile.asset",
+      "motionProfileSha256": "915be4a7322df48cc3e49a7a3eaa2fab76c8b5d0a9235aae02807431189e1114",
+      "clipRefs": {
+        "Idle": "Assets/Orbis/Game/Characters/BossMotionCandidates/Motion02/WaterBoss/Idle.anim",
+        "Move": "Assets/Orbis/Game/Characters/BossMotionCandidates/Motion02/WaterBoss/Move.anim",
+        "Attack": "Assets/Orbis/Game/Characters/BossMotionCandidates/Motion02/WaterBoss/Attack.anim",
+        "Hurt": "Assets/Orbis/Game/Characters/BossMotionCandidates/Motion02/WaterBoss/Hurt.anim",
+        "Exposed": "Assets/Orbis/Game/Characters/BossMotionCandidates/Motion02/WaterBoss/Exposed.anim",
+        "Dead": "Assets/Orbis/Game/Characters/BossMotionCandidates/Motion02/WaterBoss/Dead.anim"
+      },
+      "originMode": "swim_body",
+      "attackContactNormalized": 0.3333333333333333
+    },
+    {
+      "name": "WindBoss",
+      "geometry": "Assets/Orbis/Game/Characters/BossCandidates/Import02/WindBoss/WindBoss.fbx",
+      "geometrySha256": "55a534919ff2b432c430cfeb7d4290c7fa17623adb134ee4f1e37bea90cc7e9b",
+      "triangles": 119930,
+      "importedVertices": 123189,
+      "boneCount": 31,
+      "sourceManifest": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/WindBoss/SourceManifest.json",
+      "sourceManifestSha256": "3aa8a983c5cbd68652162977abba14ad624cc80b2fa429cfdfa78b49bd272e60",
+      "restRig": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\BossRigReviewV6\\WindBoss\\WindBoss_rig_review.blend",
+      "authoredMotionFbx": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\BossMotionReviewV5\\WindBoss\\WindBoss_Motions.fbx",
+      "importedMotionFbx": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/WindBoss/OriginalMotion.fbx",
+      "importedMotionSha256": "eabc3cfb00bfb468644882958dd36c5ee317559b6acbfbe4dfab9dd5658be5e5",
+      "motionProfile": "Assets/Orbis/Game/Characters/Bosses/Original01/WindBoss/MotionProfile.asset",
+      "motionProfileSha256": "6138bffd27d0aeb1aa16c2a03d31440f53542e966d3ed18efb8b2d5e259c7d9a",
+      "clipRefs": {
+        "Idle": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/WindBoss/Idle.anim",
+        "Move": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/WindBoss/Move.anim",
+        "Attack": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/WindBoss/Attack.anim",
+        "Hurt": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/WindBoss/Hurt.anim",
+        "Exposed": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/WindBoss/Exposed.anim",
+        "Dead": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/WindBoss/Dead.anim"
+      },
+      "originMode": "standing_feet",
+      "attackContactNormalized": 0.3333333333333333
+    },
+    {
+      "name": "RockBoss",
+      "geometry": "Assets/Orbis/Game/Characters/BossCandidates/Import03/RockBoss/RockBoss.fbx",
+      "geometrySha256": "778cf30c51cbced257d292fc305b4a6b33a0a122c1532ed7a2ade6145aeb53b9",
+      "triangles": 99968,
+      "importedVertices": 90618,
+      "boneCount": 17,
+      "sourceManifest": "Assets/Orbis/Game/Characters/BossMotionCandidates/UpperV11Motion01/RockBoss/SourceManifest.json",
+      "sourceManifestSha256": "218340a191e80a3f935c0c240607ee2595b5b6986f05d7aa1b8e08b2c28ad2aa",
+      "restRig": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\BossRigReviewV11\\RockBoss\\RockBoss_rig_review.blend",
+      "authoredMotionFbx": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\BossMotionReviewV10\\RockBoss\\RockBoss_Motions.fbx",
+      "importedMotionFbx": "Assets/Orbis/Game/Characters/BossMotionCandidates/UpperV11Motion01/RockBoss/OriginalMotion.fbx",
+      "importedMotionSha256": "a680b1f31d10e9d4c22c5f686c30222011f5a38439c5c6d4fe03f5dc46587a6c",
+      "motionProfile": "Assets/Orbis/Game/Characters/Bosses/Original01/RockBoss/MotionProfile.asset",
+      "motionProfileSha256": "4ffa3ae135e6200231e909d6106814f196a2e5263f8823d1ec85b649d6dc9f61",
+      "clipRefs": {
+        "Idle": "Assets/Orbis/Game/Characters/BossMotionCandidates/UpperV11Motion01/RockBoss/Idle.anim",
+        "Move": "Assets/Orbis/Game/Characters/BossMotionCandidates/UpperV11Motion01/RockBoss/Move.anim",
+        "Attack": "Assets/Orbis/Game/Characters/BossMotionCandidates/UpperV11Motion01/RockBoss/Attack.anim",
+        "Hurt": "Assets/Orbis/Game/Characters/BossMotionCandidates/UpperV11Motion01/RockBoss/Hurt.anim",
+        "Exposed": "Assets/Orbis/Game/Characters/BossMotionCandidates/UpperV11Motion01/RockBoss/Exposed.anim",
+        "Dead": "Assets/Orbis/Game/Characters/BossMotionCandidates/UpperV11Motion01/RockBoss/Dead.anim"
+      },
+      "originMode": "standing_feet",
+      "attackContactNormalized": 0.3333333333333333
+    },
+    {
+      "name": "LightningBoss",
+      "geometry": "Assets/Orbis/Game/Characters/BossCandidates/Import02/LightningBoss/LightningBoss.fbx",
+      "geometrySha256": "bff2886f6d969b5a29f2b88ccfea40032589694d9a5b0df82bf4c91845f49315",
+      "triangles": 119978,
+      "importedVertices": 92238,
+      "boneCount": 31,
+      "sourceManifest": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/LightningBoss/SourceManifest.json",
+      "sourceManifestSha256": "4b4b2f44bdba256251ab22db9e6c1c7c7eac3fdd3885288e4c4b83b8e30b300a",
+      "restRig": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\BossRigReviewV6\\LightningBoss\\LightningBoss_rig_review.blend",
+      "authoredMotionFbx": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\BossMotionReviewV4\\LightningBoss\\LightningBoss_Motions.fbx",
+      "importedMotionFbx": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/LightningBoss/OriginalMotion.fbx",
+      "importedMotionSha256": "c6023a1bfe394730759daaca02ed1999ecd401e4778eaa8fe8cf629b8ade9420",
+      "motionProfile": "Assets/Orbis/Game/Characters/Bosses/Original01/LightningBoss/MotionProfile.asset",
+      "motionProfileSha256": "2ed7f5cfcc57f4f8e547a35daec30fe0a0fe07f0d8d409ba6d58fbd3a2e16760",
+      "clipRefs": {
+        "Idle": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/LightningBoss/Idle.anim",
+        "Move": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/LightningBoss/Move.anim",
+        "Attack": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/LightningBoss/Attack.anim",
+        "Hurt": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/LightningBoss/Hurt.anim",
+        "Exposed": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/LightningBoss/Exposed.anim",
+        "Dead": "Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/LightningBoss/Dead.anim"
+      },
+      "originMode": "standing_feet",
+      "attackContactNormalized": 0.3333333333333333
+    }
+  ],
+  "catalogExplorers": [
+    {
+      "sourceId": "stella",
+      "refs": [
+        {
+          "field": "Prefab",
+          "path": "Assets/Orbis/Game/Island/Prefabs/Stella.prefab"
+        },
+        {
+          "field": "Controller",
+          "path": "Assets/Orbis/Art/Resources/Art/Characters/Ignis.overrideController"
+        },
+        {
+          "field": "Avatar",
+          "path": "Assets/Orbis/Game/Island/Models/Stella.fbx"
+        }
+      ]
+    },
+    {
+      "sourceId": "polaris",
+      "refs": [
+        {
+          "field": "Prefab",
+          "path": "Assets/Orbis/Game/Island/Prefabs/Polaris.prefab"
+        },
+        {
+          "field": "Controller",
+          "path": "Assets/Orbis/Art/Resources/Art/Characters/Ignis.overrideController"
+        },
+        {
+          "field": "Avatar",
+          "path": "Assets/Orbis/Game/Island/Models/Polaris.fbx"
+        }
+      ]
+    }
+  ],
+  "catalogSha256": "bef91aafab950385fd851b8b7108602ce7f326ddcdc0a698eaa77baf3e306cae",
+  "fieldCommit": {
+    "path": "TestResults/CharacterPipeline/FieldIntegration/BossVisual05/Commit.json",
+    "status": "committed_export_pending",
+    "savedSceneSha256": "bfc7347b2e49ebf07d13289463d413e666fde53f5e6c8f0adb2a98dc345103d5",
+    "currentSceneSha256": "bfc7347b2e49ebf07d13289463d413e666fde53f5e6c8f0adb2a98dc345103d5",
+    "bosses": [
+      {
+        "region": "Agnia",
+        "label": "FireBoss",
+        "prefab": "Assets/Orbis/Game/Characters/Bosses/Original01/FireBoss/FireBoss.prefab",
+        "profile": "Assets/Orbis/Game/Characters/Bosses/Original01/FireBoss/MotionProfile.asset",
+        "scale": 1.9364173412322998,
+        "desiredHeight": 2.5999999046325684,
+        "horizontalRadius": 1.9292340278625488,
+        "originMode": "standing_feet",
+        "rootName": "Agnia Field Guardian",
+        "rootPosition": {
+          "x": -495.0,
+          "y": 90.0,
+          "z": 378.0
+        }
+      },
+      {
+        "region": "Teluna",
+        "label": "WaterBoss",
+        "prefab": "Assets/Orbis/Game/Characters/Bosses/Original01/WaterBoss/WaterBoss.prefab",
+        "profile": "Assets/Orbis/Game/Characters/Bosses/Original01/WaterBoss/MotionProfile.asset",
+        "scale": 3.028151273727417,
+        "desiredHeight": 2.4000000953674316,
+        "horizontalRadius": 2.878056049346924,
+        "originMode": "swim_body",
+        "rootName": "Teluna Field Guardian",
+        "rootPosition": {
+          "x": 545.0,
+          "y": 12.0,
+          "z": -342.0
+        }
+      },
+      {
+        "region": "Zephyr",
+        "label": "WindBoss",
+        "prefab": "Assets/Orbis/Game/Characters/Bosses/Original01/WindBoss/WindBoss.prefab",
+        "profile": "Assets/Orbis/Game/Characters/Bosses/Original01/WindBoss/MotionProfile.asset",
+        "scale": 1.8295296430587769,
+        "desiredHeight": 2.799999952316284,
+        "horizontalRadius": 1.8822574615478516,
+        "originMode": "standing_feet",
+        "rootName": "Zephyr Field Guardian",
+        "rootPosition": {
+          "x": 25.0,
+          "y": 25.0,
+          "z": -142.0
+        }
+      },
+      {
+        "region": "Granite",
+        "label": "RockBoss",
+        "prefab": "Assets/Orbis/Game/Characters/Bosses/Original01/RockBoss/RockBoss.prefab",
+        "profile": "Assets/Orbis/Game/Characters/Bosses/Original01/RockBoss/MotionProfile.asset",
+        "scale": 1.6306837797164917,
+        "desiredHeight": 3.0999999046325684,
+        "horizontalRadius": 1.068581461906433,
+        "originMode": "standing_feet",
+        "rootName": "Granite Field Guardian",
+        "rootPosition": {
+          "x": -425.0,
+          "y": 115.0,
+          "z": -412.0
+        }
+      },
+      {
+        "region": "Voltheim",
+        "label": "LightningBoss",
+        "prefab": "Assets/Orbis/Game/Characters/Bosses/Original01/LightningBoss/LightningBoss.prefab",
+        "profile": "Assets/Orbis/Game/Characters/Bosses/Original01/LightningBoss/MotionProfile.asset",
+        "scale": 2.328630208969116,
+        "desiredHeight": 2.799999952316284,
+        "horizontalRadius": 2.6999998092651367,
+        "originMode": "standing_feet",
+        "rootName": "Voltheim Field Guardian",
+        "rootPosition": {
+          "x": 475.0,
+          "y": 90.0,
+          "z": 468.0
+        }
+      }
+    ]
+  },
+  "creditsReadSha256": "1637e33a23733a0debe7a7d3ae88f4467939dbc26cfec798386745b0d4a1a8e2"
+}

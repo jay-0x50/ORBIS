@@ -29,9 +29,10 @@ namespace Orbis.Game.Editor
             {.55f,0,0,0,.32f,.13f,0},{0,.68f,.05f,0,.27f,0,0},{0,.45f,0,.15f,.40f,0,0}};
         static readonly float[] Heights={11f,13f,11f,13f,9f,8.5f,10f};
 
-        [MenuItem("Orbis/World Art/02 Biome Vegetation")]
+        [MenuItem("Orbis/Development/Legacy/World Art/02 Biome Vegetation")]
         public static void Step2()
         {
+            FieldSceneAuthoring.RequireGeneratedEditingAllowed();
             var scene=EditorSceneManager.OpenScene(IslandSceneBuilder.ScenePath,OpenSceneMode.Single);
             var world=scene.GetRootGameObjects().SelectMany(x=>x.GetComponentsInChildren<M4SceneBootstrap>(true)).Single();
             if(world.GetComponent<WorldRegionStreamer>()==null)throw new InvalidOperationException("Complete world Step 1 first.");

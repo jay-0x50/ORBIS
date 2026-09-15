@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read-only image/source and bounded delivery closure; document edits only; no Unity/GPU or Assets changes.",
+  "comparedRuns": [
+    "PolarisGripTerrain02",
+    "PolarisGripTerrain03"
+  ],
+  "terrainRecipe": "Slope24",
+  "comparisons": [
+    {
+      "index": 78,
+      "identical": false,
+      "before": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain02/Polaris/Terrain/Slope24/frame_0078.jpg",
+        "bytes": 45840,
+        "sha256": "23d2ff43b4c2f1998aa9305d3dc6fc84bf10b48931b75b14b287e9b7e4202fbd",
+        "selectedSupport01": false
+      },
+      "after": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/frame_0078.jpg",
+        "bytes": 45851,
+        "sha256": "4b20fda4882c75c0226baa57a2f7a0861e6ef9b7bbf7853ffdcf2dbc0345f32f",
+        "selectedSupport01": false
+      }
+    },
+    {
+      "index": 100,
+      "identical": true,
+      "before": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain02/Polaris/Terrain/Slope24/frame_0100.jpg",
+        "bytes": 46482,
+        "sha256": "040b3cf6d4a19174413a8c5455160f10000738297df58de9e1569f0beefab5b7",
+        "selectedSupport01": false
+      },
+      "after": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/frame_0100.jpg",
+        "bytes": 46482,
+        "sha256": "040b3cf6d4a19174413a8c5455160f10000738297df58de9e1569f0beefab5b7",
+        "selectedSupport01": false
+      }
+    },
+    {
+      "index": 134,
+      "identical": true,
+      "before": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain02/Polaris/Terrain/Slope24/frame_0134.jpg",
+        "bytes": 45232,
+        "sha256": "f4d46b80aaee769d05b3ca0901edb7f1b2542c0cb74a21e396347b0797304945",
+        "selectedSupport01": false
+      },
+      "after": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/frame_0134.jpg",
+        "bytes": 45232,
+        "sha256": "f4d46b80aaee769d05b3ca0901edb7f1b2542c0cb74a21e396347b0797304945",
+        "selectedSupport01": false
+      }
+    },
+    {
+      "index": 157,
+      "identical": true,
+      "before": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain02/Polaris/Terrain/Slope24/frame_0157.jpg",
+        "bytes": 47808,
+        "sha256": "ac51245c8e8c4a45edfbff1976f8476204cea1eb9ed3a2fc8c85164ac75d2698",
+        "selectedSupport01": false
+      },
+      "after": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/frame_0157.jpg",
+        "bytes": 47808,
+        "sha256": "ac51245c8e8c4a45edfbff1976f8476204cea1eb9ed3a2fc8c85164ac75d2698",
+        "selectedSupport01": true
+      }
+    },
+    {
+      "index": 158,
+      "identical": false,
+      "before": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain02/Polaris/Terrain/Slope24/frame_0158.jpg",
+        "bytes": 46772,
+        "sha256": "4aee88c430496df87a4430cffad8526b88553baab7099767cfa0ae09bef46903",
+        "selectedSupport01": false
+      },
+      "after": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/frame_0158.jpg",
+        "bytes": 47403,
+        "sha256": "a715f5c746bf295ffa5af2660cea0281a710ca4a6428ae5396c9346a00f28083",
+        "selectedSupport01": false
+      }
+    },
+    {
+      "index": 159,
+      "identical": false,
+      "before": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain02/Polaris/Terrain/Slope24/frame_0159.jpg",
+        "bytes": 45966,
+        "sha256": "b32fca7c6255a0dc8a7d01da5b9944defd225188d98918a5c640eccdf2d4c9ec",
+        "selectedSupport01": false
+      },
+      "after": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/frame_0159.jpg",
+        "bytes": 46041,
+        "sha256": "aa1ead0879e641ab5e7d2365215c00607cb21f8fc81d28d2c22d35dd9e4c7b0c",
+        "selectedSupport01": false
+      }
+    },
+    {
+      "index": 200,
+      "identical": true,
+      "before": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain02/Polaris/Terrain/Slope24/frame_0200.jpg",
+        "bytes": 48900,
+        "sha256": "8d8f24d44facb5904a600265804d45622cb42bede40f2f7c677424b5b1f9d4c2",
+        "selectedSupport01": false
+      },
+      "after": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/frame_0200.jpg",
+        "bytes": 48900,
+        "sha256": "8d8f24d44facb5904a600265804d45622cb42bede40f2f7c677424b5b1f9d4c2",
+        "selectedSupport01": false
+      }
+    },
+    {
+      "index": 231,
+      "identical": false,
+      "before": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain02/Polaris/Terrain/Slope24/frame_0231.jpg",
+        "bytes": 50678,
+        "sha256": "9d342a3ce17eb9a52abe0acbd95fea4f3f0d555b401f8ef2cab41a09e5b2c9ea",
+        "selectedSupport01": false
+      },
+      "after": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/frame_0231.jpg",
+        "bytes": 50680,
+        "sha256": "9507f1f1cd0628eedd0e62546be06d17e30255cbfae11c3631640772b39fc5bd",
+        "selectedSupport01": false
+      }
+    },
+    {
+      "index": 288,
+      "identical": true,
+      "before": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain02/Polaris/Terrain/Slope24/frame_0288.jpg",
+        "bytes": 50206,
+        "sha256": "a097288c66102d93f3c8440589cf469a1d3bc0800b9b24014bf13c3182cc1a00",
+        "selectedSupport01": false
+      },
+      "after": {
+        "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/frame_0288.jpg",
+        "bytes": 50206,
+        "sha256": "a097288c66102d93f3c8440589cf469a1d3bc0800b9b24014bf13c3182cc1a00",
+        "selectedSupport01": false
+      }
+    }
+  ],
+  "sequenceImageCounts": {
+    "PolarisGripTerrain02": {
+      "frames": 300,
+      "uniqueSHA256": 300
+    },
+    "PolarisGripTerrain03": {
+      "frames": 300,
+      "uniqueSHA256": 300
+    }
+  },
+  "observations": [
+    "Each run has300 distinct JPEG hashes; whole-sequence frozen image is not supported.",
+    "JPG157 identical despite the measured JSON157 sole-distance difference; same-index image/measurement pose-time alignment is unverified.",
+    "Actual JPG158 was opened in both runs. Previous front boot is embedded in ground; After10 exposes the boot tip. This visual observation is independent of numerical frame157."
+  ],
+  "sourceReading": [
+    {
+      "path": "Assets/Orbis/Game/Tests/ExplorerArtPlayMode/CharacterMotionRecorder.cs",
+      "lines": [
+        226,
+        248,
+        259,
+        350,
+        363
+      ],
+      "finding": "LateUpdate measures live bones/BakeMesh then immediately submits URP SingleCameraRequest and writes output/frame_index.jpg. Run output is instance-specific; no source-image copy path found. No explicit render-completion callback or skin matrix invalidation."
+    },
+    {
+      "path": "Assets/Orbis/Game/Tests/ExplorerArtPlayMode/CharacterMotionTerrainChecks.cs",
+      "lines": [
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "finding": "Terrain camera offset is explicitly(3.2,3,4.5); field of view and root-follow camera recorded. Both compared run metadata match."
+    }
+  ],
+  "unconfirmedHypothesis": "GPU skin or render scheduling can lag the freshly measured pose; cause and exact latency require separate validation, not asserted from this audit.",
+  "missingSmallSupportFiles": [
+    {
+      "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain02/Polaris/Terrain/Slope24/frame_0158.jpg",
+      "bytes": 46772,
+      "sha256": "4aee88c430496df87a4430cffad8526b88553baab7099767cfa0ae09bef46903",
+      "selectedSupport01": false
+    },
+    {
+      "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/frame_0158.jpg",
+      "bytes": 47403,
+      "sha256": "a715f5c746bf295ffa5af2660cea0281a710ca4a6428ae5396c9346a00f28083",
+      "selectedSupport01": false
+    },
+    {
+      "path": "TestResults/CharacterPipeline/Motion/After/StellaDownhillAfter10/Stella/Terrain/Downhill24/frame_0078.jpg",
+      "bytes": 50987,
+      "sha256": "24168b216a3e1675ed380b2cb646d03681cfa16091ecbc5089cdd445555c206e",
+      "selectedSupport01": false
+    },
+    {
+      "path": "Docs/CharacterPipeline/Weapon_Grip_Review.md",
+      "bytes": 7864,
+      "sha256": "ad9f1e313d401de6e3c9c3309849dc25a6d2386827835ddb9d0ef2c3b6b1409c",
+      "selectedSupport01": false
+    },
+    {
+      "path": "Tools/CharacterPipeline/PendingAnimation/ReviewPolarisDownhillAfter10/analysis.json",
+      "bytes": 7691,
+      "sha256": "39ad5461b99cedfc09f509cbb1fde39f6de64eb966ff8e1674a193811f4cdd8a",
+      "selectedSupport01": false
+    },
+    {
+      "path": "Tools/CharacterPipeline/PendingAnimation/ReviewStellaDownhillAfter10/analysis.json",
+      "bytes": 7825,
+      "sha256": "8aff6acda02ca48d032a6efcd18f79eb408a28ae6e74e709f9474abf3befc865",
+      "selectedSupport01": false
+    }
+  ],
+  "selfReportToAdd": "Tools/CharacterPipeline/DeliveryPreparation/LocomotionEvidenceClosure01.json",
+  "coveredByMainPlan": [
+    "Assets/Orbis/Art/Resources/Art/Catalog.asset",
+    "Assets/Scenes/Field.unity",
+    "Assets/Orbis/Game/Characters/Candidates/Motion06GripRuntime01/Polaris/GripBinding.json",
+    "Assets/Orbis/Game/Characters/Candidates/Stella12GripRuntime01/Stella/GripBinding.json"
+  ],
+  "largeRawDataNotRequired": [
+    {
+      "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/motion.json",
+      "bytes": 22373565
+    },
+    {
+      "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Actions/motion.json",
+      "bytes": 22378473
+    },
+    {
+      "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/motion.json",
+      "bytes": 22379656
+    },
+    {
+      "path": "TestResults/CharacterPipeline/Motion/After/PolarisGripTerrain03/Polaris/Terrain/Slope24/terrain_surface.json",
+      "bytes": 10875897
+    },
+    {
+      "path": "TestResults/CharacterPipeline/Motion/After/Stella12TerrainAfter10/Stella/motion.json",
+      "bytes": 14500642
+    },
+    {
+      "path": "TestResults/CharacterPipeline/Motion/After/Stella12TerrainAfter10/Stella/Actions/motion.json",
+      "bytes": 14514101
+    },
+    {
+      "path": "TestResults/CharacterPipeline/Motion/After/Stella12TerrainAfter10/Stella/Terrain/Slope24/motion.json",
+      "bytes": 14507799
+    },
+    {
+      "path": "TestResults/CharacterPipeline/Motion/After/Stella12TerrainAfter10/Stella/Terrain/Slope24/terrain_surface.json",
+      "bytes": 3630139
+    }
+  ],
+  "deliveryLimitation": "Selected MP4s, stills, source hashes, lifecycle JSON, analysis summaries and NUnit XML are delivered; full raw motion.json, terrain_surface.json and all frame directories remain in staging. Historical Weapon_Grip_Review.md refers to earlier Blender sources and full review folders not all included in this delivery."
+}

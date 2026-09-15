@@ -73,27 +73,27 @@ MonoBehaviour:
     Character:
       DisplayName: Stella
       Element: 0
-      Prefab: {fileID: 2233584839538520330, guid: 549a2d26110ae4148891ed8e5df32e75, type: 3}
-      Controller: {fileID: 22100000, guid: b79342954a727c74db34ca2dbb5eb930, type: 2}
-      Avatar: {fileID: 9000000, guid: b1e1e8475805c134f8d168acba98a6e5, type: 3}
+      Prefab: {fileID: 5631753078614736491, guid: 294661b4dff2bf2469c4dd7198887f35, type: 3}
+      Controller: {fileID: 9100000, guid: d58d57027bb6160489bebb3b9c22e8ba, type: 2}
+      Avatar: {fileID: 9000000, guid: 7cdca573202341b41856a6a1f9e0913c, type: 3}
       Weapon: {fileID: 6956536256493908355, guid: d8c01ef56cf55d348bc7f6adba530bd5, type: 3}
       WeaponBoneName: RightHand
-      WeaponLocalPosition: {x: 0, y: 0, z: 0}
-      WeaponLocalEuler: {x: 0, y: 0, z: 0}
-      WeaponLocalScale: {x: 0.92494375, y: 0.92494375, z: 0.92494375}
+      WeaponLocalPosition: {x: -0.010209872, y: 0.10292942, z: -0.018426042}
+      WeaponLocalEuler: {x: 16.656061, y: 17.930815, z: 274.28925}
+      WeaponLocalScale: {x: 1.042689, y: 1.042689, z: 1.042689}
       TrailTipLocalPosition: {x: 0, y: 0.94, z: 0}
   - SourceId: polaris
     Character:
       DisplayName: Polaris
       Element: 0
-      Prefab: {fileID: 6637521072728157100, guid: 0388ef1e93fb40248a9d771c0c86fea3, type: 3}
-      Controller: {fileID: 22100000, guid: b79342954a727c74db34ca2dbb5eb930, type: 2}
-      Avatar: {fileID: 9000000, guid: 68554d644ab7f0841b44fa8d1f138b16, type: 3}
+      Prefab: {fileID: 6577798952967374870, guid: 015e814c47c3d234baefe2dab393abac, type: 3}
+      Controller: {fileID: 9100000, guid: b4895b6328d99a74c941c33e6d517918, type: 2}
+      Avatar: {fileID: 9000000, guid: aa8db696d87b2c84eb444fb2a405208e, type: 3}
       Weapon: {fileID: 6956536256493908355, guid: d8c01ef56cf55d348bc7f6adba530bd5, type: 3}
       WeaponBoneName: RightHand
-      WeaponLocalPosition: {x: 0, y: 0, z: 0}
-      WeaponLocalEuler: {x: 0, y: 0, z: 0}
-      WeaponLocalScale: {x: 0.9340079, y: 0.9340079, z: 0.9340079}
+      WeaponLocalPosition: {x: 0.0076153856, y: 0.09210658, z: -0.025216999}
+      WeaponLocalEuler: {x: 6.202061, y: 6.068934, z: 268.75464}
+      WeaponLocalScale: {x: 1.0406692, y: 1.0406692, z: 1.0406692}
       TrailTipLocalPosition: {x: 0, y: 0.94, z: 0}
   Environment:
   - Key: floor_stone

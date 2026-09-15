@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Linq;
 using Orbis.Art;
+using Orbis.EditorSupport;
 using Orbis.M0;
 using Orbis.M1;
 using Orbis.M2;
@@ -21,10 +22,12 @@ namespace Orbis.Game.Editor
     {
         public const string ScenePath = "Assets/Orbis/Game/Scenes/Orbis_Island.unity";
         public const string Generated = "Assets/Orbis/Game/Island";
-        [MenuItem("Orbis/Game/Create Unified Island")]
+        [MenuItem("Orbis/Development/Legacy/Game/Create Unified Island")]
         public static void CreateAndValidate()
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
+            if (FieldSceneBuildPolicy.IsProductMode)
+                throw new BuildFailedException("The canonical field already exists. Use Orbis > Field > Open Field to edit it; legacy generators cannot replace its exported scenes.");
             if (File.Exists(ScenePath)) { BuildEntry(); Validate(); return; }
             if (!Application.isBatchMode && !EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
             Directory.CreateDirectory(Generated + "/Materials");
@@ -72,9 +75,10 @@ namespace Orbis.Game.Editor
             Debug.Log("ORBIS: authored 2,000 x 2,000 m island, five regions, one party; " + ScenePath);
         }
 
-        [MenuItem("Orbis/Game/Open Unified Island")]
+        [MenuItem("Orbis/Development/Legacy/Game/Open Unified Island")]
         public static void OpenIsland()
         {
+            if (FieldSceneBuildPolicy.IsProductMode) { FieldSceneAuthoring.OpenField(); return; }
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
             if (!File.Exists(ScenePath)) CreateAndValidate();
             if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
@@ -84,7 +88,7 @@ namespace Orbis.Game.Editor
             SceneView.lastActiveSceneView?.LookAt(new Vector3(0, 50, 0), Quaternion.Euler(42, -30, 0), 1900);
         }
 
-        [MenuItem("Orbis/Game/Validate Unified Island")]
+        [MenuItem("Orbis/Development/Legacy/Game/Validate Unified Island")]
         public static void Validate()
         {
             var scene = EditorSceneManager.OpenPreviewScene(ScenePath);
@@ -113,6 +117,7 @@ namespace Orbis.Game.Editor
 
         private static void BuildEntry()
         {
+            if (FieldSceneBuildPolicy.IsProductMode) { FieldSceneBuildPolicy.ApplyProductLayout(); return; }
             var entries = EditorBuildSettings.scenes.ToList();
             int index = entries.FindIndex(x => x.path == ScenePath);
             if (index < 0) entries.Add(new EditorBuildSettingsScene(ScenePath, true));

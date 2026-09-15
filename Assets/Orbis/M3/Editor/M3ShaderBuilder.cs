@@ -16,7 +16,7 @@ namespace Orbis.M3.Editor
         const string MaterialFolder = "Assets/Orbis/M3/Resources/M3/Materials/";
         static readonly string[] Effects = { "Dissolve", "Outline", "WeaponTrail", "SwirlRing", "CrystalShield" };
 
-        [MenuItem("Orbis/M3/Build Effect Materials")]
+        [MenuItem("Orbis/Development/Legacy/M3/Build Effect Materials")]
         public static void Build()
         {
             Directory.CreateDirectory(MaterialFolder);
@@ -51,7 +51,7 @@ namespace Orbis.M3.Editor
             Validate();
         }
 
-        [MenuItem("Orbis/M3/Validate Effect Shaders")]
+        [MenuItem("Orbis/Development/Legacy/M3/Validate Effect Shaders")]
         public static void Validate()
         {
             bool previousAsync = ShaderUtil.allowAsyncCompilation;

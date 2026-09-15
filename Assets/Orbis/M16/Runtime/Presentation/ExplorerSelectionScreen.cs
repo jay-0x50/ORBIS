@@ -104,7 +104,7 @@ namespace Orbis.M16
             DrawCard(ExplorerChoice.Polaris, "남성형", saved);
             if (wide) GUILayout.EndHorizontal();
             GUILayout.Space(10f);
-            GUILayout.Label("현재 두 탐구자는 동일한 회색박스 몸체와 동일한 장검 외형을 사용합니다. 이름과 저장되는 선택만 다르며, 능력과 기본 동작은 같습니다.", body);
+            GUILayout.Label("두 탐구자는 각자의 외형과 이름을 사용하며, 기본 능력과 조작 방식, 장검은 공유합니다. 선택은 저장됩니다.", body);
             var weapon = Catalog.Get(ExplorerChoice.Stella).Weapon;
             GUILayout.Label(weapon.DisplayName + " / " + weapon.EnglishName + " · 장검 · 기본 공격력 " + weapon.BaseAttack.ToString("0.##"), body);
             GUILayout.Label("화 · 수 · 풍 · 암 · 뢰의 5원소를 자유 전환합니다. 다섯 원소 스킬은 같은 판정과 동작을 쓰며, " +
@@ -136,7 +136,7 @@ namespace Orbis.M16
             GUILayout.BeginVertical(GUI.skin.box);
             GUILayout.Label(definition.DisplayName + " / " + (choice == ExplorerChoice.Stella ? "Stella" : "Polaris"), cardTitle);
             GUILayout.Label(gender + " · 별을 보고 길을 찾는 탐구자", body);
-            GUILayout.Label("공유 무기: " + definition.Weapon.DisplayName + "\n동일한 회색박스 · 동일한 능력", small);
+            GUILayout.Label("공유 무기: " + definition.Weapon.DisplayName + "\n각자의 외형 · 동일한 기본 능력", small);
             bool previous = GUI.enabled;
             GUI.enabled = saved == ExplorerChoice.Unselected && !ExplorerJourney.Profile.IsReadOnly && !journeyStarting;
             string state = saved == choice ? "확정됨" : candidate == choice ? "후보로 선택됨" : "이 탐구자 선택";

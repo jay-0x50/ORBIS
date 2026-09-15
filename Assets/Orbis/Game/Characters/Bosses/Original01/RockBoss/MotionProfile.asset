@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6247b5ef47d46a42b2c61e74957a737, type: 3}
+  m_Name: MotionProfile
+  m_EditorClassIdentifier: Orbis.Game.Runtime::Orbis.Game.Animation.BossMotionProfile
+  Idle: {fileID: 7400000, guid: 077ade36123c0f74ca769790245e09b6, type: 2}
+  Move: {fileID: 7400000, guid: bbb56036247bcdc438890490b074515b, type: 2}
+  Attack: {fileID: 7400000, guid: 70f3b8432615b04439c00b08a22231c0, type: 2}
+  Hurt: {fileID: 7400000, guid: 7101c8ee3b5be4b48b7a02ec4291e034, type: 2}
+  Exposed: {fileID: 7400000, guid: ba6f3eb8a3700634fa6a29f746a08998, type: 2}
+  Dead: {fileID: 7400000, guid: da7adcfe0925a4a4ea7392c2905f9fcf, type: 2}
+  Controller: {fileID: 9100000, guid: 32b52ac75115cd34cb1b27f6efe643af, type: 2}
+  HurtMask: {fileID: 31900000, guid: ee90b65e5a9898e41bb58f00fc7ec804, type: 2}
+  AttackContact: 0.33333334
+  TransitionSeconds: 0.12
+  HurtWeight: 0.55
+  HurtFadeSeconds: 0.08
+  SourceRigSha256: 778cf30c51cbced257d292fc305b4a6b33a0a122c1532ed7a2ade6145aeb53b9
+  Provenance: Original anatomy-specific authored animation; Assets/Orbis/Game/Characters/BossMotionCandidates/UpperV11Motion01/RockBoss/SourceManifest.json; rest SHA256=778cf30c51cbced257d292fc305b4a6b33a0a122c1532ed7a2ade6145aeb53b9; motion SHA256=a680b1f31d10e9d4c22c5f686c30222011f5a38439c5c6d4fe03f5dc46587a6c. Move remains a review-library clip because the existing M4 encounter has a fixed gameplay anchor.

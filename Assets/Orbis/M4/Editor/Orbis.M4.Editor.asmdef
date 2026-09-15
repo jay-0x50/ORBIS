@@ -2,9 +2,21 @@
   "name": "Orbis.M4.Editor",
   "rootNamespace": "Orbis.M4.Editor",
   "references": [
-    "Orbis.M0.Editor", "Orbis.M1.Editor", "Orbis.M2.Editor", "Orbis.M3.Editor",
-    "Orbis.M0.Runtime", "Orbis.M1.Runtime", "Orbis.M2.Runtime", "Orbis.M3.Runtime", "Orbis.M4.Runtime",
-    "Unity.Addressables", "Unity.Addressables.Editor", "Unity.ResourceManager"
+    "Orbis.M0.Editor",
+    "Orbis.M1.Editor",
+    "Orbis.M2.Editor",
+    "Orbis.M3.Editor",
+    "Orbis.M0.Runtime",
+    "Orbis.M1.Runtime",
+    "Orbis.M2.Runtime",
+    "Orbis.M3.Runtime",
+    "Orbis.M4.Runtime",
+    "Unity.Addressables",
+    "Unity.Addressables.Editor",
+    "Unity.ResourceManager",
+    "Orbis.EditorSupport"
   ],
-  "includePlatforms": ["Editor"]
+  "includePlatforms": [
+    "Editor"
+  ]
 }

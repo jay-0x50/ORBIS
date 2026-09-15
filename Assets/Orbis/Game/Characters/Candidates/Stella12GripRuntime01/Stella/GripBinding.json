@@ -1,0 +1,28 @@
+{
+    "sourcePrefab": "Assets/Orbis/Game/Characters/Candidates/Stella12MotionRuntime01/Stella/Stella.prefab",
+    "sourceProfile": "Assets/Orbis/Characters/Animation/Stella12MotionRuntime01/Stella/MotionProfile.asset",
+    "gripEvidence": "TestResults/CharacterPipeline/UnityGripReview/Stella/Stella12Transfer01/MeasuredTransfer.json",
+    "gripEvidenceSha256": "25d616c8e15d572dc57bc49a922c7be8e4712161f7aa6445b30c44e4a79d6b61",
+    "prefab": "Assets/Orbis/Game/Characters/Candidates/Stella12GripRuntime01/Stella/Stella.prefab",
+    "profile": "Assets/Orbis/Characters/Animation/Stella12GripRuntime01/Stella/MotionProfile.asset",
+    "controller": "Assets/Orbis/Characters/Animation/Stella12GripRuntime01/Stella/Character.controller",
+    "socketLocalPosition": {
+        "x": -0.010209872387349606,
+        "y": 0.10292942076921463,
+        "z": -0.018426042050123215
+    },
+    "socketLocalEuler": {
+        "x": 16.65606117248535,
+        "y": 17.930814743041992,
+        "z": 274.28924560546875
+    },
+    "socketLocalScale": {
+        "x": 1.0426889657974243,
+        "y": 1.0426889657974243,
+        "z": 1.0426889657974243
+    },
+    "measuredHandScale": 0.9590587615966797,
+    "weaponWorldLength": 1.0600008964538574,
+    "changedChannelsPerClip": 20,
+    "note": "Candidate presentation only.20 finger channels changed; all other muscle/root/contact/action curves, Avatar, geometry and gameplay unchanged. Actual held-weapon playback still requires review."
+}

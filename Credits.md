@@ -87,3 +87,21 @@ Unity, URP, Cinemachine, Input System, Timeline, Shader Graph, Visual Effect Gra
 - 건축 5종의 LOD0/LOD1 FBX 10개와 공통 재질 팔레트는 `Assets/Orbis/Game/World/Architecture/`에 연결합니다. 이 메시들을 Kenney/KayKit/Quaternius의 CC0 팩 구성품으로 분류하지 않으며, 이번 작업에서 프로젝트 제작물에 CC0를 부여하지 않습니다. 주변에 함께 배치된 기존 외부 프롭은 위 각 팩의 출처를 그대로 따릅니다.
 - 원본 FBX의 실제 Unity 정면은 **-Z**이고, `WorldLandmarkBuilder`가 각 LOD 자식을 Y축 180° 회전하여 **최종 프리팹의 정면을 +Z**로 맞춥니다. 초기 매니페스트의 원본 `+Z front` 설명은 잘못된 가정으로 정정했습니다. FBX 자체를 다시 내보내는 변경은 아닙니다. [출처·좌표 계약과 정정 근거](Docs/WorldArt/Architecture_Coordinates.md)
 - `Architecture_*` PNG는 실제 Blender 메시의 검토 렌더이고 `World03_*` PNG는 실제 Unity 씬 캡처입니다. Blender 재임포트 검사는 메시·UV·재질·수치와 파일 보존을 확인하며, Unity 정면 방향은 프리팹 bounds와 게임 화면에서 별도로 확인합니다. Blender 왕복검사를 Unity 시각 검증으로 표기하지 않습니다.
+
+## 사용자 제공 주인공·보스 모델과 새 모션 파이프라인
+
+이번 staging 후보의 스텔라·폴라리스 및 원소 보스 5종은 사용자가 프로젝트 `Assets/blend/`에 제공한 `.blend`와 그 안의 원본 텍스처를 출발점으로 한다. 주인공은 `여주인공.blend`, `남주인공.blend`, 보스는 `몬스터/보스몬스터/` 아래 불/물/바람/바위/번개 보스 파일이다. 이 사용자 제공 자료를 이전 프로젝트 자체 제작 그레이박스 모델이나 Kenney/KayKit 모델로 표기하지 않는다.
+
+사용자 제공 모델·텍스처·참고 콘셉트아트의 원 제작자, 제작/생성 도구, 취득 URL 및 원 라이선스 증빙은 현재 기록만으로 확인되지 않았다. **해당 원본과 그 파생 FBX/atlas에 CC0를 부여하지 않는다.** 외부 배포에 필요한 출처·권리 정보는 사용자 제공 자료의 증빙으로 별도 보완한다. 프로젝트에서 리깅·가중치 보정·최적화·UV/맵 전사 및 셰이더 연결을 수행했다는 사실이 원본 권리를 대신하지 않는다.
+
+원본 `.blend`는 저장하지 않고 별도 후보에서 처리했다. 2026-09-15 읽기 검사에서 사용 예정인 주인공 2종·보스 5종의 원본 SHA256은 최초 감사와 일치했다. 보류 중인 조력자 파일은 최초 감사 해시와 달라 별도 보류 기록을 유지하며 이 7종 전달 목록에 포함하지 않는다. 일반 몬스터 모델은 제공 자료 대기다. 정확한 원본/geometry/motion/runtime 매핑과 해시는 `Docs/CharacterPipeline/Final_Asset_Mapping_Draft.md` 및 `Tools/CharacterPipeline/FinalMappingDraft/MappingEvidence.json`에 기록했다.
+
+### 애니메이션 출처 구분
+
+- **KayLousberg — KayKit Character Animations 1.1 / CC0:** 기존 보유 팩의 `Rig_Medium_CombatMelee.fbx` 1H Chop/Diagonal/Horizontal 공격, `Rig_Medium_CombatRanged.fbx` Spellcasting/Summon, `Rig_Medium_General.fbx` Hit_A/Death_A를 주인공 후보의 전투 슬롯에 리타겟했다. 원본 파일은 `Assets/ImportedAssets/KayKit/CharacterAnimations/Rig_Medium/`, 기존 라이선스 증거는 `Docs/AssetLicenses/KayKit_CharacterAnimations/`에 있다. 정확한 슬롯별 출처는 선택된 `MotionProfile.asset`의 `SourceLicense`를 따른다.
+- **프로젝트 저작:** 측정한 리그의 지상 이동·정지·방향전환 모션과 원소 보스 5종의 Idle/Move/Attack/Hurt/Exposed/Dead 모션은 이번 파이프라인에서 작성했다. 이 프로젝트 저작 부분을 외부 팩의 CC0와 혼동하지 않는다. 오른손 그립 보정은 원본 모션의 출처를 지우지 않으며 `GripBinding.json`과 실제 측정 증거를 남긴다.
+- **Mixamo:** 이번 후보에 Adobe Mixamo 다운로드나 Mixamo FBX를 사용하지 않았다. Unity Humanoid 호환 구조라는 설명은 실제 Mixamo 파일 도입·검증을 뜻하지 않는다.
+
+공용 여정의 검은 기존 Credits에 기록된 Kenney Mini Dungeon 2.0 CC0 블레이드와 프로젝트 제작 골드 가드·보석 장식의 출처 구분을 유지한다. 새 주인공에는 같은 공용 무기를 측정한 소켓에 연결했다. 공용 toon/outline 코드, 국소 UV 전사 도구, 새 리그와 모션 코드의 프로젝트 기여는 사용자 제공 원본 및 참고 아트의 라이선스를 변경하지 않는다.
+
+이번 문단은 사용자 제공 캐릭터 자료에 관한 추가 기록이다. 기존 동료의 KayKit Adventurers CC0, 환경의 Kenney/Quaternius, UI의 Kenney UI Pack, Unity 패키지별 라이선스는 기존 항목을 그대로 따른다. CC0는 확인된 개별 외부 팩에만 적용되며 프로젝트 전체·사용자 제공 자료·Unity 패키지에 일괄 적용하지 않는다.

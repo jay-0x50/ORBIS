@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 using Orbis.M1.Editor;
+using Orbis.EditorSupport;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
@@ -57,20 +58,21 @@ namespace Orbis.M2.Editor
                     scenes.Add(new EditorBuildSettingsScene(ScenePath, true));
                     EditorBuildSettings.scenes = scenes.ToArray();
                 }
+                FieldSceneBuildPolicy.ApplyProductLayout();
                 AssetDatabase.SaveAssets();
             }
             finally { running = false; }
         }
 
-        [MenuItem("Orbis/M2/Setup and Validate")]
+        [MenuItem("Orbis/Development/Legacy/M2/Setup and Validate")]
         public static void SetupAndValidate()
         {
             EnsureAssets();
             ValidateAssets();
-            Debug.Log("ORBIS M2 ready. Open Orbis > M2 > Open Exploration Prototype, then press Play.");
+            Debug.Log("ORBIS M2 ready. Open Orbis > Development > Legacy > M2 > Open Exploration Prototype, then press Play.");
         }
 
-        [MenuItem("Orbis/M2/Open Exploration Prototype")]
+        [MenuItem("Orbis/Development/Legacy/M2/Open Exploration Prototype")]
         public static void OpenExplorationPrototype()
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;

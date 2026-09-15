@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Orbis.M0.Animation;
 
 namespace Orbis.M0
 {
@@ -19,6 +20,7 @@ namespace Orbis.M0
 
         private readonly HashSet<TrainingDummy> hitThisStep = new HashSet<TrainingDummy>();
         private ComboSequence sequence;
+        private ICharacterAnimationDriver animationDriver;
         private bool ownsAnimatorClock;
         private float previousAnimatorSpeed;
 
@@ -36,7 +38,9 @@ namespace Orbis.M0
         public void Configure(Animator targetAnimator)
         {
             RestoreAnimatorClock();
+            animationDriver?.ClearAttack();
             animator = targetAnimator;
+            animationDriver = CharacterAnimationBinding.Resolve(animator);
             EnsureSequence();
             SynchronizeAttackPose();
         }
@@ -60,6 +64,7 @@ namespace Orbis.M0
         public void CancelAttack()
         {
             sequence?.CancelAttack();
+            animationDriver?.ClearAttack();
             hitThisStep.Clear();
             RestoreAnimatorClock();
         }
@@ -86,6 +91,12 @@ namespace Orbis.M0
 
         private void SynchronizeAttackPose()
         {
+            if (animationDriver != null)
+            {
+                if (IsAttacking) animationDriver.SampleAttack(CurrentStep, NormalizedTime);
+                else animationDriver.ClearAttack();
+                return;
+            }
             if (!IsAttacking || animator == null || animator.runtimeAnimatorController == null)
             {
                 RestoreAnimatorClock();

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6247b5ef47d46a42b2c61e74957a737, type: 3}
+  m_Name: MotionProfile
+  m_EditorClassIdentifier: Orbis.Game.Runtime::Orbis.Game.Animation.BossMotionProfile
+  Idle: {fileID: 7400000, guid: e55c2b958ae22224d8c49a448c60bff5, type: 2}
+  Move: {fileID: 7400000, guid: a2f06c95fbc5407449740fe99f1c3f6d, type: 2}
+  Attack: {fileID: 7400000, guid: 29cef843fc8561d4ca70cedc1d774eec, type: 2}
+  Hurt: {fileID: 7400000, guid: c096a193426fdfa4c9648cbfd247ec91, type: 2}
+  Exposed: {fileID: 7400000, guid: d7402a29da069db4fb970a8e7ccc5d5b, type: 2}
+  Dead: {fileID: 7400000, guid: 03ace059dcff0b24ca74b5d9b7242d09, type: 2}
+  Controller: {fileID: 9100000, guid: 91db772df3ac32a41ba3a24d5bef1ceb, type: 2}
+  HurtMask: {fileID: 31900000, guid: e3223d9247204014fb323e583941bcc2, type: 2}
+  AttackContact: 0.33333334
+  TransitionSeconds: 0.12
+  HurtWeight: 0.55
+  HurtFadeSeconds: 0.08
+  SourceRigSha256: 55a534919ff2b432c430cfeb7d4290c7fa17623adb134ee4f1e37bea90cc7e9b
+  Provenance: Original anatomy-specific authored animation; Assets/Orbis/Game/Characters/BossMotionCandidates/FootV6Motion01/WindBoss/SourceManifest.json; rest SHA256=55a534919ff2b432c430cfeb7d4290c7fa17623adb134ee4f1e37bea90cc7e9b; motion SHA256=eabc3cfb00bfb468644882958dd36c5ee317559b6acbfbe4dfab9dd5658be5e5. Move remains a review-library clip because the existing M4 encounter has a fixed gameplay anchor.

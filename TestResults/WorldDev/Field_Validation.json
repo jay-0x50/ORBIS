@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "editMode": {
+    "total": 299,
+    "passed": 299,
+    "report": "Field_EditTests2.xml"
+  },
+  "playMode": {
+    "uniqueCases": 71,
+    "latestPassed": 71,
+    "reports": [
+      "Field_PlayTests.xml",
+      "Field_VisibilityRetest.xml"
+    ],
+    "note": "First run: 70 passed, one sightline test used the former hierarchy. Updated its collider search to all core scene roots; that case then passed. Runtime code was unchanged for this retest."
+  },
+  "exportRoundtrip": "Field_ExportRoundtrip.json",
+  "occlusion": {
+    "result": "Succeeded",
+    "boundScenes": 6,
+    "boundRenderers": 1554
+  },
+  "windowsBuild": {
+    "result": "Succeeded",
+    "errors": 0,
+    "warnings": 2,
+    "scenes": [
+      "Assets/Orbis/Game/Scenes/Orbis_Island.unity"
+    ],
+    "bytes": 228656918,
+    "note": "Packed local Addressables included; build output remains in staging, not delivered into the source project."
+  },
+  "performanceClaim": "No visible runtime FPS measurement was performed in this authoring workflow task."
+}

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Orbis.Art;
+using Orbis.EditorSupport;
 using Orbis.M0;
 using Orbis.M1;
 using Orbis.M2;
@@ -23,10 +24,12 @@ namespace Orbis.Game.Editor
         public const string ScenePath = "Assets/Orbis/Game/Scenes/Orbis_OpenWorld.unity";
         private const string Generated = "Assets/Orbis/Game/Generated";
         private const string CatalogPath = "Assets/Orbis/Art/Resources/Art/Catalog.asset";
-        [MenuItem("Orbis/Game/Create Open World")]
+        [MenuItem("Orbis/Development/Legacy/Game/Create Open World")]
         public static void CreateAndValidate()
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
+            if (FieldSceneBuildPolicy.IsProductMode)
+                throw new BuildFailedException("The canonical field already exists. Use Orbis > Field > Open Field to edit it; legacy generators cannot replace its exported scenes.");
             if (File.Exists(ScenePath)) { EnsureBuildEntry(); Validate(); Debug.Log("Existing authored world preserved: " + ScenePath); return; }
             if (!Application.isBatchMode && !EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
             var catalog = AssetDatabase.LoadAssetAtPath<ArtAssetCatalog>(CatalogPath);
@@ -43,9 +46,10 @@ namespace Orbis.Game.Editor
             EnsureBuildEntry(); Validate();
             Debug.Log("Authored Agnia open world created: " + ScenePath);
         }
-        [MenuItem("Orbis/Game/Open Open World")]
+        [MenuItem("Orbis/Development/Legacy/Game/Open Open World")]
         public static void OpenOpenWorld()
         {
+            if (FieldSceneBuildPolicy.IsProductMode) { FieldSceneAuthoring.OpenField(); return; }
             if (File.Exists(IslandSceneBuilder.ScenePath)) { IslandSceneBuilder.OpenIsland(); return; }
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
             if (!File.Exists(ScenePath)) CreateAndValidate();
@@ -56,7 +60,7 @@ namespace Orbis.Game.Editor
             if (SceneView.lastActiveSceneView != null)
                 SceneView.lastActiveSceneView.LookAt(new Vector3(0,1,12), Quaternion.Euler(43,-25,0), 56);
         }
-        [MenuItem("Orbis/Game/Validate Open World")]
+        [MenuItem("Orbis/Development/Legacy/Game/Validate Open World")]
         public static void Validate()
         {
             if (!File.Exists(ScenePath)) throw new BuildFailedException("Create the authored open world first.");
@@ -85,10 +89,11 @@ namespace Orbis.Game.Editor
             }
             finally { EditorSceneManager.ClosePreviewScene(preview); }
         }
-        [MenuItem("Orbis/Game/Apply Ground and Cliff Materials")]
+        [MenuItem("Orbis/Development/Legacy/Game/Apply Ground and Cliff Materials")]
         public static void ApplyPresentationFixes() => OpenWorldPresentationFixes.ApplySavedScene();
         private static void EnsureBuildEntry()
         {
+            if (FieldSceneBuildPolicy.IsProductMode) { FieldSceneBuildPolicy.ApplyProductLayout(); return; }
             var entries = EditorBuildSettings.scenes.ToList();
             int index = entries.FindIndex(x => x.path == ScenePath);
             if (index < 0) entries.Add(new EditorBuildSettingsScene(ScenePath, true));

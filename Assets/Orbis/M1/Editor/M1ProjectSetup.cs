@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Orbis.M0.Editor;
+using Orbis.EditorSupport;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
@@ -48,6 +49,7 @@ namespace Orbis.M1.Editor
                     if (AssetDatabase.LoadAssetAtPath<SceneAsset>(path) != null && !scenes.Exists(scene => scene.path == path))
                         scenes.Add(new EditorBuildSettingsScene(path, true));
                 EditorBuildSettings.scenes = scenes.ToArray();
+                FieldSceneBuildPolicy.ApplyProductLayout();
                 AssetDatabase.SaveAssets();
             }
             finally
@@ -56,18 +58,18 @@ namespace Orbis.M1.Editor
             }
         }
 
-        [MenuItem("Orbis/M1/Setup and Validate")]
+        [MenuItem("Orbis/Development/Legacy/M1/Setup and Validate")]
         public static void SetupAndValidate()
         {
             EnsureAssets();
             ValidateAssets();
-            Debug.Log("ORBIS M1 ready. Use Orbis > M1 > Open Party Prototype or Open Crystallize Prototype, then Play.");
+            Debug.Log("ORBIS M1 ready. Use Orbis > Development > Legacy > M1 > Open Party Prototype or Open Crystallize Prototype, then Play.");
         }
 
-        [MenuItem("Orbis/M1/Open Party Prototype")]
+        [MenuItem("Orbis/Development/Legacy/M1/Open Party Prototype")]
         public static void OpenPartyPrototype() => OpenPrototype(PartyScenePath);
 
-        [MenuItem("Orbis/M1/Open Crystallize Prototype")]
+        [MenuItem("Orbis/Development/Legacy/M1/Open Crystallize Prototype")]
         public static void OpenCrystallizePrototype() => OpenPrototype(CrystallizeScenePath);
 
         private static void OpenPrototype(string path)

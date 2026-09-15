@@ -1,0 +1,103 @@
+{
+  "status": "verified_after_target_editor",
+  "target": "D:\\Project\\ORBIS",
+  "planSha256": "2d41c25435fc49551d5dea753abcfc78283d9a62bc8789ecab87ff88eb4a362a",
+  "verifiedDependencyFiles": 1790,
+  "copiedFileCount": 754,
+  "copiedBytes": 921551390,
+  "backedUpFiles": 14,
+  "deliveryRuns": [
+    "Apply02: 35 copied, journal access error",
+    "Apply03: fresh plan, remaining files copied and all dependencies reverified"
+  ],
+  "differences": [],
+  "originals": [
+    {
+      "path": "D:\\Project\\ORBIS\\Assets\\blend\\남주인공.blend",
+      "active": true,
+      "beforeSha256": "ede6750ab39e7f392990dd660c58ddb75ec4f530e88b22d8278a1000a7562051",
+      "afterSha256": "ede6750ab39e7f392990dd660c58ddb75ec4f530e88b22d8278a1000a7562051",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Project\\ORBIS\\Assets\\blend\\여주인공.blend",
+      "active": true,
+      "beforeSha256": "5c6b96a4dbc1e004c1fbb2d08ee3f7de8a7e45d1b67f1f9dd8fe1395be556c36",
+      "afterSha256": "5c6b96a4dbc1e004c1fbb2d08ee3f7de8a7e45d1b67f1f9dd8fe1395be556c36",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Project\\ORBIS\\Assets\\blend\\조력자.blend",
+      "active": false,
+      "beforeSha256": "34c51b4993c874205d0b5065b369fe868fc5531367053ca924820ef8e5c6d2a1",
+      "afterSha256": "34c51b4993c874205d0b5065b369fe868fc5531367053ca924820ef8e5c6d2a1",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Project\\ORBIS\\Assets\\blend\\몬스터\\보스몬스터\\물보스몬스터.blend",
+      "active": true,
+      "beforeSha256": "f3d124634d5f1319d777a0948622e18c9281a16e78d3c1dcd1c31593d288203f",
+      "afterSha256": "f3d124634d5f1319d777a0948622e18c9281a16e78d3c1dcd1c31593d288203f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Project\\ORBIS\\Assets\\blend\\몬스터\\보스몬스터\\바람보스몬스터.blend",
+      "active": true,
+      "beforeSha256": "f13cedba1f4a3931cb533af3952f4164f7fd7dd6204e14a2e7ab53ed04ea41aa",
+      "afterSha256": "f13cedba1f4a3931cb533af3952f4164f7fd7dd6204e14a2e7ab53ed04ea41aa",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Project\\ORBIS\\Assets\\blend\\몬스터\\보스몬스터\\바위보스몬스터.blend",
+      "active": true,
+      "beforeSha256": "501fb34c95c15618b7636bee8e0616f56e9a80521be3637ab83d7520db85d8ff",
+      "afterSha256": "501fb34c95c15618b7636bee8e0616f56e9a80521be3637ab83d7520db85d8ff",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Project\\ORBIS\\Assets\\blend\\몬스터\\보스몬스터\\번개보스몬스터.blend",
+      "active": true,
+      "beforeSha256": "915e0b3f7c23596398cfc4a1e57c8ffbeb3f459eb4cded6109ad9b39c27f22c1",
+      "afterSha256": "915e0b3f7c23596398cfc4a1e57c8ffbeb3f459eb4cded6109ad9b39c27f22c1",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Project\\ORBIS\\Assets\\blend\\몬스터\\보스몬스터\\불보스몬스터.blend",
+      "active": true,
+      "beforeSha256": "256f519eb6fbda3fa210e0fe5d2ceeac8445af693f57cc84af44ef8eb0c15612",
+      "afterSha256": "256f519eb6fbda3fa210e0fe5d2ceeac8445af693f57cc84af44ef8eb0c15612",
+      "unchanged": true
+    }
+  ],
+  "credits": {
+    "status": "applied_verified",
+    "path": "Credits.md",
+    "beforeSha256": "1637e33a23733a0debe7a7d3ae88f4467939dbc26cfec798386745b0d4a1a8e2",
+    "afterSha256": "edb0b5a0212821e4376092cdc251b97a41510085711add1e6d9f8e95fe4ab12c",
+    "appendedBytes": 3775,
+    "originalBytePrefixPreserved": true,
+    "backup": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\Tools\\CharacterPipeline\\DeliveryRuns\\Credits01\\Credits.before.md",
+    "targetShaMatches": true
+  },
+  "field": {
+    "scene": "Assets/Scenes/Field.unity",
+    "isPlaying": false,
+    "gameEntryHasStarted": false,
+    "sceneWasDirty": false,
+    "loadedScenes": 1,
+    "objects": 33656,
+    "terrainCount": 4,
+    "rendererCount": 20362,
+    "colliderCount": 5018,
+    "lodGroupCount": 7508,
+    "missingScripts": 0,
+    "missingObjectReferences": 0,
+    "missingMeshes": 0,
+    "missingMaterials": 0,
+    "issues": []
+  },
+  "fieldSha256": "bfc7347b2e49ebf07d13289463d413e666fde53f5e6c8f0adb2a98dc345103d5",
+  "catalogSha256": "7a9bae62b00ccf2467b774ca358311a5e5446ee7ba5581e2987c981ba9323916",
+  "needsOcclusionBake": false,
+  "note": "Exact transferred files and original sources checked after target Unity Edit Mode capture. No public upload or shutdown. Not a new full regression or presented FPS test."
+}

@@ -1,0 +1,728 @@
+{
+    "scene": "Assets/Scenes/Field.unity",
+    "capturedUtc": "2026-09-14T02:32:39.1832128Z",
+    "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+    "isPlaying": false,
+    "gameEntryHasStarted": false,
+    "sceneWasDirty": false,
+    "loadedScenes": 1,
+    "objects": 33602,
+    "terrainCount": 4,
+    "rendererCount": 20387,
+    "colliderCount": 5018,
+    "lodGroupCount": 7508,
+    "missingScripts": 0,
+    "missingObjectReferences": 0,
+    "missingMeshes": 0,
+    "missingMaterials": 0,
+    "issues": [],
+    "regions": [
+        {
+            "id": "Agnia",
+            "root": "ORBIS / Five Elements Island / 2 km/04 Scenery - editable regions/Environment / Agnia",
+            "objects": 5925,
+            "renderers": 3638,
+            "colliders": 899,
+            "lodGroups": 1375,
+            "grassFields": 1,
+            "grassInstances": 216680
+        },
+        {
+            "id": "Teluna",
+            "root": "ORBIS / Five Elements Island / 2 km/04 Scenery - editable regions/Environment / Teluna",
+            "objects": 7025,
+            "renderers": 4317,
+            "colliders": 1063,
+            "lodGroups": 1626,
+            "grassFields": 1,
+            "grassInstances": 179032
+        },
+        {
+            "id": "Zephyr",
+            "root": "ORBIS / Five Elements Island / 2 km/04 Scenery - editable regions/Environment / Zephyr",
+            "objects": 5310,
+            "renderers": 3245,
+            "colliders": 808,
+            "lodGroups": 1205,
+            "grassFields": 1,
+            "grassInstances": 170116
+        },
+        {
+            "id": "Granite",
+            "root": "ORBIS / Five Elements Island / 2 km/04 Scenery - editable regions/Environment / Granite",
+            "objects": 6084,
+            "renderers": 3736,
+            "colliders": 934,
+            "lodGroups": 1402,
+            "grassFields": 1,
+            "grassInstances": 171694
+        },
+        {
+            "id": "Voltheim",
+            "root": "ORBIS / Five Elements Island / 2 km/04 Scenery - editable regions/Environment / Voltheim",
+            "objects": 8212,
+            "renderers": 5046,
+            "colliders": 1248,
+            "lodGroups": 1900,
+            "grassFields": 1,
+            "grassInstances": 239790
+        }
+    ],
+    "hierarchy": [
+        {
+            "name": "ORBIS / Five Elements Island / 2 km",
+            "active": true,
+            "components": [
+                "Transform",
+                "M4SceneBootstrap",
+                "GameSceneEntry",
+                "WorldRegionStreamer",
+                "WorldWind",
+                "WorldAtmosphere",
+                "WorldWeatherEffects",
+                "WorldWeather",
+                "FieldAuthoring"
+            ],
+            "childCount": 11,
+            "children": [
+                {
+                    "name": "01 Island Landscape",
+                    "active": true,
+                    "components": [
+                        "Transform"
+                    ],
+                    "childCount": 2,
+                    "children": [
+                        {
+                            "name": "01 Continuous Island Terrain",
+                            "active": true,
+                            "components": [
+                                "Transform"
+                            ],
+                            "childCount": 4,
+                            "children": [
+                                {
+                                    "name": "Island Terrain 0 0",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "Terrain",
+                                        "TerrainCollider"
+                                    ],
+                                    "childCount": 0,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Island Terrain 1 0",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "Terrain",
+                                        "TerrainCollider"
+                                    ],
+                                    "childCount": 0,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Island Terrain 0 1",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "Terrain",
+                                        "TerrainCollider"
+                                    ],
+                                    "childCount": 0,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Island Terrain 1 1",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "Terrain",
+                                        "TerrainCollider"
+                                    ],
+                                    "childCount": 0,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "02 Ocean and Freshwater Lake",
+                            "active": true,
+                            "components": [
+                                "Transform"
+                            ],
+                            "childCount": 2,
+                            "children": [
+                                {
+                                    "name": "Ocean Water Volume",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "BoxCollider",
+                                        "WaterVolume"
+                                    ],
+                                    "childCount": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Highland Lake Water Volume",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "BoxCollider",
+                                        "WaterVolume"
+                                    ],
+                                    "childCount": 1,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "02 Elemental Regions",
+                    "active": true,
+                    "components": [
+                        "Transform"
+                    ],
+                    "childCount": 5,
+                    "children": [
+                        {
+                            "name": "Agnia / 아그니아 고원",
+                            "active": true,
+                            "components": [
+                                "Transform",
+                                "M4AuthoredRegion"
+                            ],
+                            "childCount": 4,
+                            "children": [
+                                {
+                                    "name": "01 Ordered Element Shrine",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "FieldElementPuzzle"
+                                    ],
+                                    "childCount": 9,
+                                    "children": []
+                                },
+                                {
+                                    "name": "02 Reaction Trial Ruins",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "ChallengeRoom"
+                                    ],
+                                    "childCount": 17,
+                                    "children": []
+                                },
+                                {
+                                    "name": "03 Field Guardian",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 10,
+                                    "children": []
+                                },
+                                {
+                                    "name": "04 Trailhead and Commissions",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 9,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Teluna / 텔루나 군도",
+                            "active": true,
+                            "components": [
+                                "Transform",
+                                "M4AuthoredRegion"
+                            ],
+                            "childCount": 4,
+                            "children": [
+                                {
+                                    "name": "01 Ordered Element Shrine",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "FieldElementPuzzle"
+                                    ],
+                                    "childCount": 9,
+                                    "children": []
+                                },
+                                {
+                                    "name": "02 Reaction Trial Ruins",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "ChallengeRoom"
+                                    ],
+                                    "childCount": 17,
+                                    "children": []
+                                },
+                                {
+                                    "name": "03 Field Guardian",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 10,
+                                    "children": []
+                                },
+                                {
+                                    "name": "04 Trailhead and Commissions",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 9,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Zephyr / 자피르 초원",
+                            "active": true,
+                            "components": [
+                                "Transform",
+                                "M4AuthoredRegion"
+                            ],
+                            "childCount": 4,
+                            "children": [
+                                {
+                                    "name": "01 Ordered Element Shrine",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "FieldElementPuzzle"
+                                    ],
+                                    "childCount": 9,
+                                    "children": []
+                                },
+                                {
+                                    "name": "02 Reaction Trial Ruins",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "ChallengeRoom"
+                                    ],
+                                    "childCount": 17,
+                                    "children": []
+                                },
+                                {
+                                    "name": "03 Field Guardian",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 10,
+                                    "children": []
+                                },
+                                {
+                                    "name": "04 Trailhead and Commissions",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 9,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Granite / 그라니테 산맥",
+                            "active": true,
+                            "components": [
+                                "Transform",
+                                "M4AuthoredRegion"
+                            ],
+                            "childCount": 4,
+                            "children": [
+                                {
+                                    "name": "01 Ordered Element Shrine",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "FieldElementPuzzle"
+                                    ],
+                                    "childCount": 9,
+                                    "children": []
+                                },
+                                {
+                                    "name": "02 Reaction Trial Ruins",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "ChallengeRoom"
+                                    ],
+                                    "childCount": 17,
+                                    "children": []
+                                },
+                                {
+                                    "name": "03 Field Guardian",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 10,
+                                    "children": []
+                                },
+                                {
+                                    "name": "04 Trailhead and Commissions",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 9,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Voltheim / 볼트하임",
+                            "active": true,
+                            "components": [
+                                "Transform",
+                                "M4AuthoredRegion"
+                            ],
+                            "childCount": 4,
+                            "children": [
+                                {
+                                    "name": "01 Ordered Element Shrine",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "FieldElementPuzzle"
+                                    ],
+                                    "childCount": 9,
+                                    "children": []
+                                },
+                                {
+                                    "name": "02 Reaction Trial Ruins",
+                                    "active": true,
+                                    "components": [
+                                        "Transform",
+                                        "ChallengeRoom"
+                                    ],
+                                    "childCount": 17,
+                                    "children": []
+                                },
+                                {
+                                    "name": "03 Field Guardian",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 10,
+                                    "children": []
+                                },
+                                {
+                                    "name": "04 Trailhead and Commissions",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 9,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "03 Sky and Light",
+                    "active": true,
+                    "components": [
+                        "Transform"
+                    ],
+                    "childCount": 3,
+                    "children": [
+                        {
+                            "name": "Morning Sun",
+                            "active": true,
+                            "components": [
+                                "Transform",
+                                "Light"
+                            ],
+                            "childCount": 0,
+                            "children": []
+                        },
+                        {
+                            "name": "Island Overview Focus",
+                            "active": true,
+                            "components": [
+                                "Transform"
+                            ],
+                            "childCount": 0,
+                            "children": []
+                        },
+                        {
+                            "name": "Island Overview Camera",
+                            "active": true,
+                            "components": [
+                                "Transform",
+                                "Camera",
+                                "AudioListener",
+                                "UniversalAdditionalCameraData"
+                            ],
+                            "childCount": 0,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Persistent nature collision",
+                    "active": true,
+                    "components": [
+                        "Transform"
+                    ],
+                    "childCount": 0,
+                    "children": []
+                },
+                {
+                    "name": "Continental Wind",
+                    "active": true,
+                    "components": [
+                        "Transform",
+                        "WindZone"
+                    ],
+                    "childCount": 0,
+                    "children": []
+                },
+                {
+                    "name": "Persistent landmarks / Agnia",
+                    "active": true,
+                    "components": [
+                        "Transform"
+                    ],
+                    "childCount": 0,
+                    "children": []
+                },
+                {
+                    "name": "Persistent landmarks / Teluna",
+                    "active": true,
+                    "components": [
+                        "Transform"
+                    ],
+                    "childCount": 0,
+                    "children": []
+                },
+                {
+                    "name": "Persistent landmarks / Zephyr",
+                    "active": true,
+                    "components": [
+                        "Transform"
+                    ],
+                    "childCount": 1,
+                    "children": [
+                        {
+                            "name": "Lake-fed Cascades Collision",
+                            "active": true,
+                            "components": [
+                                "Transform"
+                            ],
+                            "childCount": 0,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Persistent landmarks / Granite",
+                    "active": true,
+                    "components": [
+                        "Transform"
+                    ],
+                    "childCount": 0,
+                    "children": []
+                },
+                {
+                    "name": "Persistent landmarks / Voltheim",
+                    "active": true,
+                    "components": [
+                        "Transform"
+                    ],
+                    "childCount": 0,
+                    "children": []
+                },
+                {
+                    "name": "04 Scenery - editable regions",
+                    "active": true,
+                    "components": [
+                        "Transform"
+                    ],
+                    "childCount": 5,
+                    "children": [
+                        {
+                            "name": "Environment / Agnia",
+                            "active": true,
+                            "components": [
+                                "Transform"
+                            ],
+                            "childCount": 2,
+                            "children": [
+                                {
+                                    "name": "Nature / Biome Blending",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 1359,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Landmarks / Continental Routes",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 26,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Environment / Teluna",
+                            "active": true,
+                            "components": [
+                                "Transform"
+                            ],
+                            "childCount": 2,
+                            "children": [
+                                {
+                                    "name": "Nature / Biome Blending",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 1624,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Landmarks / Continental Routes",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 18,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Environment / Zephyr",
+                            "active": true,
+                            "components": [
+                                "Transform"
+                            ],
+                            "childCount": 2,
+                            "children": [
+                                {
+                                    "name": "Nature / Biome Blending",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 1191,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Landmarks / Continental Routes",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 55,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Environment / Granite",
+                            "active": true,
+                            "components": [
+                                "Transform"
+                            ],
+                            "childCount": 2,
+                            "children": [
+                                {
+                                    "name": "Nature / Biome Blending",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 1396,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Landmarks / Continental Routes",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 15,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Environment / Voltheim",
+                            "active": true,
+                            "components": [
+                                "Transform"
+                            ],
+                            "childCount": 2,
+                            "children": [
+                                {
+                                    "name": "Nature / Biome Blending",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 1892,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Landmarks / Continental Routes",
+                                    "active": true,
+                                    "components": [
+                                        "Transform"
+                                    ],
+                                    "childCount": 23,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Explorer Look Volume",
+            "active": true,
+            "components": [
+                "Transform",
+                "Volume"
+            ],
+            "childCount": 0,
+            "children": []
+        },
+        {
+            "name": "World Style Volume",
+            "active": true,
+            "components": [
+                "Transform",
+                "Volume"
+            ],
+            "childCount": 0,
+            "children": []
+        }
+    ],
+    "note": "Saved Field scene rendered in Unity Edit Mode. No gameplay initialization, runtime scenery loading or FPS claim. Hierarchy expands four levels; object counts include all descendants."
+}

@@ -1,0 +1,35 @@
+{
+  "status": "plan-only tool prepared; actual final dependency plan not run",
+  "utc": "2026-09-15T01:49:13.999113+00:00",
+  "syntheticTests": {
+    "run": 13,
+    "passed": 13,
+    "failed": 0,
+    "command": "C:/Python314/python.exe Tools/CharacterPipeline/test_prepare_delivery.py"
+  },
+  "helpExitCode": 0,
+  "files": [
+    {
+      "path": "Tools/CharacterPipeline/prepare_delivery.py",
+      "sha256": "09388b436ac64af871557b2bb3b92d965c52dd5579302a09dc27e50577fd46a6",
+      "bytes": 18115
+    },
+    {
+      "path": "Tools/CharacterPipeline/test_prepare_delivery.py",
+      "sha256": "78826b23b4bf988ba6fed6f2ce9615bba478a53b1609c6e20bcbfffb9f453743",
+      "bytes": 7349
+    },
+    {
+      "path": "Tools/CharacterPipeline/DeliveryPlanner_README.md",
+      "sha256": "768945039671140e6f27c557e04fab83d0c33bd164c7b0686e9dc5f4eff3c4ed",
+      "bytes": 6919
+    },
+    {
+      "path": "Docs/CharacterPipeline/Final_Asset_Mapping_Draft.md",
+      "sha256": "39804d724378a30646657095d1f3674866d7db59373d7995d436b48b5a2598e0",
+      "bytes": 20925
+    }
+  ],
+  "noApplyOption": true,
+  "productionPlanRun": false
+}

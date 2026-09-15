@@ -3,7 +3,10 @@
   "rootNamespace": "Orbis.M1.Editor",
   "references": [
     "Orbis.M0.Editor",
-    "Orbis.M1.Runtime"
+    "Orbis.M1.Runtime",
+    "Orbis.EditorSupport"
   ],
-  "includePlatforms": ["Editor"]
+  "includePlatforms": [
+    "Editor"
+  ]
 }

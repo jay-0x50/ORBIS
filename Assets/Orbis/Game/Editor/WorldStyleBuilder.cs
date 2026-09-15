@@ -15,9 +15,10 @@ namespace Orbis.Game.Editor
     public static class WorldStyleBuilder
     {
         public const string ProfilePath="Assets/Orbis/Game/World/Resources/World/WorldGrade.asset";
-        [MenuItem("Orbis/World Art/04 Unify Environment Style")]
+        [MenuItem("Orbis/Development/Legacy/World Art/04 Unify Environment Style")]
         public static void Step4()
         {
+            FieldSceneAuthoring.RequireGeneratedEditingAllowed();
             var scene=EditorSceneManager.OpenScene(IslandSceneBuilder.ScenePath,OpenSceneMode.Single);
             var world=Object.FindAnyObjectByType<M4SceneBootstrap>();
             if(world==null||!world.transform.Cast<Transform>().Any(t=>t.name.StartsWith("Persistent landmarks / ",StringComparison.Ordinal)))

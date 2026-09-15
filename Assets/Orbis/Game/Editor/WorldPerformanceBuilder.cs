@@ -79,7 +79,7 @@ namespace Orbis.Game.Editor
         [MenuItem("Orbis/World Performance/Build Packed Addressables")]
         public static void BuildAddressables()
         {
-            RequireIdle(); RequireWindowsTarget();
+            RequireIdle(); RequireWindowsTarget(); FieldSceneAuthoring.EnsureExported();
             var settings = RequireAddressables();
             int oldBuilder = settings.ActivePlayerDataBuilderIndex;
             bool oldLayout = ProjectConfigData.GenerateBuildLayout;
@@ -108,7 +108,7 @@ namespace Orbis.Game.Editor
         [MenuItem("Orbis/World Performance/Build Windows Player")]
         public static void BuildWindows()
         {
-            RequireIdle(); RequireWindowsTarget();
+            RequireIdle(); RequireWindowsTarget(); FieldSceneAuthoring.EnsureExported();
             string kind = Argument("-worldBuildKind", "Development");
             bool development = string.Equals(kind, "Development", StringComparison.OrdinalIgnoreCase);
             if (!development && !string.Equals(kind, "Release", StringComparison.OrdinalIgnoreCase))
@@ -186,7 +186,7 @@ namespace Orbis.Game.Editor
         [MenuItem("Orbis/World Performance/Bake Joint Occlusion")]
         public static void BakeOcclusion()
         {
-            RequireIdle();
+            RequireIdle(); FieldSceneAuthoring.EnsureExported();
             if (Application.isBatchMode && Environment.GetCommandLineArgs().Any(a => a == "-quit"))
                 throw new BuildFailedException("BakeOcclusion finishes asynchronously: remove -quit; this entry point exits after completion.");
             for (int i = 0; i < SceneManager.sceneCount; i++)
@@ -309,6 +309,7 @@ namespace Orbis.Game.Editor
                     operation.audit.assetBytes = new FileInfo(operation.audit.dataAsset).Length;
                     operation.audit.sceneFilesAfter = operation.audit.scenes.Select(Digest).ToArray();
                     operation.audit.result = "Succeeded";
+                    FieldSceneAuthoring.RecordBakedOutputs();
                 }
             }
             catch (Exception exception) { failure = exception; }

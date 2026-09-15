@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Orbis.M0;
+using Orbis.M0.Animation;
 using Orbis.M1;
 using Orbis.M2;
 using Orbis.M3;
@@ -99,7 +100,21 @@ namespace Orbis.Art
             animator.runtimeAnimatorController = asset.Controller;
             if (asset.Avatar != null) animator.avatar = asset.Avatar;
             animator.applyRootMotion = false; animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
-            animator.Rebind(); animator.Play("Idle", 0, 0f); animator.Update(0f);
+            animator.Rebind();
+            var humanDriver = animator.GetComponent<HumanAnimationDriver>();
+            if (humanDriver != null)
+            {
+                // Presentation yaw belongs to a dedicated wrapper; the pawn/camera and rig
+                // hierarchy remain unchanged. Its reference only exists after view creation.
+                var facing = new GameObject("Visual Facing").transform;
+                facing.SetParent(root.transform, false);
+                model.transform.SetParent(facing, false);
+                humanDriver.Configure(humanDriver.Profile, facing);
+            }
+            var animationDriver = CharacterAnimationBinding.Resolve(animator);
+            if (animationDriver != null) animationDriver.ResetPresentation();
+            else animator.Play("Idle", 0, 0f);
+            animator.Update(0f);
             NormalizeVisibleModelHeight(root, 1.8f, root.transform.position);
             Transform trailAnchor = null;
             if (asset.Weapon != null)

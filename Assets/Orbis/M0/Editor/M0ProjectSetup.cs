@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using Orbis.EditorSupport;
 using UnityEditor;
 using UnityEditor.Animations;
 using UnityEditor.Build;
@@ -78,6 +79,7 @@ namespace Orbis.M0.Editor
                 EnsureMaterial("Marking", new Color(0.6f, 0.75f, 0.69f));
                 EnsureAnimation();
                 EnsureBuildScene();
+                FieldSceneBuildPolicy.ApplyProductLayout();
                 AssetDatabase.SaveAssets();
             }
             finally
@@ -86,15 +88,15 @@ namespace Orbis.M0.Editor
             }
         }
 
-        [MenuItem("Orbis/M0/Setup and Validate")]
+        [MenuItem("Orbis/Development/Legacy/M0/Setup and Validate")]
         public static void SetupAndValidate()
         {
             EnsureAssets();
             ValidateAssets();
-            Debug.Log("ORBIS M0 assets are ready. Open Orbis > M0 > Open Prototype, then press Play.");
+            Debug.Log("ORBIS M0 assets are ready. Open Orbis > Development > Legacy > M0 > Open Prototype, then press Play.");
         }
 
-        [MenuItem("Orbis/M0/Open Prototype")]
+        [MenuItem("Orbis/Development/Legacy/M0/Open Prototype")]
         public static void OpenPrototype()
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode)
@@ -121,7 +123,7 @@ namespace Orbis.M0.Editor
                 throw new BuildFailedException("M0 prototype scene is missing: " + ScenePath);
             if (AssetDatabase.LoadAssetAtPath<UniversalRenderPipelineAsset>(PipelinePath) == null ||
                 AssetDatabase.LoadAssetAtPath<UniversalRendererData>(RendererPath) == null)
-                throw new BuildFailedException("M0 URP assets are missing. Run Orbis > M0 > Setup and Validate.");
+                throw new BuildFailedException("M0 URP assets are missing. Run Orbis > Development > Legacy > M0 > Setup and Validate.");
             if (!(GraphicsSettings.defaultRenderPipeline is UniversalRenderPipelineAsset))
                 throw new BuildFailedException("M0 requires a Universal Render Pipeline asset in Graphics Settings.");
 
@@ -186,7 +188,7 @@ namespace Orbis.M0.Editor
                 return;
             Shader shader = Shader.Find("Universal Render Pipeline/Lit");
             if (shader == null)
-                throw new InvalidOperationException("URP/Lit shader has not imported. Wait for Package Manager, then run Orbis > M0 > Setup and Validate.");
+                throw new InvalidOperationException("URP/Lit shader has not imported. Wait for Package Manager, then run Orbis > Development > Legacy > M0 > Setup and Validate.");
             var material = new Material(shader) { name = name };
             material.SetColor("_BaseColor", color);
             material.SetFloat("_Smoothness", metallic > 0f ? 0.6f : 0.25f);

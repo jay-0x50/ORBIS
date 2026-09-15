@@ -1,0 +1,1 @@
+{"name":"Orbis.Game.CharacterEditModeTests","rootNamespace":"Orbis.Game.Tests","references":["Orbis.Game.Runtime","Orbis.M1.Runtime","Orbis.M4.Runtime"],"includePlatforms":["Editor"],"optionalUnityReferences":["TestAssemblies"]}

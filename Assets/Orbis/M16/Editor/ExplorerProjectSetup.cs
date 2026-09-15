@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Orbis.M1;
+using Orbis.EditorSupport;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.SceneManagement;
@@ -17,7 +18,7 @@ namespace Orbis.M16.Editor
         private const string DataRoot = "Assets/Orbis/M16/Resources/M16";
         private const string ScreenScript = "Assets/Orbis/M16/Runtime/Presentation/ExplorerSelectionScreen.cs";
 
-        [MenuItem("Orbis/M1.6/Setup and Validate")]
+        [MenuItem("Orbis/Development/Legacy/M1.6/Setup and Validate")]
         public static void SetupAndValidate()
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
@@ -42,10 +43,11 @@ namespace Orbis.M16.Editor
             catalog.Explorers = new[] { stella, polaris }; catalog.Skills = skills.ToArray();
             catalog.Validate(); EditorUtility.SetDirty(catalog);
             EnsureScene();
-            // The selection screen is the launch entry; every previous scene and enable flag is preserved.
+            // The standalone legacy demo stays available; the authored Field takes over the product entry.
             var scenes = new List<EditorBuildSettingsScene> { new EditorBuildSettingsScene(ScenePath, true) };
             scenes.AddRange(EditorBuildSettings.scenes.Where(x => x.path != ScenePath));
             EditorBuildSettings.scenes = scenes.ToArray();
+            FieldSceneBuildPolicy.ApplyProductLayout();
             AssetDatabase.SaveAssets(); AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
             Validate();
             Debug.Log("ORBIS M1.6 ready: Stella/Polaris selection, one shared Wayfarer weapon and five skill definitions. No gacha roster changes.");
@@ -58,7 +60,7 @@ namespace Orbis.M16.Editor
             EditorUtility.SetDirty(explorer); return explorer;
         }
 
-        [MenuItem("Orbis/M1.6/Validate Data")]
+        [MenuItem("Orbis/Development/Legacy/M1.6/Validate Data")]
         public static void Validate()
         {
             var catalog = AssetDatabase.LoadAssetAtPath<ExplorerCatalog>(CatalogPath);
@@ -71,12 +73,17 @@ namespace Orbis.M16.Editor
             if (string.IsNullOrEmpty(guid) || AssetDatabase.LoadAssetAtPath<SceneAsset>(ScenePath) == null ||
                 !File.ReadAllText(ScenePath).Contains("guid: " + guid))
                 throw new BuildFailedException("The M1.6 selection scene is missing its screen script.");
-            var firstEnabled = EditorBuildSettings.scenes.FirstOrDefault(x => x.enabled);
-            if (firstEnabled == null || firstEnabled.path != ScenePath)
-                throw new BuildFailedException("M1.6 character selection must be the first enabled build scene.");
+            if (FieldSceneBuildPolicy.IsProductMode)
+                FieldSceneBuildPolicy.ValidateBuildLayout();
+            else
+            {
+                var firstEnabled = EditorBuildSettings.scenes.FirstOrDefault(x => x.enabled);
+                if (firstEnabled == null || firstEnabled.path != ScenePath)
+                    throw new BuildFailedException("M1.6 character selection must be the first enabled legacy build scene.");
+            }
         }
 
-        [MenuItem("Orbis/M1.6/Open Character Selection")]
+        [MenuItem("Orbis/Development/Legacy/M1.6/Open Character Selection")]
         public static void OpenCharacterSelection()
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;

@@ -1,0 +1,21 @@
+{
+    "stage": "Field_EditMode",
+    "view": "Overview",
+    "scene": "Assets/Scenes/Field.unity",
+    "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+    "isPlaying": false,
+    "monochrome": false,
+    "camera": {
+        "x": -1150.0,
+        "y": 1250.0,
+        "z": -1360.0
+    },
+    "focus": {
+        "x": 0.0,
+        "y": 45.0,
+        "z": 0.0
+    },
+    "fov": 59.0,
+    "vram": 3930,
+    "note": "Actual Unity URP Edit Mode render. Village/Overview/Silhouette use the same world camera coordinates as WorldVisualTests. No performance benchmark."
+}

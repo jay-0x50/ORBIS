@@ -1,0 +1,3033 @@
+{
+  "schema_version": 1,
+  "status": "Planning/reference artifact only; no production model changes",
+  "existing_rig": {
+    "source": "Tools/Blender/create_explorers.py:449",
+    "bone_count": 52,
+    "coordinates": "Blender metre-like pre-scale design coordinates; finish() uniformly scales by target/(meshTop-meshBottom) and offsets meshBottom. Do not use these as new raw anchors.",
+    "axes": {
+      "up": "+Z",
+      "forward": "-Y",
+      "anatomical_left": "+X",
+      "bone_primary": "Y",
+      "bone_secondary": "X"
+    },
+    "fbx_export": {
+      "axis_forward": "-Z",
+      "axis_up": "Y",
+      "add_leaf_bones": false,
+      "primary_bone_axis": "Y",
+      "secondary_bone_axis": "X",
+      "bake_anim": false,
+      "apply_unit_scale": true,
+      "apply_scale_options": "FBX_SCALE_UNITS"
+    },
+    "bones": [
+      {
+        "name": "Root",
+        "parent": null,
+        "use_deform": false,
+        "source_pre_scale_head": [
+          0,
+          0,
+          0
+        ],
+        "source_pre_scale_tail": [
+          0,
+          0,
+          0.12
+        ]
+      },
+      {
+        "name": "Hips",
+        "parent": "Root",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0,
+          0,
+          0.935
+        ],
+        "source_pre_scale_tail": [
+          0,
+          0,
+          1.04
+        ]
+      },
+      {
+        "name": "Spine",
+        "parent": "Hips",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0,
+          0,
+          1.04
+        ],
+        "source_pre_scale_tail": [
+          0,
+          0,
+          1.21
+        ]
+      },
+      {
+        "name": "Chest",
+        "parent": "Spine",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0,
+          0,
+          1.21
+        ],
+        "source_pre_scale_tail": [
+          0,
+          0,
+          1.414
+        ]
+      },
+      {
+        "name": "Neck",
+        "parent": "Chest",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0,
+          0,
+          1.414
+        ],
+        "source_pre_scale_tail": [
+          0,
+          0,
+          1.5
+        ]
+      },
+      {
+        "name": "Head",
+        "parent": "Neck",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0,
+          0,
+          1.5
+        ],
+        "source_pre_scale_tail": [
+          0,
+          0,
+          1.704
+        ]
+      },
+      {
+        "name": "LeftShoulder",
+        "parent": "Chest",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0,
+          0,
+          1.392
+        ],
+        "source_pre_scale_tail": [
+          0.175,
+          0,
+          1.392
+        ]
+      },
+      {
+        "name": "LeftUpperArm",
+        "parent": "LeftShoulder",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.175,
+          0,
+          1.392
+        ],
+        "source_pre_scale_tail": [
+          0.44,
+          0,
+          1.382
+        ]
+      },
+      {
+        "name": "LeftLowerArm",
+        "parent": "LeftUpperArm",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.44,
+          0,
+          1.382
+        ],
+        "source_pre_scale_tail": [
+          0.665,
+          0,
+          1.375
+        ]
+      },
+      {
+        "name": "LeftHand",
+        "parent": "LeftLowerArm",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.665,
+          0,
+          1.375
+        ],
+        "source_pre_scale_tail": [
+          0.746,
+          0,
+          1.375
+        ]
+      },
+      {
+        "name": "LeftUpperLeg",
+        "parent": "Hips",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.084,
+          0,
+          0.935
+        ],
+        "source_pre_scale_tail": [
+          0.089,
+          -0.012,
+          0.515
+        ]
+      },
+      {
+        "name": "LeftLowerLeg",
+        "parent": "LeftUpperLeg",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.089,
+          -0.012,
+          0.515
+        ],
+        "source_pre_scale_tail": [
+          0.084,
+          -0.004,
+          0.095
+        ]
+      },
+      {
+        "name": "LeftFoot",
+        "parent": "LeftLowerLeg",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.084,
+          -0.004,
+          0.095
+        ],
+        "source_pre_scale_tail": [
+          0.084,
+          -0.103,
+          0.041
+        ]
+      },
+      {
+        "name": "LeftToes",
+        "parent": "LeftFoot",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.084,
+          -0.103,
+          0.041
+        ],
+        "source_pre_scale_tail": [
+          0.084,
+          -0.151,
+          0.037
+        ]
+      },
+      {
+        "name": "LeftIndexProximal",
+        "parent": "LeftHand",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.737,
+          -0.021,
+          1.375
+        ],
+        "source_pre_scale_tail": [
+          0.774,
+          -0.02,
+          1.37
+        ]
+      },
+      {
+        "name": "LeftIndexIntermediate",
+        "parent": "LeftIndexProximal",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.774,
+          -0.02,
+          1.37
+        ],
+        "source_pre_scale_tail": [
+          0.79324,
+          -0.0205,
+          1.368
+        ]
+      },
+      {
+        "name": "LeftIndexDistal",
+        "parent": "LeftIndexIntermediate",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.79324,
+          -0.0205,
+          1.368
+        ],
+        "source_pre_scale_tail": [
+          0.8109999999999999,
+          -0.021,
+          1.366
+        ]
+      },
+      {
+        "name": "LeftMiddleProximal",
+        "parent": "LeftHand",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.737,
+          -0.006,
+          1.377
+        ],
+        "source_pre_scale_tail": [
+          0.778,
+          -0.005,
+          1.372
+        ]
+      },
+      {
+        "name": "LeftMiddleIntermediate",
+        "parent": "LeftMiddleProximal",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.778,
+          -0.005,
+          1.372
+        ],
+        "source_pre_scale_tail": [
+          0.79932,
+          -0.0055,
+          1.37
+        ]
+      },
+      {
+        "name": "LeftMiddleDistal",
+        "parent": "LeftMiddleIntermediate",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.79932,
+          -0.0055,
+          1.37
+        ],
+        "source_pre_scale_tail": [
+          0.819,
+          -0.006,
+          1.368
+        ]
+      },
+      {
+        "name": "LeftRingProximal",
+        "parent": "LeftHand",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.737,
+          0.01,
+          1.375
+        ],
+        "source_pre_scale_tail": [
+          0.774,
+          0.011,
+          1.37
+        ]
+      },
+      {
+        "name": "LeftRingIntermediate",
+        "parent": "LeftRingProximal",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.774,
+          0.011,
+          1.37
+        ],
+        "source_pre_scale_tail": [
+          0.79324,
+          0.0105,
+          1.368
+        ]
+      },
+      {
+        "name": "LeftRingDistal",
+        "parent": "LeftRingIntermediate",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.79324,
+          0.0105,
+          1.368
+        ],
+        "source_pre_scale_tail": [
+          0.8109999999999999,
+          0.01,
+          1.366
+        ]
+      },
+      {
+        "name": "LeftLittleProximal",
+        "parent": "LeftHand",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.737,
+          0.025,
+          1.372
+        ],
+        "source_pre_scale_tail": [
+          0.767,
+          0.026000000000000002,
+          1.3670000000000002
+        ]
+      },
+      {
+        "name": "LeftLittleIntermediate",
+        "parent": "LeftLittleProximal",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.767,
+          0.026000000000000002,
+          1.3670000000000002
+        ],
+        "source_pre_scale_tail": [
+          0.7826,
+          0.025500000000000002,
+          1.3650000000000002
+        ]
+      },
+      {
+        "name": "LeftLittleDistal",
+        "parent": "LeftLittleIntermediate",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.7826,
+          0.025500000000000002,
+          1.3650000000000002
+        ],
+        "source_pre_scale_tail": [
+          0.7969999999999999,
+          0.025,
+          1.3630000000000002
+        ]
+      },
+      {
+        "name": "LeftThumbProximal",
+        "parent": "LeftHand",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.694,
+          -0.025,
+          1.375
+        ],
+        "source_pre_scale_tail": [
+          0.711,
+          -0.046,
+          1.366
+        ]
+      },
+      {
+        "name": "LeftThumbIntermediate",
+        "parent": "LeftThumbProximal",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.711,
+          -0.046,
+          1.366
+        ],
+        "source_pre_scale_tail": [
+          0.738,
+          -0.06,
+          1.36
+        ]
+      },
+      {
+        "name": "LeftThumbDistal",
+        "parent": "LeftThumbIntermediate",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0.738,
+          -0.06,
+          1.36
+        ],
+        "source_pre_scale_tail": [
+          0.75,
+          -0.065,
+          1.356
+        ]
+      },
+      {
+        "name": "RightShoulder",
+        "parent": "Chest",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          0,
+          0,
+          1.392
+        ],
+        "source_pre_scale_tail": [
+          -0.175,
+          0,
+          1.392
+        ]
+      },
+      {
+        "name": "RightUpperArm",
+        "parent": "RightShoulder",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.175,
+          0,
+          1.392
+        ],
+        "source_pre_scale_tail": [
+          -0.44,
+          0,
+          1.382
+        ]
+      },
+      {
+        "name": "RightLowerArm",
+        "parent": "RightUpperArm",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.44,
+          0,
+          1.382
+        ],
+        "source_pre_scale_tail": [
+          -0.665,
+          0,
+          1.375
+        ]
+      },
+      {
+        "name": "RightHand",
+        "parent": "RightLowerArm",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.665,
+          0,
+          1.375
+        ],
+        "source_pre_scale_tail": [
+          -0.746,
+          0,
+          1.375
+        ]
+      },
+      {
+        "name": "RightUpperLeg",
+        "parent": "Hips",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.084,
+          0,
+          0.935
+        ],
+        "source_pre_scale_tail": [
+          -0.089,
+          -0.012,
+          0.515
+        ]
+      },
+      {
+        "name": "RightLowerLeg",
+        "parent": "RightUpperLeg",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.089,
+          -0.012,
+          0.515
+        ],
+        "source_pre_scale_tail": [
+          -0.084,
+          -0.004,
+          0.095
+        ]
+      },
+      {
+        "name": "RightFoot",
+        "parent": "RightLowerLeg",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.084,
+          -0.004,
+          0.095
+        ],
+        "source_pre_scale_tail": [
+          -0.084,
+          -0.103,
+          0.041
+        ]
+      },
+      {
+        "name": "RightToes",
+        "parent": "RightFoot",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.084,
+          -0.103,
+          0.041
+        ],
+        "source_pre_scale_tail": [
+          -0.084,
+          -0.151,
+          0.037
+        ]
+      },
+      {
+        "name": "RightIndexProximal",
+        "parent": "RightHand",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.737,
+          -0.021,
+          1.375
+        ],
+        "source_pre_scale_tail": [
+          -0.774,
+          -0.02,
+          1.37
+        ]
+      },
+      {
+        "name": "RightIndexIntermediate",
+        "parent": "RightIndexProximal",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.774,
+          -0.02,
+          1.37
+        ],
+        "source_pre_scale_tail": [
+          -0.79324,
+          -0.0205,
+          1.368
+        ]
+      },
+      {
+        "name": "RightIndexDistal",
+        "parent": "RightIndexIntermediate",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.79324,
+          -0.0205,
+          1.368
+        ],
+        "source_pre_scale_tail": [
+          -0.8109999999999999,
+          -0.021,
+          1.366
+        ]
+      },
+      {
+        "name": "RightMiddleProximal",
+        "parent": "RightHand",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.737,
+          -0.006,
+          1.377
+        ],
+        "source_pre_scale_tail": [
+          -0.778,
+          -0.005,
+          1.372
+        ]
+      },
+      {
+        "name": "RightMiddleIntermediate",
+        "parent": "RightMiddleProximal",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.778,
+          -0.005,
+          1.372
+        ],
+        "source_pre_scale_tail": [
+          -0.79932,
+          -0.0055,
+          1.37
+        ]
+      },
+      {
+        "name": "RightMiddleDistal",
+        "parent": "RightMiddleIntermediate",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.79932,
+          -0.0055,
+          1.37
+        ],
+        "source_pre_scale_tail": [
+          -0.819,
+          -0.006,
+          1.368
+        ]
+      },
+      {
+        "name": "RightRingProximal",
+        "parent": "RightHand",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.737,
+          0.01,
+          1.375
+        ],
+        "source_pre_scale_tail": [
+          -0.774,
+          0.011,
+          1.37
+        ]
+      },
+      {
+        "name": "RightRingIntermediate",
+        "parent": "RightRingProximal",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.774,
+          0.011,
+          1.37
+        ],
+        "source_pre_scale_tail": [
+          -0.79324,
+          0.0105,
+          1.368
+        ]
+      },
+      {
+        "name": "RightRingDistal",
+        "parent": "RightRingIntermediate",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.79324,
+          0.0105,
+          1.368
+        ],
+        "source_pre_scale_tail": [
+          -0.8109999999999999,
+          0.01,
+          1.366
+        ]
+      },
+      {
+        "name": "RightLittleProximal",
+        "parent": "RightHand",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.737,
+          0.025,
+          1.372
+        ],
+        "source_pre_scale_tail": [
+          -0.767,
+          0.026000000000000002,
+          1.3670000000000002
+        ]
+      },
+      {
+        "name": "RightLittleIntermediate",
+        "parent": "RightLittleProximal",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.767,
+          0.026000000000000002,
+          1.3670000000000002
+        ],
+        "source_pre_scale_tail": [
+          -0.7826,
+          0.025500000000000002,
+          1.3650000000000002
+        ]
+      },
+      {
+        "name": "RightLittleDistal",
+        "parent": "RightLittleIntermediate",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.7826,
+          0.025500000000000002,
+          1.3650000000000002
+        ],
+        "source_pre_scale_tail": [
+          -0.7969999999999999,
+          0.025,
+          1.3630000000000002
+        ]
+      },
+      {
+        "name": "RightThumbProximal",
+        "parent": "RightHand",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.694,
+          -0.025,
+          1.375
+        ],
+        "source_pre_scale_tail": [
+          -0.711,
+          -0.046,
+          1.366
+        ]
+      },
+      {
+        "name": "RightThumbIntermediate",
+        "parent": "RightThumbProximal",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.711,
+          -0.046,
+          1.366
+        ],
+        "source_pre_scale_tail": [
+          -0.738,
+          -0.06,
+          1.36
+        ]
+      },
+      {
+        "name": "RightThumbDistal",
+        "parent": "RightThumbIntermediate",
+        "use_deform": true,
+        "source_pre_scale_head": [
+          -0.738,
+          -0.06,
+          1.36
+        ],
+        "source_pre_scale_tail": [
+          -0.75,
+          -0.065,
+          1.356
+        ]
+      }
+    ]
+  },
+  "existing_imported_local_evidence": {
+    "Stella": {
+      "source": "Assets/Orbis/Game/Island/Models/Stella.fbx.meta",
+      "evidence": "Current serialized ModelImporter humanDescription skeleton; local transforms, not new raw bind pose",
+      "locals": {
+        "Root": {
+          "position": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0035459604
+          },
+          "rotation": {
+            "x": 0.7071068,
+            "y": 0.0,
+            "z": -0.0,
+            "w": 0.7071067
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "Hips": {
+          "position": {
+            "x": -0.0,
+            "y": 0.91094244,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "Spine": {
+          "position": {
+            "x": -0.0,
+            "y": 0.10229832,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "Chest": {
+          "position": {
+            "x": -0.0,
+            "y": 0.16562605,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "Neck": {
+          "position": {
+            "x": -0.0,
+            "y": 0.19875109,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "Head": {
+          "position": {
+            "x": -0.0,
+            "y": 0.08378708,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "LeftShoulder": {
+          "position": {
+            "x": -0.0,
+            "y": 0.17731702,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.5,
+            "y": -0.49999997,
+            "z": -0.5,
+            "w": -0.5
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        },
+        "LeftUpperArm": {
+          "position": {
+            "x": -0.0,
+            "y": 0.17049724,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": -0.018854575,
+            "y": 0.018854555,
+            "z": -0.00035562186,
+            "w": 0.9996444
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "LeftLowerArm": {
+          "position": {
+            "x": 2.8626068e-10,
+            "y": 0.25836536,
+            "z": 4.2840657e-08
+          },
+          "rotation": {
+            "x": 0.0033066475,
+            "y": -0.0033085858,
+            "z": 0.00011382504,
+            "w": 0.9999891
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 0.99999994
+          }
+        },
+        "LeftHand": {
+          "position": {
+            "x": 3.8177874e-09,
+            "y": 0.21931684,
+            "z": 1.0430738e-07
+          },
+          "rotation": {
+            "x": 0.0155479275,
+            "y": -0.015547928,
+            "z": 0.00024179653,
+            "w": 0.99975824
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "LeftUpperLeg": {
+          "position": {
+            "x": -0.081838675,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.99986213,
+            "y": -0.0060363538,
+            "z": -0.0060363244,
+            "w": 0.0142444
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0000001
+          }
+        },
+        "LeftLowerLeg": {
+          "position": {
+            "x": -2.2118911e-09,
+            "y": 0.40938926,
+            "z": 1.1641532e-10
+          },
+          "rotation": {
+            "x": 0.023798876,
+            "y": 0.0119563565,
+            "z": -0.011903797,
+            "w": 0.9995744
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.9999998,
+            "z": 0.99999994
+          }
+        },
+        "LeftFoot": {
+          "position": {
+            "x": 6.8139343e-09,
+            "y": 0.40929654,
+            "z": -1.1059456e-09
+          },
+          "rotation": {
+            "x": -0.51864135,
+            "y": -0.008078315,
+            "z": 0.0020599237,
+            "w": 0.85495126
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 0.99999994,
+            "z": 0.99999994
+          }
+        },
+        "LeftToes": {
+          "position": {
+            "x": 8.854536e-10,
+            "y": 0.1098681,
+            "z": -1.3203612e-09
+          },
+          "rotation": {
+            "x": -0.20660403,
+            "y": -4.915611e-09,
+            "z": -1.513887e-09,
+            "w": 0.97842467
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0000001
+          }
+        },
+        "LeftIndexProximal": {
+          "position": {
+            "x": -0.020459669,
+            "y": 0.0701474,
+            "z": -7.621814e-11
+          },
+          "rotation": {
+            "x": -0.06605513,
+            "y": 0.06605514,
+            "z": -0.017831087,
+            "w": 0.9954675
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "LeftIndexIntermediate": {
+          "position": {
+            "x": 9.313226e-09,
+            "y": 0.03638861,
+            "z": -4.4237822e-08
+          },
+          "rotation": {
+            "x": 0.012138157,
+            "y": -0.015353906,
+            "z": 0.027941588,
+            "w": 0.99941796
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "LeftIndexDistal": {
+          "position": {
+            "x": -4.656613e-09,
+            "y": 0.018852245,
+            "z": -8.6613e-08
+          },
+          "rotation": {
+            "x": -0.0043657287,
+            "y": 0.004392714,
+            "z": 0.00059669017,
+            "w": 0.9999807
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "LeftMiddleProximal": {
+          "position": {
+            "x": -0.00584562,
+            "y": 0.0701474,
+            "z": 0.001948595
+          },
+          "rotation": {
+            "x": -0.059790432,
+            "y": 0.05979043,
+            "z": -0.015735094,
+            "w": 0.99629444
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "LeftMiddleIntermediate": {
+          "position": {
+            "x": -1.8626451e-08,
+            "y": 0.040252782,
+            "z": -1.4196848e-07
+          },
+          "rotation": {
+            "x": 0.011280552,
+            "y": -0.0138986185,
+            "z": 0.025125789,
+            "w": 0.99952406
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "LeftMiddleDistal": {
+          "position": {
+            "x": 1.44355e-08,
+            "y": 0.020868305,
+            "z": -1.542503e-08
+          },
+          "rotation": {
+            "x": -0.0039488245,
+            "y": 0.003968843,
+            "z": 0.00058149645,
+            "w": 0.99998415
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 0.9999998,
+            "z": 0.9999998
+          }
+        },
+        "LeftRingProximal": {
+          "position": {
+            "x": 0.0097427,
+            "y": 0.0701474,
+            "z": 3.62943e-11
+          },
+          "rotation": {
+            "x": -0.06605513,
+            "y": 0.06605514,
+            "z": -0.017831087,
+            "w": 0.9954675
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "LeftRingIntermediate": {
+          "position": {
+            "x": 1.8626451e-09,
+            "y": 0.03638859,
+            "z": -4.0861778e-08
+          },
+          "rotation": {
+            "x": 0.012138157,
+            "y": -0.015353908,
+            "z": 0.027941564,
+            "w": 0.99941796
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "LeftRingDistal": {
+          "position": {
+            "x": 3.7252903e-09,
+            "y": 0.018852275,
+            "z": -6.845221e-08
+          },
+          "rotation": {
+            "x": -0.0043657357,
+            "y": 0.004392718,
+            "z": 0.0005967428,
+            "w": 0.9999807
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "LeftLittleProximal": {
+          "position": {
+            "x": 0.024356749,
+            "y": 0.0701474,
+            "z": -0.0029227734
+          },
+          "rotation": {
+            "x": -0.080837905,
+            "y": 0.08083792,
+            "z": -0.023123609,
+            "w": 0.9931746
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.9999999
+          }
+        },
+        "LeftLittleIntermediate": {
+          "position": {
+            "x": 2.0489097e-08,
+            "y": 0.029647281,
+            "z": 1.7043203e-07
+          },
+          "rotation": {
+            "x": 0.013908215,
+            "y": -0.018797345,
+            "z": 0.034711722,
+            "w": 0.9991238
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 0.9999999,
+            "z": 0.99999994
+          }
+        },
+        "LeftLittleDistal": {
+          "position": {
+            "x": -8.381903e-09,
+            "y": 0.015330688,
+            "z": -1.4808029e-07
+          },
+          "rotation": {
+            "x": -0.0053749117,
+            "y": 0.005425648,
+            "z": 0.0005926851,
+            "w": 0.9999707
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0000001
+          }
+        },
+        "LeftThumbProximal": {
+          "position": {
+            "x": -0.024356749,
+            "y": 0.0282538,
+            "z": -9.073586e-11
+          },
+          "rotation": {
+            "x": -0.30835956,
+            "y": 0.3083596,
+            "z": 0.3262484,
+            "w": 0.8386839
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 0.99999994,
+            "z": 0.99999994
+          }
+        },
+        "LeftThumbIntermediate": {
+          "position": {
+            "x": -5.5879354e-08,
+            "y": 0.02774534,
+            "z": -8.4750354e-08
+          },
+          "rotation": {
+            "x": 0.16138294,
+            "y": -0.21043618,
+            "z": -0.12998669,
+            "w": 0.95539296
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        },
+        "LeftThumbDistal": {
+          "position": {
+            "x": 1.4901161e-08,
+            "y": 0.030202357,
+            "z": 1.0803342e-07
+          },
+          "rotation": {
+            "x": -0.0330078,
+            "y": 0.07249535,
+            "z": -0.05686743,
+            "w": 0.99519897
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        },
+        "RightShoulder": {
+          "position": {
+            "x": -0.0,
+            "y": 0.17731702,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.5,
+            "y": 0.49999997,
+            "z": 0.5,
+            "w": -0.5
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        },
+        "RightUpperArm": {
+          "position": {
+            "x": -0.0,
+            "y": 0.17049724,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": -0.018854575,
+            "y": -0.018854555,
+            "z": 0.00035562186,
+            "w": 0.9996444
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "RightLowerArm": {
+          "position": {
+            "x": -2.8626068e-10,
+            "y": 0.25836536,
+            "z": 4.2840657e-08
+          },
+          "rotation": {
+            "x": 0.0033066475,
+            "y": 0.0033085858,
+            "z": -0.00011382504,
+            "w": 0.9999891
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 0.99999994
+          }
+        },
+        "RightHand": {
+          "position": {
+            "x": -3.8177874e-09,
+            "y": 0.21931684,
+            "z": 1.0430738e-07
+          },
+          "rotation": {
+            "x": 0.0155479275,
+            "y": 0.015547928,
+            "z": -0.00024179653,
+            "w": 0.99975824
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "RightUpperLeg": {
+          "position": {
+            "x": 0.081838675,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.99986213,
+            "y": 0.0060363538,
+            "z": 0.0060363244,
+            "w": 0.0142444
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0000001
+          }
+        },
+        "RightLowerLeg": {
+          "position": {
+            "x": 2.2118911e-09,
+            "y": 0.40938926,
+            "z": 1.1641532e-10
+          },
+          "rotation": {
+            "x": 0.023798876,
+            "y": -0.0119563565,
+            "z": 0.011903797,
+            "w": 0.9995744
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.9999998,
+            "z": 0.99999994
+          }
+        },
+        "RightFoot": {
+          "position": {
+            "x": -6.8139343e-09,
+            "y": 0.40929654,
+            "z": -1.1059456e-09
+          },
+          "rotation": {
+            "x": -0.51864135,
+            "y": 0.008078315,
+            "z": -0.0020599237,
+            "w": 0.85495126
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 0.99999994,
+            "z": 0.99999994
+          }
+        },
+        "RightToes": {
+          "position": {
+            "x": -8.854536e-10,
+            "y": 0.1098681,
+            "z": -1.3203612e-09
+          },
+          "rotation": {
+            "x": -0.20660403,
+            "y": 4.915611e-09,
+            "z": 1.513887e-09,
+            "w": 0.97842467
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0000001
+          }
+        },
+        "RightIndexProximal": {
+          "position": {
+            "x": 0.020459669,
+            "y": 0.0701474,
+            "z": -7.621814e-11
+          },
+          "rotation": {
+            "x": -0.06605513,
+            "y": -0.06605514,
+            "z": 0.017831087,
+            "w": 0.9954675
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "RightIndexIntermediate": {
+          "position": {
+            "x": -9.313226e-09,
+            "y": 0.03638861,
+            "z": -4.4237822e-08
+          },
+          "rotation": {
+            "x": 0.012138157,
+            "y": 0.015353906,
+            "z": -0.027941588,
+            "w": 0.99941796
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "RightIndexDistal": {
+          "position": {
+            "x": 4.656613e-09,
+            "y": 0.018852245,
+            "z": -8.6613e-08
+          },
+          "rotation": {
+            "x": -0.0043657287,
+            "y": -0.004392714,
+            "z": -0.00059669017,
+            "w": 0.9999807
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "RightMiddleProximal": {
+          "position": {
+            "x": 0.00584562,
+            "y": 0.0701474,
+            "z": 0.001948595
+          },
+          "rotation": {
+            "x": -0.059790432,
+            "y": -0.05979043,
+            "z": 0.015735094,
+            "w": 0.99629444
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "RightMiddleIntermediate": {
+          "position": {
+            "x": 1.8626451e-08,
+            "y": 0.040252782,
+            "z": -1.4196848e-07
+          },
+          "rotation": {
+            "x": 0.011280552,
+            "y": 0.0138986185,
+            "z": -0.025125789,
+            "w": 0.99952406
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "RightMiddleDistal": {
+          "position": {
+            "x": -1.44355e-08,
+            "y": 0.020868305,
+            "z": -1.542503e-08
+          },
+          "rotation": {
+            "x": -0.0039488245,
+            "y": -0.003968843,
+            "z": -0.00058149645,
+            "w": 0.99998415
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 0.9999998,
+            "z": 0.9999998
+          }
+        },
+        "RightRingProximal": {
+          "position": {
+            "x": -0.0097427,
+            "y": 0.0701474,
+            "z": 3.62943e-11
+          },
+          "rotation": {
+            "x": -0.06605513,
+            "y": -0.06605514,
+            "z": 0.017831087,
+            "w": 0.9954675
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "RightRingIntermediate": {
+          "position": {
+            "x": -1.8626451e-09,
+            "y": 0.03638859,
+            "z": -4.0861778e-08
+          },
+          "rotation": {
+            "x": 0.012138157,
+            "y": 0.015353908,
+            "z": -0.027941564,
+            "w": 0.99941796
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "RightRingDistal": {
+          "position": {
+            "x": -3.7252903e-09,
+            "y": 0.018852275,
+            "z": -6.845221e-08
+          },
+          "rotation": {
+            "x": -0.0043657357,
+            "y": -0.004392718,
+            "z": -0.0005967428,
+            "w": 0.9999807
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "RightLittleProximal": {
+          "position": {
+            "x": -0.024356749,
+            "y": 0.0701474,
+            "z": -0.0029227734
+          },
+          "rotation": {
+            "x": -0.080837905,
+            "y": -0.08083792,
+            "z": 0.023123609,
+            "w": 0.9931746
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.9999999
+          }
+        },
+        "RightLittleIntermediate": {
+          "position": {
+            "x": -2.0489097e-08,
+            "y": 0.029647281,
+            "z": 1.7043203e-07
+          },
+          "rotation": {
+            "x": 0.013908215,
+            "y": 0.018797345,
+            "z": -0.034711722,
+            "w": 0.9991238
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 0.9999999,
+            "z": 0.99999994
+          }
+        },
+        "RightLittleDistal": {
+          "position": {
+            "x": 8.381903e-09,
+            "y": 0.015330688,
+            "z": -1.4808029e-07
+          },
+          "rotation": {
+            "x": -0.0053749117,
+            "y": -0.005425648,
+            "z": -0.0005926851,
+            "w": 0.9999707
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0000001
+          }
+        },
+        "RightThumbProximal": {
+          "position": {
+            "x": 0.024356749,
+            "y": 0.0282538,
+            "z": -9.073586e-11
+          },
+          "rotation": {
+            "x": -0.30835956,
+            "y": -0.3083596,
+            "z": -0.3262484,
+            "w": 0.8386839
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 0.99999994,
+            "z": 0.99999994
+          }
+        },
+        "RightThumbIntermediate": {
+          "position": {
+            "x": 5.5879354e-08,
+            "y": 0.02774534,
+            "z": -8.4750354e-08
+          },
+          "rotation": {
+            "x": 0.16138294,
+            "y": 0.21043618,
+            "z": 0.12998669,
+            "w": 0.95539296
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        },
+        "RightThumbDistal": {
+          "position": {
+            "x": -1.4901161e-08,
+            "y": 0.030202357,
+            "z": 1.0803342e-07
+          },
+          "rotation": {
+            "x": -0.0330078,
+            "y": -0.07249535,
+            "z": 0.05686743,
+            "w": 0.99519897
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        }
+      }
+    },
+    "Polaris": {
+      "source": "Assets/Orbis/Game/Island/Models/Polaris.fbx.meta",
+      "evidence": "Current serialized ModelImporter humanDescription skeleton; local transforms, not new raw bind pose",
+      "locals": {
+        "Root": {
+          "position": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.003590192
+          },
+          "rotation": {
+            "x": 0.7071068,
+            "y": 0.0,
+            "z": -0.0,
+            "w": 0.7071067
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "Hips": {
+          "position": {
+            "x": -0.0,
+            "y": 0.9223053,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "Spine": {
+          "position": {
+            "x": -0.0,
+            "y": 0.103574395,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "Chest": {
+          "position": {
+            "x": -0.0,
+            "y": 0.16769195,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "Neck": {
+          "position": {
+            "x": -0.0,
+            "y": 0.20123029,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "Head": {
+          "position": {
+            "x": -0.0,
+            "y": 0.08483231,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "LeftShoulder": {
+          "position": {
+            "x": -0.0,
+            "y": 0.17952883,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.5,
+            "y": -0.49999997,
+            "z": -0.5,
+            "w": -0.5
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        },
+        "LeftUpperArm": {
+          "position": {
+            "x": -0.0,
+            "y": 0.17262399,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": -0.01885447,
+            "y": 0.01885445,
+            "z": -0.000355618,
+            "w": 0.9996444
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 0.9999999
+          }
+        },
+        "LeftLowerArm": {
+          "position": {
+            "x": -4.428617e-09,
+            "y": 0.2615881,
+            "z": -1.4901344e-08
+          },
+          "rotation": {
+            "x": 0.003306441,
+            "y": -0.0033083824,
+            "z": 0.00011381779,
+            "w": 0.9999891
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 0.99999994
+          }
+        },
+        "LeftHand": {
+          "position": {
+            "x": 1.1157942e-10,
+            "y": 0.22205254,
+            "z": -1.0430828e-07
+          },
+          "rotation": {
+            "x": 0.015548033,
+            "y": -0.015548032,
+            "z": 0.00024179976,
+            "w": 0.99975824
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "LeftUpperLeg": {
+          "position": {
+            "x": -0.082859516,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.99986213,
+            "y": -0.006036348,
+            "z": -0.0060363393,
+            "w": 0.0142444
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0000001
+          }
+        },
+        "LeftLowerLeg": {
+          "position": {
+            "x": -1.0128133e-08,
+            "y": 0.4144961,
+            "z": 1.3969839e-09
+          },
+          "rotation": {
+            "x": 0.023798868,
+            "y": 0.011956378,
+            "z": -0.011903782,
+            "w": 0.9995744
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        },
+        "LeftFoot": {
+          "position": {
+            "x": 1.720764e-09,
+            "y": 0.41440204,
+            "z": -8.1490725e-10
+          },
+          "rotation": {
+            "x": -0.51864135,
+            "y": -0.008078312,
+            "z": 0.0020599219,
+            "w": 0.8549513
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 0.9999999,
+            "z": 0.99999994
+          }
+        },
+        "LeftToes": {
+          "position": {
+            "x": 7.5260225e-09,
+            "y": 0.11123859,
+            "z": -6.4231944e-09
+          },
+          "rotation": {
+            "x": -0.20660397,
+            "y": -4.556197e-10,
+            "z": -9.6204725e-11,
+            "w": 0.97842467
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0000001
+          }
+        },
+        "LeftIndexProximal": {
+          "position": {
+            "x": -0.020714879,
+            "y": 0.07102246,
+            "z": -1.3927159e-09
+          },
+          "rotation": {
+            "x": -0.06605567,
+            "y": 0.06605566,
+            "z": -0.017831191,
+            "w": 0.9954674
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 1.0000001
+          }
+        },
+        "LeftIndexIntermediate": {
+          "position": {
+            "x": 1.6763806e-08,
+            "y": 0.036842532,
+            "z": 2.3515895e-08
+          },
+          "rotation": {
+            "x": 0.01214172,
+            "y": -0.015357407,
+            "z": 0.027941946,
+            "w": 0.99941784
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 0.9999999
+          }
+        },
+        "LeftIndexDistal": {
+          "position": {
+            "x": -3.7252903e-09,
+            "y": 0.019087503,
+            "z": -4.33065e-08
+          },
+          "rotation": {
+            "x": -0.0043726154,
+            "y": 0.004399816,
+            "z": 0.0005960764,
+            "w": 0.99998057
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 0.99999994
+          }
+        },
+        "LeftMiddleProximal": {
+          "position": {
+            "x": -0.005918537,
+            "y": 0.07102246,
+            "z": 0.0019729123
+          },
+          "rotation": {
+            "x": -0.05979089,
+            "y": 0.059790876,
+            "z": -0.015735159,
+            "w": 0.99629444
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "LeftMiddleIntermediate": {
+          "position": {
+            "x": -5.5879354e-09,
+            "y": 0.04075479,
+            "z": 6.9790985e-08
+          },
+          "rotation": {
+            "x": 0.011280662,
+            "y": -0.013898749,
+            "z": 0.025125826,
+            "w": 0.99952406
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "LeftMiddleDistal": {
+          "position": {
+            "x": 2.142042e-08,
+            "y": 0.02112855,
+            "z": -8.731149e-09
+          },
+          "rotation": {
+            "x": -0.003945724,
+            "y": 0.0039656633,
+            "z": 0.0005817834,
+            "w": 0.9999842
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 0.99999994,
+            "z": 0.9999999
+          }
+        },
+        "LeftRingProximal": {
+          "position": {
+            "x": 0.009864228,
+            "y": 0.07102246,
+            "z": -1.335758e-09
+          },
+          "rotation": {
+            "x": -0.06605567,
+            "y": 0.06605566,
+            "z": -0.017831191,
+            "w": 0.9954674
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 1.0000001
+          }
+        },
+        "LeftRingIntermediate": {
+          "position": {
+            "x": 1.4901161e-08,
+            "y": 0.03684253,
+            "z": -5.2386895e-08
+          },
+          "rotation": {
+            "x": 0.01214172,
+            "y": -0.015357407,
+            "z": 0.027941946,
+            "w": 0.99941784
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 0.9999999
+          }
+        },
+        "LeftRingDistal": {
+          "position": {
+            "x": 4.656613e-09,
+            "y": 0.01908753,
+            "z": -1.1641532e-09
+          },
+          "rotation": {
+            "x": -0.0043726154,
+            "y": 0.004399816,
+            "z": 0.0005960764,
+            "w": 0.99998057
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 0.99999994
+          }
+        },
+        "LeftLittleProximal": {
+          "position": {
+            "x": 0.02466057,
+            "y": 0.07102246,
+            "z": -0.0029592528
+          },
+          "rotation": {
+            "x": -0.080836624,
+            "y": 0.080836624,
+            "z": -0.023123443,
+            "w": 0.9931748
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        },
+        "LeftLittleIntermediate": {
+          "position": {
+            "x": -7.450581e-09,
+            "y": 0.030017009,
+            "z": 1.5785918e-07
+          },
+          "rotation": {
+            "x": 0.013902671,
+            "y": -0.018791871,
+            "z": 0.034711,
+            "w": 0.999124
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "LeftLittleDistal": {
+          "position": {
+            "x": -4.656613e-09,
+            "y": 0.015521962,
+            "z": 6.891787e-08
+          },
+          "rotation": {
+            "x": -0.0053671254,
+            "y": 0.005417538,
+            "z": 0.0005937212,
+            "w": 0.9999708
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "LeftThumbProximal": {
+          "position": {
+            "x": -0.02466057,
+            "y": 0.028606242,
+            "z": -1.321059e-09
+          },
+          "rotation": {
+            "x": -0.30836135,
+            "y": 0.30836132,
+            "z": 0.3262472,
+            "w": 0.8386831
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 1.0
+          }
+        },
+        "LeftThumbIntermediate": {
+          "position": {
+            "x": 6.3329935e-08,
+            "y": 0.028091472,
+            "z": -6.239861e-08
+          },
+          "rotation": {
+            "x": 0.16138533,
+            "y": -0.21044098,
+            "z": -0.1299858,
+            "w": 0.9553916
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 1.0000001
+          }
+        },
+        "LeftThumbDistal": {
+          "position": {
+            "x": 4.0978193e-08,
+            "y": 0.030579092,
+            "z": -2.2817403e-07
+          },
+          "rotation": {
+            "x": -0.033010736,
+            "y": 0.07249966,
+            "z": -0.05686751,
+            "w": 0.99519855
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "RightShoulder": {
+          "position": {
+            "x": -0.0,
+            "y": 0.17952883,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.5,
+            "y": 0.49999997,
+            "z": 0.5,
+            "w": -0.5
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        },
+        "RightUpperArm": {
+          "position": {
+            "x": -0.0,
+            "y": 0.17262399,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": -0.01885447,
+            "y": -0.01885445,
+            "z": 0.000355618,
+            "w": 0.9996444
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 0.9999999
+          }
+        },
+        "RightLowerArm": {
+          "position": {
+            "x": 4.428617e-09,
+            "y": 0.2615881,
+            "z": -1.4901344e-08
+          },
+          "rotation": {
+            "x": 0.003306441,
+            "y": 0.0033083824,
+            "z": -0.00011381779,
+            "w": 0.9999891
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 0.99999994
+          }
+        },
+        "RightHand": {
+          "position": {
+            "x": -1.1157942e-10,
+            "y": 0.22205254,
+            "z": -1.0430828e-07
+          },
+          "rotation": {
+            "x": 0.015548033,
+            "y": 0.015548032,
+            "z": -0.00024179976,
+            "w": 0.99975824
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "RightUpperLeg": {
+          "position": {
+            "x": 0.082859516,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.99986213,
+            "y": 0.006036348,
+            "z": 0.0060363393,
+            "w": 0.0142444
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0000001
+          }
+        },
+        "RightLowerLeg": {
+          "position": {
+            "x": 1.0128133e-08,
+            "y": 0.4144961,
+            "z": 1.3969839e-09
+          },
+          "rotation": {
+            "x": 0.023798868,
+            "y": -0.011956378,
+            "z": 0.011903782,
+            "w": 0.9995744
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        },
+        "RightFoot": {
+          "position": {
+            "x": -1.720764e-09,
+            "y": 0.41440204,
+            "z": -8.1490725e-10
+          },
+          "rotation": {
+            "x": -0.51864135,
+            "y": 0.008078312,
+            "z": -0.0020599219,
+            "w": 0.8549513
+          },
+          "scale": {
+            "x": 0.9999999,
+            "y": 0.9999999,
+            "z": 0.99999994
+          }
+        },
+        "RightToes": {
+          "position": {
+            "x": -7.5260225e-09,
+            "y": 0.11123859,
+            "z": -6.4231944e-09
+          },
+          "rotation": {
+            "x": -0.20660397,
+            "y": 4.556197e-10,
+            "z": 9.6204725e-11,
+            "w": 0.97842467
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0000001
+          }
+        },
+        "RightIndexProximal": {
+          "position": {
+            "x": 0.020714879,
+            "y": 0.07102246,
+            "z": -1.3927159e-09
+          },
+          "rotation": {
+            "x": -0.06605567,
+            "y": -0.06605566,
+            "z": 0.017831191,
+            "w": 0.9954674
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 1.0000001
+          }
+        },
+        "RightIndexIntermediate": {
+          "position": {
+            "x": -1.6763806e-08,
+            "y": 0.036842532,
+            "z": 2.3515895e-08
+          },
+          "rotation": {
+            "x": 0.01214172,
+            "y": 0.015357407,
+            "z": -0.027941946,
+            "w": 0.99941784
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 0.9999999
+          }
+        },
+        "RightIndexDistal": {
+          "position": {
+            "x": 3.7252903e-09,
+            "y": 0.019087503,
+            "z": -4.33065e-08
+          },
+          "rotation": {
+            "x": -0.0043726154,
+            "y": -0.004399816,
+            "z": -0.0005960764,
+            "w": 0.99998057
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 0.99999994
+          }
+        },
+        "RightMiddleProximal": {
+          "position": {
+            "x": 0.005918537,
+            "y": 0.07102246,
+            "z": 0.0019729123
+          },
+          "rotation": {
+            "x": -0.05979089,
+            "y": -0.059790876,
+            "z": 0.015735159,
+            "w": 0.99629444
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "RightMiddleIntermediate": {
+          "position": {
+            "x": 5.5879354e-09,
+            "y": 0.04075479,
+            "z": 6.9790985e-08
+          },
+          "rotation": {
+            "x": 0.011280662,
+            "y": 0.013898749,
+            "z": -0.025125826,
+            "w": 0.99952406
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "RightMiddleDistal": {
+          "position": {
+            "x": -2.142042e-08,
+            "y": 0.02112855,
+            "z": -8.731149e-09
+          },
+          "rotation": {
+            "x": -0.003945724,
+            "y": -0.0039656633,
+            "z": -0.0005817834,
+            "w": 0.9999842
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 0.99999994,
+            "z": 0.9999999
+          }
+        },
+        "RightRingProximal": {
+          "position": {
+            "x": -0.009864228,
+            "y": 0.07102246,
+            "z": -1.335758e-09
+          },
+          "rotation": {
+            "x": -0.06605567,
+            "y": -0.06605566,
+            "z": 0.017831191,
+            "w": 0.9954674
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 1.0,
+            "z": 1.0000001
+          }
+        },
+        "RightRingIntermediate": {
+          "position": {
+            "x": -1.4901161e-08,
+            "y": 0.03684253,
+            "z": -5.2386895e-08
+          },
+          "rotation": {
+            "x": 0.01214172,
+            "y": 0.015357407,
+            "z": -0.027941946,
+            "w": 0.99941784
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 0.9999999
+          }
+        },
+        "RightRingDistal": {
+          "position": {
+            "x": -4.656613e-09,
+            "y": 0.01908753,
+            "z": -1.1641532e-09
+          },
+          "rotation": {
+            "x": -0.0043726154,
+            "y": -0.004399816,
+            "z": -0.0005960764,
+            "w": 0.99998057
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 0.99999994
+          }
+        },
+        "RightLittleProximal": {
+          "position": {
+            "x": -0.02466057,
+            "y": 0.07102246,
+            "z": -0.0029592528
+          },
+          "rotation": {
+            "x": -0.080836624,
+            "y": -0.080836624,
+            "z": 0.023123443,
+            "w": 0.9931748
+          },
+          "scale": {
+            "x": 0.99999994,
+            "y": 0.99999994,
+            "z": 1.0
+          }
+        },
+        "RightLittleIntermediate": {
+          "position": {
+            "x": 7.450581e-09,
+            "y": 0.030017009,
+            "z": 1.5785918e-07
+          },
+          "rotation": {
+            "x": 0.013902671,
+            "y": 0.018791871,
+            "z": -0.034711,
+            "w": 0.999124
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.99999994
+          }
+        },
+        "RightLittleDistal": {
+          "position": {
+            "x": 4.656613e-09,
+            "y": 0.015521962,
+            "z": 6.891787e-08
+          },
+          "rotation": {
+            "x": -0.0053671254,
+            "y": -0.005417538,
+            "z": -0.0005937212,
+            "w": 0.9999708
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "RightThumbProximal": {
+          "position": {
+            "x": 0.02466057,
+            "y": 0.028606242,
+            "z": -1.321059e-09
+          },
+          "rotation": {
+            "x": -0.30836135,
+            "y": -0.30836132,
+            "z": -0.3262472,
+            "w": 0.8386831
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 1.0
+          }
+        },
+        "RightThumbIntermediate": {
+          "position": {
+            "x": -6.3329935e-08,
+            "y": 0.028091472,
+            "z": -6.239861e-08
+          },
+          "rotation": {
+            "x": 0.16138533,
+            "y": 0.21044098,
+            "z": 0.1299858,
+            "w": 0.9553916
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0000001,
+            "z": 1.0000001
+          }
+        },
+        "RightThumbDistal": {
+          "position": {
+            "x": -4.0978193e-08,
+            "y": 0.030579092,
+            "z": -2.2817403e-07
+          },
+          "rotation": {
+            "x": -0.033010736,
+            "y": -0.07249966,
+            "z": 0.05686751,
+            "w": 0.99519855
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        }
+      }
+    }
+  },
+  "proposed_raw_anchors": {
+    "Stella": {
+      "status": "Proposed coarse visual anchors only; not mesh-calibrated, not weight/retarget validated",
+      "source_audit": "TestResults/CharacterPipeline/SourceAudit/Stella.json",
+      "source_sha256": "5c6b96a4dbc1e004c1fbb2d08ee3f7de8a7e45d1b67f1f9dd8fe1395be556c36",
+      "source_bounds": {
+        "min": [
+          -0.7329180240631104,
+          -0.32315099239349365,
+          -0.9515290260314941
+        ],
+        "max": [
+          0.7320200204849243,
+          0.3338640034198761,
+          0.9514240026473999
+        ]
+      },
+      "height": 1.902953028678894,
+      "coordinate_rule": "x=(X-midBoundsX)/height; y=(Y-midBoundsY)/height; z=(Z-minBoundsZ)/height. Values include footwear/hair bounds. Blender +X anatomical Left, -Y forward, +Z up.",
+      "restore_raw_point": "[midBoundsX+x*height,midBoundsY+y*height,minBoundsZ+z*height]",
+      "visual_basis": [
+        "front.png",
+        "side.png"
+      ],
+      "estimated_uncertainty_fraction_height": 0.025,
+      "occluded_joint_uncertainty_fraction_height": 0.04,
+      "anchors": {
+        "Root": [
+          0,
+          -0.077,
+          0
+        ],
+        "Hips": [
+          0,
+          -0.077,
+          0.545
+        ],
+        "Spine": [
+          0,
+          -0.077,
+          0.64
+        ],
+        "Chest": [
+          0,
+          -0.077,
+          0.735
+        ],
+        "Neck": [
+          0,
+          -0.077,
+          0.83
+        ],
+        "Head": [
+          0,
+          -0.081,
+          0.858
+        ],
+        "HeadTip": [
+          0,
+          -0.077,
+          0.961
+        ],
+        "LeftShoulder": [
+          0,
+          -0.077,
+          0.792
+        ],
+        "LeftUpperArm": [
+          0.095,
+          -0.077,
+          0.791
+        ],
+        "LeftLowerArm": [
+          0.211,
+          -0.08,
+          0.767
+        ],
+        "LeftHand": [
+          0.294,
+          -0.081,
+          0.749
+        ],
+        "LeftHandTip": [
+          0.345,
+          -0.086,
+          0.738
+        ],
+        "LeftUpperLeg": [
+          0.039,
+          -0.077,
+          0.535
+        ],
+        "LeftLowerLeg": [
+          0.032,
+          -0.086,
+          0.35
+        ],
+        "LeftFoot": [
+          0.025,
+          -0.077,
+          0.075
+        ],
+        "LeftToes": [
+          0.025,
+          -0.132,
+          0.023
+        ],
+        "LeftToeTip": [
+          0.025,
+          -0.159,
+          0.017
+        ],
+        "RightShoulder": [
+          0,
+          -0.077,
+          0.792
+        ],
+        "RightUpperArm": [
+          -0.095,
+          -0.077,
+          0.791
+        ],
+        "RightLowerArm": [
+          -0.211,
+          -0.08,
+          0.767
+        ],
+        "RightHand": [
+          -0.294,
+          -0.081,
+          0.749
+        ],
+        "RightHandTip": [
+          -0.345,
+          -0.086,
+          0.738
+        ],
+        "RightUpperLeg": [
+          -0.039,
+          -0.077,
+          0.535
+        ],
+        "RightLowerLeg": [
+          -0.032,
+          -0.086,
+          0.35
+        ],
+        "RightFoot": [
+          -0.025,
+          -0.077,
+          0.075
+        ],
+        "RightToes": [
+          -0.025,
+          -0.132,
+          0.023
+        ],
+        "RightToeTip": [
+          -0.025,
+          -0.159,
+          0.017
+        ]
+      },
+      "finger_anchors_status": "Not resolved on raw source. Do not copy legacy hand proportions. Inspect separated finger volumes after reduction; preserve atlas and do not invent missing fingers."
+    },
+    "Polaris": {
+      "status": "Proposed coarse visual anchors only; not mesh-calibrated, not weight/retarget validated",
+      "source_audit": "TestResults/CharacterPipeline/SourceAudit/Polaris.json",
+      "source_sha256": "ede6750ab39e7f392990dd660c58ddb75ec4f530e88b22d8278a1000a7562051",
+      "source_bounds": {
+        "min": [
+          -0.7550489902496338,
+          -0.2382809966802597,
+          -0.9493989944458008
+        ],
+        "max": [
+          0.7540910243988037,
+          0.24694199860095978,
+          0.9494950175285339
+        ]
+      },
+      "height": 1.8988940119743347,
+      "coordinate_rule": "x=(X-midBoundsX)/height; y=(Y-midBoundsY)/height; z=(Z-minBoundsZ)/height. Values include footwear/hair bounds. Blender +X anatomical Left, -Y forward, +Z up.",
+      "restore_raw_point": "[midBoundsX+x*height,midBoundsY+y*height,minBoundsZ+z*height]",
+      "visual_basis": [
+        "front.png",
+        "side.png"
+      ],
+      "estimated_uncertainty_fraction_height": 0.025,
+      "occluded_joint_uncertainty_fraction_height": 0.04,
+      "anchors": {
+        "Root": [
+          0,
+          -0.056,
+          0
+        ],
+        "Hips": [
+          0,
+          -0.056,
+          0.535
+        ],
+        "Spine": [
+          0,
+          -0.056,
+          0.64
+        ],
+        "Chest": [
+          0,
+          -0.056,
+          0.735
+        ],
+        "Neck": [
+          0,
+          -0.056,
+          0.83
+        ],
+        "Head": [
+          0,
+          -0.06,
+          0.858
+        ],
+        "HeadTip": [
+          0,
+          -0.056,
+          0.961
+        ],
+        "LeftShoulder": [
+          0,
+          -0.056,
+          0.792
+        ],
+        "LeftUpperArm": [
+          0.095,
+          -0.056,
+          0.791
+        ],
+        "LeftLowerArm": [
+          0.211,
+          -0.059000000000000004,
+          0.782
+        ],
+        "LeftHand": [
+          0.294,
+          -0.06,
+          0.765
+        ],
+        "LeftHandTip": [
+          0.345,
+          -0.065,
+          0.754
+        ],
+        "LeftUpperLeg": [
+          0.042,
+          -0.056,
+          0.526
+        ],
+        "LeftLowerLeg": [
+          0.045,
+          -0.065,
+          0.36
+        ],
+        "LeftFoot": [
+          0.053,
+          -0.056,
+          0.075
+        ],
+        "LeftToes": [
+          0.053,
+          -0.111,
+          0.023
+        ],
+        "LeftToeTip": [
+          0.053,
+          -0.138,
+          0.017
+        ],
+        "RightShoulder": [
+          0,
+          -0.056,
+          0.792
+        ],
+        "RightUpperArm": [
+          -0.095,
+          -0.056,
+          0.791
+        ],
+        "RightLowerArm": [
+          -0.211,
+          -0.059000000000000004,
+          0.782
+        ],
+        "RightHand": [
+          -0.294,
+          -0.06,
+          0.765
+        ],
+        "RightHandTip": [
+          -0.345,
+          -0.065,
+          0.754
+        ],
+        "RightUpperLeg": [
+          -0.042,
+          -0.056,
+          0.526
+        ],
+        "RightLowerLeg": [
+          -0.045,
+          -0.065,
+          0.36
+        ],
+        "RightFoot": [
+          -0.053,
+          -0.056,
+          0.075
+        ],
+        "RightToes": [
+          -0.053,
+          -0.111,
+          0.023
+        ],
+        "RightToeTip": [
+          -0.053,
+          -0.138,
+          0.017
+        ]
+      },
+      "finger_anchors_status": "Not resolved on raw source. Do not copy legacy hand proportions. Inspect separated finger volumes after reduction; preserve atlas and do not invent missing fingers."
+    }
+  },
+  "invariants": [
+    "Exact Unity HumanTrait names with spaces removed; Root not mapped/deforming.",
+    "Use each destination model own Humanoid Avatar; do not assign KayKit/Mixamo source Avatar to destination.",
+    "Keep RightHand transform and unoptimized bones; existing weapon and M3 snapshots need them.",
+    "Source atlas/materials must remain independent from legacy EX_Face/EX_Hair texture patching.",
+    "No gameplay root motion; displacement remains owned by PlayerMotor/CharacterController.",
+    "Legacy imported local coordinates are not an approved new raw bind pose.",
+    "Raw anchors need overlay/skin-deformation visual acceptance before game import."
+  ]
+}

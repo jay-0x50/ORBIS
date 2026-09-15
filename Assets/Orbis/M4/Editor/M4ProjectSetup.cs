@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using Orbis.M3.Editor;
+using Orbis.EditorSupport;
 using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Build;
@@ -29,7 +30,7 @@ namespace Orbis.M4.Editor
         public static string ScenePath(M4RegionId id) => SceneDirectory + "/M4_" + id + ".unity";
         public static string Address(M4RegionId id) => "orbis.region." + id.ToString().ToLowerInvariant();
 
-        [MenuItem("Orbis/M4/Setup and Validate")]
+        [MenuItem("Orbis/Development/Legacy/M4/Setup and Validate")]
         public static void SetupAndValidate()
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
@@ -41,8 +42,8 @@ namespace Orbis.M4.Editor
             foreach (M4RegionProfile profile in M4RegionCatalog.All) BuildScene(ScenePath(profile.Id), BootstrapScript, profile.Id);
             BuildScene(LauncherScene, LauncherScript, null);
             ConfigureAddressables();
-            // The player starts in the lightweight launcher. Old prototype scene enable flags are
-            // preserved; Addressable region scenes are never duplicated as built-in scenes.
+            // Keep all legacy fixtures available, then apply the authored Field product policy.
+            // Addressable region scenes are never duplicated as built-in scenes.
             var regionPaths = new HashSet<string>(M4RegionCatalog.All.Select(x => ScenePath(x.Id)));
             var scenes = new List<EditorBuildSettingsScene>();
             // Once M1.6 exists, keep character selection as the player entry even when rebuilding old content.
@@ -51,13 +52,14 @@ namespace Orbis.M4.Editor
             scenes.Add(new EditorBuildSettingsScene(LauncherScene, true));
             scenes.AddRange(EditorBuildSettings.scenes.Where(x => x.path != LauncherScene && (!explorerEntryExists || x.path != ExplorerEntry) && !regionPaths.Contains(x.path)));
             EditorBuildSettings.scenes = scenes.ToArray();
+            FieldSceneBuildPolicy.ApplyProductLayout();
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
             Validate();
-            Debug.Log("ORBIS M4 setup passed: launcher + five local Addressable regions. Open Orbis > M4 > Open Launcher.");
+            Debug.Log("ORBIS M4 setup passed: launcher + five local Addressable regions. Open Orbis > Development > Legacy > M4 > Open Launcher.");
         }
 
-        [MenuItem("Orbis/M4/Build Local Addressable Content")]
+        [MenuItem("Orbis/Development/Legacy/M4/Build Local Addressable Content")]
         public static void BuildContent()
         {
             SetupAndValidate();
@@ -87,9 +89,14 @@ namespace Orbis.M4.Editor
                     throw new BuildFailedException("M4 region scene is duplicated in built-in scenes: " + path);
             }
             ValidateScene(LauncherScene, LauncherScript, null);
-            var enabled = EditorBuildSettings.scenes.Where(x => x.enabled).ToArray();
-            if (enabled.Length == 0 || (enabled[0].path != LauncherScene && enabled[0].path != ExplorerEntry) || !enabled.Any(x => x.path == LauncherScene))
-                throw new BuildFailedException("The player entry must be the M4 launcher or M1.6 selection, with the M4 launcher enabled.");
+            if (FieldSceneBuildPolicy.IsProductMode)
+                FieldSceneBuildPolicy.ValidateBuildLayout();
+            else
+            {
+                var enabled = EditorBuildSettings.scenes.Where(x => x.enabled).ToArray();
+                if (enabled.Length == 0 || (enabled[0].path != LauncherScene && enabled[0].path != ExplorerEntry) || !enabled.Any(x => x.path == LauncherScene))
+                    throw new BuildFailedException("The legacy entry must be the M4 launcher or M1.6 selection, with the M4 launcher enabled.");
+            }
         }
 
         private static void ConfigureAddressables()
@@ -148,12 +155,12 @@ namespace Orbis.M4.Editor
                 throw new BuildFailedException("M4 scene region does not match its address: " + path);
         }
 
-        [MenuItem("Orbis/M4/Open Launcher")] public static void OpenLauncher() => Open(LauncherScene);
-        [MenuItem("Orbis/M4/Open Agnia")] public static void OpenAgnia() => Open(ScenePath(M4RegionId.Agnia));
-        [MenuItem("Orbis/M4/Open Teluna")] public static void OpenTeluna() => Open(ScenePath(M4RegionId.Teluna));
-        [MenuItem("Orbis/M4/Open Zephyr")] public static void OpenZephyr() => Open(ScenePath(M4RegionId.Zephyr));
-        [MenuItem("Orbis/M4/Open Granite")] public static void OpenGranite() => Open(ScenePath(M4RegionId.Granite));
-        [MenuItem("Orbis/M4/Open Voltheim")] public static void OpenVoltheim() => Open(ScenePath(M4RegionId.Voltheim));
+        [MenuItem("Orbis/Development/Legacy/M4/Open Launcher")] public static void OpenLauncher() => Open(LauncherScene);
+        [MenuItem("Orbis/Development/Legacy/M4/Open Agnia")] public static void OpenAgnia() => Open(ScenePath(M4RegionId.Agnia));
+        [MenuItem("Orbis/Development/Legacy/M4/Open Teluna")] public static void OpenTeluna() => Open(ScenePath(M4RegionId.Teluna));
+        [MenuItem("Orbis/Development/Legacy/M4/Open Zephyr")] public static void OpenZephyr() => Open(ScenePath(M4RegionId.Zephyr));
+        [MenuItem("Orbis/Development/Legacy/M4/Open Granite")] public static void OpenGranite() => Open(ScenePath(M4RegionId.Granite));
+        [MenuItem("Orbis/Development/Legacy/M4/Open Voltheim")] public static void OpenVoltheim() => Open(ScenePath(M4RegionId.Voltheim));
         private static void Open(string path)
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;

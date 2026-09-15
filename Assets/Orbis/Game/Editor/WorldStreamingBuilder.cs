@@ -147,6 +147,7 @@ namespace Orbis.Game.Editor
         [MenuItem("Orbis/World/Build Environment Addressables")]
         public static void BuildContent()
         {
+            FieldSceneAuthoring.EnsureExported();
             Validate();
             AddressableAssetSettings.BuildPlayerContent(out AddressablesPlayerBuildResult result);
             if(result==null||!string.IsNullOrEmpty(result.Error))
@@ -178,15 +179,10 @@ namespace Orbis.Game.Editor
                         {
                             if(grass.Data==null||grass.InstanceMesh==null)
                                 throw new BuildFailedException("Grass data/mesh is missing in "+path);
-                            var meshBounds=grass.InstanceMesh.bounds;
-                            // Rotation-independent radius includes the authored mesh extent and shader displacement.
-                            float radius=meshBounds.center.magnitude+meshBounds.extents.magnitude;
                             foreach(var cell in grass.Data.Cells)
                             {
-                                float scale=Mathf.Max(cell.MaximumScale.x,Mathf.Max(cell.MaximumScale.y,cell.MaximumScale.z));
-                                var cellBounds=cell.PositionBounds;
-                                cellBounds.Expand(2*(radius*scale+Mathf.Max(0,grass.DeformationPadding)));
-                                bounds.Encapsulate(cellBounds);
+                                // Opt-in Field transforms move both instances and their streaming bounds.
+                                bounds.Encapsulate(grass.GetWorldCellBounds(cell));
                             }
                         }
                     }

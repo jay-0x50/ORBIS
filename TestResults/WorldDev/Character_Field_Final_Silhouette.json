@@ -1,0 +1,21 @@
+{
+    "stage": "Character_Field_Final",
+    "view": "Silhouette",
+    "scene": "Assets/Scenes/Field.unity",
+    "graphics": "NVIDIA GeForce GTX 1650 SUPER",
+    "isPlaying": false,
+    "monochrome": true,
+    "camera": {
+        "x": 0.0,
+        "y": 2500.0,
+        "z": 0.0
+    },
+    "focus": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "fov": 48.0,
+    "vram": 3930,
+    "note": "Actual Unity URP Edit Mode render. Village/Overview/Silhouette use the same world camera coordinates as WorldVisualTests. No performance benchmark."
+}

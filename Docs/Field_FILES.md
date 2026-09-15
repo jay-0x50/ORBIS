@@ -1,0 +1,107 @@
+# Field 변경·생성 파일
+
+일상 편집 씬: `Assets/Scenes/Field.unity`.
+
+기존 파일은 작업 시작 시점 해시와 일치할 때만 교체합니다. 원본 백업 후 전체 해시를 검증합니다.
+
+`Assets/Img`, `Assets/blend`, 외부 애셋, Library, 로그, 기준 해시 파일은 복사하지 않습니다.
+
+| 구분 | 파일 |
+|---|---|
+| 생성 | `Assets/Orbis/EditorSupport.meta` |
+| 생성 | `Assets/Orbis/EditorSupport/FieldSceneBuildPolicy.cs` |
+| 생성 | `Assets/Orbis/EditorSupport/FieldSceneBuildPolicy.cs.meta` |
+| 생성 | `Assets/Orbis/EditorSupport/Orbis.EditorSupport.asmdef` |
+| 생성 | `Assets/Orbis/EditorSupport/Orbis.EditorSupport.asmdef.meta` |
+| 생성 | `Assets/Orbis/EditorSupport/TestRunner.meta` |
+| 생성 | `Assets/Orbis/EditorSupport/TestRunner/FieldSceneTestRunScope.cs` |
+| 생성 | `Assets/Orbis/EditorSupport/TestRunner/FieldSceneTestRunScope.cs.meta` |
+| 생성 | `Assets/Orbis/EditorSupport/TestRunner/Orbis.EditorSupport.TestRunner.asmdef` |
+| 생성 | `Assets/Orbis/EditorSupport/TestRunner/Orbis.EditorSupport.TestRunner.asmdef.meta` |
+| 생성 | `Assets/Orbis/Game/Editor/FieldBuildExportHook.cs` |
+| 생성 | `Assets/Orbis/Game/Editor/FieldBuildExportHook.cs.meta` |
+| 생성 | `Assets/Orbis/Game/Editor/FieldExportVerification.cs` |
+| 생성 | `Assets/Orbis/Game/Editor/FieldExportVerification.cs.meta` |
+| 생성 | `Assets/Orbis/Game/Editor/FieldGeometryBinding.cs` |
+| 생성 | `Assets/Orbis/Game/Editor/FieldGeometryBinding.cs.meta` |
+| 생성 | `Assets/Orbis/Game/Editor/FieldSceneAuthoring.cs` |
+| 생성 | `Assets/Orbis/Game/Editor/FieldSceneAuthoring.cs.meta` |
+| 생성 | `Assets/Orbis/Game/Editor/FieldSceneEvidence.cs` |
+| 생성 | `Assets/Orbis/Game/Editor/FieldSceneEvidence.cs.meta` |
+| 변경 | `Assets/Orbis/Game/Editor/IslandSceneBuilder.cs` |
+| 변경 | `Assets/Orbis/Game/Editor/OpenWorldSceneBuilder.cs` |
+| 변경 | `Assets/Orbis/Game/Editor/Orbis.Game.Editor.asmdef` |
+| 변경 | `Assets/Orbis/Game/Editor/WorldArtBuilder.cs` |
+| 변경 | `Assets/Orbis/Game/Editor/WorldLandmarkBuilder.cs` |
+| 변경 | `Assets/Orbis/Game/Editor/WorldNatureBuilder.cs` |
+| 변경 | `Assets/Orbis/Game/Editor/WorldPerformanceBuilder.cs` |
+| 변경 | `Assets/Orbis/Game/Editor/WorldStreamingBuilder.cs` |
+| 변경 | `Assets/Orbis/Game/Editor/WorldStyleBuilder.cs` |
+| 변경 | `Assets/Orbis/Game/Editor/WorldWeatherBuilder.cs` |
+| 변경 | `Assets/Orbis/Game/Editor/WorldWorkspaceMenu.cs` |
+| 생성 | `Assets/Orbis/Game/Runtime/World/FieldAuthoring.cs` |
+| 생성 | `Assets/Orbis/Game/Runtime/World/FieldAuthoring.cs.meta` |
+| 변경 | `Assets/Orbis/Game/Runtime/World/WorldGrassField.cs` |
+| 변경 | `Assets/Orbis/Game/Scenes/Orbis_Island.unity` |
+| 변경 | `Assets/Orbis/Game/Scenes/Orbis_Island/OcclusionCullingData.asset` |
+| 생성 | `Assets/Orbis/Game/Tests/EditMode/FieldGeometryBindingTests.cs` |
+| 생성 | `Assets/Orbis/Game/Tests/EditMode/FieldGeometryBindingTests.cs.meta` |
+| 생성 | `Assets/Orbis/Game/Tests/EditMode/FieldGrassAuthoringTests.cs` |
+| 생성 | `Assets/Orbis/Game/Tests/EditMode/FieldGrassAuthoringTests.cs.meta` |
+| 변경 | `Assets/Orbis/Game/Tests/PlayMode/WorldLandmarkVisibilityTests.cs` |
+| 생성 | `Assets/Orbis/Game/World/Authoring.meta` |
+| 생성 | `Assets/Orbis/Game/World/Authoring/FieldExportState.json` |
+| 생성 | `Assets/Orbis/Game/World/Authoring/FieldExportState.json.meta` |
+| 변경 | `Assets/Orbis/Game/World/Resources/World/StreamCatalog.asset` |
+| 변경 | `Assets/Orbis/Game/World/Scenes/Environment_Agnia.unity` |
+| 변경 | `Assets/Orbis/Game/World/Scenes/Environment_Granite.unity` |
+| 변경 | `Assets/Orbis/Game/World/Scenes/Environment_Teluna.unity` |
+| 변경 | `Assets/Orbis/Game/World/Scenes/Environment_Voltheim.unity` |
+| 변경 | `Assets/Orbis/Game/World/Scenes/Environment_Zephyr.unity` |
+| 변경 | `Assets/Orbis/M0/Editor/M0ProjectSetup.cs` |
+| 변경 | `Assets/Orbis/M0/Editor/Orbis.M0.Editor.asmdef` |
+| 변경 | `Assets/Orbis/M1/Editor/M1ProjectSetup.cs` |
+| 변경 | `Assets/Orbis/M1/Editor/Orbis.M1.Editor.asmdef` |
+| 변경 | `Assets/Orbis/M15/Editor/M15ProjectSetup.cs` |
+| 변경 | `Assets/Orbis/M15/Editor/Orbis.M15.Editor.asmdef` |
+| 변경 | `Assets/Orbis/M16/Editor/ExplorerProjectSetup.cs` |
+| 변경 | `Assets/Orbis/M16/Editor/Orbis.M16.Editor.asmdef` |
+| 변경 | `Assets/Orbis/M2/Editor/M2ProjectSetup.cs` |
+| 변경 | `Assets/Orbis/M2/Editor/Orbis.M2.Editor.asmdef` |
+| 변경 | `Assets/Orbis/M3/Editor/M3ProjectSetup.cs` |
+| 변경 | `Assets/Orbis/M3/Editor/M3ShaderBuilder.cs` |
+| 변경 | `Assets/Orbis/M3/Editor/Orbis.M3.Editor.asmdef` |
+| 변경 | `Assets/Orbis/M4/Editor/M4ProjectSetup.cs` |
+| 변경 | `Assets/Orbis/M4/Editor/Orbis.M4.Editor.asmdef` |
+| 생성 | `Assets/Orbis/M4/Tests/EditMode/FieldBuildPolicyTests.cs` |
+| 생성 | `Assets/Orbis/M4/Tests/EditMode/FieldBuildPolicyTests.cs.meta` |
+| 변경 | `Assets/Orbis/M4/Tests/EditMode/M4ContentTests.cs` |
+| 변경 | `Assets/Orbis/M4/Tests/EditMode/Orbis.M4.EditModeTests.asmdef` |
+| 생성 | `Assets/Scenes.meta` |
+| 생성 | `Assets/Scenes/Field.unity` |
+| 생성 | `Assets/Scenes/Field.unity.meta` |
+| 생성 | `Docs/Field_FILES.md` |
+| 생성 | `Docs/Field_Workflow.md` |
+| 변경 | `ProjectSettings/EditorBuildSettings.asset` |
+| 변경 | `README.md` |
+| 생성 | `TestResults/WorldDev/Field_Build.json` |
+| 생성 | `TestResults/WorldDev/Field_EditMode_Hierarchy.json` |
+| 생성 | `TestResults/WorldDev/Field_EditMode_Overview.json` |
+| 생성 | `TestResults/WorldDev/Field_EditMode_Overview.png` |
+| 생성 | `TestResults/WorldDev/Field_EditMode_Silhouette.json` |
+| 생성 | `TestResults/WorldDev/Field_EditMode_Silhouette.png` |
+| 생성 | `TestResults/WorldDev/Field_EditMode_Village.json` |
+| 생성 | `TestResults/WorldDev/Field_EditMode_Village.png` |
+| 생성 | `TestResults/WorldDev/Field_EditTests2.xml` |
+| 생성 | `TestResults/WorldDev/Field_ExportRoundtrip.json` |
+| 생성 | `TestResults/WorldDev/Field_Occlusion.json` |
+| 생성 | `TestResults/WorldDev/Field_PlayTests.xml` |
+| 생성 | `TestResults/WorldDev/Field_PlayTests_Village.json` |
+| 생성 | `TestResults/WorldDev/Field_PlayTests_Village.png` |
+| 생성 | `TestResults/WorldDev/Field_Validation.json` |
+| 생성 | `TestResults/WorldDev/Field_VisibilityRetest.xml` |
+| 생성 | `Tools/Field/ApplyDelivery.ps1` |
+| 생성 | `Tools/Field/Field_DeliveryManifest.json` |
+| 생성 | `Tools/Field/Field_DeliveryReport.json` |
+| 생성 | `Tools/Field/GenerateDeliveryManifest.py` |
+| 생성 | `Tools/Field/README.md` |

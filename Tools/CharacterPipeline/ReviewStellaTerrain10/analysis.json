@@ -1,0 +1,1513 @@
+{
+  "status": "Read-only numerical inspection; see Review.md for actual visual evidence and limits",
+  "runtimePath": "Assets/Orbis/M0/Runtime/Animation/HumanFootIK.cs",
+  "runtimeSha256": "53849a2da03bf920b27d24495802c5f4f3bd225402c0927e88c5ff1a03febbae",
+  "capturePath": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\Motion\\After\\Stella12TerrainAfter10\\Stella",
+  "baselinePath": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\Motion\\After\\Stella12After08\\Stella",
+  "flat": {
+    "frames": 300,
+    "identicalJpegCount": 298,
+    "changedJpegFrames": [
+      46,
+      147
+    ],
+    "changedFieldFrameCounts": {
+      "phase": 0,
+      "gameplayState": 0,
+      "rootPosition": 0,
+      "rootRotation": 0,
+      "grounded": 0,
+      "attackStep": 0,
+      "attackClock": 0,
+      "attackParameter": 0,
+      "actionParameter": 0,
+      "timeScale": 0
+    },
+    "rootPositionMaxM": 0,
+    "rootRotationComponentMax": 0,
+    "boneRootLocalPositionMaxM": 0,
+    "skinPointPositionMaxM": 0
+  },
+  "actions": {
+    "frames": 300,
+    "identicalJpegCount": 183,
+    "changedJpegFrames": [
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299
+    ],
+    "changedFieldFrameCounts": {
+      "phase": 0,
+      "gameplayState": 2,
+      "rootPosition": 0,
+      "rootRotation": 0,
+      "grounded": 0,
+      "attackStep": 0,
+      "attackClock": 0,
+      "attackParameter": 0,
+      "actionParameter": 39,
+      "timeScale": 4
+    },
+    "rootPositionMaxM": 0,
+    "rootRotationComponentMax": 0,
+    "boneRootLocalPositionMaxM": 0.26238886526083244,
+    "skinPointPositionMaxM": 0.25308795263881645
+  },
+  "terrain": {
+    "Slope12": {
+      "frames": 300,
+      "images": 300,
+      "finiteFrameCount": 300,
+      "missingSamples": 0,
+      "minimumM": -0.0101776123046875,
+      "maximumM": 0.18711090087890625,
+      "worst": {
+        "frame": 232,
+        "side": "Right",
+        "minimumM": -0.0101776123046875,
+        "phase": "Downhill",
+        "contact": 1.0,
+        "effectiveContact": 1.0,
+        "appliedSolveWeight": 0.4688771367073059,
+        "triangle": 4,
+        "normal": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "rootPosition": {
+          "x": 3200.0,
+          "y": 102.58067321777344,
+          "z": 3014.583251953125
+        },
+        "terrainAdapted": false,
+        "handoff": false
+      },
+      "footFramesBelowMinus1mm": 5,
+      "footFramesBelowMinus5mm": 2,
+      "footFramesBelowMinus10mm": 1,
+      "footFramesContactAboveHalfBelowMinus5mm": 1,
+      "minimumOnAdaptedFootFramesM": -8.208941289922222e-05,
+      "minimumWhenWorstSampleInclinedM": -8.208941289922222e-05,
+      "contactAboveHalfMinimumDistanceRangeM": {
+        "min": -0.0101776123046875,
+        "max": 0.07530975341796875
+      },
+      "contactAboveHalfLowestSampleAbove30mmFootFrames": [
+        {
+          "frame": 213,
+          "side": "Left",
+          "minimumM": 0.05145263671875,
+          "phase": "Downhill"
+        },
+        {
+          "frame": 214,
+          "side": "Left",
+          "minimumM": 0.07530975341796875,
+          "phase": "Downhill"
+        },
+        {
+          "frame": 215,
+          "side": "Left",
+          "minimumM": 0.05078887939453125,
+          "phase": "Downhill"
+        },
+        {
+          "frame": 223,
+          "side": "Right",
+          "minimumM": 0.0511932373046875,
+          "phase": "Downhill"
+        },
+        {
+          "frame": 224,
+          "side": "Right",
+          "minimumM": 0.0657501220703125,
+          "phase": "Downhill"
+        }
+      ],
+      "geometryReadyFootFrames": 600,
+      "geometryAttemptsValues": [
+        1
+      ],
+      "geometryErrors": [
+        ""
+      ],
+      "calibratedSoleCounts": {
+        "Left": [
+          26
+        ],
+        "Right": [
+          27
+        ]
+      },
+      "constraintInfeasibleFootFrames": 0,
+      "terrainAdaptedFootFrames": 293,
+      "terrainHandoffFootFrames": 17,
+      "gateRaysPerFrameMax": 14,
+      "gateRaysPerFrameMean": 7.71,
+      "clearanceRaysPerFrameMax": 31,
+      "numericRanges": {
+        "terrainFinalVerticalCorrection": {
+          "min": -0.123779296875,
+          "max": 0.06768035888671875
+        },
+        "terrainReachProjection": {
+          "min": 0.0,
+          "max": 0.09951531887054443
+        },
+        "terrainUnresolvedClearance": {
+          "min": 0.0,
+          "max": 1.4781521713302936e-06
+        },
+        "terrainClearanceLift": {
+          "min": 0.0,
+          "max": 0.0165557861328125
+        },
+        "terrainPelvisRemainder": {
+          "min": 0.0,
+          "max": 0.11702410131692886
+        },
+        "terrainHandoffClearance": {
+          "min": 0.0,
+          "max": 0.0165557861328125
+        },
+        "appliedSolveWeight": {
+          "min": 0.00020657472487073392,
+          "max": 1.0
+        }
+      },
+      "mostBentKnee": {
+        "frame": 134,
+        "side": "Left",
+        "angle": 78.93997649386483,
+        "phase": "CrestRun"
+      },
+      "straightestKnee": {
+        "frame": 232,
+        "side": "Left",
+        "angle": 176.85989431916983,
+        "phase": "Downhill"
+      },
+      "worstFootFrames": [
+        {
+          "frame": 232,
+          "side": "Right",
+          "minimumM": -0.0101776123046875,
+          "phase": "Downhill",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 0.4688771367073059,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 102.58067321777344,
+            "z": 3014.583251953125
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 231,
+          "side": "Right",
+          "minimumM": -0.008880615234375,
+          "phase": "Downhill",
+          "contact": 0.005813043098896742,
+          "effectiveContact": 0.005813043098896742,
+          "appliedSolveWeight": 0.02634798362851143,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 102.58068084716797,
+            "z": 3014.666748046875
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 30,
+          "side": "Left",
+          "minimumM": -0.00334930419921875,
+          "phase": "Uphill",
+          "contact": 0.7168081402778625,
+          "effectiveContact": 0.7168081402778625,
+          "appliedSolveWeight": 0.871288001537323,
+          "triangle": 1,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 100.02999877929688,
+            "z": 2997.083251953125
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 233,
+          "side": "Right",
+          "minimumM": -0.0027008056640625,
+          "phase": "Downhill",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 0.7102748155593872,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 102.58068084716797,
+            "z": 3014.5
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 225,
+          "side": "Left",
+          "minimumM": -0.001373291015625,
+          "phase": "Downhill",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 0.6747087240219116,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 102.58068084716797,
+            "z": 3015.166748046875
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 31,
+          "side": "Left",
+          "minimumM": -0.00084686279296875,
+          "phase": "Uphill",
+          "contact": 0.5130618214607239,
+          "effectiveContact": 0.0,
+          "appliedSolveWeight": 1.0,
+          "triangle": 1,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 100.02999877929688,
+            "z": 2997.166748046875
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 234,
+          "side": "Right",
+          "minimumM": -0.000732421875,
+          "phase": "Downhill",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 0.8419561982154846,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 102.58068084716797,
+            "z": 3014.416748046875
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 239,
+          "side": "Left",
+          "minimumM": -0.00019073486328125,
+          "phase": "Downhill",
+          "contact": 0.4241933822631836,
+          "effectiveContact": 0.4241933822631836,
+          "appliedSolveWeight": 0.20497509837150574,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 102.58068084716797,
+            "z": 3014.0
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 235,
+          "side": "Right",
+          "minimumM": -0.000152587890625,
+          "phase": "Downhill",
+          "contact": 0.9999099373817444,
+          "effectiveContact": 0.9999099373817444,
+          "appliedSolveWeight": 0.9137468934059143,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 102.58068084716797,
+            "z": 3014.333251953125
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 279,
+          "side": "Left",
+          "minimumM": -8.208941289922222e-05,
+          "phase": "FinalStop",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 1.0,
+          "triangle": 3,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9781476259231567,
+            "z": -0.20791170001029968
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 102.4811019897461,
+            "z": 3011.5
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 295,
+          "side": "Left",
+          "minimumM": -7.462673966074362e-05,
+          "phase": "FinalStop",
+          "contact": 0.9999999403953552,
+          "effectiveContact": 0.9999999403953552,
+          "appliedSolveWeight": 1.0,
+          "triangle": 3,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9781476259231567,
+            "z": -0.20791170001029968
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 102.4811019897461,
+            "z": 3011.5
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 63,
+          "side": "Right",
+          "minimumM": -6.866455078125e-05,
+          "phase": "Uphill",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 1.0,
+          "triangle": 1,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 100.02999877929688,
+            "z": 2999.833251953125
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        }
+      ],
+      "jpegEvidence": {
+        "worst": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\Motion\\After\\Stella12TerrainAfter10\\Stella\\Terrain\\Slope12\\frame_0232.jpg",
+        "mostBentKnee": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\Motion\\After\\Stella12TerrainAfter10\\Stella\\Terrain\\Slope12\\frame_0134.jpg"
+      }
+    },
+    "Slope24": {
+      "frames": 300,
+      "images": 300,
+      "finiteFrameCount": 300,
+      "missingSamples": 0,
+      "minimumM": -0.01016998291015625,
+      "maximumM": 0.187103271484375,
+      "worst": {
+        "frame": 232,
+        "side": "Right",
+        "minimumM": -0.01016998291015625,
+        "phase": "Downhill",
+        "contact": 1.0,
+        "effectiveContact": 1.0,
+        "appliedSolveWeight": 0.4688771367073059,
+        "triangle": 4,
+        "normal": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "rootPosition": {
+          "x": 3200.0,
+          "y": 105.37274169921875,
+          "z": 3014.583251953125
+        },
+        "terrainAdapted": false,
+        "handoff": false
+      },
+      "footFramesBelowMinus1mm": 5,
+      "footFramesBelowMinus5mm": 2,
+      "footFramesBelowMinus10mm": 1,
+      "footFramesContactAboveHalfBelowMinus5mm": 1,
+      "minimumOnAdaptedFootFramesM": -0.00020212415256537497,
+      "minimumWhenWorstSampleInclinedM": -0.00020212415256537497,
+      "contactAboveHalfMinimumDistanceRangeM": {
+        "min": -0.01016998291015625,
+        "max": 0.07530975341796875
+      },
+      "contactAboveHalfLowestSampleAbove30mmFootFrames": [
+        {
+          "frame": 71,
+          "side": "Left",
+          "minimumM": 0.06007269397377968,
+          "phase": "Uphill"
+        },
+        {
+          "frame": 86,
+          "side": "Left",
+          "minimumM": 0.052308339625597,
+          "phase": "Uphill"
+        },
+        {
+          "frame": 94,
+          "side": "Right",
+          "minimumM": 0.05734750255942345,
+          "phase": "Uphill"
+        },
+        {
+          "frame": 101,
+          "side": "Left",
+          "minimumM": 0.04576369747519493,
+          "phase": "Uphill"
+        },
+        {
+          "frame": 109,
+          "side": "Right",
+          "minimumM": 0.05385563150048256,
+          "phase": "Uphill"
+        },
+        {
+          "frame": 117,
+          "side": "Left",
+          "minimumM": 0.04052937775850296,
+          "phase": "Uphill"
+        },
+        {
+          "frame": 154,
+          "side": "Left",
+          "minimumM": 0.048021912574768066,
+          "phase": "CrestRun"
+        },
+        {
+          "frame": 213,
+          "side": "Left",
+          "minimumM": 0.05145263671875,
+          "phase": "Downhill"
+        },
+        {
+          "frame": 214,
+          "side": "Left",
+          "minimumM": 0.07530975341796875,
+          "phase": "Downhill"
+        },
+        {
+          "frame": 215,
+          "side": "Left",
+          "minimumM": 0.05078887939453125,
+          "phase": "Downhill"
+        },
+        {
+          "frame": 223,
+          "side": "Right",
+          "minimumM": 0.0511932373046875,
+          "phase": "Downhill"
+        },
+        {
+          "frame": 224,
+          "side": "Right",
+          "minimumM": 0.0657501220703125,
+          "phase": "Downhill"
+        },
+        {
+          "frame": 262,
+          "side": "Right",
+          "minimumM": 0.07422835379838943,
+          "phase": "Downhill"
+        },
+        {
+          "frame": 263,
+          "side": "Right",
+          "minimumM": 0.06013542041182518,
+          "phase": "Downhill"
+        },
+        {
+          "frame": 264,
+          "side": "Right",
+          "minimumM": 0.030883176252245903,
+          "phase": "Downhill"
+        }
+      ],
+      "geometryReadyFootFrames": 600,
+      "geometryAttemptsValues": [
+        1
+      ],
+      "geometryErrors": [
+        ""
+      ],
+      "calibratedSoleCounts": {
+        "Left": [
+          26
+        ],
+        "Right": [
+          27
+        ]
+      },
+      "constraintInfeasibleFootFrames": 0,
+      "terrainAdaptedFootFrames": 294,
+      "terrainHandoffFootFrames": 18,
+      "gateRaysPerFrameMax": 14,
+      "gateRaysPerFrameMean": 7.74,
+      "clearanceRaysPerFrameMax": 36,
+      "numericRanges": {
+        "terrainFinalVerticalCorrection": {
+          "min": -0.19272613525390625,
+          "max": 0.15448760986328125
+        },
+        "terrainReachProjection": {
+          "min": 0.0,
+          "max": 0.1543067842721939
+        },
+        "terrainUnresolvedClearance": {
+          "min": 0.0,
+          "max": 3.3876629004225833e-06
+        },
+        "terrainClearanceLift": {
+          "min": 0.0,
+          "max": 0.02667236328125
+        },
+        "terrainPelvisRemainder": {
+          "min": 0.0,
+          "max": 0.13852918148040771
+        },
+        "terrainHandoffClearance": {
+          "min": 0.0,
+          "max": 0.02667236328125
+        },
+        "appliedSolveWeight": {
+          "min": 0.00020657472487073392,
+          "max": 1.0
+        }
+      },
+      "mostBentKnee": {
+        "frame": 134,
+        "side": "Left",
+        "angle": 63.525021391867035,
+        "phase": "CrestRun"
+      },
+      "straightestKnee": {
+        "frame": 232,
+        "side": "Left",
+        "angle": 176.85989431916983,
+        "phase": "Downhill"
+      },
+      "worstFootFrames": [
+        {
+          "frame": 232,
+          "side": "Right",
+          "minimumM": -0.01016998291015625,
+          "phase": "Downhill",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 0.4688771367073059,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 105.37274169921875,
+            "z": 3014.583251953125
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 231,
+          "side": "Right",
+          "minimumM": -0.008880615234375,
+          "phase": "Downhill",
+          "contact": 0.005813043098896742,
+          "effectiveContact": 0.005813043098896742,
+          "appliedSolveWeight": 0.02634798362851143,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 105.37274169921875,
+            "z": 3014.666748046875
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 30,
+          "side": "Left",
+          "minimumM": -0.00334930419921875,
+          "phase": "Uphill",
+          "contact": 0.7168081402778625,
+          "effectiveContact": 0.7168081402778625,
+          "appliedSolveWeight": 0.871288001537323,
+          "triangle": 1,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 100.02999877929688,
+            "z": 2997.083251953125
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 233,
+          "side": "Right",
+          "minimumM": -0.0027008056640625,
+          "phase": "Downhill",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 0.7102748155593872,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 105.37274169921875,
+            "z": 3014.5
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 225,
+          "side": "Left",
+          "minimumM": -0.001373291015625,
+          "phase": "Downhill",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 0.6747087240219116,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 105.37274169921875,
+            "z": 3015.166748046875
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 31,
+          "side": "Left",
+          "minimumM": -0.00084686279296875,
+          "phase": "Uphill",
+          "contact": 0.5130618214607239,
+          "effectiveContact": 0.0,
+          "appliedSolveWeight": 1.0,
+          "triangle": 1,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 100.02999877929688,
+            "z": 2997.166748046875
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 234,
+          "side": "Right",
+          "minimumM": -0.00074005126953125,
+          "phase": "Downhill",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 0.8419561982154846,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 105.37274169921875,
+            "z": 3014.416748046875
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 296,
+          "side": "Right",
+          "minimumM": -0.00020212415256537497,
+          "phase": "FinalStop",
+          "contact": 0.9998786449432373,
+          "effectiveContact": 0.9998786449432373,
+          "appliedSolveWeight": 1.0,
+          "triangle": 3,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 105.17851257324219,
+            "z": 3011.5
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 295,
+          "side": "Right",
+          "minimumM": -0.00019515435269568115,
+          "phase": "FinalStop",
+          "contact": 0.999866247177124,
+          "effectiveContact": 0.999866247177124,
+          "appliedSolveWeight": 1.0,
+          "triangle": 3,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 105.17851257324219,
+            "z": 3011.5
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 239,
+          "side": "Left",
+          "minimumM": -0.00019073486328125,
+          "phase": "Downhill",
+          "contact": 0.4241933822631836,
+          "effectiveContact": 0.4241933822631836,
+          "appliedSolveWeight": 0.20497509837150574,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 105.37274169921875,
+            "z": 3014.0
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        },
+        {
+          "frame": 267,
+          "side": "Right",
+          "minimumM": -0.00018121476750820875,
+          "phase": "Downhill",
+          "contact": 1.0,
+          "effectiveContact": 0.0,
+          "appliedSolveWeight": 1.0,
+          "triangle": 3,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 105.25269317626953,
+            "z": 3011.666748046875
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 235,
+          "side": "Right",
+          "minimumM": -0.000152587890625,
+          "phase": "Downhill",
+          "contact": 0.9999099373817444,
+          "effectiveContact": 0.9999099373817444,
+          "appliedSolveWeight": 0.9137468934059143,
+          "triangle": 4,
+          "normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "rootPosition": {
+            "x": 3200.0,
+            "y": 105.37274169921875,
+            "z": 3014.333251953125
+          },
+          "terrainAdapted": false,
+          "handoff": false
+        }
+      ],
+      "jpegEvidence": {
+        "worst": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\Motion\\After\\Stella12TerrainAfter10\\Stella\\Terrain\\Slope24\\frame_0232.jpg",
+        "mostBentKnee": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\Motion\\After\\Stella12TerrainAfter10\\Stella\\Terrain\\Slope24\\frame_0134.jpg"
+      }
+    },
+    "CrossSlopeTurns": {
+      "frames": 300,
+      "images": 300,
+      "finiteFrameCount": 300,
+      "missingSamples": 0,
+      "minimumM": -0.0001603053678991273,
+      "maximumM": 0.14168205857276917,
+      "worst": {
+        "frame": 139,
+        "side": "Right",
+        "minimumM": -0.0001603053678991273,
+        "phase": "Turn90A",
+        "contact": 0.9997592568397522,
+        "effectiveContact": 0.9997592568397522,
+        "appliedSolveWeight": 1.0,
+        "triangle": 2,
+        "normal": {
+          "x": 0.0,
+          "y": 0.9135454297065735,
+          "z": -0.4067366421222687
+        },
+        "rootPosition": {
+          "x": 3195.833251953125,
+          "y": 105.84635925292969,
+          "z": 3013.0
+        },
+        "terrainAdapted": true,
+        "handoff": false
+      },
+      "footFramesBelowMinus1mm": 0,
+      "footFramesBelowMinus5mm": 0,
+      "footFramesBelowMinus10mm": 0,
+      "footFramesContactAboveHalfBelowMinus5mm": 0,
+      "minimumOnAdaptedFootFramesM": -0.0001603053678991273,
+      "minimumWhenWorstSampleInclinedM": -0.0001603053678991273,
+      "contactAboveHalfMinimumDistanceRangeM": {
+        "min": -0.0001603053678991273,
+        "max": 0.05738932266831398
+      },
+      "contactAboveHalfLowestSampleAbove30mmFootFrames": [
+        {
+          "frame": 32,
+          "side": "Right",
+          "minimumM": 0.039079658687114716,
+          "phase": "AcrossW"
+        },
+        {
+          "frame": 40,
+          "side": "Left",
+          "minimumM": 0.030799539759755135,
+          "phase": "AcrossW"
+        },
+        {
+          "frame": 48,
+          "side": "Right",
+          "minimumM": 0.05738932266831398,
+          "phase": "AcrossW"
+        },
+        {
+          "frame": 63,
+          "side": "Right",
+          "minimumM": 0.05132559686899185,
+          "phase": "AcrossW"
+        },
+        {
+          "frame": 71,
+          "side": "Left",
+          "minimumM": 0.05560505390167236,
+          "phase": "AcrossW"
+        },
+        {
+          "frame": 86,
+          "side": "Left",
+          "minimumM": 0.052315305918455124,
+          "phase": "AcrossW"
+        },
+        {
+          "frame": 93,
+          "side": "Right",
+          "minimumM": 0.04925556480884552,
+          "phase": "Turn90A"
+        },
+        {
+          "frame": 94,
+          "side": "Right",
+          "minimumM": 0.054712917655706406,
+          "phase": "Turn90A"
+        },
+        {
+          "frame": 151,
+          "side": "Right",
+          "minimumM": 0.038389649242162704,
+          "phase": "Turn180D"
+        },
+        {
+          "frame": 152,
+          "side": "Right",
+          "minimumM": 0.05407866835594177,
+          "phase": "Turn180D"
+        },
+        {
+          "frame": 161,
+          "side": "Left",
+          "minimumM": 0.040180888026952744,
+          "phase": "Turn180D"
+        },
+        {
+          "frame": 162,
+          "side": "Left",
+          "minimumM": 0.05448988452553749,
+          "phase": "Turn180D"
+        },
+        {
+          "frame": 170,
+          "side": "Right",
+          "minimumM": 0.037406910210847855,
+          "phase": "Turn180D"
+        },
+        {
+          "frame": 241,
+          "side": "Left",
+          "minimumM": 0.05445503443479538,
+          "phase": "Run"
+        },
+        {
+          "frame": 242,
+          "side": "Left",
+          "minimumM": 0.030262865126132965,
+          "phase": "Run"
+        },
+        {
+          "frame": 247,
+          "side": "Right",
+          "minimumM": 0.030562566593289375,
+          "phase": "Run"
+        }
+      ],
+      "geometryReadyFootFrames": 600,
+      "geometryAttemptsValues": [
+        1
+      ],
+      "geometryErrors": [
+        ""
+      ],
+      "calibratedSoleCounts": {
+        "Left": [
+          26
+        ],
+        "Right": [
+          27
+        ]
+      },
+      "constraintInfeasibleFootFrames": 0,
+      "terrainAdaptedFootFrames": 600,
+      "terrainHandoffFootFrames": 0,
+      "gateRaysPerFrameMax": 0,
+      "gateRaysPerFrameMean": 0,
+      "clearanceRaysPerFrameMax": 36,
+      "numericRanges": {
+        "terrainFinalVerticalCorrection": {
+          "min": -0.1873321533203125,
+          "max": 0.16263580322265625
+        },
+        "terrainReachProjection": {
+          "min": 0.0,
+          "max": 0.08653199672698975
+        },
+        "terrainUnresolvedClearance": {
+          "min": 0.0,
+          "max": 3.6377919059304986e-06
+        },
+        "terrainClearanceLift": {
+          "min": 0.0,
+          "max": 0.08406829833984375
+        },
+        "terrainPelvisRemainder": {
+          "min": 0.0,
+          "max": 0.13969041407108307
+        },
+        "terrainHandoffClearance": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "appliedSolveWeight": {
+          "min": 1.0,
+          "max": 1.0
+        }
+      },
+      "mostBentKnee": {
+        "frame": 272,
+        "side": "Right",
+        "angle": 62.361136865819475,
+        "phase": "FinalStop"
+      },
+      "straightestKnee": {
+        "frame": 249,
+        "side": "Right",
+        "angle": 165.88568776658042,
+        "phase": "Run"
+      },
+      "worstFootFrames": [
+        {
+          "frame": 139,
+          "side": "Right",
+          "minimumM": -0.0001603053678991273,
+          "phase": "Turn90A",
+          "contact": 0.9997592568397522,
+          "effectiveContact": 0.9997592568397522,
+          "appliedSolveWeight": 1.0,
+          "triangle": 2,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3195.833251953125,
+            "y": 105.84635925292969,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 147,
+          "side": "Right",
+          "minimumM": -0.0001603053678991273,
+          "phase": "Turn90A",
+          "contact": 0.734099268913269,
+          "effectiveContact": 0.734099268913269,
+          "appliedSolveWeight": 1.0,
+          "triangle": 2,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3195.166748046875,
+            "y": 105.84635925292969,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 123,
+          "side": "Right",
+          "minimumM": -0.0001533355680294335,
+          "phase": "Turn90A",
+          "contact": 0.9999999403953552,
+          "effectiveContact": 0.9999999403953552,
+          "appliedSolveWeight": 1.0,
+          "triangle": 2,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3197.166748046875,
+            "y": 105.84636688232422,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 117,
+          "side": "Left",
+          "minimumM": -0.00013939596829004586,
+          "phase": "Turn90A",
+          "contact": 0.5074681043624878,
+          "effectiveContact": 0.5074681043624878,
+          "appliedSolveWeight": 1.0,
+          "triangle": 2,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3197.666748046875,
+            "y": 105.84636688232422,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 103,
+          "side": "Right",
+          "minimumM": -0.00012545636855065823,
+          "phase": "Turn90A",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 1.0,
+          "triangle": 3,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3198.833251953125,
+            "y": 105.84635925292969,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 122,
+          "side": "Right",
+          "minimumM": -0.00012545636855065823,
+          "phase": "Turn90A",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 1.0,
+          "triangle": 2,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3197.25,
+            "y": 105.84635925292969,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 131,
+          "side": "Left",
+          "minimumM": -0.00012545636855065823,
+          "phase": "Turn90A",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 1.0,
+          "triangle": 2,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3196.5,
+            "y": 105.84635925292969,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 114,
+          "side": "Left",
+          "minimumM": -0.00011848657595692202,
+          "phase": "Turn90A",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 1.0,
+          "triangle": 2,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3197.916748046875,
+            "y": 105.84635925292969,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 94,
+          "side": "Left",
+          "minimumM": -0.00011151677608722821,
+          "phase": "Turn90A",
+          "contact": 1.0,
+          "effectiveContact": 1.0,
+          "appliedSolveWeight": 1.0,
+          "triangle": 3,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3199.583251953125,
+            "y": 105.84635925292969,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 139,
+          "side": "Left",
+          "minimumM": -0.00011151677608722821,
+          "phase": "Turn90A",
+          "contact": 0.14057223498821259,
+          "effectiveContact": 0.14057223498821259,
+          "appliedSolveWeight": 1.0,
+          "triangle": 2,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3195.833251953125,
+            "y": 105.84635925292969,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 140,
+          "side": "Right",
+          "minimumM": -0.00011151677608722821,
+          "phase": "Turn90A",
+          "contact": 0.3470771908760071,
+          "effectiveContact": 0.3470771908760071,
+          "appliedSolveWeight": 1.0,
+          "triangle": 2,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3195.75,
+            "y": 105.84636688232422,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        },
+        {
+          "frame": 102,
+          "side": "Right",
+          "minimumM": -0.00010454697621753439,
+          "phase": "Turn90A",
+          "contact": 0.9999999403953552,
+          "effectiveContact": 0.9999999403953552,
+          "appliedSolveWeight": 1.0,
+          "triangle": 3,
+          "normal": {
+            "x": 0.0,
+            "y": 0.9135454297065735,
+            "z": -0.4067366421222687
+          },
+          "rootPosition": {
+            "x": 3198.916748046875,
+            "y": 105.84636688232422,
+            "z": 3013.0
+          },
+          "terrainAdapted": true,
+          "handoff": false
+        }
+      ],
+      "jpegEvidence": {
+        "worst": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\Motion\\After\\Stella12TerrainAfter10\\Stella\\Terrain\\CrossSlopeTurns\\frame_0139.jpg",
+        "mostBentKnee": "C:\\Users\\Mirim\\.codex\\visualizations\\2026\\09\\10\\01a08932-ad4d-7dd1-99a5-ab8a6115569e\\orbis-m0\\TestResults\\CharacterPipeline\\Motion\\After\\Stella12TerrainAfter10\\Stella\\Terrain\\CrossSlopeTurns\\frame_0272.jpg"
+      }
+    }
+  }
+}

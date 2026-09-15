@@ -4,7 +4,10 @@
   "references": [
     "Orbis.M0.Editor",
     "Orbis.M1.Editor",
-    "Orbis.M2.Runtime"
+    "Orbis.M2.Runtime",
+    "Orbis.EditorSupport"
   ],
-  "includePlatforms": ["Editor"]
+  "includePlatforms": [
+    "Editor"
+  ]
 }

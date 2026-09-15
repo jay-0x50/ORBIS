@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6247b5ef47d46a42b2c61e74957a737, type: 3}
+  m_Name: MotionProfile
+  m_EditorClassIdentifier: Orbis.Game.Runtime::Orbis.Game.Animation.BossMotionProfile
+  Idle: {fileID: 7400000, guid: 3fb10674783fb284988c1c35e499f12a, type: 2}
+  Move: {fileID: 7400000, guid: 832a363115a4c1d44975b54b2b78db7e, type: 2}
+  Attack: {fileID: 7400000, guid: 96c3a992ae5b40044a3ab8b709f02558, type: 2}
+  Hurt: {fileID: 7400000, guid: ccfdb0006b6c7fb4489e3c2ba610e7c1, type: 2}
+  Exposed: {fileID: 7400000, guid: ae45c61ee4c61c248a945c2329cd8e7e, type: 2}
+  Dead: {fileID: 7400000, guid: f6fdf6beec25efe42bdd6313175c7fe9, type: 2}
+  Controller: {fileID: 9100000, guid: abe2eea6cee3ccb4987c5bae0118a6b7, type: 2}
+  HurtMask: {fileID: 31900000, guid: 27d4943af83e08140b5a1a6d39cfce7e, type: 2}
+  AttackContact: 0.33333334
+  TransitionSeconds: 0.12
+  HurtWeight: 0.55
+  HurtFadeSeconds: 0.08
+  SourceRigSha256: 34e1ed7ef99bfa168a3ff4251456b748fa40aaef0a222ac65ee2382190076a31
+  Provenance: Original anatomy-specific authored animation; Assets/Orbis/Game/Characters/BossMotionCandidates/Motion02/WaterBoss/SourceManifest.json; rest SHA256=34e1ed7ef99bfa168a3ff4251456b748fa40aaef0a222ac65ee2382190076a31; motion SHA256=f508300e9f90226d40351705de341fc2f30150ba1637eb4e2d35b41047b7b285. Move remains a review-library clip because the existing M4 encounter has a fixed gameplay anchor.

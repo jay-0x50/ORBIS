@@ -1,5 +1,6 @@
 using System;
 using Orbis.M0;
+using Orbis.M0.Animation;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -23,6 +24,7 @@ namespace Orbis.M2
         private BasicAttackCombo combat;
         private Transform cameraPivot;
         private Animator animator;
+        private ICharacterAnimationDriver animationDriver;
         private InputActionMap actions;
         private InputAction climb, ascend, dive;
         private Collider wall;
@@ -71,6 +73,7 @@ namespace Orbis.M2
                 if (motor.Traversal == this) motor.Traversal = null;
             }
             Mode = ExplorationMode.Locomotion;
+            SynchronizeMotionMode();
         }
         private void OnDestroy() => actions?.Dispose();
 
@@ -83,6 +86,7 @@ namespace Orbis.M2
             cameraPivot = viewPivot;
             controller = motor.GetComponent<CharacterController>();
             animator = motor.GetComponentInChildren<Animator>();
+            animationDriver = CharacterAnimationBinding.Resolve(animator);
             Stamina = stamina ?? throw new ArgumentNullException(nameof(stamina));
             initialPosition = transform.position;
             LastSafePosition = initialPosition;
@@ -95,11 +99,20 @@ namespace Orbis.M2
         public void SetVisualAnimator(Animator visualAnimator)
         {
             animator = visualAnimator;
+            animationDriver = CharacterAnimationBinding.Resolve(animator);
+            SynchronizeMotionMode();
             if (animator != null)
             {
                 animator.applyRootMotion = false;
-                if (Mode != ExplorationMode.Locomotion) animator.Play("Jump", 0, .5f);
+                if (animationDriver == null && Mode != ExplorationMode.Locomotion) animator.Play("Jump", 0, .5f);
             }
+        }
+
+        private void SynchronizeMotionMode()
+        {
+            animationDriver?.SetTraversalMode(Mode == ExplorationMode.Climbing ? CharacterMotionMode.Climbing :
+                Mode == ExplorationMode.Gliding ? CharacterMotionMode.Gliding :
+                Mode == ExplorationMode.Swimming ? CharacterMotionMode.Swimming : CharacterMotionMode.Ground);
         }
 
         public void SetStaminaPool(StaminaPool pool) => Stamina = pool ?? throw new ArgumentNullException(nameof(pool));
@@ -367,12 +380,14 @@ namespace Orbis.M2
             trackingFall = mode != ExplorationMode.Swimming;
             fallOriginY = transform.position.y;
             // Reuse the M0 airborne pose as an explicit placeholder, with no animation-clock ownership change.
-            if (animator != null) animator.Play("Jump", 0, 0.5f);
+            SynchronizeMotionMode();
+            if (animationDriver == null && animator != null) animator.Play("Jump", 0, 0.5f);
         }
 
         private void LeaveMode(float vertical)
         {
             Mode = ExplorationMode.Locomotion;
+            SynchronizeMotionMode();
             motor.SetTraversalMotion(vertical, 0f, false);
             motor.RefreshPresentation();
         }
@@ -412,6 +427,7 @@ namespace Orbis.M2
             transform.position = position;
             controller.enabled = true;
             Physics.SyncTransforms();
+            motor.ResetMotionObservation();
             LeaveMode(0f);
             water = null;
             wall = null;
@@ -423,6 +439,7 @@ namespace Orbis.M2
         {
             if (!configured) return;
             Mode = ExplorationMode.Locomotion;
+            SynchronizeMotionMode();
             Stamina.Restore();
             LastSafePosition = initialPosition;
             AccumulatedFallDamage = AccumulatedRescueDamage = 0f;

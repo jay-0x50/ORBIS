@@ -16,28 +16,28 @@ MonoBehaviour:
   - Id: 0
     Address: orbis.world.environment.agnia
     WorldBounds:
-      m_Center: {x: -476.25745, y: 110.096275, z: 389.97516}
-      m_Extent: {x: 452.81927, y: 113.936356, z: 489.70837}
+      m_Center: {x: -476.25748, y: 111.85926, z: 390.79495}
+      m_Extent: {x: 451.17978, y: 112.17337, z: 488.88867}
   - Id: 1
     Address: orbis.world.environment.teluna
     WorldBounds:
-      m_Center: {x: 496.94632, y: 28.052757, z: -377.71426}
-      m_Extent: {x: 440.9699, y: 36.07966, z: 439.56107}
+      m_Center: {x: 497.20074, y: 28.052757, z: -377.71426}
+      m_Extent: {x: 440.7155, y: 36.07966, z: 437.92154}
   - Id: 2
     Address: orbis.world.environment.zephyr
     WorldBounds:
-      m_Center: {x: -10.578857, y: 41.256275, z: -244.55316}
-      m_Extent: {x: 381.97247, y: 39.58567, z: 554.43945}
+      m_Center: {x: -10.578857, y: 43.019604, z: -244.55322}
+      m_Extent: {x: 380.33295, y: 37.822342, z: 552.7999}
   - Id: 3
     Address: orbis.world.environment.granite
     WorldBounds:
-      m_Center: {x: -428.85376, y: 102.51965, z: -445.76468}
-      m_Extent: {x: 498.48004, y: 106.359985, z: 404.9608}
+      m_Center: {x: -428.85376, y: 104.28268, z: -446.58444}
+      m_Extent: {x: 496.84058, y: 104.596954, z: 404.14102}
   - Id: 4
     Address: orbis.world.environment.voltheim
     WorldBounds:
-      m_Center: {x: 404.79135, y: 74.55251, z: 453.93774}
-      m_Extent: {x: 491.05307, y: 78.39176, z: 441.7093}
+      m_Center: {x: 404.79138, y: 76.31542, z: 454.36368}
+      m_Extent: {x: 489.41357, y: 76.628845, z: 441.14676}
   LoadDistance: 700
   UnloadDistance: 850
   RefreshSeconds: 0.25

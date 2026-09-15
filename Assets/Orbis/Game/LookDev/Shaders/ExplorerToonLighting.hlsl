@@ -8,6 +8,28 @@
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Texture.hlsl"
 
+// Optional supplied-atlas normal mapping. This fragment is included in ExplorerToonLighting.hlsl.
+// Geometry normals still drive the inverted hull; perturbed normals drive light only.
+void ExplorerAtlasNormal_float(UnityTexture2D NormalMap, float2 UV, float Strength,
+    float3 WorldNormal, float3 WorldTangent, float3 WorldBitangent, out float3 Normal)
+{
+    Normal = WorldNormal;
+    if (Strength <= 0.0)
+        return; // Existing materials preserve their exact old lighting path.
+    float3 n = SafeNormalize(WorldNormal);
+    float3 t = WorldTangent - n * dot(WorldTangent, n);
+    if (dot(t, t) < 0.000001 || dot(WorldBitangent, WorldBitangent) < 0.000001)
+        return; // Missing tangents must not produce NaNs on unrelated legacy meshes.
+    t = normalize(t);
+    float handedness = dot(cross(n, t), WorldBitangent) < 0.0 ? -1.0 : 1.0;
+    float3 b = cross(n, t) * handedness;
+    float4 packed = SAMPLE_TEXTURE2D(NormalMap.tex, NormalMap.samplerstate, NormalMap.GetTransformedUV(UV));
+    // Unity's importer packs the source Blender OpenGL tangent map for the active platform.
+    // UnpackNormalScale handles RG/AG/RGB formats; manual RGB*2-1 would fail on BC5/DXT5nm.
+    float3 tangentNormal = UnpackNormalScale(packed, saturate(Strength));
+    Normal = SafeNormalize(t * tangentNormal.x + b * tangentNormal.y + n * tangentNormal.z);
+}
+
 void ExplorerHull_float(float3 PositionOS, float3 NormalOS, float OutlinePixels, float OutlineOnly, out float3 Position)
 {
     Position = PositionOS;

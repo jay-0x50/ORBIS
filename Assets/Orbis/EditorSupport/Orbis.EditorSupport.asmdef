@@ -1,0 +1,6 @@
+{
+  "name": "Orbis.EditorSupport",
+  "rootNamespace": "Orbis.EditorSupport",
+  "includePlatforms": ["Editor"],
+  "references": []
+}

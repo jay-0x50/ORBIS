@@ -1,6 +1,14 @@
 {
   "name": "Orbis.M15.Editor",
   "rootNamespace": "Orbis.M15.Editor",
-  "includePlatforms": ["Editor"],
-  "references": ["Orbis.M15.Core", "Orbis.M15.Runtime", "Orbis.M1.Runtime", "Orbis.M4.Runtime"]
+  "includePlatforms": [
+    "Editor"
+  ],
+  "references": [
+    "Orbis.M15.Core",
+    "Orbis.M15.Runtime",
+    "Orbis.M1.Runtime",
+    "Orbis.M4.Runtime",
+    "Orbis.EditorSupport"
+  ]
 }

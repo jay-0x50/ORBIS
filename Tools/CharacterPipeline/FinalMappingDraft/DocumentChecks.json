@@ -1,0 +1,32 @@
+{
+  "missingReferencedPaths": [],
+  "sourceAuditMatches": 7,
+  "heldSourcesWithDifferentHash": [
+    "D:\\Project\\ORBIS\\Assets\\blend\\조력자.blend"
+  ],
+  "selectionOnlyChangedLines": [
+    107,
+    139
+  ],
+  "sameLineCount": true,
+  "selectionSourceStillUnchanged": true,
+  "candidateShaMatches": true,
+  "creditsUnchanged": true,
+  "docs": [
+    {
+      "path": "Docs/CharacterPipeline/Final_Asset_Mapping_Draft.md",
+      "bytes": 20642,
+      "sha256": "ab33229c78b377309b894968cff1ae94bb671bc5d4c01a16e4d3c4004ad85234"
+    },
+    {
+      "path": "Tools/CharacterPipeline/PendingCredits/CharacterPipeline_Append.md",
+      "bytes": 4212,
+      "sha256": "02b6117b386491af2b7e54df8ace0c490adc33e5d58f30c437a895f154773af6"
+    },
+    {
+      "path": "Tools/CharacterPipeline/PendingSelectionCopy/README.md",
+      "bytes": 1242,
+      "sha256": "61a58415d87fa287f8669240000a71225d8e6d4b901aac7483e96df0dd6ff05c"
+    }
+  ]
+}

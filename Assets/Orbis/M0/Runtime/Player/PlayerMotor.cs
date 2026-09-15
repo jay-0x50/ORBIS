@@ -1,4 +1,5 @@
 using UnityEngine;
+using Orbis.M0.Animation;
 
 namespace Orbis.M0
 {
@@ -20,6 +21,9 @@ namespace Orbis.M0
         private M0Input input;
         private Transform cameraPivot;
         private Animator animator;
+        private ICharacterAnimationDriver animationDriver;
+        private readonly CharacterMotionTracker motionTracker = new CharacterMotionTracker();
+        private bool externallyClockedAction;
         private BasicAttackCombo combat;
         private Vector3 spawnPosition;
         private Quaternion spawnRotation;
@@ -51,7 +55,12 @@ namespace Orbis.M0
             controller = GetComponent<CharacterController>();
             input = playerInput;
             cameraPivot = viewPivot;
+            animationDriver?.Release();
+            RestoreActionAnimatorClock();
             animator = visualAnimator;
+            animationDriver = CharacterAnimationBinding.Resolve(animator);
+            animationDriver?.ResetPresentation();
+            ResetMotionObservation();
             combat = attackCombo;
             spawnPosition = transform.position;
             spawnRotation = transform.rotation;
@@ -63,8 +72,12 @@ namespace Orbis.M0
         /// <summary>Swap presentation only; movement, spawn and combo state remain owned by this pawn.</summary>
         public void SetVisualAnimator(Animator visualAnimator)
         {
+            animationDriver?.Release();
             RestoreActionAnimatorClock();
             animator = visualAnimator;
+            animationDriver = CharacterAnimationBinding.Resolve(animator);
+            animationDriver?.ResetPresentation();
+            ResetMotionObservation();
             if (animator != null) animator.applyRootMotion = false;
             RefreshPresentation();
         }
@@ -72,6 +85,12 @@ namespace Orbis.M0
         private void Update()
         {
             if (!configured) return;
+            TickMotor();
+            animationDriver?.Observe(motionTracker.Sample(transform, input.Move, IsGrounded, State, Time.deltaTime));
+        }
+
+        private void TickMotor()
+        {
             if (input.ResetPressed || transform.position.y < -15f)
             {
                 // 테스트 편의용 낙하 복귀선 -15m. 세이브/사망 시스템이 아니다.
@@ -144,6 +163,7 @@ namespace Orbis.M0
             combat?.CancelAttack();
             actionState = next;
             actionNormalizedTime = 0f;
+            externallyClockedAction = false;
             HorizontalSpeed = 0f;
             RefreshPresentation();
             ActionStateChanged?.Invoke(State);
@@ -153,7 +173,9 @@ namespace Orbis.M0
         public void EndAction(PlayerActionState owner)
         {
             if (!ActionLocked || actionState != owner) return;
+            animationDriver?.ClearAction(owner);
             actionState = PlayerActionState.Idle;
+            externallyClockedAction = false;
             RestoreActionAnimatorClock();
             RefreshPresentation();
             ActionStateChanged?.Invoke(State);
@@ -162,6 +184,7 @@ namespace Orbis.M0
         public void SetActionNormalizedTime(PlayerActionState owner, float normalizedTime)
         {
             if (!ActionLocked || actionState != owner) return;
+            externallyClockedAction = true;
             actionNormalizedTime = Mathf.Clamp01(normalizedTime);
             SampleActionPose();
         }
@@ -189,6 +212,11 @@ namespace Orbis.M0
         private void SampleActionPose()
         {
             if (!ActionLocked || animator == null || animator.runtimeAnimatorController == null) return;
+            if (animationDriver != null)
+            {
+                animationDriver.SampleAction(actionState, actionNormalizedTime, externallyClockedAction);
+                return;
+            }
             if (!ownsActionAnimatorClock)
             {
                 previousActionAnimatorSpeed = animator.speed;
@@ -231,6 +259,7 @@ namespace Orbis.M0
 
         private void AnimateLocomotion(bool force)
         {
+            if (animationDriver != null) return; // Actual post-collision observation owns the new tree.
             if (animator == null || animator.runtimeAnimatorController == null) return;
             string state = !IsGrounded ? "Jump" : HorizontalSpeed < 0.05f ? "Idle"
                 : input.RunHeld && SprintAllowed ? "Run" : "Walk";
@@ -246,6 +275,7 @@ namespace Orbis.M0
         {
             locomotionHash = 0;
             if (ActionLocked) { SampleActionPose(); return; }
+            if (animationDriver != null) return;
             if (animator != null && animator.runtimeAnimatorController != null)
                 animator.Play(IsGrounded ? "Idle" : "Jump", 0, 0f);
         }
@@ -259,6 +289,8 @@ namespace Orbis.M0
             locomotionHash = 0;
         }
 
+        public void ResetMotionObservation() => motionTracker.Reset();
+
         public void ResetToSpawn()
         {
             if (ActionLocked) EndAction(actionState);
@@ -271,6 +303,7 @@ namespace Orbis.M0
             IsGrounded = false;
             locomotionHash = 0;
             Traversal?.ResetTraversal();
+            ResetMotionObservation();
         }
 
         private void OnDisable()
@@ -278,6 +311,8 @@ namespace Orbis.M0
             if (ActionLocked) EndAction(actionState);
             RestoreActionAnimatorClock();
             if (combat != null) combat.CancelAttack();
+            animationDriver?.Release();
+            ResetMotionObservation();
             verticalSpeed = HorizontalSpeed = 0f;
             locomotionHash = 0;
         }

@@ -1,0 +1,6 @@
+{
+  "name": "Orbis.EditorSupport.TestRunner",
+  "rootNamespace": "Orbis.EditorSupport",
+  "includePlatforms": ["Editor"],
+  "references": ["Orbis.EditorSupport", "UnityEditor.TestRunner"]
+}

@@ -1,0 +1,28 @@
+{
+    "sourcePrefab": "Assets/Orbis/Game/Characters/Candidates/Motion05StopsRuntime01/Polaris/Polaris.prefab",
+    "sourceProfile": "Assets/Orbis/Characters/Animation/Motion05StopsRuntime01/Polaris/MotionProfile.asset",
+    "gripEvidence": "TestResults/CharacterPipeline/UnityGripReview/Polaris/Transfer03/MeasuredTransfer.json",
+    "gripEvidenceSha256": "496889fcae28c85a016bd42389b5eb5e611ae8c0e19133911047dea03c54c406",
+    "prefab": "Assets/Orbis/Game/Characters/Candidates/Motion06GripRuntime01/Polaris/Polaris.prefab",
+    "profile": "Assets/Orbis/Characters/Animation/Motion06GripRuntime01/Polaris/MotionProfile.asset",
+    "controller": "Assets/Orbis/Characters/Animation/Motion06GripRuntime01/Polaris/Character.controller",
+    "socketLocalPosition": {
+        "x": 0.007615385577082634,
+        "y": 0.09210658073425293,
+        "z": -0.025216998532414436
+    },
+    "socketLocalEuler": {
+        "x": 6.202061176300049,
+        "y": 6.068933963775635,
+        "z": 268.754638671875
+    },
+    "socketLocalScale": {
+        "x": 1.0406692028045654,
+        "y": 1.0406692028045654,
+        "z": 1.0406692028045654
+    },
+    "measuredHandScale": 0.9609201550483704,
+    "weaponWorldLength": 1.0600007772445679,
+    "changedChannelsPerClip": 20,
+    "note": "Candidate presentation only.20 finger channels changed; all other muscle/root/contact/action curves, Avatar, geometry and gameplay unchanged. Actual held-weapon playback still requires review."
+}
